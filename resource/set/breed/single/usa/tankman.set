@@ -1,0 +1,14 @@
+{breed
+	{behaviour soldier}
+	{skin "us_army_gi_bdu_tankcrew"}
+	{portrait usa_tankman}
+	{icon_priority 0}
+	{nationality usa}
+	{armors
+		{head mc140}
+	}
+	{inventory
+		{item "m4a1" filling "55645_30ar ammo" 30}
+		{in_hands 0}
+	}
+}

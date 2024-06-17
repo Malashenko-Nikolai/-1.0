@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/humanskin/usa/oldschool/tank_gear"}
+	{bump "$/humanskin/usa/oldschool/tank_gear_nm"}
+	{specular "$/humanskin/usa/oldschool/tank_gear_sp"}
+	{color "230 230 230 25"}
+	{blend test}
+}

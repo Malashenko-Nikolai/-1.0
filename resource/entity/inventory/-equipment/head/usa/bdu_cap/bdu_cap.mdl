@@ -1,0 +1,50 @@
+;Exported by: Sea-Knight
+;Date:        Tue Dec  1 16:45:16 2020
+;File:        D:\Users\Sea-Knight\Documents\3dsMax\scenes\3D-Work\-Vietnam\-Inventory\-Stuff\-Head\USA\-Army\bdu_cap.max
+{Skeleton
+	{bone "bdu_cap"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "bdu_cap.ply"}
+		{bone "handle"
+			{Position 0.894257	0.260028	4.87736}
+		}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "bdu_cap"}
+	{Position 0.279542	0.25423	2.61156}
+}
+{Volume "select"
+	{Polyhedron "select.vol"}
+	{Bone "bdu_cap"}
+	{Position 0.308606	0.247356	1.53603}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 0.341179	-7.8623	4.874}
+			{lookat 0.184566	8.50853	2.08099}
+			{fov 45}
+			{horizon -0.200769}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.171162	0.146829	-0.446256}
+			}
+			{"1"
+				{type directional}
+				{direction -0.189277	0.266067	0.378659}
+			}
+			{"2"
+				{type directional}
+				{direction -0.105484	-0.229601	-0.431458}
+			}
+		}
+	}
+}

@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "lens_c"}
+	{specular "lens_s"}
+	{color "230 230 230 25"}
+	{blend none}
+}

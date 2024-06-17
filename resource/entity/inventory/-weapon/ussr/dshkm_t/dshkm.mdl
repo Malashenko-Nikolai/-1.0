@@ -1,0 +1,83 @@
+;Exported by: Vika
+;Date:        Tue Mar 05 03:42:52 2013
+;File:        D:\Program Files\MAX_files\scenes\Àfganistan. Forgotten War\weapon\dshkm.max
+{Skeleton
+	{bone "dshkm"
+		{Orientation
+			1.07	0	0
+			0	-1.07	0
+			0	0	1.07
+		}
+		{VolumeView "dshkm.ply"}
+		{bone "handle"
+			{Position 3.71603	-0.618122	0.214713}
+		}
+		{bone "foresight3"
+			{Position 27.8519	-0.229386	0.177997}
+		}
+		{bone "fxshell"
+			{Matrix34
+				0	0	1
+				1	0	0
+				0	1	0
+				4.0243	0.415451	3.98083
+			}
+                }
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "dshkm"}
+	{Position 6.39394	-1.24131	-0.409791}
+}
+{Volume "selest"
+	{Polyhedron "selest.vol"}
+	{Bone "dshkm"}
+	{Position 6.39397	-1.24132	-0.41123}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 17.2409	-19.4958	35.3962}
+			{lookat 13.7217	0.910152	0.0216913}
+			{fov 45}
+			{horizon -176.307}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 13.3764	5.25296	25.9709}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0101697	0.498574	-0.0363347}
+			}
+			{"2"
+				{type point}
+				{position 13.3764	30.8799	3.44789}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin 15.4233	-6.24417	40.5392}
+			{lookat 14.3358	-1.80845	13.5083}
+			{fov 45}
+			{horizon 177.956}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 13.4004	29.7241	7.59465}
+			}
+			{"1"
+				{type point}
+				{position 13.4004	2.9767	25.95}
+			}
+			{"2"
+				{type directional}
+				{direction -0.00503225	0.494215	-0.0756686}
+			}
+		}
+	}
+}

@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "m16a2_barrel_c"}
+;	{specular "m16a2_barrel_s"}
+	{color "230 230 230 25"}
+	{blend none}
+}

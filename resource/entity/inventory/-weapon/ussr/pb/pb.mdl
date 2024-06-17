@@ -1,0 +1,78 @@
+;Exported by: Павел
+;Date:        Mon Feb 21 09:44:37 2011
+;File:        C:\Users\Павел\Documents\3dsmax\scenes\пб.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "foresight3"
+			{Matrix34
+				1	0	0
+				0	-1	0
+				0	0	-1
+				5.33001	1.39933	0.179244
+			}
+		}
+		{bone "fxshell"
+			{Matrix34
+				0	0	1
+				0	1	0
+				1	0	0
+				1.5526	2.03242	0.280772
+			}
+		}
+		{bone "pb"
+			{parameters "ID=pistol;"}
+			{Matrix34
+				0.998672	0	0.0515233
+				0.0515233	0	-0.998672
+				0	1	0
+				5.0845	0.477571	-0.0138234
+			}
+			{VolumeView "pb.ply"}
+		}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "pb"}
+	{Matrix34
+		0.998672	0.0515233	0
+		0	0	1
+		0.0515233	-0.998672	0
+		-12.1485	-0.121007	-2.56209
+	}
+}
+{Volume "select"
+	{Polyhedron "select.vol"}
+	{Bone "basis"}
+	{Position -7.05413	-2.08452	-0.527476}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 3.0	-5.0	28.6575}
+			{lookat 1.92946	-2.9968	16.1281}
+			{fov 20}
+			{horizon -207.044}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 10.3394	-2.30998	8.39016}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0792752	0.197722	-0.452351}
+			}
+			{"2"
+				{type point}
+				{position -7.87421	-1.70373	6.82082}
+			}
+		}
+	}
+}
+

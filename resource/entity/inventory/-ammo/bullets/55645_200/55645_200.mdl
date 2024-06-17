@@ -1,0 +1,57 @@
+;Exported by: Pheonix
+;Date:        Sat Jul 11 21:44:21 2009
+;File:        D:\Documents and Settings\Pheonix\Мои документы\3dsmax\scenes\MyWorks\Weapons\762Nato.max
+{Skeleton
+	{bone "m240"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "m240.ply"}
+	}
+}
+{Volume "body"
+	{Box 5.2096 4.03389 1.97921}
+	{Bone "m240"}
+	{Matrix34
+		-1	0	0
+		0	0	1
+		0	1	0
+		-0.302352	0.071712	-0.100346
+	}
+}
+{Volume "select"
+	{Box 6.49047 4.94716 3.64972}
+	{Bone "m240"}
+	{Matrix34
+		-1	0	0
+		0	0	1
+		0	1	0
+		-0.394279	0.183994	-0.11354
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin -0.322132	-7.7465	4.75049}
+			{lookat 0.342865	7.51764	-2.14765}
+			{fov 45}
+			{horizon 8.39927}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -14.8153	-5.50341	6.27995}
+			}
+			{"1"
+				{type directional}
+				{direction 0.0792752	0.452351	-0.197722}
+			}
+			{"2"
+				{type point}
+				{position 10.769	-3.93407	5.6737}
+			}
+		}
+	}
+}

@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "table-new"}
+	{bump "table-new_bump"}
+	{specular "table-new_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

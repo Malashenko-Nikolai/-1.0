@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "svd_sk3_d1"}
+	{blend none}
+}

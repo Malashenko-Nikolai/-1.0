@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "$/humanskin/usa/oldschool/us_head_16"}
+	{specular "$/humanskin/usa/oldschool/us_head_16_sp"}
+	{color "230 230 230 25"}
+	{blend none}
+}

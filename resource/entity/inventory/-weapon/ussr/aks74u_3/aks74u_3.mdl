@@ -1,0 +1,103 @@
+;Exported by: Parsek
+;Date:        Sat Sep 01 23:32:32 2012
+;File:        C:\Documents and Settings\Parsek\Мо?документы\3dsmax\scenes\АК?74 (глушител?.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "aks74"
+			{Matrix34
+				0.998879	-0.0473446	0
+				0.0236807	0.499618	-0.865922
+				0.0409968	0.864951	0.500179
+				5.40261	-16.2195	31.6563
+			}
+			{VolumeView "aks74.ply"}
+		}
+		{bone "foresight3"
+			{Matrix34
+				1	0	0
+				0	1	0
+				0	0	1
+				15.1714	1.47376	-0.190021
+			}
+		}
+		{bone "fxshell"
+			{Matrix34
+				0.999386	0.0350286	0
+				-0.0350287	0.999386	0
+				0	0	1
+				3.00117	1.83967	0.146245
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 17.811 5.67254 0.952035}
+	{Bone "basis"}
+	{Matrix34
+		0.999386	0.0350286	0
+		-0.0350284	0.999386	0
+		0	0	1
+		4.1207	0.0310507	0.205763
+	}
+}
+{Volume "select"
+	{Box 17.811 5.67254 0.952035}
+	{Bone "basis"}
+	{Matrix34
+		0.999386	0.0350286	0
+		-0.0350284	0.999386	0
+		0	0	1
+		4.18274	0.181143	0.131367
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 3.82426	-1.60968	28.0874}
+			{lookat 4.14549	-1.55122	0.242537}
+			{fov 45}
+			{horizon -76.7316}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 12.9256	10.4409	-11.9365}
+			}
+			{"1"
+				{type directional}
+				{direction -0.130376	0.000741037	-0.482702}
+			}
+			{"2"
+				{type point}
+				{position -0.834915	-16.3291	-16.0853}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin 3.72523	-1.7324	29.1898}
+			{lookat 4.05932	-1.67161	0.231178}
+			{fov 45}
+			{horizon -76.7316}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 12.8437	10.3461	-11.9477}
+			}
+			{"1"
+				{type directional}
+				{direction -0.130376	0.000740994	-0.482702}
+			}
+			{"2"
+				{type point}
+				{position -0.91674	-16.4239	-16.0965}
+			}
+		}
+	}
+}

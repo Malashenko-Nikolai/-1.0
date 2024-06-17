@@ -1,0 +1,8 @@
+{from "pattern pistol"
+	{filling "ammo 919_15" 15}
+	{entity "beretta92"}
+	{fireSound	"pistol/beretta_fire"}
+	{reloadSound "l9_reload"}
+	{range 25 30}
+	{healthDamage 300}
+}

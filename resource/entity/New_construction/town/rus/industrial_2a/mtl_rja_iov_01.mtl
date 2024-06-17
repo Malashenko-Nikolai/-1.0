@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "mtl_rja_iov_01"}
+	{blend none}
+}

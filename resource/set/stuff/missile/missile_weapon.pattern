@@ -1,0 +1,31 @@
+{weapon_bullet
+;	{tag "rocketlauncher ap nokeep cumulative build_in weapon"}
+	{tag "weapon build_in bullet gun"}
+	{inventory
+		{size 6 2}
+		{weight 1000}
+	}
+	{tag "prepare"}
+	{Special
+		{Mode aim}
+		{PrepareTime 5}
+		{PrepareCursor "aimed_shot"}
+	}
+	{mass 6.1}
+	{DisableRicochet}
+	{foresight "Foresight"}
+	{reactive}
+	{gravity 0}
+	{rechargeTime 5}
+	{curve "cumulative"}
+	{projectileDamageThreshold 10}
+    {projectileDamage 150}  
+	{speed 30}
+	{range 30 35}
+	{AimingTolerance 3}
+	{cursor "cannon_on_atgm"}
+	{cursorReloading "cannon_reload_atgm"}
+	{spreading 0
+		{SpreadPower	0}
+	}
+}

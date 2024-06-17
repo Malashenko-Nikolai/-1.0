@@ -1,0 +1,9 @@
+{actor
+	(include "/properties/stuff_small.ext")
+	{Extension "l22_carbine.mdl"}
+	{extender "stuff"
+		{item "l22_carbine"}
+	}
+	{nogroupmesh 1}
+}
+

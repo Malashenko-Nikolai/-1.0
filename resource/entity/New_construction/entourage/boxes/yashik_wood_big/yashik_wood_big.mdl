@@ -1,0 +1,18 @@
+;Exported by: Vorabat
+;Date:        Mon Feb 22 23:21:41 2010
+;File:        
+{Skeleton
+	{bone "yashik_wood_big"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "yashik_wood_big.ply"}
+	}
+}
+{Volume "box01"
+	{Box 28.2175 28.9472 26.758}
+	{Bone "yashik_wood_big"}
+	{Position -0.204163	0.0321465	13.379}
+}

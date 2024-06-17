@@ -1,0 +1,35 @@
+{actor
+	(include "/properties/cannon_mgun3.ext")
+	(include "/properties/shadow/tank.inc"  scale(0.3))
+	{props "vision_cannon_low" "cannon" "round_sandbag" "cannon_small"}
+	{collider "cannon_small"}
+
+	{sensor 
+		{visor "main" 
+			{vision "cannon_mgun"}
+			{bone "turret"}
+		}
+	}
+	{extender "inventory"
+		{box
+			{item "ammo 12799_100" 1000}
+		    {item "sandbag_kit2"}
+		}
+	} 
+	{Weaponry
+		{place "mgun"
+			{weapon "browning" filled}
+			{foresight "foresight3"}
+		        {charger "gunner"}
+		}
+	}  	
+	{Extension "brauning_trenog.mdl"}
+	{bone "turret" {limits}}
+
+	{Volume "body"
+		{tags "body"}
+		{able{obstacle 0}}
+		{thickness 1}
+		{component "body"}
+	}
+}

@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "snip_2"}
+	{blend none}
+}

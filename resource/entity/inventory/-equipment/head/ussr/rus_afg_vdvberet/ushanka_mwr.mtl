@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/humanskin/rus_mwr_loya_ushanka_diff"}
+	{bump "$/humanskin/rus_mwr_loya_ushanka_bump"}
+	{specular "$/humanskin/rus_mwr_loya_ushanka_spc"}
+	{color "229 229 229 25"}
+	{blend none}
+}

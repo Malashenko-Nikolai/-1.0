@@ -1,0 +1,74 @@
+;Exported by: Pheonix
+;Date:        Mon Aug 24 18:48:14 2009
+;File:        D:\Documents and Settings\Pheonix\Мои документы\3dsmax\scenes\MyWorks\Weapons\KPVT\KPVT_ammo.max
+{Skeleton
+	{bone "ammo_box"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "ammo_box.ply"}
+		{bone "mesh01"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				1.94836	-2.15324	4.64952
+			}
+			{VolumeView "mesh01.ply"}
+		}
+		{bone "mesh02"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				1.18771	-2.15324	4.64952
+			}
+			{VolumeView "mesh02.ply"}
+		}
+		{bone "mesh03"
+			{Matrix34
+				-0.0858316	-0.996195	-0.0151344
+				0.173648	0	-0.984808
+				0.98106	-0.0871557	0.172987
+				0.193738	-3.86918	5.16693
+			}
+			{VolumeView "mesh03.ply"}
+		}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "ammo_box"}
+	{Position -1.19244	-0.993411	-0.645322}
+}
+{Volume "select"
+	{Polyhedron "select.vol"}
+	{Bone "ammo_box"}
+	{Position -1.19244	-1.14358	-0.645322}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin -0.689097	-2.07985	15.6617}
+			{lookat -2.31038	7.51552	-21.7319}
+			{fov 41.5088}
+			{horizon -177.644}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 2.88161	-14.4448	11.6442}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0574456	0.0919067	-0.488112}
+			}
+			{"2"
+				{type point}
+				{position -10.761	1.21732	29.2678}
+			}
+		}
+	}
+}

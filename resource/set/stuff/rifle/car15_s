@@ -1,0 +1,17 @@
+{from "pattern rifle"
+	{tag "assaultrifle"}
+	{filling "ammo 55645_30ar" 30}
+	{inventory
+		{size 5 2 }
+		{link_bone "gun_back"}
+		{weight 100 }
+	}
+	{mass 3.63}
+	{entity "car15_s"}
+	{fireSound "small_arms/m16/"}
+	{reloadSound "m16_reload"}
+	{rechargeTime 3.0}
+	
+	{Automatic}
+	{healthDamage 220}
+}

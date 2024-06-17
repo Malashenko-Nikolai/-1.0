@@ -1,0 +1,38 @@
+{breed
+	{behaviour soldier}
+	{skin "us_army_gi_bdu_pasgt_rifleman_00_gasmask"}
+	{portrait usa_ranger_rifleman}
+	{icon_priority 0}
+	{nationality usa}
+	{armors
+		{head pasgt_helmet}
+	}
+	{perks
+		{"stamina" "100%"
+		}
+		{"melee" lvl_5
+		}
+		{"vision" mp_soldier
+		}
+		{"pistol" lvl_1
+		}
+		{"mgun" lvl_1
+		}
+		{"rifle" lvl_1
+		}
+		{"at_rifle" lvl_1
+		}
+		{"telescope"}
+		{"health" "100%"
+		}
+		{"speed" 1
+		}
+	}
+	{inventory
+		{item "m16a2" filling "55645_30ar ammo" 30}
+		{item "55645_30ar ammo" 20}
+		{item "m67_grenade grenade" 4}
+		{item "bandage" 10}
+		{in_hands 0}
+	}
+}

@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "beret000"}
+	{blend none}
+}

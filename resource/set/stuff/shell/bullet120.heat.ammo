@@ -1,0 +1,23 @@
+{bullet
+	{tag "ammo ap shell dropboxed cumulative pierce"}
+	{inventory
+		{size 5 1}
+		{weight 100}
+		{fsm "stuff"}
+		{size 5 1}
+	}	
+	{mass 22}
+	{entity "shell_heat_120"}
+	{damage blastwave
+		{energy 1}
+		{area 2 8}
+	}
+
+	{cumulative 250}
+	{detonationThickness 1} ; Explode when hitting armor thicker than 1mm
+
+	{damage cumulative
+		{damage 250}
+		{distance 0.3}
+	}
+}

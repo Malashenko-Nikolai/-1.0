@@ -1,0 +1,17 @@
+{game_enity
+	(include "/properties/stuff_small.ext")
+	(include "/properties/shadow/round.inc")
+	{body {proper body sensible} {permit body}}
+	{extender "stuff"
+		{item "notebook"}
+	}
+	{Extension "obj_notebook.mdl"}
+	{Volume "body"
+		{Tags  "body" "select"}
+		{Thickness 2}
+	}
+	{Volume "box128"
+		{Tags  "body" "select"}
+		{Thickness 2}
+	}
+}

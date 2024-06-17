@@ -1,0 +1,9 @@
+{actor
+	(include "/properties/stuff_small.ext")
+	{Extension "rpg_7.mdl"}
+    {extender "stuff"
+        {item "weapon bazooka"}
+    }
+	{nogroupmesh 1}
+	{lodclass "human"}
+}

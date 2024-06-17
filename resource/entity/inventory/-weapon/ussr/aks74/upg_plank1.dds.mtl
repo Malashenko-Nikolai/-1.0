@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "upg_plank1"}
+	{blend none}
+}

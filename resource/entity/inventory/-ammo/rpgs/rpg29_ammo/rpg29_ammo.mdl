@@ -1,0 +1,65 @@
+;Exported by: Артем
+;Date:        Sat Jul 25 18:12:48 2015
+;File:        D:\Autodesk\Low poly\freelance\DMS 2.0\Weapons\Grenades & stuff\RPG 29 rocket\RPG 29 rocket+.max
+{Skeleton
+	{bone "rpg29_rocket"
+		{parameters "ID=mgun;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "rpg29_rocket.ply"}
+		{bone "tail"
+			{Matrix34
+				-1	0	0
+				0	-1	0
+				0	0	1
+				-9.53497	-0.00744826	0.950895
+			}
+		}
+	}
+}
+{Volume "body"
+	{Cylinder 0.984252 20.2936}
+	{Bone "rpg29_rocket"}
+	{Matrix34
+		0	1	0
+		0	0	1
+		1	0	0
+		0.641208	0.00458133	0.981119
+	}
+}
+{Volume "select"
+	{Box 29.3394 7.58227 2.88458}
+	{Bone "rpg29_rocket"}
+	{Matrix34
+		-1	0	0
+		0	-1	0
+		0	0	1
+		0.04296	-0.104952	1.09031
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 0.653166	0.0286005	162.406}
+			{lookat 0.653166	0.0286005	0.945623}
+			{fov 7.35648}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.102376	-0.441767	0.210622}
+			}
+			{"1"
+				{type directional}
+				{direction 0.444001	0.228173	-0.0282942}
+			}
+			{"2"
+				{type directional}
+				{direction -0.190127	0.183998	-0.424259}
+			}
+		}
+	}
+}

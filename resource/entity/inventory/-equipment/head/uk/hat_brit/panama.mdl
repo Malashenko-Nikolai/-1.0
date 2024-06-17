@@ -1,0 +1,63 @@
+;Exported by: Loskutov_K
+;Date:        Mon May 24 11:06:56 2010
+;File:        D:\_Vietnam\Art\Models\Headdresses\head\panama.max
+{Skeleton
+	{bone "panama"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{Position 0.80	0	-0.07}
+		{VolumeView "panama.ply"}
+		{bone "handle"
+			{Position 0.01881	0.0691623	2.94912}
+		}
+	}
+}
+{Volume "body"
+	{Box 4.63793 4.63793 4.63793}
+	{Bone "panama"}
+	{Matrix34
+		0.9	0	0
+		0	0.9	0
+		0	0	0.9
+		0.162332	0.0395951	3.01341
+	}
+}
+{Volume "select"
+	{Box 5.86018 7.02574 6.37821}
+	{Bone "panama"}
+	{Matrix34
+		0	0.9	0
+		-0.9	0	0
+		0	0	0.9
+		0.332	0.149802	3.32545
+	}
+}
+{Extender "preview"
+	{"stuff"
+		{camera
+			{origin 5.08385	-3.91283	9.18052}
+			{lookat 1.80347	-1.25268	5.10202}
+			{fov 45}
+		}
+		{lights
+			{"0"
+				{type spot}
+				{position 8.45401	-6.76049	6.76782}
+				{direction -0.345553	0.310833	-0.184326}
+				{theta 10}
+				{phi 45}
+			}
+			{"1"
+				{type point}
+				{position 2.89782	-2.5791	6.39505}
+			}
+			{"2"
+				{type point}
+				{position -3.4446	-0.315833	4.58395}
+			}
+		}
+	}
+}

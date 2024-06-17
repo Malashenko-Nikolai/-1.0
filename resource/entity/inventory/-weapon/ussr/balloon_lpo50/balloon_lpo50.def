@@ -1,0 +1,11 @@
+{game_entity
+	(include "/properties/stuff_small.ext")
+	{Extension "balloon_lpo50.mdl"}
+	{volume "body"
+		{thickness 6}
+	}
+	{props "capacity" "balloon"}
+	{extender "stuff"
+		{item "balloon_lpo50"}
+	}
+}

@@ -1,0 +1,70 @@
+;Exported by: User
+;Date:        Mon Feb 14 22:57:28 2011
+;File:        C:\Users\User\Documents\3dsmax\scenes\MyWorks\Weapons\baretta.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "foresight3"
+			{Position 3.97348	1.45837	0.000388101}
+		}
+		{bone "handle"
+			{Position 0.00354743	-0.0107179	0}
+		}
+		{bone "beretta"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				-0.228869	0.378215	0.0397561
+			}
+			{VolumeView "beretta.ply"}
+		}
+		{bone "fxshell"
+			{Matrix34
+				0	0	1
+				0	1	0
+				1	0	0
+				1.5526	2.03242	0.280772
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 4.99625 3.37702 0.754966}
+	{Bone "basis"}
+	{Position 1.39514	0.914015	-0.0192409}
+}
+{Volume "select"
+	{Box 5.78906 4.48785 0.822768}
+	{Bone "basis"}
+	{Position 1.3966	0.879471	-0.0427815}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 1.45575	-1.53876	10.0904}
+			{lookat 0.998563	0.713571	-14.7873}
+			{fov 48.197}
+			{horizon 172.956}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 11.2168	-0.519769	-14.538}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0800069	0.187579	-0.456523}
+				{ambient 0x4d4d4d}
+			}
+			{"2"
+				{type point}
+				{position -6.99684	0.0866113	-16.1074}
+			}
+		}
+	}
+}

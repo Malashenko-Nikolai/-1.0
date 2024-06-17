@@ -1,0 +1,66 @@
+;Exported by: Администратор
+;Date:        Sat Nov 29 13:48:06 2014
+;File:        C:\Documents and Settings\Администратор\Мои документы\3dsMax\scenes\UAHM\-equipment\-body\g862.max
+{Skeleton
+	{bone "object01"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "object01.ply"}
+		{bone "handle"
+			{Matrix34
+				1	0	0
+				0	1	0
+				0	0	1
+				2.79658	4.22348	0.0784926
+			}
+		}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "object01"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		-0.0573508	-3.61009	0.0737109
+	}
+}
+{Volume "select"
+	{Polyhedron "select.vol"}
+	{Bone "object01"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		-0.0552131	-3.61009	0.0737109
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 17.6395	-3.63942	-6.72758}
+			{lookat -15.4308	1.44717	7.99623}
+			{fov 27.336}
+			{horizon 86.4549}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.102963	0.489284	0}
+				{ambient 0x404040}
+			}
+			{"1"
+				{type point}
+				{position 9.68297	-0.431175	0.880883}
+			}
+			{"2"
+				{type point}
+				{position 6.0977	-0.431176	6.34054}
+			}
+		}
+	}
+}

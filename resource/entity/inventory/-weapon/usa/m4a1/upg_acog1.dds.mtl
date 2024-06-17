@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "upg_acog1"}
+	{blend none}
+}

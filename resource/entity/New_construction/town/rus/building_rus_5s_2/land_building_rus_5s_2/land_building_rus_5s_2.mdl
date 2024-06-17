@@ -1,0 +1,14 @@
+;Exported by: Vorabat
+;Date:        Mon Apr 26 21:41:09 2010
+;File:        C:\Users\Vorabat\Documents\3dsmax\scenes\leniniki.max
+{Skeleton
+	{bone "land"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{parameters "Land;Ground;"}
+		{VolumeView "land.ply" {Ground} {DecalTarget}}
+	}
+}

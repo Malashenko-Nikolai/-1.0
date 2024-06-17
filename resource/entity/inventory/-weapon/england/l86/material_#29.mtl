@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "gbrif_l85a2_body_c"}
+	{bump "gbrif_l85a2_body_b"}
+	{specular "gbrif_l85a2_body_s"}
+	{color "230 230 230 25"}
+	{blend none}
+}

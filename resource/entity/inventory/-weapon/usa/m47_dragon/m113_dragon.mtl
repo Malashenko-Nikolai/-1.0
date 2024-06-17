@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "m113_dragon"}
+	{specular "m113_dragon_s"}
+	{color "230 230 230 25"}
+	{blend none}
+}

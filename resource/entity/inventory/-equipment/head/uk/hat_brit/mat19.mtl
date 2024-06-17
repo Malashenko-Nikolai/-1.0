@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "panama"}
+	{bump "panama_bp"}
+	{blend none}
+}

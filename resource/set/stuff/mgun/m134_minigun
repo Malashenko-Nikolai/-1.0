@@ -1,0 +1,14 @@
+{from "pattern mgun"
+	{filling "ammo 76251_100" 1000}
+	{entity "minigun"}
+	{fireSound	"mgun/m134/"}
+    {Spreading 1
+		{SpreadPower	1}
+		{BurstAccuracy 100.0 98.0 95.0 93.0 90.0 89.0 85.0 82.0 80.0 78.0 75.0 72.0 70.0 50.0}
+	}
+	("recoveryTime" r(3000))
+	("burst_long")
+	("speed" s(820))
+	{range 100 110}
+	{healthDamage 260}
+}

@@ -1,0 +1,82 @@
+;Exported by: Ali
+;Date:        Thu Feb 28 22:28:13 2008
+;File:        D:\3ds max FOW Models\M82\m82.max
+{Skeleton
+	{bone "m82a1"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "m82a1.ply"}
+		{bone "foresight3"
+			{Position 21.3943	1.86406	-0.0103643}
+		}
+		{bone "run_holder"
+			{Position 5.32688	1.67475	-1.7728}
+		}
+		{bone "handle"
+		}
+		{bone "fxshell"
+			{Matrix34
+				0	0	1
+				0	1	0
+				1	0	0
+				4.0526	2.03242	0.280772
+			}
+		}	
+				
+	}		
+}		
+{Volume "body"
+	{Box 2.40571 4.89752 28.5433}
+	{Bone "m82a1"}
+	{Matrix34
+		0	0	1
+		0	1	0
+		-1	0	0
+		7.06636	0.821557	-0.000747579
+	}
+}
+{Volume "select"
+	{Box 2.40571 5.68587 28.5433}
+	{Bone "m82a1"}
+	{Matrix34
+		0	0	1
+		0	1	0
+		-1	0	0
+		7.07758	1.24374	-0.0119759
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin -1.24176	-12.9148	73.0534}
+			{lookat 6.44367	-0.750672	-0.483106}
+			{fov 20.8321}
+			{horizon -127.227}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.00250821	0	-0.499994}
+				{ambient 0x666666}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin -0.342763	-11.1775	73.4061}
+			{lookat 6.77023	-0.829043	-0.465174}
+			{fov 22.7329}
+			{horizon -143.116}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.00250821	0	-0.499994}
+				{ambient 0x666666}
+			}
+		}
+	}
+}

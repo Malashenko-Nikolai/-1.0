@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "skin1a"}
+	{blend test}
+}

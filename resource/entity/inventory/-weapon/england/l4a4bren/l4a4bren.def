@@ -1,0 +1,8 @@
+{actor
+	(include "/properties/stuff_small.ext")
+	{extension "l4a4bren.mdl"}
+	{extender "stuff"
+		{item "l4a4bren"}
+	}
+	{nogroupmesh 1}
+}

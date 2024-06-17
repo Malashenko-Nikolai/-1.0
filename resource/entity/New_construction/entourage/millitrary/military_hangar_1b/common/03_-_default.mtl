@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "drain_angar"}
+	{bump "drain_angar_bp"}
+	{specular "drain_angar_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

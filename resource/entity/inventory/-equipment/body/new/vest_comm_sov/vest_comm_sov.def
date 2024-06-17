@@ -1,0 +1,7 @@
+{actor
+	(include "/properties/stuff_small.ext")
+	{Extension "rzgruz_com_sov.mdl"}
+	{extender "stuff"
+		{item "vest_comm_sov"}
+	}
+}

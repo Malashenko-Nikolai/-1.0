@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "acog_m16stock_c"}
+	{bump "acog_m16stock_b"}
+;	{specular "acog_m16stock_s"}
+	{color "230 230 230 25"}
+	{blend none}
+}

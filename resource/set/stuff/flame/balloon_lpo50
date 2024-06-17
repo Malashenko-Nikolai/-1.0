@@ -1,0 +1,14 @@
+{item
+	{tag "itemin1hand capacity balloon"}
+	{filling "fuel" 80}
+	{entity "balloon_lpo50"}
+	{inventory
+		{size 3 4}
+		{weight 100}
+		{link_bone "gun_back"}
+		{fsm "stuff"}
+	}
+	{mass 1}
+
+	{preloaded}
+}

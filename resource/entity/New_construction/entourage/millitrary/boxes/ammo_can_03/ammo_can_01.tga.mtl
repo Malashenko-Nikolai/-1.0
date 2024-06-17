@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "ammo_can_01"}
+	{blend none}
+}

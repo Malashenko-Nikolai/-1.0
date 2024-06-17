@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "razr_angar"}
+	{blend none}
+}

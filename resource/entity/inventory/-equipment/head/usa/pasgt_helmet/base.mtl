@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/humanskin/usa/oldschool/pasgt_helmet"}
+	{bump "$/humanskin/usa/oldschool/pasgt_helmet_nm"}
+	{specular "$/humanskin/usa/oldschool/pasgt_helmet_sp"}
+	{color "230 230 230 25"}
+	{blend test}
+}

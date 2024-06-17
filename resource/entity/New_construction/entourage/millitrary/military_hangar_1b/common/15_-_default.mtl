@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "floor_angar"}
+	{bump "floor_angar_bp"}
+	{blend none}
+}

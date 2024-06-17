@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "usrif_m14_1p_body_wood_c"}
+	{specular "usrif_m14_1p_body_wood_s"}
+	{color "230 230 230 25"}
+	{blend none}
+}

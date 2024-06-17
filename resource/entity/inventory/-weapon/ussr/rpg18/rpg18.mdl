@@ -1,0 +1,76 @@
+;Exported by: User
+;Date:        Sun Jan 10 19:18:52 2010
+;File:        C:\Users\User\Documents\3dsmax\scenes\MyWorks\Weapons\RPG18\RPG18.max
+{Skeleton
+	{bone "___18"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "___18.ply"}
+		{bone "foresight3"
+			{Matrix34
+				1	0	0
+				0	0	1
+				0	-1	0
+				9.60197	-0.0358393	0.301345
+			}
+		}
+		{bone "handle"
+			{Position 0.94833	0.0644567	0.287177}
+		}
+		{bone "fxshot"
+			{Matrix34
+				-1	0	0
+				0	0	1
+				0	1	0
+				-8.9579	-0.0358506	0.254665
+			}
+		}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "___18"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		2.18795	0.482963	-0.481668
+	}
+}
+{Volume "select"
+	{Polyhedron "select.vol"}
+	{Bone "___18"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		1.99317	1.71608	-1.75432
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 0.694598	30.2823	3.1799}
+			{lookat 0.237413	5.40456	0.927578}
+			{fov 35.209}
+			{horizon 0.477244}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 12.0002	5.72833	1.02491}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0800069	-0.456523	-0.187578}
+			}
+			{"2"
+				{type point}
+				{position -6.21345	4.15896	0.418534}
+			}
+		}
+	}
+}

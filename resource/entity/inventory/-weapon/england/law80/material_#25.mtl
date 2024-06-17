@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "law80"}
+	{specular "law80_s"}
+	{color "230 230 230 25"}
+	{blend none}
+}

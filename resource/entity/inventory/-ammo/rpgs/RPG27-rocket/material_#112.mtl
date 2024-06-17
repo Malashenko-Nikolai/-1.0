@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "m72_rocket"}
+	{blend test}
+}

@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "smell_texture"}
+	{blend none}
+}

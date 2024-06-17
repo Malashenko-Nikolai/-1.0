@@ -1,0 +1,17 @@
+{from "pattern rifle"
+	{tag "assaultrifle"}
+	{filling "ammo 939_20" 20}
+	{inventory
+		{size 5 2 }
+		{link_bone "gun_back"}
+		{weight 100 }
+	}
+	{mass 2.5}
+	{entity "val"}
+	{fireSound "small_arms/silenced_val/"}
+	{reloadSound "Dragunov_reload"}
+	{rechargeTime 3.5}
+	
+	{Automatic}
+	{healthDamage 240}
+}

@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "pm"}
+	{blend test}
+	{emitsheat}
+}

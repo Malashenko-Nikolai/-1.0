@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "usrif_m14_1p_mount_c"}
+	{specular "usrif_m14_1p_mount_s"}
+	{color "230 230 230 25"}
+	{blend none}
+}

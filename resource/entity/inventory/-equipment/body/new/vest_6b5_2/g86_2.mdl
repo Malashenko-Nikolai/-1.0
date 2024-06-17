@@ -1,0 +1,41 @@
+;Exported by: Администратор
+;Date:        Sun Dec 07 20:20:31 2014
+;File:        C:\Documents and Settings\Администратор\Мои документы\3dsMax\scenes\UAHM\-equipment\-body\g863.max
+{Skeleton
+	{bone "object01"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "object01.ply"}
+		{bone "handle"
+			{Matrix34
+				1	0	0
+				0	1	0
+				0	0	1
+				2.79658	4.22348	0.0784926
+			}
+		}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "object01"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		-0.0573508	-3.61009	0.0737109
+	}
+}
+{Volume "select"
+	{Polyhedron "select.vol"}
+	{Bone "object01"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		-0.0552131	-3.61009	0.0737109
+	}
+}

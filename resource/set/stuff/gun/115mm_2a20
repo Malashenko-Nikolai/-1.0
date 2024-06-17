@@ -1,0 +1,11 @@
+{from "pattern gun"
+	{filling "bullet115"}
+	{fireSound "gun/cannon_big_1/"}
+	{reloadSound "tankgun/"}
+	{rechargeTime 12}
+	("range_maximum")
+
+	("speed" s(1615))
+	("caliber_maximum")
+	{projectileDamage 295}
+}

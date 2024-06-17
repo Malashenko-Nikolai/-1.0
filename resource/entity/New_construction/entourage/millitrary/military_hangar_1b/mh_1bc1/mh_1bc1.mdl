@@ -1,0 +1,34 @@
+;Exported by: Наталья
+;Date:        Mon May 07 00:46:01 2012
+;File:        G:\military_angar\Ангар рабочий\Ангар рабочий\Новая папка\Untitled.max
+{Skeleton
+	{bone "mh_1bc1"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "mh_1bc1.ply"}
+		{bone "fix01"
+			{Position -0.378899	42.4224	41.7406}
+		}
+	}
+}
+{Obstacle "roof1"
+	{Obb2
+		{Center 7.96076 5.39682}
+		{Extent 39.6965 52.5867}
+		{Axis 1 0}
+	}
+	{Rotate}
+}
+{Volume "body1"
+	{Polyhedron "body1.vol"}
+	{Bone "mh_1bc1"}
+	{Position 6.10889	42.4234	84.5015}
+}
+{Volume "roof1"
+	{Polyhedron "roof1.vol"}
+	{Bone "mh_1bc1"}
+	{Position 7.85426	-1.69334	121.009}
+}

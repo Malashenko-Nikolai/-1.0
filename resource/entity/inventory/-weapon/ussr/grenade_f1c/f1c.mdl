@@ -1,0 +1,66 @@
+;Exported by: Pheonix
+;Date:        Wed Aug 05 23:59:26 2009
+;File:        D:\Documents and Settings\Pheonix\Мои документы\3dsmax\scenes\MyWorks\Weapons\F1\F1_3.max
+{Skeleton
+	{bone "f1c"
+		{parameters "CommonMesh;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "f1c.ply"}
+		{bone "handle"
+			{Matrix34
+				0	0	1
+				-1	0	0
+				0	-1	0
+				-0.639132	-0.0867719	-0.751561
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 2.67596 1.22035 1.10273}
+	{Bone "f1c"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		-0.950477	-0.0572561	-0.0112306
+	}
+}
+{Volume "select"
+	{Polyhedron "select.vol"}
+	{Bone "f1c"}
+	{Matrix34
+		-1	0	0
+		0	-1	0
+		0	0	1
+		-0.711213	-0.238599	-0.052904
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin -2.84722	4.41253	-0.0334217}
+			{lookat -0.774851	-0.400844	-0.0334217}
+			{fov 31.7555}
+			{horizon -152.17}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -1.8101	0.787042	5.54521}
+			}
+			{"1"
+				{type directional}
+				{direction 0.0783768	-0.397715	-0.292712}
+			}
+			{"2"
+				{type point}
+				{position 3.62547	0.180661	3.97583}
+			}
+		}
+	}
+}

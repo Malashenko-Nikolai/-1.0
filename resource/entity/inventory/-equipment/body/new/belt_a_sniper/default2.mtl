@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "russian_frontbags_col"}
+	{blend none}
+}

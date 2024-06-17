@@ -1,0 +1,14 @@
+;Model by Pheonix
+{actor
+	(include "/properties/stuff_grenade.ext")
+	(include "/properties/shadow/round.inc")
+	{extension "m67_grenade.mdl"}
+	{extender "stuff"
+		{item "grenade m67_grenade"}
+	}
+	{nogroupmesh 1}
+	{props "grenade"}
+	{volume "body"
+		{able {contact}}
+	}
+}

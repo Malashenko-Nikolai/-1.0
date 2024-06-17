@@ -1,0 +1,24 @@
+{game_entity
+	(include "/properties/building.inc")	
+	{props "cornered" "concrete" "parts" "construction" "wall" "burning" "gate" "gate_close"}
+	("armor_heavy" args 0.8)
+	{Extension "mh_door.mdl"}
+	{Volume "doorl"
+		{Tags  "door_lock" "body"}
+		{Thickness 15}
+		{able {touch}}
+	}
+	{Volume "doorr"
+		{Tags  "door_lock" "body"}
+		{Thickness 15}
+		{able {touch}}
+	}
+	{Volume "switch"
+		{Tags  "door_close"}
+		{able {touch}}
+	}
+	{Volume "theswitch"
+		{Tags  "door_close"}
+		{able {touch}}
+	}
+}

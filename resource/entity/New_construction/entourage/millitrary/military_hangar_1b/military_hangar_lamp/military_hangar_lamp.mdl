@@ -1,0 +1,51 @@
+;Exported by: Admin
+;Date:        Fri Nov 11 11:27:22 2011
+;File:        E:\Делаю\military_angar\Ангар рабочий\Ангар рабочий\military hangar lamp.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "lamp_light_point1"
+			{Orientation
+				0.95882	0	-0.284015
+				-0.200809	0.707175	-0.677922
+				0.200849	0.707038	0.678054
+			}
+		}
+		{bone "lamp_glass1"
+			{Orientation
+				0.95882	0	-0.284015
+				-0.200809	0.707175	-0.677922
+				0.200849	0.707038	0.678054
+			}
+		}
+		{bone "light_point"
+			{Orientation
+				0.95882	0	-0.284015
+				-0.200809	0.707175	-0.677922
+				0.200849	0.707038	0.678054
+			}
+		}
+	}
+}
+{Area "lamp1"
+	{Obb2
+		{Center 9.26727e-007 -1.26477e-006}
+		{Extent 3.35646 3.38961}
+		{Axis 0.707388 0.706825}
+	}
+	{Rotate}
+}
+{Volume "lamp1"
+	{Box 6.04331 6.03889 6.04331}
+	{Bone "basis"}
+	{Matrix34
+		0.164996	0	-0.986294
+		-0.69403	0.710522	-0.116104
+		0.700784	0.703675	0.117234
+		0	0	0
+	}
+}

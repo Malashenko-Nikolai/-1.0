@@ -1,0 +1,17 @@
+{from "pattern rifle"
+	{tag "assaultrifle"}
+	{filling "ammo 55645_30aug" 30}
+	{inventory
+		{size 5 2 }
+		{link_bone "gun_back"}
+		{weight 100 }
+	}
+	{mass 3.6}
+	{entity "aug"}
+	{fireSound "smg/aug_fire"}
+	{reloadSound "aug_reload"}
+	{rechargeTime 3.4}
+	
+	{Automatic}
+	{healthDamage 220}
+}

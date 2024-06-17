@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "aix_steyr_c"}
+	{bump "aix_steyr_b"}
+	{specular "aix_steyr_s"}
+	{color "230 230 230 25"}
+	{blend none}
+}

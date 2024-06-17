@@ -1,0 +1,10 @@
+{from "pattern rpg_weapon"
+	{filling "ammo law80rocket" 1}
+	{preloaded}
+	{entity "law80"}
+    {projectileDamage 600}
+	{fireSound "bazooka/m136_fire"}
+	{reloadSound "RPG_reload"}
+	("speed" s(200))
+	{range 50 60}
+}

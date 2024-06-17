@@ -1,0 +1,88 @@
+;Exported by: Sea-Knight
+;Date:        Tue Jun  2 20:59:02 2020
+;File:        D:\Users\Sea-Knight\Documents\3dsMax\scenes\3D-Work\-Vietnam\-Inventory\-Stuff\-Body\USA\m5_bag.max
+{Skeleton
+	{bone "m5"
+		{parameters "CommonMesh;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "m5.ply"}
+		{bone "handle"
+			{Matrix34
+				0	-1	0
+				0	0	1
+				-1	0	0
+				-3.79554	6.39594	0
+			}
+		}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "m5"}
+	{Matrix34
+		0	0	1
+		0	-1	0
+		1	0	0
+		0.381928	3.75831	7.55739
+	}
+}
+{Volume "select"
+	{Polyhedron "select.vol"}
+	{Bone "m5"}
+	{Matrix34
+		0	0	1
+		0	-1	0
+		1	0	0
+		3.006	5.34217	3.38048
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin -15.5973	-3.4666	0.202202}
+			{lookat 1.10879	-2.09267	0.00163651}
+			{fov 45}
+			{horizon -88.911}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 8.29785	-1.12558	-13.6835}
+			}
+			{"1"
+				{type directional}
+				{direction 0.490423	-0.0855978	0.0464556}
+			}
+			{"2"
+				{type point}
+				{position 10.9977	-2.42654	4.36045}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin -16.7139	-4.09631	0.376019}
+			{lookat 0.565618	-1.78286	0.237842}
+			{fov 45}
+			{horizon -90.8228}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 8.54825	-5.7844	-3.1132}
+			}
+			{"1"
+				{type directional}
+				{direction 0.471419	0.112339	0.123062}
+			}
+			{"2"
+				{type point}
+				{position 8.51901	12.3982	-1.12374}
+			}
+		}
+	}
+}

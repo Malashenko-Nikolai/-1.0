@@ -1,0 +1,14 @@
+;Model by g521
+{actor
+	(include "/properties/stuff_grenade.ext")
+	(include "/properties/shadow/round.inc")
+	{extension "m61_grenade.mdl"}
+	{extender "stuff"
+		{item "grenade m61_grenade"}
+	}
+	{nogroupmesh 1}
+	{props "grenade"}
+	{volume "body"
+		{able {contact}}
+	}
+}

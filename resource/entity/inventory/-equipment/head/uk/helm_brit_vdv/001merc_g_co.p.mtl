@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "bti002"}
+	{blend none}
+}

@@ -1,0 +1,24 @@
+{from "pattern missile_ammo"
+	{tag "pierce atgm"}
+	{inventory
+		{size 5 1}
+		{weight 28}
+	}	
+	{mass 10}
+	{entity "tow_ammo"}
+	{view "tow_ammo"
+		{tail "rocket_smoke_atgm" "tail"}
+	}
+	{damage blastwave
+		{energy 5}
+		{area 2 8}
+	}
+
+	{cumulative 0.007}
+	{detonationThickness 0.1} ; 击中厚度大于1mm的装甲时爆炸
+
+	{damage cumulative
+		{damage 430}
+		{distance 0.3}
+	}
+}

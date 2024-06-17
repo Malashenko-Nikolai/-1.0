@@ -1,0 +1,9 @@
+{actor
+	
+	(include "/properties/stuff_small.ext")
+	{Extension "rpk74.mdl"}
+	{extender "stuff"
+		{item "rpk74_1"}
+	}
+	{nogroupmesh 1}
+}

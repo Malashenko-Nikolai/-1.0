@@ -1,0 +1,17 @@
+{from "pattern mgun"
+	{filling "ammo 76254_100" 100}
+	{entity "sgmt"}
+	{fireSound	"small_arms/rpk/"}
+	{reloadSound "dt"}
+	{inventory 	{handle_bone "handle_box"}}
+
+	("recoveryTime" r(650))
+	("burst_long")
+	("speed" s(800))
+	{healthDamage 260}
+	{range 90 100}
+	{Spreading 1
+		{SpreadPower	1}
+		{BurstAccuracy 100.0 98.0 95.0 93.0 90.0 89.0 85.0 82.0 80.0 78.0 75.0 72.0 70.0 50.0}
+	}
+}

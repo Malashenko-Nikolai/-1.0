@@ -1,0 +1,5 @@
+{material simple
+	{diffuse "rpg7_base"}
+	{blend none}
+	{emitsheat}
+}

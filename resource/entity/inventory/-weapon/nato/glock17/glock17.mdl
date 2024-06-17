@@ -1,0 +1,98 @@
+;Exported by: Олег
+;Date:        Wed Apr 27 21:43:23 2011
+;File:        D:\Documents and Settings\Олег\Рабочий стол\Оружие\m60\glock.max
+{Skeleton
+	{bone "basis"
+		{parameters "ID=pistol;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "handle"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				0.0513952	0.156011	-0.14026
+			}
+		}
+		{bone "foresight3"
+			{Position 2.62738	1.52521	-0.637316}
+		}
+		{bone "glock19"
+			{parameters "CommonMesh;ID=pistol;"}
+			{Matrix34
+				0	0	1
+				1	0	0
+				0	1	0
+				1.03318	1.07124	-0.191294
+			}
+			{VolumeView "glock19.ply"}
+		}
+		{bone "fxshell"
+			{Matrix34
+				0	0	1
+				0	1	0
+				1	0	0
+				1.5526	2.03242	0.280772
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 5.09383 3.36158 1.17113}
+	{Bone "basis"}
+	{Position 1.4967	0.302759	-0.0288762}
+}
+{Volume "select"
+	{Box 27.7845 9.72703 4.3449}
+	{Bone "basis"}
+	{Position 3.40306	1.2672	0.12103}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 0.357399	-2.58501	7.04208}
+			{lookat 1.21071	-1.26263	2.49059}
+			{fov 45}
+			{horizon -146}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 2.57424	-4.1774	0.198727}
+			}
+			{"1"
+				{type point}
+				{position 3.26085	-2.83576	2.53453}
+			}
+			{"2"
+				{type point}
+				{position 1.80599	0.853098	1.56221}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin -0.294434	-3.18004	8.88717}
+			{lookat 0.917274	-1.30226	2.42406}
+			{fov 45}
+			{horizon -146}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 2.57424	-4.1774	0.198727}
+			}
+			{"1"
+				{type point}
+				{position 3.26085	-2.83576	2.53453}
+			}
+			{"2"
+				{type point}
+				{position 1.80599	0.853098	1.56221}
+			}
+		}
+	}
+}

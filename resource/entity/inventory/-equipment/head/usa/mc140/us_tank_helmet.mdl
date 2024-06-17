@@ -1,0 +1,145 @@
+;Exported by: Ной
+;Date:        Sat Aug 09 17:20:31 2014
+;File:        C:\Users\Ной\Documents\3dsmax\scenes\Новый мод\Экип\us_helm_tank1.max
+{Skeleton
+	{bone "body"
+		{Matrix34
+			1	0	0
+			0	-1	0
+			0	0	1
+			-0.1	-0.1	-0.3
+		}
+		{VolumeView "body.ply"}
+		{bone "handle"
+			{Matrix34
+				0.999974	0.0071935	0
+				-0.0071935	0.999974	0
+				0	0	1
+				0.554124	0.0122956	3.60039
+			}
+		}
+		{bone "body1"
+			{Matrix34
+				-0.0359255	-0.999332	-0.0066239
+				0.98775	-0.0365148	0.151713
+				-0.151854	-0.0010924	0.988402
+				0.00596588	-0.245197	2.8647
+			}
+			{VolumeView "body1.ply"}
+		}
+	}
+}
+{Volume "body"
+	{Box 5.31614 4.65162 2.47262}
+	{Bone "body"}
+	{Matrix34
+		1.15389	0.0083007	0
+		-0.00874852	1.21614	0
+		0	0	1.54667
+		0.308708	-0.00653042	3.32526
+	}
+}
+{Volume "select"
+	{Box 5.31614 4.65162 2.47262}
+	{Bone "body"}
+	{Matrix34
+		1.15389	0.0083007	0
+		-0.00874852	1.21614	0
+		0	0	1.54667
+		0.308708	-0.00653042	3.32526
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 5.85224	5.72147	5.08845}
+			{lookat 0.119428	-0.0614729	2.14834}
+			{fov 45}
+			{horizon 7.46198}
+		}
+		{lights
+			{"0"
+				{type spot}
+				{position 11.8002	10.9855	11.2227}
+				{direction -0.319443	-0.303123	-0.236797}
+				{theta 3.6}
+				{phi 12}
+			}
+			{"1"
+				{type point}
+				{position -7.67567	1.54288	3.50752}
+			}
+			{"2"
+				{type point}
+				{position 2.39068	1.7474	4.17627}
+			}
+			{"3"
+				{type point}
+				{position 2.43569	3.13255	-0.379962}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin 14.0433	13.9841	9.28926}
+			{lookat 0.119428	-0.0614729	2.14834}
+			{fov 45}
+			{horizon 7.46195}
+		}
+		{lights
+			{"0"
+				{type spot}
+				{position 11.8002	10.9855	11.2227}
+				{direction -0.319443	-0.303123	-0.236797}
+				{theta 3.6}
+				{phi 12}
+			}
+			{"1"
+				{type point}
+				{position -7.67567	1.54288	3.50752}
+			}
+			{"2"
+				{type point}
+				{position 2.39068	1.7474	4.17627}
+			}
+			{"3"
+				{type point}
+				{position 2.43569	3.13255	-0.379962}
+			}
+		}
+	}
+	{"Stuff_secondary"
+		{camera
+			{origin 9.71857	9.63755	7.07695}
+			{lookat 0.111099	-0.0539198	2.14972}
+			{fov 45}
+			{horizon 7.46195}
+		}
+		{lights
+			{"0"
+				{type spot}
+				{position 11.8002	10.9855	11.2227}
+				{direction -0.319443	-0.303123	-0.236797}
+				{theta 3.6}
+				{phi 12}
+			}
+			{"1"
+				{type point}
+				{position -7.67567	1.54288	3.50752}
+			}
+			{"2"
+				{type point}
+				{position 2.39068	1.7474	4.17627}
+			}
+			{"3"
+				{type point}
+				{position 2.43569	3.13255	-0.379962}
+			}
+		}
+	}
+}
+
+
+
+
+

@@ -1,0 +1,16 @@
+{from "pattern sniper_rifle"
+	{filling "ammo 939_20" 20}
+	{inventory
+		{size 5 2 }
+	}
+	{entity "vintorez"}
+	{fireSound "small_arms/silenced_val/"}
+	{reloadSound "Dragunov_reload"}
+	{range 88 98}
+	{healthDamage 380}
+	{Automatic}
+	{recoveryTime 1.5}
+	{mass 2.5}
+	
+	("speed" s(300))
+}

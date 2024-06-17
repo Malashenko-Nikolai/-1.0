@@ -1,0 +1,111 @@
+;Exported by: Parsek
+;Date:        Fri Nov 09 21:00:03 2012
+;File:        C:\Documents and Settings\Parsek\Мои документы\3dsmax\scenes\рпк.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "foresight3"
+			{Matrix34
+				0.999386	0.0350285	0
+				-0.0350285	0.999386	0
+				0	0	1
+				16.2722	2.59857	0.0865386
+			}
+		}
+		{bone "fxshell"
+			{Matrix34
+				0	0	1
+				0	1	0
+				-1	0	0
+				4.35805	2.76601	0.112918
+			}
+		}
+		{bone "handle"
+			{Matrix34
+				0.999386	0.0350283	0
+				0	0	-1
+				-0.0350286	0.999386	0
+				7.14827	2.49191	-0.00599372
+			}
+		}
+		{bone "rpk_1"
+			{Matrix34
+				0.999386	0.0350285	0
+				0.0345007	-0.984329	-0.172934
+				-0.0060576	0.172828	-0.984933
+				5.96202	0.116503	-0.132787
+			}
+			{VolumeView "rpk_1.ply"}
+		}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "basis"}
+	{Matrix34
+		0.999386	0.0350284	0
+		-0.0350285	0.999386	0
+		0	0	1
+		3.91283	1.06861	-0.43484
+	}
+}
+{Volume "select"
+	{Polyhedron "select.vol"}
+	{Bone "basis"}
+	{Matrix34
+		0.999386	0.0350284	0
+		-0.0350285	0.999386	0
+		0	0	1
+		3.91379	1.21657	-0.509235
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 4.99102	-1.69231	28.0874}
+			{lookat 5.31225	-1.63386	0.242537}
+			{fov 45}
+			{horizon -76.7315}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 14.0923	10.3582	-11.9365}
+			}
+			{"1"
+				{type directional}
+				{direction -0.130376	0.000741039	-0.482702}
+			}
+			{"2"
+				{type point}
+				{position 0.331845	-16.4117	-16.0853}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin 4.89199	-1.81504	29.1898}
+			{lookat 5.22608	-1.75425	0.231178}
+			{fov 45}
+			{horizon -76.7316}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 14.0105	10.2635	-11.9477}
+			}
+			{"1"
+				{type directional}
+				{direction -0.130376	0.000740994	-0.482702}
+			}
+			{"2"
+				{type point}
+				{position 0.25002	-16.5065	-16.0965}
+			}
+		}
+	}
+}

@@ -1,0 +1,9 @@
+{actor
+	(include "/properties/stuff_small.ext")
+	{Extension "rpd.mdl"}
+	{extender "stuff"
+		{item "rpd"}
+	}
+	{nogroupmesh 1}
+}
+

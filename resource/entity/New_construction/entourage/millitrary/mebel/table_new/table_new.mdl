@@ -1,0 +1,48 @@
+;Exported by: Vorabat
+;Date:        Thu Mar 25 01:35:19 2010
+;File:        C:\Users\Vorabat\Documents\3dsmax\scenes\table_new.max
+{Skeleton
+	{bone "table_new"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "table_new.ply"}
+	}
+}
+{Volume "box01"
+	{Box 41.8226 19.8449 1.391}
+	{Bone "table_new"}
+	{Position 0.0136948	-0.0291264	16.4025}
+}
+{Volume "box02"
+	{Box 1.29826 8.80964 3.70932}
+	{Bone "table_new"}
+	{Position -16.6319	-0.0755041	1.85466}
+}
+{Volume "box03"
+	{Box 0.463665 0.510032 13.9563}
+	{Bone "table_new"}
+	{Position -16.7015	1.96462	10.021}
+}
+{Volume "box04"
+	{Box 0.463665 0.510032 13.9563}
+	{Bone "table_new"}
+	{Position -16.7015	-1.95367	10.021}
+}
+{Volume "box05"
+	{Box 1.29826 8.80964 3.70932}
+	{Bone "table_new"}
+	{Position 16.7135	-0.0755041	1.85466}
+}
+{Volume "box06"
+	{Box 0.463665 0.510032 13.9563}
+	{Bone "table_new"}
+	{Position 16.6439	1.96462	10.021}
+}
+{Volume "box07"
+	{Box 0.463665 0.510032 13.9563}
+	{Bone "table_new"}
+	{Position 16.6439	-1.95367	10.021}
+}

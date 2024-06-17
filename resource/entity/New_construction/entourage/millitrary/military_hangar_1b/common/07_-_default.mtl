@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "armatura_angar"}
+	{bump "armature_angar_bp"}
+	{blend none}
+}

@@ -1,0 +1,38 @@
+{weapon_bullet
+	{tag "itemin2hands rocketlauncher to_hand ap cannot_lie cumulative"}
+	{inventory
+		{size 6 2}
+		{link_bone "gun_back"}
+		{weight 100}
+		{fsm "bazooka"}
+	}
+	{states
+;		{reload	"reload-bazooka"}
+		{unload	"unload-bazooka"}
+;		{fire	"fire-bazooka"	}
+		{aim 	"aim-bazooka"	}
+		{can_aim  "can-aim-bazooka"	}
+	}
+	{DisableRicochet}
+	{foresight "Foresight3"}
+	{reactive}
+	{gravity 0}
+	{curve "cumulative"}
+	{projectileDamageThreshold 1}
+	{filling "ammo dragon" 1}
+	{fillingVisible "rock"}
+	{fireSound "reactive/katyusha_burst"}
+	{rechargeTime 15}
+	{preloaded}
+	{entity "m47_dragon"}
+	{projectileDamage 460}
+	{reloadSound "pzf3_reload"}
+	("speed" s(200))
+	{range 75 85}
+	{spreading 3.75
+		{SpreadPower	1}
+	}
+	{AimingTolerance 3}
+	{cursor "cannon_on"}
+	{mass 30}
+}

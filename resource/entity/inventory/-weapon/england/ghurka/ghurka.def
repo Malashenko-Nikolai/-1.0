@@ -1,0 +1,7 @@
+{game_entity
+	(include "/properties/knife.ext")
+	{extension "ghurka.mdl"}
+	{extender "stuff"
+		{item "ghurka"}
+	}
+}

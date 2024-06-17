@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "1roof_smola_angar"}
+	{bump "smola_angar_bp"}
+	{specular "roof_smola_angar_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

@@ -1,0 +1,68 @@
+{game_entity
+	(include "/properties/construction_medium.ext")
+	{props "construction" "wood" "shed" "burning"}
+	{constrain none}
+	{Extension "camo_net_trench_curve.mdl"}
+	{Volume "body10"
+		{Thickness 10}
+	}
+	{Volume "body11"
+		{Thickness 10}
+	}
+	{Volume "body12"
+		{Thickness 10}
+	}
+	{Volume "body13"
+		{Thickness 10}
+	}
+	{Volume "body14"
+		{Thickness 10}
+	}
+	{Volume "body15"
+		{Thickness 10}
+		{able {bullet 0}}
+	}
+	{Volume "body16"
+		{Thickness 10}
+		{able {bullet 0}}
+	}
+	{Volume "body17"
+		{Thickness 10}
+		{able {bullet 0}}
+	}
+	{Volume "body18"
+		{Thickness 10}
+		{able {bullet 0}}
+	}
+	{Volume "body19"
+		{Thickness 10}
+		{able {bullet 0}}
+	}
+	{Volume "body1"
+		{Thickness 10}
+	}
+	{Volume "body2"
+		{Thickness 10}
+	}
+	{Volume "body3"
+		{Thickness 10}
+	}
+	{Volume "body4"
+		{Thickness 10}
+	}
+	{Volume "body5"
+		{Thickness 10}
+	}
+	{Volume "body6"
+		{Thickness 10}
+	}
+	{Volume "body7"
+		{Thickness 10}
+	}
+	{Volume "body8"
+		{Thickness 10}
+	}
+	{Volume "body9"
+		{Thickness 10}
+	}
+}

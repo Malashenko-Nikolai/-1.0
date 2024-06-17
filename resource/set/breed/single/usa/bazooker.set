@@ -1,0 +1,11 @@
+{breed
+	{behaviour soldier}
+	{skin "us_army_gi_bdu_pasgt_gasmask"}
+	{icon_priority 0}
+	{nationality usa}
+	{inventory
+		{item "m16a2" filling "55645_30ar ammo" 30}
+		{item "law80 weapon" filling "law80rocket ammo" 1}
+		{in_hands 1}
+	}
+}

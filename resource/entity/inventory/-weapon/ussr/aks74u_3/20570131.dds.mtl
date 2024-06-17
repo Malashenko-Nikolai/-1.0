@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/Cagyar_wp/upgr_pbs/20570131"}
+	{blend none}
+}

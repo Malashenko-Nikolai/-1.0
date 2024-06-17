@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/construction3/bridge_pedestrian_metal"}
+	{bump "$/construction3/bridge_pedestrian_metal_bp"}
+	{specular "$/construction3/bridge_pedestrian_metal_sp"}
+	{color "230 230 230 25"}
+	{blend none}
+}

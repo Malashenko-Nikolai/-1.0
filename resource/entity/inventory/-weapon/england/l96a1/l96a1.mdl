@@ -1,0 +1,87 @@
+;Exported by: 123
+;Date:        Fri Jan 27 14:09:46 2012
+;File:        C:\Documents and Settings\123\Мои документы\3dsmax\GUN\awp.max
+{Skeleton
+	{bone "awp"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "awp.ply"}
+		{bone "handle"
+			{Matrix34
+				1	0	0
+				0	-0.00121976	-0.999999
+				0	0.999999	-0.00121976
+				4.13724	3.90424	0.387148
+			}
+		}
+		{bone "foresight3"
+			{Matrix34
+				1	0	0
+				0	-0.999994	0.00358581
+				0	-0.00358581	-0.999994
+				19.673	2.14495	0.503228
+			}
+		}
+		{bone "fxshell"
+			{Matrix34
+				0	0	1
+				0.999999	-0.00121944	0
+				0.00121944	0.999999	0
+				3.49521	2.18088	0.706105
+			}
+		}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "awp"}
+	{Matrix34
+		-1	0	0
+		0	0	-1
+		0	-1	0
+		6.71259	1.22933	0.469123
+	}
+}
+{Volume "select"
+	{Polyhedron "select.vol"}
+	{Bone "awp"}
+	{Matrix34
+		-1	0	0
+		0	0	-1
+		0	-1	0
+		6.71259	1.22933	0.469123
+	}
+}
+{Extender "preview"
+	{"stuff"
+		{camera
+			{origin 5.11189	-1.78068	27.3254}
+			{lookat 5.42988	-0.375238	-3.60716}
+			{fov 45}
+			{horizon -150.242}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0.00583265	0.0903637	-0.491732}
+			}
+		}
+	}
+	{"stuff_primary"
+		{camera
+			{origin 5.32217	-1.55946	28.4256}
+			{lookat 5.50506	-0.726505	8.85176}
+			{fov 45}
+			{horizon -167.609}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0.00696012	0.16277	-0.472713}
+			}
+		}
+	}
+}

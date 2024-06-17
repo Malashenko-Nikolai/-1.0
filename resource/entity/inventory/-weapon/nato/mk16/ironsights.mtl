@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "w_att_magpulbuis_d"}
+	{blend none}
+}

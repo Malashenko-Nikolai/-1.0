@@ -1,0 +1,47 @@
+;Exported by: Pheonix
+;Date:        Thu Aug 06 00:47:18 2009
+;File:        D:\Documents and Settings\Pheonix\Мои документы\3dsmax\scenes\MyWorks\Weapons\PKM\PKM_ammo.max
+{Skeleton
+	{bone "magazine"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "magazine.ply"}
+	}
+}
+{Volume "body"
+	{Box 8.40049 4.6577 2.95265}
+	{Bone "magazine"}
+	{Position -0.154429	-1.54638	-0.0460687}
+}
+{Volume "select"
+	{Box 9.06587 8.10938 3.65962}
+	{Bone "magazine"}
+	{Position -0.117291	-0.111616	-0.0477815}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin -0.445517	-1.39643	12.166}
+			{lookat -0.320458	4.45418	-22.4696}
+			{fov 45}
+			{horizon -177.644}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 27.0438	-13.3393	8.46674}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0574456	0.0919066	-0.488112}
+			}
+			{"2"
+				{type point}
+				{position -24.6416	0.898962	4.96164}
+			}
+		}
+	}
+}

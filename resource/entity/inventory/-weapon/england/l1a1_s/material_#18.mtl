@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "suit_c"}
+	{bump "suit_b"}
+	{specular "suit_s"}
+	{color "230 230 230 25"}
+	{blend none}
+}

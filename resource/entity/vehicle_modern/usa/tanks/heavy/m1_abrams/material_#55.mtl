@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/vehicle6/m1_abrams/m1"}
+	{bump "$/vehicle6/m1_abrams/m1_n"}
+	{specular "$/vehicle6/m1_abrams/m1_s"}
+	{color "230 230 230 25"}
+	{blend none}
+}

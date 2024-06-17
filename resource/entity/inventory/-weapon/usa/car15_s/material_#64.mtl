@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "acog_m16stock_c"}
+	{bump "acog_m16stock_b"}
+	{blend none}
+}

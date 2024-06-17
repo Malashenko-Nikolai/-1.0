@@ -1,0 +1,20 @@
+{action
+	{target ground} 
+	{cursor "use"} 
+	{fx "flashred"}
+	{item "spade_inv"}
+	{item_in_box} 
+	{button} 
+	; {entity "tranch_lie_1"} 
+	{abledrag}
+	{instructions
+			{bind range 1}
+			{disable_action_restart} 
+			{take_item}
+			{reserve_hands} 
+			{animations "stand_dig_trench" random loop totaltime 7}
+			{unreserve_hands}
+			{free_hands} 
+			{install "tranch_lie_1" 0 exact_placement}
+	}
+}

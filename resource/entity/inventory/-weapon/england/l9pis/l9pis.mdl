@@ -1,0 +1,91 @@
+;Exported by: Richtofen
+;Date:        Mon Jan  9 14:56:43 2017
+;File:        C:\Users\Richtofen\Desktop\?????\l9pis\plugin.max
+{Skeleton
+	{bone revolute "l9pis"
+		{parameters "CommonMesh;ID=mgun;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "l9pis.ply"}
+		{bone "foresight3"
+			{parameters "Voxels=0;"}
+			{Position 2.69748	0.989552	0.00118838}
+		}
+		{bone "handle"
+			{parameters "Voxels=0;"}
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				0.85827	2.64633	0.0280701
+			}
+		}
+		{bone "fxshell"
+			{Matrix34
+				0	0.999962	0.00872696
+				-1	0	0
+				0	-0.00872696	0.999962
+				1.13248	1.49686	0.265575
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 5.90551 3.36158 1.17113}
+	{Bone "l9pis"}
+	{Position 0.743838	0.00399588	-0.0165296}
+}
+{Volume "select"
+	{Box 11.811 9.72703 4.3449}
+	{Bone "l9pis"}
+	{Position 0.762502	0.00436157	0.337243}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 0.946496	-1.07552	10.2975}
+			{lookat 0.2815	1.63692	-6.23186}
+			{fov 45}
+			{horizon -177.044}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 13.2585	0.94313	-14.3801}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0792752	0.197722	-0.452351}
+			}
+			{"2"
+				{type point}
+				{position -4.95515	1.54938	-15.9495}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin 1.07186	-1.85153	10.8452}
+			{lookat 0.380268	0.969394	-6.34537}
+			{fov 45}
+			{horizon -177.044}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 13.2585	0.94313	-14.3801}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0792752	0.197722	-0.452351}
+			}
+			{"2"
+				{type point}
+				{position -4.95515	1.54938	-15.9495}
+			}
+		}
+	}
+}

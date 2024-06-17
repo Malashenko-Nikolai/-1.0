@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "rpk_skin1_d1"}
+	{blend none}
+}

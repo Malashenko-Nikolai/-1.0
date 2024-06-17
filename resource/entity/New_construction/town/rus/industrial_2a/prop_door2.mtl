@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "prop_door2"}
+	{blend none}
+}

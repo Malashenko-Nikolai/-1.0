@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "pulemet"}
+	{blend test}
+}

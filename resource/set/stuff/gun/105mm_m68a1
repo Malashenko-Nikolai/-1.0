@@ -1,0 +1,24 @@
+{from "pattern gun"
+	{filling "bullet105"}
+	{fireSound "gun/cannon_big_1/"}
+	{reloadSound "tankgun/"}	
+	{rechargeTime 7.8}
+	("range_maximum")
+
+	("speed" s(1500))
+	("caliber_maximum")
+	{projectileDamage 300}
+	("damage" a(350) b(342) c(333) d(322) e(312))
+	{parameters "apcr"
+		("speed" s(1509))
+		("damage" a(355) b(347) c(338) d(328) e(319))
+	}
+	{parameters "heat"
+		("speed" s(1200))
+		("damage_cumulative" a(400))
+		("accuracy_low")
+	}
+	
+	("accuracy_high")
+	{range 155 165}
+}

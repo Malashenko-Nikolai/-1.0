@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/humanskin/usa/oldschool/us_bags"}
+	{bump "$/humanskin/usa/oldschool/us_bags_nm"}
+	{specular "$/humanskin/usa/oldschool/us_bags_sp"}
+	{color "230 230 230 25"}
+	{blend test}
+}

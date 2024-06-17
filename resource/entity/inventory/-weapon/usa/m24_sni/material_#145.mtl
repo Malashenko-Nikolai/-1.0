@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "m24body_c"}
+	{blend none}
+}

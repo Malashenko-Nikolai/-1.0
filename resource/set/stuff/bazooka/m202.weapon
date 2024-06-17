@@ -1,0 +1,12 @@
+{from "pattern rpg_weapon"
+	{filling "ammo m202_rocket" 4}
+	{preloaded}
+	{entity "m202"}
+	{fireSound "bazooka/smaw_fire"}
+	{reloadSound "smaw_reload"}
+    	{projectileDamage 5}  
+	{rechargeTime 20}
+	{RecoveryTime 0.5}
+	{range 35 45}
+	("speed" s(120))
+}

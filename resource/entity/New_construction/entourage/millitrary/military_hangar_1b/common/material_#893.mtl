@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "wire_angar"}
+	{blend none}
+}

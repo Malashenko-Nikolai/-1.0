@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "lantern_ladder_angar"}
+	{bump "lantern_ladder_angar_bp"}
+	{specular "lantern_ladder_angar_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

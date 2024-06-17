@@ -1,0 +1,89 @@
+;Exported by: þæ
+;Date:        Sat Jul 18 12:50:13 2009
+;File:        E:\Arsenal_Mod\wpn chech\m203.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "handle"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				5.08072	1.47644	0.274144
+			}
+		}
+		{bone "foresight3"
+			{Position 10.4571	0.518834	0.289846}
+		}
+		{bone "m16a2"
+			{parameters "ID=smg;"}
+			{Matrix34
+				0	0	1
+				0	1	0
+				1	0	0
+				3.91202	0.901956	0.284167
+			}
+			{VolumeView "m16a2.ply"}
+		}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "basis"}
+	{Position 3.00828	-0.670189	-0.356022}
+}
+{Volume "select"
+	{Polyhedron "select.vol"}
+	{Bone "basis"}
+	{Position 2.8135	-1.3606	-1.58913}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 16.8517	-4.21563	15.4177}
+			{lookat 9.28821	-1.46527	0.712307}
+			{fov 45}
+			{horizon 123.932}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 13.4908	-2.23522	-10.0373}
+			}
+			{"1"
+				{type directional}
+				{direction -0.254633	0.202516	-0.37967}
+			}
+			{"2"
+				{type point}
+				{position -3.54818	-0.430117	-3.63548}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin 17.1404	-4.32914	16.0124}
+			{lookat 9.2744	-1.46876	0.718755}
+			{fov 45}
+			{horizon 123.932}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 13.4908	-2.23522	-10.0373}
+			}
+			{"1"
+				{type directional}
+				{direction -0.254633	0.202516	-0.37967}
+			}
+			{"2"
+				{type point}
+				{position -3.54818	-0.430117	-3.63548}
+			}
+		}
+	}
+}

@@ -1,0 +1,59 @@
+;Exported by: Kislov_A
+;Date:        Thu Apr 01 10:41:04 2010
+;File:        E:\Men of war red tide2\Art\Models\Weapons\Vietnam\sgmt\pulemet.max
+{Skeleton
+	{bone "sgmt"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "sgmt.ply"}
+		{bone "foresight3"
+			{Matrix34
+				1	-9.54848e-005	0
+				9.54961e-005	1	0
+				0	0	1
+				17.6009	0.347327	0.30806
+			}
+		}
+		{bone "handle"
+			{Matrix34
+				0.999981	0.00623973	0
+				1.68153e-005	-0.00359596	-0.999994
+				-0.00623976	0.999974	-0.00359547
+				6.91669	0.536374	-0.0953643
+			}
+		}
+		{bone "select"
+			{Position 6.46466	0.441933	-0.202136}
+		}
+		{bone "body"
+			{Position 6.46466	0.400418	-0.202136}
+		}
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin -10.371	-11.2031	11.5167}
+			{lookat -1.11713	-3.18981	3.70323}
+			{fov 48.7429}
+			{horizon -130.044}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.0617884	0.242933	-0.432626}
+			}
+			{"1"
+				{type point}
+				{position 11.9017	-1.73505	-0.20283}
+			}
+			{"2"
+				{type point}
+				{position -1.96337	-2.17694	0.976423}
+			}
+		}
+	}
+}

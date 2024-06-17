@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/ak74/aks47_skin1_d2"}
+	{blend none}
+}

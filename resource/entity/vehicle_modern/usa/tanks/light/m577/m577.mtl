@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "$/vehicle22/m577/m577"}
+	{specular "$/vehicle22/m577/m577_s"}
+	{color "230 230 230 25"}
+	{blend none}
+}

@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/humanskin/usa/oldschool/boonie_hat_bdu"}
+	{bump "$/humanskin/usa/oldschool/boonie_hat_nm"}
+	{specular "$/humanskin/usa/oldschool/boonie_hat_sp"}
+	{color "230 230 230 25"}
+	{blend test}
+}

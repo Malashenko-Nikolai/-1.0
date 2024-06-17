@@ -1,0 +1,14 @@
+;Exported by: Vorabat
+;Date:        Wed Apr 28 23:06:40 2010
+;File:        (null)
+{Skeleton
+	{bone "land2"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{parameters "Land;Ground;"}
+		{VolumeView "land2.ply" {Ground} {DecalTarget}}
+	}
+}

@@ -1,0 +1,8 @@
+{actor
+	(include "/properties/stuff_small.ext")
+	{extension "l9pis.mdl"}
+	{extender "stuff"
+		{item "l9pis"}
+	}
+	{nogroupmesh 1}
+}

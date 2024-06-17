@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "m4a1_sk1_d2"}
+	{blend none}
+}

@@ -1,0 +1,46 @@
+;Exported by: Timosh
+;Date:        Sat Aug 20 14:08:36 2016
+;File:        G:\Работа с Pheonix\Редактирование\Мои модели\Здания\Автономный лагерь АПЛ-500\Антураж\Стол\table 1.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "table"
+			{Position 0	0	7.65892}
+			{VolumeView "table.ply"}
+		}
+	}
+}
+{Volume "body1"
+	{Box 1.70465 11.7179 24.732}
+	{Bone "table"}
+	{Matrix34
+		0.56	0	0
+		0	0.56	0
+		0	0	0.56
+		-16.9865	0	-0.736372
+	}
+}
+{Volume "body2"
+	{Box 1.70465 11.7179 24.732}
+	{Bone "table"}
+	{Matrix34
+		0.56	0	0
+		0	0.56	0
+		0	0	0.56
+		16.727	0	-0.736372
+	}
+}
+{Volume "body"
+	{Box 68.1858 31.67 3.39725}
+	{Bone "table"}
+	{Matrix34
+		0.56	0	0
+		0	0.56	0
+		0	0	0.56
+		0	0	6.9202
+	}
+}

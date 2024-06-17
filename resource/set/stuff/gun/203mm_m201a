@@ -1,0 +1,5 @@
+{from "pattern gun"		;
+	{filling "bullet203" 1}
+	{fireSound "gun/howitzer_sheavy/"}
+	{reloadSound "tankgun_r02"}
+}

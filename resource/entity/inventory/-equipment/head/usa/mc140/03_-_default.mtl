@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "us_kits_c_woodland"}
+	{blend none}
+}

@@ -1,0 +1,65 @@
+;Exported by: Maksilin
+;Date:        Sun Aug 23 20:00:56 2015
+;File:        C:\Users\Maksilin\Documents\3dsmax\scenes\Разраб\Стрелковка\Боеприпасы\Гранаты SMAW\Кум\HEAA.max
+{Skeleton
+	{bone "smawrocket"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "smawrocket.ply"}
+		{bone "tail"
+			{Matrix34
+				-1	0	0
+				0	-1	0
+				0	0	1
+				-0.331647	-0.00299364	-0.00966585
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 16.0488 1.89685 1.75039}
+	{Bone "smawrocket"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		7.93037	-0.0861208	0.0942465
+	}
+}
+{Volume "select"
+	{Box 15.748 4.72441 4.72441}
+	{Bone "smawrocket"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		8.26133	-0.0328445	0.272314
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 6.27985	-28.5363	-1.30344}
+			{lookat 8.31606	10.8751	0.601516}
+			{fov 31.7555}
+			{horizon 179.83}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 11.3512	8.94548	12.2373}
+			}
+			{"1"
+				{type directional}
+				{direction -0.072523	0.378972	-0.317994}
+			}
+			{"2"
+				{type point}
+				{position 1.29406	10.0464	9.00793}
+			}
+		}
+	}
+}

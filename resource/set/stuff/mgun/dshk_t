@@ -1,0 +1,30 @@
+{from "pattern mgun"
+	{filling "ammo 127108_100" 100}
+	{entity "dshkm_t"}
+	{fireSound	"small_arms/nsvt/"}
+	{reloadSound "ptrd"}
+	{inventory
+		{size 6 2 }
+	}
+	("burst_long")
+	{cursor "zenite_on"}
+	{cursorReloading "zenite_reload"}
+	{mass 34}
+	
+	{Spreading	
+		{BurstAccuracy 100 98 94 90 85 80 75 70 69 68 67 66 65 60 55 50}
+	}
+
+	{range 100 110}
+
+	("recoveryTime" r(650))
+	
+	{healthDamage 650}
+	{projectileDamage 30}
+	{projectileDamageTable {20 30} {40 22} {60 15} {90 10}} 	
+	{projectileDamageThreshold 1.1}
+	{calibre 12}
+	
+	("accuracy_dshk")
+	("speed" s(850))
+}

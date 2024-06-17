@@ -1,0 +1,26 @@
+;Exported by: Андрей
+;Date:        Thu Jan 28 17:07:20 2016
+;File:        C:\Users\Андрей\Documents\3dsmax\scenes\ящики сталкер2.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "body"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				0.0616083	0.127193	2.20449
+			}
+			{VolumeView "body.ply"}
+		}
+	}
+}
+{Volume "body"
+	{Box 7.701 4.31377 15.349}
+	{Bone "body"}
+	{Position -0.085886	-0.0411918	-0.0101695}
+}

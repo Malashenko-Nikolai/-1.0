@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "ger_sniper_winter"}
+	{color "250 250 250 50"}
+	{blend test}
+}

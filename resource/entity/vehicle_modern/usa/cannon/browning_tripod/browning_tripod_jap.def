@@ -1,0 +1,27 @@
+{actor
+	(include "/properties/cannon_mgun4.ext")
+	{props "vision_cannon_low" "cannon_small"}
+	{collider "cannon_small"}
+
+	{Weaponry
+		{place "mgun"
+			{weapon "browning" filled}
+			{foresight "foresight3"}
+		        {charger "gunner"}
+		}
+	}
+	{extender "inventory"
+		{box
+			{item "ammo 12799_100" 1000}
+		}
+	}     	
+	{Extension "brauning_mini.mdl"}
+	{bone "turret" {limits}}
+
+	{Volume "body"
+		{tags "body"}
+		{able{obstacle 0}}
+		{thickness 1}
+		{component "body"}
+	}
+}

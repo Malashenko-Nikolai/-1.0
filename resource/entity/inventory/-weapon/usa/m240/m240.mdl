@@ -1,0 +1,74 @@
+;Exported by: Pheonix
+;Date:        Sun Jul 12 00:44:45 2009
+;File:        D:\Documents and Settings\Pheonix\Мои документы\3dsmax\scenes\MyWorks\Weapons\M240.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "m240"
+			{Position 5.10089	0.929593	-0.623279}
+			{VolumeView "m240.ply"}
+			{bone "handle"
+				{Matrix34
+					1	0	0
+					0	0	-1
+					0	1	0
+					0.658728	0.6651	0.768828
+				}
+			}
+			{bone "fxshell"
+				{Matrix34
+					0	0	1
+					0	1	0
+					1	0	0
+					4.0526	2.03242	0.280772
+				}
+			}
+		}
+		{bone "foresight3"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				17.1184	2.19484	0.118593
+			}
+		}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "m240"}
+	{Position 1.18151	0.585994	0.00983483}
+}
+{Volume "select"
+	{Polyhedron "select.vol"}
+	{Bone "m240"}
+	{Position 0.98673	-1.04239	-1.04613}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 5.40355	-3.80865	26.5253}
+			{lookat 4.94636	-1.55632	1.64755}
+			{fov 45}
+			{horizon -177.044}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 15.2754	-2.6666	1.90596}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0800069	0.187578	-0.456523}
+			}
+			{"2"
+				{type point}
+				{position -2.93825	-2.06022	0.336589}
+			}
+		}
+	}
+}

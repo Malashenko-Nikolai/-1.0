@@ -1,0 +1,17 @@
+{from "pattern mgun"
+	{filling "ammo 76251_30bren" 30}
+	{entity "l4a4bren"}
+	{inventory
+		{size 5 2 }
+		{link_bone "gun_back"}
+		{weight 100 }
+	}
+	{mass 10.2}
+	{fireSound	"mgun/l4a4bren_fire/"}
+	{reloadSound "l4a4bren_reload"}
+	{rechargeTime 3.0}
+	{inventory 	{handle_bone "handle_box"}}
+
+	("recoveryTime" r(500))
+	("burst_long")
+}

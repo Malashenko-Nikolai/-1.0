@@ -1,0 +1,5 @@
+{game_entity
+	{Extension "ammo_can_03.mdl"}
+	{Volume "body"
+	}
+}

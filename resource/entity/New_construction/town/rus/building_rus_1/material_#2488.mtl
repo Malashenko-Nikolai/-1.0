@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "balkony"}
+	{bump "balkony_bump"}
+	{specular "balkony_sp"}
+	{color "229 229 229 25"}
+	{blend test}
+}

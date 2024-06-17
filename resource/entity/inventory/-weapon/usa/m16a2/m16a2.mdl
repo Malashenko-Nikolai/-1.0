@@ -1,0 +1,91 @@
+;Exported by: Richtofen
+;Date:        Thu Jan 19 19:39:10 2017
+;File:        C:\Users\Richtofen\Desktop\?????\m16a2_\plugin.max
+{Skeleton
+	{bone revolute "m16a2"
+		{parameters "CommonMesh;ID=mgun;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "m16a2.ply"}
+		{bone "foresight3"
+			{parameters "Voxels=0;"}
+			{Position 13.7287	1.78741	0.0118149}
+		}
+		{bone "fxshell"
+			{Matrix34
+				0	0	1
+				0	1	0
+				1	0	0
+				3.0526	2.03242	0.280772
+			}
+		}
+		{bone "handle"
+			{parameters "Voxels=0;"}
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				1.47043	2.97407	0.0280701
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 19.685 3.36158 1.17113}
+	{Bone "m16a2"}
+	{Position 4.08661	0.962156	-0.0165294}
+}
+{Volume "select"
+	{Box 29.5276 9.72703 4.3449}
+	{Bone "m16a2"}
+	{Position 3.9608	0.788623	0.337244}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 4.36716	-5.40895	27.8696}
+			{lookat 3.70216	-2.69651	11.3402}
+			{fov 45}
+			{horizon -177.044}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 13.6347	0.815919	4.00469}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0792752	0.197722	-0.452351}
+			}
+			{"2"
+				{type point}
+				{position -4.57895	1.42217	2.43535}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin 5.08214	-5.54747	28.4982}
+			{lookat 4.39054	-2.72654	11.3076}
+			{fov 45}
+			{horizon -177.044}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 13.6347	0.815919	4.00469}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0792752	0.197722	-0.452351}
+			}
+			{"2"
+				{type point}
+				{position -4.57895	1.42217	2.43535}
+			}
+		}
+	}
+}

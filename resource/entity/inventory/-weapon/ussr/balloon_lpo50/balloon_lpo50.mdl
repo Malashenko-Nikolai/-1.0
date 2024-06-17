@@ -1,0 +1,92 @@
+;Exported by: Kislov_A
+;Date:        Sat Feb 27 10:36:05 2010
+;File:        E:\Men of war red tide2\Art\Models\Weapons\USA\M2_flamethrower\baloon.max
+{Skeleton
+	{bone "baloon_m2a1"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{LODView
+			{VolumeView "baloon_m2a1.ply"}
+			{VolumeView "baloon_m2a1_lod1.ply"}
+		}
+		{bone "handle"
+			{Matrix34
+				0.0875344	-0.9919	0.0920455
+				0.996105	0.0861683	-0.0187145
+				0.0106311	0.0933252	0.995579
+				4.44575	6.90337	-1.47531
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 14.1469 10.2833 5.84989}
+	{Bone "baloon_m2a1"}
+	{Matrix34
+		0.996145	0.0864024	-0.0151265
+		-0.0873869	0.992471	-0.0858249
+		0.00759711	0.0868159	0.996195
+		4.9329	2.52639	1.35033
+	}
+}
+{Volume "select"
+	{Box 13.4465 8.7316 5.62776}
+	{Bone "baloon_m2a1"}
+	{Matrix34
+		0.996145	0.0864024	-0.0151265
+		-0.0873869	0.992471	-0.0858249
+		0.00759711	0.0868159	0.996195
+		4.94892	3.18662	1.6278
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 5.33303	-7.03916	15.7254}
+			{lookat 5.2117	-4.05504	5.70524}
+			{fov 45}
+			{horizon -97.2013}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.043532	0.284016	-0.409194}
+				{ambient 0xffffff}
+			}
+			{"1"
+				{type point}
+				{position 9.88659	-6.50859	5.67412}
+			}
+			{"2"
+				{type point}
+				{position -1.63033	-5.4266	4.95579}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin 6.34236	10.3316	27.115}
+			{lookat 5.42534	1.50579	9.40131}
+			{fov 45}
+			{horizon 4.76695}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.043426	0.285049	-0.408487}
+				{ambient 0xffffff}
+			}
+			{"1"
+				{type point}
+				{position 9.89405	-6.50252	5.66223}
+			}
+			{"2"
+				{type point}
+				{position -1.61801	-5.42703	4.96641}
+			}
+		}
+	}
+}

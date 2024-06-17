@@ -1,0 +1,41 @@
+;Exported by: Admin
+;Date:        Sun Dec 27 00:10:07 2015
+;File:        D:\Documents and Settings\Admin\Мои документы\3dsMax\scenes\UAHM\-equipment\-body\gilli_body.max
+{Skeleton
+	{bone "object01"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "object01.ply"}
+		{bone "handle"
+			{Matrix34
+				1	0	0
+				0	1	0
+				0	0	1
+				2.79658	4.22348	0.0784936
+			}
+		}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "object01"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		-0.0573503	-3.61009	0.07371
+	}
+}
+{Volume "select"
+	{Polyhedron "select.vol"}
+	{Bone "object01"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		-0.0552124	-3.61009	0.07371
+	}
+}

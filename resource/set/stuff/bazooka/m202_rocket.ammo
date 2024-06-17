@@ -1,0 +1,24 @@
+{from "pattern rpg_ammo"
+	{tag "big size_maximum shell fg bomb"}
+	{entity "m202_rocket"}
+	{tag "pierce"} 
+	{view "m202_rocket"
+		{tail "pfaust_tail" "tail"}
+	}
+	{inventory
+		{size 4 1 }
+	}
+	{damage blastwave
+		{energy 1.2}
+		{area 8 12}
+	}
+	{damage fire
+		{radius 10}
+		{heating 3}
+		{time 5}
+	}
+	{damage cumulative
+		{damage 5}
+		{distance 0.3}
+	}
+}

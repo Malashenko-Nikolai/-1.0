@@ -1,0 +1,5 @@
+{from "pattern gun"
+	{filling "bullet120"}
+	{fireSound "gun/cannon_big_1/"}
+	{reloadSound "120mm_m256_reload"}
+}

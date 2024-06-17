@@ -1,0 +1,14 @@
+{from "pattern rpg_weapon"
+	{filling "ammo rpg18rocket" 1}
+	{preloaded}
+	{inventory
+		{size 6 1}
+	}
+	{mass 6}
+	{entity "rpg75"}
+	{fireSound "bazooka/rpg7"}
+	{ammoLocked}
+    {projectileDamage 300}
+	{range 25 35}
+	("speed" s(115))
+}

@@ -1,0 +1,100 @@
+;Exported by: Администратор
+;Date:        Thu Nov 17 18:56:58 2011
+;File:        C:\Documents and Settings\Администратор\Рабочий стол\Ангар\military hangar 1b 1.max
+{Skeleton
+	{animation
+		{sequence "open" {speed 0.5}}
+		{sequence "close" {speed 0.5}}
+	}
+	{bone "mh_door"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "doorl"
+			{parameters "CommonMesh;"}
+			{Matrix34
+				1	0	0
+				0	0	1
+				0	-1	0
+				-44.5615	-2.15433	63.7171
+			}
+			{VolumeView "doorl.ply"}
+		}
+		{bone "doorr"
+			{parameters "CommonMesh;"}
+			{Matrix34
+				1	0	0
+				0	0	1
+				0	-1	0
+				50.8952	-2.15723	63.7213
+			}
+			{VolumeView "doorr.ply"}
+		}
+	}
+}
+{Obstacle "doorl"
+	{Obb2
+		{Center -21.7309 2.00633}
+		{Extent 21.6075 1.98346}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "door_close"}
+}
+{Obstacle "doorr"
+	{Obb2
+		{Center 25.4925 3.33557}
+		{Extent 25.6334 1.98346}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "door_lock"}
+}
+{Obstacle "left"
+	{Obb2
+		{Center -47.0051 28.1515}
+		{Extent 2.43077 24.3077}
+		{Axis -1 0}
+	}
+	{Rotate}
+}
+{Obstacle "right"
+	{Obb2
+		{Center 53.7732 28.1515}
+		{Extent 2.43077 24.3077}
+		{Axis -1 0}
+	}
+	{Rotate}
+}
+{Volume "doorl"
+	{Polyhedron "doorl.vol"}
+	{Bone "doorl"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		22.8306	-0.144638	-0.147995
+	}
+}
+{Volume "doorr"
+	{Polyhedron "doorr.vol"}
+	{Bone "doorr"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		-25.4027	-0.139847	1.17834
+	}
+}
+{Volume "switch"
+	{Box 47.2448 96.5604 1.12241}
+	{Bone "doorr"}
+	{Position -26.2809	-0.433926	3.90522}
+}
+{Volume "theswitch"
+	{Box 41.1012 95.7192 1.28279}
+	{Bone "doorl"}
+	{Position 22.8825	-0.800842	2.24458}
+}

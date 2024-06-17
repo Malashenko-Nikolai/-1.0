@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "scope_c"}
+	{bump "scope_b"}
+	{blend none}
+}

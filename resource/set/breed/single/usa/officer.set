@@ -1,0 +1,15 @@
+{breed
+	{behaviour soldier}
+	{skin "us_army_gi_bdu_pasgt_co_gasmask"}
+	{portrait usa_ranger_officer}
+	{icon_priority 0}
+	{nationality usa}
+	{armors
+		{head bdu_cap}
+	}
+	{inventory
+		{item "mk16" filling "55645_30ar ammo" 30}
+		{item "55645_30ar ammo" 10}
+		{in_hands 0}
+	}
+}

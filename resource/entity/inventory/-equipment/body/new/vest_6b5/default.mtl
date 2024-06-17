@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "russian_body_col"}
+	{bump "russian_body_nm"}
+	{blend none}
+}

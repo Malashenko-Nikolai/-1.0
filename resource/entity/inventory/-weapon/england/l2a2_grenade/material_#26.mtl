@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "gbhgr_l2a2_c"}
+	{specular "gbhgr_l2a2_s"}
+	{color "230 230 230 25"}
+	{blend none}
+}

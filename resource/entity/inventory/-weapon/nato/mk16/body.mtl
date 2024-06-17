@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "w_ar_fnscar-l_t3_d"}
+	{blend none}
+}

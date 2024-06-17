@@ -1,0 +1,8 @@
+{from "missile_weapon"
+	{filling "ammo tow" 1}
+	{fillingVisible "rocket"}
+	{fireSound "reactive/tow_fire"}
+	{reloadSound "reload_missile"}
+	{rechargeTime 5}
+	{range 150 160}
+}

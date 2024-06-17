@@ -1,0 +1,11 @@
+;SDL
+{weapon_bullet
+	{desc "Smoke"}
+	{tag "weapon"}
+	{filling "light" 1000}
+	{entity "smoke_66mm"}
+	{foresight "foresight1"}
+	{aimRange 1}	; m
+	{cursor "cannon_on"}
+	{SpreadTolerance 100}
+}

@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/ak74_obves/57c870c1"}
+	{blend none}
+}

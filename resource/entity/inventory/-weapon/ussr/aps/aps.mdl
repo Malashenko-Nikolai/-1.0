@@ -1,0 +1,89 @@
+;Exported by: Admin
+;Date:        Thu Mar 10 20:22:56 2011
+;File:        C:\Documents and Settings\Admin\Рабочий стол\mg42.max
+{Skeleton
+	{bone "aps"
+		{parameters "CommonMesh;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "aps.ply"}
+		{bone "fxshell"
+			{Matrix34
+				0	0	1
+				0	1	0
+				1	0	0
+				1.5526	2.03242	0.280772
+			}
+		}
+		{bone "handle"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				1.21466	1.04	0.136504
+			}
+		}
+		{bone "foresight3"
+			{Position 3.77971	1.30043	0.188488}
+		}
+	}
+}
+{Volume "body"
+	{Box 23.1538 3.36158 1.17113}
+	{Bone "aps"}
+	{Position 1.73744	0.0810188	0.0919049}
+}
+{Volume "select"
+	{Box 27.7845 9.72703 4.3449}
+	{Bone "aps"}
+	{Position 1.54266	-1.19163	0.445678}
+}
+{Extender "preview"
+	{"Stuff_primary"
+		{camera
+			{origin 3.03179	-4.95515	30.7957}
+			{lookat 2.3402	-2.13421	13.6052}
+			{fov 25}
+			{horizon -177.044}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 10.8138	-2.34276	5.71771}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0792752	0.197722	-0.452351}
+			}
+			{"2"
+				{type point}
+				{position -7.3998	-1.73651	4.14837}
+			}
+		}
+	}
+	{"Stuff"
+		{camera
+			{origin 3.02016	-4.84216	30.1347}
+			{lookat 2.35517	-2.12972	13.6053}
+			{fov 20}
+			{horizon -177.044}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 10.8138	-2.34276	5.71771}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0792752	0.197722	-0.452351}
+			}
+			{"2"
+				{type point}
+				{position -7.3998	-1.73651	4.14837}
+			}
+		}
+	}
+}

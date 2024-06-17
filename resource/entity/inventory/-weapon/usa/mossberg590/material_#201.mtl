@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "frsht_mossberg590_c"}
+	{bump "frsht_mossberg590_b"}
+	{blend none}
+}

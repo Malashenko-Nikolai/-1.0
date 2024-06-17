@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "balocny"}
+	{bump "balocny_bump"}
+	{specular "balocny_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

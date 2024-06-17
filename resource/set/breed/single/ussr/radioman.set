@@ -1,0 +1,15 @@
+{breed
+	{behaviour soldier}
+	{skin "ussr_soldier"}
+	{portrait ussr_radioman}
+	{icon_priority 0}
+	{nationality rus}
+	{armors
+		{body belt_a}
+	}
+	{inventory
+		{item "radio_station"}
+		{item "ak74" filling "54539_30 ammo" 30}
+		{in_hands 1}
+	}
+}

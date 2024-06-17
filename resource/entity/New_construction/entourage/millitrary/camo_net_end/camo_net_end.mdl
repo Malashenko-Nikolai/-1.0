@@ -1,0 +1,54 @@
+;Exported by: Verena
+;Date:        Wed Mar 21 10:47:12 2018
+;File:        D:\work in progress\Modeling\camo_net\camo_net_large_04.max
+{Skeleton
+	{bone "camo_net_end"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{LODView
+			{VolumeView "camo_net_end.ply"}
+			{VolumeView "camo_net_end_lod1.ply"}
+		}
+	}
+}
+{Obstacle "main"
+	{Obb2
+		{Center 33.9177 -0.012207}
+		{Extent 19.5317 131.305}
+		{Axis -0.99852 -0.0543793}
+	}
+	{Rotate}
+}
+{Volume "body1"
+	{Box 60.1316 123.024 7.39506}
+	{Bone "camo_net_end"}
+	{Matrix34
+		-0.251951	-0.928944	0.271262
+		-0.505728	0.365371	0.781501
+		-0.825082	0.0597152	-0.561849
+		18.02	-78.8561	31.7325
+	}
+}
+{Volume "body2"
+	{Box 125.567 162.568 7.39506}
+	{Bone "camo_net_end"}
+	{Matrix34
+		-0.638774	0	0.769395
+		0	1	0
+		-0.769395	0	-0.638774
+		16.0914	-1.35565	34.583
+	}
+}
+{Volume "body3"
+	{Box 60.1316 123.024 7.39506}
+	{Bone "camo_net_end"}
+	{Matrix34
+		0.327529	-0.911786	-0.247732
+		-0.538113	-0.395528	0.744306
+		-0.776633	-0.110474	-0.620191
+		18.2796	80.4436	35.9609
+	}
+}

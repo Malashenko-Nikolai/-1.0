@@ -1,0 +1,52 @@
+;Exported by: Игорь
+;Date:        Tue Nov 15 23:14:10 2011
+;File:        E:\Делаю\military_angar\Ангар рабочий\Ангар рабочий\military hangar 1b.max
+{Skeleton
+	{bone "mh_1bh2"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "mh_1bh2.ply"}
+	}
+}
+{Obstacle "body15"
+	{Obb2
+		{Center 24.7607 29.4892}
+		{Extent 9.61495 7.86921}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body15"
+	{Polyhedron "body15.vol"}
+	{Bone "mh_1bh2"}
+	{Position 24.7607	-29.4892	65.4282}
+}
+{Volume "channel02"
+	{Polyhedron "channel02.vol"}
+	{Bone "mh_1bh2"}
+	{Position -1.77487	-32.854	119.041}
+}
+{Volume "lamp1"
+	{Polyhedron "lamp1.vol"}
+	{Bone "mh_1bh2"}
+	{Matrix34
+		1	0	0
+		0	0.68566	-0.727922
+		0	0.727922	0.68566
+		23.5318	-45.7279	112.685
+	}
+}
+{Volume "roof6"
+	{Polyhedron "roof6.vol"}
+	{Bone "mh_1bh2"}
+	{Matrix34
+		1	0	0
+		0	0.992546	0.121869
+		0	-0.121869	0.992546
+		0.93869	4.13409	132.347
+	}
+}

@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "m2000"}
+	{blend none}
+}

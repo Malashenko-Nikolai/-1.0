@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/humanskin/rus_afg_headwear_diff"}
+	{bump "$/humanskin/rus_afg_headwear_bump"}
+	{specular "$/humanskin/rus_afg_headwear_spc"}
+	{color "229 229 229 25"}
+	{blend none}
+}

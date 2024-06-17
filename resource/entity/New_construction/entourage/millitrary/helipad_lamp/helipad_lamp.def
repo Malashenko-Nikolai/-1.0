@@ -1,0 +1,17 @@
+{game_entity
+	(include "/properties/post.inc")
+	{props "construction" "steel" "delete_after_blast" "shed"}
+	
+	{Extension "helipad_lamp.mdl"}
+	
+	{Volume "body"
+		{thickness 5}
+		{tags "body"}
+	}
+	{Volume "lamp1"
+		{thickness 1}
+	}
+	{extender "light"
+		{lamp "1"}
+	}
+}

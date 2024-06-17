@@ -1,0 +1,10 @@
+{from "pattern rpg_weapon"
+	{filling "ammo gunstav" 1}
+	{preloaded}
+	{entity "gunstav"}
+    {projectileDamage 400}
+	{fireSound "bazooka/gunstav"}
+	{reloadSound "gunstav_reload"}
+	("speed" s(350))
+	{range 30 40}
+}

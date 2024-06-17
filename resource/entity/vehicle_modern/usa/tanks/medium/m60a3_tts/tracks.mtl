@@ -1,0 +1,5 @@
+{material simple
+    {diffuse "$/vehicle5/m60_track_dif"}
+    {blend test}
+	{emitsheat}
+}

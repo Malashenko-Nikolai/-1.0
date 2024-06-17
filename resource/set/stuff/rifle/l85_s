@@ -1,0 +1,17 @@
+{from "pattern rifle"
+	{tag "assaultrifle"}
+	{filling "ammo 55645_30ar" 30}
+	{inventory
+		{size 5 2 }
+		{link_bone "gun_back"}
+		{weight 100 }
+	}
+	{mass 3.8}
+	{entity "l85_s"}
+	{fireSound "smg/l85_fire/"}
+	{reloadSound "l85_reload"}
+	{rechargeTime 3.8}
+	
+	{Automatic}
+	{healthDamage 220}
+}

@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "buttstock_c"}
+	{bump "buttstock_b"}
+	{blend none}
+}

@@ -1,0 +1,39 @@
+{game_entity
+	(include "/properties/building.inc")			
+	{props "cornered" "concrete" "parts" "construction" "wall" "burning" "gate" "gate_close"}
+	("armor_heavy" args 0.8)
+	{mass 50000}
+	{Extension "military_hangar_1b.mdl"}
+	{placer}
+	{extender "structure"
+		{place "mh_1bl4h2" "mh_1bl4h2"}
+		{place "mh_1bl3h1" "mh_1bl3h1"}
+		{place "mh_1bl2" "mh_1bl2"}
+		{place "mh_1bl5" "mh_1bl5"}
+		{place "mh_1bc3l6" "mh_1bc3l6"}
+		{place "mh_1bc4" "mh_1bc4"}
+		{place "mh_1bc1" "mh_1bc1"}
+		{place "mh_1bc2l1" "mh_1bc2l1"}
+	}
+	{Volume "doorl"
+		{Tags  "door_close" "body"}
+		{Thickness 15}
+		{able {touch}}
+	}
+	{Volume "doorr"
+		{Tags  "door_lock" "body"}
+		{Thickness 15}
+		{able {touch}}
+	}
+	{Volume "switch"
+		{Tags  "door_lock"}
+		{able {touch}}
+	}
+	{Volume "theswitch"
+		{Tags  "door_close"}
+		{able {touch}}
+	}
+	{Extender "land_patch"
+		{TerrainType "road" "bridge"}	
+	}
+}

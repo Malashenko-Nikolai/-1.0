@@ -1,0 +1,10 @@
+;Модель предоставил Flanker
+{entity
+	(include "/properties/stuff_small.ext")
+	{Extension "shmel.mdl"}
+	{extender "stuff"
+		{item "weapon Shmel"}
+	}
+	{nogroupmesh 1}
+	{lodclass "human"}
+}

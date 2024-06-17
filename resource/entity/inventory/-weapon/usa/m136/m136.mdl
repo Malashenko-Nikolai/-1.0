@@ -1,0 +1,76 @@
+;Exported by: User
+;Date:        Tue Jan 19 01:04:37 2010
+;File:        C:\Users\User\Documents\3dsmax\scenes\MyWorks\Weapons\M136\M136.max
+{Skeleton
+	{bone "_136"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "_136.ply"}
+		{bone "fxshot"
+			{Matrix34
+				-1	0	0
+				0	0	1
+				0	1	0
+				-7.21497	-0.0679362	0.0886052
+			}
+		}
+		{bone "handle"
+			{Position 1.98598	0.0323682	0.121118}
+		}
+		{bone "foresight3"
+			{Matrix34
+				1	0	0
+				0	0	1
+				0	-1	0
+				11.3449	-0.0679305	0.135286
+			}
+		}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "_136"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		3.93088	0.450875	-0.647728
+	}
+}
+{Volume "select"
+	{Polyhedron "select.vol"}
+	{Bone "_136"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		3.7361	1.68399	-1.92038
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 2.43752	30.3144	3.01383}
+			{lookat 1.98035	5.43666	0.76151}
+			{fov 35.209}
+			{horizon 0.477244}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 13.7431	5.76043	0.858845}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0800066	-0.456523	-0.187578}
+			}
+			{"2"
+				{type point}
+				{position -4.47051	4.19105	0.252464}
+			}
+		}
+	}
+}

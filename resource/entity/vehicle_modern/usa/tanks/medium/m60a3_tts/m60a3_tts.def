@@ -1,0 +1,101 @@
+{game_entity	;M60A1
+	(include "/properties/tank.ext")
+	(include "/properties/selection/vehicle.inc"  scale(1.3))
+	{collider "tank.medium"}
+	{props "medium" "turret_rotator" "vision_vehicle_high" "muzzle_large"}
+	{targetclass "tank" "ap fg bullet"}
+
+	{extender "enumerator"}
+
+	{volume "body1"
+		{tags "body"}
+		{component "body"}
+		{thickness 30}
+	}
+
+	("armor_medium" turret(230 76 57 30) body(120 70 25 20))
+	("armor_mantlet" t(130))
+	("armor_engine"  t(60 74 41 36))
+
+	;Crew 4: Commander, Gunner, Loader, Driver
+	("crew_4_human")
+
+	{placer
+		{place "driver"		{visor "driver"}}
+		{place "gunner"		{visor "main"}}
+		{place "commander"	{visor "mgun"}}
+	}
+	
+	{extender "inventory"
+		{box
+			{item "ammo bullet105 ap" 25}
+			{item "ammo bullet105 fg" 23}
+			{item "ammo bullet105 heat" 10}
+			{item "ammo 76251_100" 5950}
+			{item "ammo 12799_100" 900}
+		}
+	}
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon 		"105mm_m68a1" filling "ammo bullet105 ap" 1}
+			("abm_high")
+		}
+		{place "mgun1"		;coax
+			{weapon			"m73" filled}
+			{foresight		"foresight4"}
+			("abm_mgun")
+			{basic}
+		}
+		{place "mgun2"		;aa
+			{weapon 		"browning" filled}
+			{gunner 		"commander"}
+			{charger 		"commander"}
+			{foresight		"foresight5"}
+			("abm_mgun")
+			{basic}
+		}
+	}
+
+	{mass 47600}
+	{Chassis
+		{Locomotion ("locomotion")
+			{maxspeed   35}
+			{maxSpeedAtMaxTurn 23}
+			{StartTime  15}
+			{TurnTime   10}
+			{TurnStart  1.6}
+			{TurnRadius 10} 
+    		{TurnStop   0.8}
+			{BrakeTime  1.5}
+			{StopTime   2.5}
+			{Gears   0.2 0.4 1}
+			{RearGears  0.3}
+		}
+		{FuelBag
+			{volume 810 }	
+			{rate	144 }   
+			{remain 810 }
+			{fuel "fuel"}
+		}
+		("tank_trace" fx("tracks_big") step(0.47) len(0.8))
+	}
+
+	{Extension "m60.mdl"}
+
+	{bone "turret"			;gun horizontal
+		{speed2 22.5}		;degree per second
+	}
+	{bone "gun_rot"			;gun vertical
+		{speed 0.008}			;degree per second
+		{limits -10 20}	
+	}
+	{bone "turret_mgun"		;mgun horizontal
+		{speed 0.025}
+		{terminator}
+	}
+	{bone "mgun_rot"		;mgun vertical
+		{limits -12 40}		;real values: -15 60
+	}
+}

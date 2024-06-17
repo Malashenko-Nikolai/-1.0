@@ -1,0 +1,18 @@
+{from "pattern rpg_ammo"
+	{entity "m72law_ammo"}
+	{tag "pierce"} 
+	{view "m72law_ammo"
+		{tail "bazooka_tail" "tail"}
+	}
+	{inventory
+		{size 3 1 }
+	}
+	{damage blastwave
+		{energy 1}
+		{area 2 8}
+	}
+	{damage cumulative
+		{damage 350}
+		{distance 0.3}
+	}
+}

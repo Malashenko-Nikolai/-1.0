@@ -1,0 +1,18 @@
+;Exported by: Vorabat
+;Date:        Wed Mar 24 03:56:25 2010
+;File:        C:\Users\Vorabat\Documents\3dsmax\scenes\studd.max
+{Skeleton
+	{bone "box_trade1"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "box_trade1.ply"}
+	}
+}
+{Volume "box11"
+	{Box 6.18137 6.11153 5.16861}
+	{Bone "box_trade1"}
+	{Position -0.0533352	-0.00630188	2.5843}
+}

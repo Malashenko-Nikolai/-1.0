@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "door_vorota_ch_train"}
+	{blend none}
+}

@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/ak74/akm_compensator"}
+	{blend none}
+}

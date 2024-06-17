@@ -1,0 +1,18 @@
+{from "pattern rpg_ammo"
+	{entity "RPG27-rocket"}
+	{tag "pierce"} 
+	{view "RPG27-rocket"
+		{tail "bazooka_tail" "tail"}
+	}
+	{inventory
+		{size 3 1 }
+	}
+	{damage blastwave
+		{energy 1}
+		{area 2 8}
+	}
+	{damage cumulative
+		{damage 600}
+		{distance 0.3}
+	}
+}

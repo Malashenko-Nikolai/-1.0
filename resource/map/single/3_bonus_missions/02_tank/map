@@ -1,0 +1,4640 @@
+{map
+	{Land
+		{Position 0 0}
+	}
+	{Clips
+		{"[auto]"
+			{world -2401.23 -9345.38 2598.49 2000}
+			{camera -2127.44 -9131.83 2586.15 2013.98}
+			{pather -2178.3 -9337.43 2097.95 2017.9}
+			{distance 200 200}
+			{viewAngle 0 0}
+		}
+		{"forest"
+			{world -1789.61 -4702.18 1517.1 2000}
+			{camera -1923.22 -4613.26 1982.85 2013.98}
+			{pather -2178.3 -4754.23 1559.1 2017.9}
+			{distance 200 200}
+			{viewAngle 10 50}
+		}
+		{"tank"
+			{world -2401.23 -9345.38 2598.49 -5454.11}
+			{camera -2127.44 -9131.83 2586.15 -5890.41}
+			{pather -1985.39 -9337.43 2097.95 -5688.6}
+			{distance 200 800}
+			{viewAngle 20 50}
+		}
+	}
+	{Ocean
+		{active 0}
+		{state calm}
+		{zlevel 0}
+		{waveamount 8}
+		{wavedir 50}
+	}
+	{Entity "road_muddy33" 0x1
+		{Position 420.73 1911.1}
+	}
+	{Entity "road_muddy33" 0x2
+		{Position 419.82 1650.39}
+	}
+	{Entity "road_muddy33" 0x3
+		{Position 414.43 1403.31}
+	}
+	{Entity "road_muddy33" 0x4
+		{Position 412.67 1136.33}
+	}
+	{Entity "road_muddy33" 0x5
+		{Position 412.09 906.53}
+	}
+	{Entity "clay_11a" 0x6
+		{Position 632.29 1608.59}
+		{xform zl -134.71 y 171.43 zw -31.62}
+	}
+	{Entity "clay_11a" 0x7
+		{Position 612 1857.76}
+		{xform zl -134.71 y 171.43 zw -49.75}
+	}
+	{Entity "clay_11a" 0x8
+		{Position 707.14 1369}
+		{xform zl -134.71 y 171.43 zw -24.27}
+	}
+	{Entity "clay_11a" 0x9
+		{Position 811.83 1144.97}
+		{xform zl -134.71 y 171.43 zw -15.67}
+	}
+	{Entity "clay_11a" 0xa
+		{Position 921.03 930.54}
+		{xform zl -134.71 y 171.43 zw -19.58}
+	}
+	{Entity "clay_11a" 0xb
+		{Position 1086.99 727.12}
+		{xform zl -134.71 y 171.43 zw 11.66}
+	}
+	{Entity "ground_clay" 0x4004
+		{Position 493.68 1266.49}
+		{xform zl -89.37}
+	}
+	{Entity "ground_clay" 0x4005
+		{Position 495.41 1413.91}
+		{xform zl -88.1}
+	}
+	{Entity "ground_clay" 0x4006
+		{Position 499.71 1593.87}
+		{xform zl -91.9}
+	}
+	{Entity "ground_clay" 0x4007
+		{Position 495.22 1741.84}
+		{xform zl -88.42}
+	}
+	{Entity "ground_clay" 0x4008
+		{Position 492.05 1907.36}
+		{xform zl -79.41}
+	}
+	{Entity "ground_clay" 0x4009
+		{Position 479.3 2048.39}
+		{xform zl -87.82}
+	}
+	{Entity "clay_11a" 0x400f
+		{Position 1301.16 701.52}
+		{xform zl -134.71 y 171.43 zw 54.51}
+	}
+	{Entity "clay_11a" 0x4010
+		{Position 1542.36 775.93}
+		{xform zl -134.71 y 171.43 zw 66.28}
+	}
+	{Entity "clay_11a" 0x4011
+		{Position 1810.1 921.12}
+		{xform zl -134.71 y 171.43 zw 76.59}
+	}
+	{Entity "clay_11a" 0x4012
+		{Position 2005.16 1057.36}
+		{xform zl -134.71 y 171.43 zw 85.23}
+	}
+	{Entity "clay_111" 0xe
+		{Position 118.24 917.89 30.45}
+		{xform zl 88.21}
+	}
+	{Entity "clay_111" 0xf
+		{Position 133.65 1149.15 18.33}
+		{xform zl 81.95}
+	}
+	{Entity "clay_111" 0x10
+		{Position 123.07 1348.74 55.3}
+		{xform zl 101.83}
+	}
+	{Entity "clay_111" 0x11
+		{Position 67.93 1537.13 45.83}
+		{xform zl 108.31}
+	}
+	{Entity "clay_111" 0x12
+		{Position -31.45 1744.12 27.35}
+		{xform zl 122.36}
+	}
+	{Entity "clay_111" 0x13
+		{Position -175.55 1955.28 -0.09}
+		{xform zl 123.49}
+	}
+	{Entity "clay_111" 0x14
+		{Position 114.21 714.23 44.68}
+		{xform zl 89.84}
+	}
+	{Entity "clay_111" 0x2000
+		{Position 20.71 569.18 15.7}
+		{xform zl 31.57}
+	}
+	{Entity "clay_111" 0x2001
+		{Position -179.75 479.85 -0.09}
+		{xform zl 17.03}
+	}
+	{Entity "clay_111" 0x2002
+		{Position -409.53 506.04 -0.09}
+		{xform zl -25.57}
+	}
+	{Entity "clay_111" 0x2003
+		{Position -625.42 596.45 -0.09}
+		{xform zl -23.47}
+	}
+	{Entity "clay_111" 0x2004
+		{Position -837.59 681.85 -0.09}
+		{xform zl -18.56}
+	}
+	{Entity "clay_111" 0x2005
+		{Position -1019.58 790.42 -0.09}
+		{xform zl -39.37}
+	}
+	{Entity "clay_111" 0x2006
+		{Position -1181.48 967.6 13}
+		{xform zl -55.12}
+	}
+	{Entity "clay_111" 0x2007
+		{Position -1304.62 1189.03 9.4}
+		{xform zl -67.92}
+	}
+	{Entity "clay_111" 0x2008
+		{Position -1382.11 1399.8 8.65}
+		{xform zl -72.28}
+	}
+	{Entity "clay_111" 0x2009
+		{Position -1413.84 1594.36 23.56}
+		{xform zl -87.34}
+	}
+	{Entity "clay_111" 0x200a
+		{Position -1411.61 1847.25 7.23}
+		{xform zl -89.72}
+	}
+	{Entity "ground_clay" 0x15
+		{Position 280.1 775.82 6.58}
+		{xform zl 67.01}
+	}
+	{Entity "ground_clay" 0x16
+		{Position 319.66 974.36 0.02}
+		{xform zl 91.86}
+	}
+	{Entity "ground_clay" 0x17
+		{Position 324.7 1174.51 0.02}
+		{xform zl 91.88}
+	}
+	{Entity "ground_clay" 0x18
+		{Position 328.36 1383.03 0.02}
+		{xform zl 89.11}
+	}
+	{Entity "ground_clay" 0x19
+		{Position 332.44 1556.58 0.02}
+		{xform zl 87.58}
+	}
+	{Entity "ground_clay" 0x1a
+		{Position 341.05 1730.33 0.02}
+		{xform zl 92.81}
+	}
+	{Entity "ground_clay" 0x1b
+		{Position 340.97 1873.28 0.02}
+		{xform zl 97.43}
+	}
+	{Entity "ground_clay" 0x1c
+		{Position 296.42 2010.76 0.02}
+		{xform zl 118.09}
+	}
+	{Entity "ground_clay" 0x1d
+		{Position 186.62 2031.87 0.02}
+		{xform zl 169.62}
+	}
+	{Entity "ground_clay" 0x1e
+		{Position 76.07 2018.89 0.02}
+		{xform zl -170.23}
+	}
+	{Entity "ground_clay" 0x1f
+		{Position -53.56 2025.34 0.02}
+		{xform zl 171.39}
+	}
+	{Entity "ground_clay" 0x20
+		{Position 522.18 2007.72 0.02}
+		{xform zl 168.92}
+	}
+	{Entity "road_muddy33" 0x28
+		{Position 412.41 672.72}
+	}
+	{Entity "road_muddy33" 0x29
+		{Position 407.8 411.46}
+	}
+	{Entity "road_muddy33" 0x2a
+		{Position 405.82 186.95}
+	}
+	{Entity "road_muddy33" 0x2b
+		{Position 399.46 -66.27}
+	}
+	{Entity "road_muddy33" 0x2c
+		{Position 399.54 -323.02}
+	}
+	{Entity "road_muddy33" 0x2d
+		{Position 400.78 -572.28}
+	}
+	{Entity "road_muddy33" 0x2e
+		{Position 397.03 -828.86}
+	}
+	{Entity "road_muddy33" 0x2f
+		{Position 393.38 -1060.48}
+	}
+	{Entity "road_muddy33" 0x30
+		{Position 393.35 -1325.81}
+	}
+	{Entity "road_muddy33" 0x31
+		{Position 394.51 -1579.24}
+	}
+	{Entity "road_muddy33" 0x32
+		{Position 394.59 -1831.39 -23.79}
+	}
+	{Entity "road_muddy33" 0x33
+		{Position 390.85 -2088.91}
+	}
+	{Entity "ground_clay" 0x34
+		{Position 249.41 613.22 13.51}
+		{xform zl 89.82}
+	}
+	{Entity "ground_clay" 0x35
+		{Position 157.02 442.32 0.21}
+		{xform zl 33.6}
+	}
+	{Entity "ground_clay" 0x36
+		{Position -8.78 355.37 0.02}
+		{xform zl 22.13}
+	}
+	{Entity "ground_clay" 0x37
+		{Position -168.58 315.41 0.02}
+		{xform zl 10.02}
+	}
+	{Entity "ground_clay" 0x38
+		{Position -360.88 316.33 0.02}
+		{xform zl -9.01}
+	}
+	{Entity "ground_clay" 0x39
+		{Position -559.48 366.77 0.02}
+		{xform zl -16.32}
+	}
+	{Entity "ground_clay" 0x3a
+		{Position -731.67 430.83 0.02}
+		{xform zl -23.86}
+	}
+	{Entity "ground_clay" 0x3b
+		{Position -884.32 515.02 0.02}
+		{xform zl -29.7}
+	}
+	{Entity "ground_clay" 0x3c
+		{Position -1035.92 619.66 0.02}
+		{xform zl -32.65}
+	}
+	{Entity "ground_clay" 0x3d
+		{Position -1201.59 750.9 0.02}
+		{xform zl -40.65}
+	}
+	{Entity "ground_clay" 0x3e
+		{Position -1312.61 897.33 11.63}
+		{xform zl -56.24}
+	}
+	{Entity "ground_clay" 0x3f
+		{Position -1396.34 1082.93 18.38}
+		{xform zl -67.61}
+	}
+	{Entity "ground_clay" 0x40
+		{Position -1455.97 1271.52 7.67}
+		{xform zl -73.91}
+	}
+	{Entity "ground_clay" 0x41
+		{Position -1494.91 1472.29 7.66}
+		{xform zl -81.61}
+	}
+	{Entity "ground_clay" 0x42
+		{Position -1504.81 1668.98 25.55}
+		{xform zl -90.69}
+	}
+	{Entity "ground_clay" 0x43
+		{Position -1504.76 1868.5 6.32}
+		{xform zl -93.44}
+	}
+	{Entity "clay_11angle" 0x4013
+		{Position 1332.71 1191.69}
+		{xform zl -57.24}
+	}
+	{Entity "clay_11angle" 0x4014
+		{Position 1290.63 1237.81}
+		{xform zl -102.61}
+	}
+	{Entity "clay_11angle" 0x4015
+		{Position 1375.53 1241.89}
+		{xform zl 95.37}
+	}
+	{Entity "clay_11angle" 0x4016
+		{Position 1335.16 1273.84}
+		{xform zl 123.25}
+	}
+	{Entity "clay_11angle" 0x4017
+		{Position -153.66 1371.55}
+		{xform zl -105.24}
+	}
+	{Entity "clay_11angle" 0x4018
+		{Position -147.55 1433.68}
+		{xform zl -150.61}
+	}
+	{Entity "clay_11angle" 0x4019
+		{Position -87.7 1373.32}
+		{xform zl 47.37}
+	}
+	{Entity "clay_11angle" 0x401a
+		{Position -90.97 1424.7}
+		{xform zl 75.25}
+	}
+	{Entity "clay_11angle" 0x401b
+		{Position -639.5 1254.61}
+		{xform zl -105.48}
+	}
+	{Entity "clay_11angle" 0x401c
+		{Position -633.12 1316.72}
+		{xform zl -150.85}
+	}
+	{Entity "clay_11angle" 0x401d
+		{Position -573.54 1256.1}
+		{xform zl 47.13}
+	}
+	{Entity "clay_11angle" 0x401e
+		{Position -576.59 1307.49}
+		{xform zl 75.01}
+	}
+	{Entity "fir_bush" 0x6800
+		{Position 1569.44 -307.1}
+	}
+	{Entity "fir_bush" 0x6801
+		{Position 1383.68 -10.73}
+	}
+	{Entity "fir_bush" 0x6803
+		{Position 1240.88 303.63}
+		{xform zl 17.69}
+	}
+	{Entity "fir_bush" 0x6804
+		{Position 938.87 135.93}
+		{xform zl 28}
+	}
+	{Entity "fir_bush" 0x6805
+		{Position 923.37 -452.72}
+		{xform zl 8.03}
+	}
+	{Entity "fir_bush" 0x6808
+		{Position 961.27 -200.11}
+		{xform zl 5.2}
+	}
+	{Entity "fir_bush" 0x6809
+		{Position 1533.79 275.61}
+		{xform zl 19.54}
+	}
+	{Entity "new_poplar2" 0x680f
+		{Position -764.51 -600.4}
+	}
+	{Entity "new_poplar2" 0x6810
+		{Position -37.42 -983.2}
+	}
+	{Entity "new_poplar2" 0x6811
+		{Position -152.34 -1110.14}
+	}
+	{Entity "new_poplar2" 0x6812
+		{Position -763.86 -79.7}
+		{xform zl 29.31}
+	}
+	{Entity "new_poplar2" 0x6815
+		{Position -753.44 -1243.64}
+		{xform zl -76.17 scale 1.57}
+	}
+	{Entity "new_poplar2" 0x6816
+		{Position -1022.65 -1411.11}
+		{xform zl -16.17 scale 1.57}
+	}
+	{Entity "new_poplar2" 0x6817
+		{Position -1046.96 -1168.59}
+		{xform zl -46.17}
+	}
+	{Entity "new_poplar2" 0x6819
+		{Position -553.16 -1859.35}
+		{xform zl 21.94 scale 1.62}
+	}
+	{Entity "new_poplar2" 0x681a
+		{Position -721.98 -1683.55}
+		{xform zl -8.06 scale 1.633}
+	}
+	{Entity "new_poplar2" 0x681c
+		{Position -1048.66 -654.75}
+		{xform zl -14.59}
+	}
+	{Entity "new_poplar2" 0x681d
+		{Position -1241.72 -552.18}
+		{xform zl -14.59}
+	}
+	{Entity "new_poplar2" 0x681e
+		{Position -52.17 294.72}
+		{xform zl -7.73 scale 1.093}
+		{TexMod
+			{"/texture/common/flora/new_poplar" "autlate"}
+		}
+	}
+	{Entity "new_poplar2" 0x681f
+		{Position -273.69 -134.35}
+		{xform zl 32.27 scale 1.537}
+		{TexMod
+			{"/texture/common/flora/new_poplar" "aut"}
+		}
+	}
+	{Entity "new_poplar2" 0x6820
+		{Position -248.14 137.89}
+		{xform zl -37.73 scale 1.37}
+		{TexMod
+			{"/texture/common/flora/new_poplar" "aut"}
+		}
+	}
+	{Entity "new_tree1" 0x6821
+		{Position -433.99 180.18}
+	}
+	{Entity "fir_bush" 0x7802
+		{Position 1414.95 -727.02}
+		{xform zl -6.46}
+	}
+	{Entity "fir_bush" 0x7806
+		{Position 1433.33 -1576.46}
+		{xform zl -9.77}
+	}
+	{Entity "fir_bush" 0x7807
+		{Position 1426.72 -1272.98}
+		{xform zl -9.77}
+	}
+	{Entity "fir_bush" 0x7808
+		{Position 1123.6 -1286.84}
+		{xform zl -4.57}
+	}
+	{Entity "new_fir2" 0x780a
+		{Position 1451.7 -1056.4}
+		{xform zl 98.28}
+	}
+	{Entity "new_fir2" 0x780b
+		{Position 1573.28 -1303.92}
+		{xform zl 4.01}
+	}
+	{Entity "fir_bush" 0x780c
+		{Position 1035.34 -1927.45}
+		{xform zl -26.04}
+	}
+	{Entity "fir_bush" 0x780d
+		{Position 1114.03 -1634.28}
+		{xform zl -26.04}
+	}
+	{Entity "fir_bush" 0x780e
+		{Position 927.62 -1397.44}
+		{xform zl -20.84}
+	}
+	{Entity "fir_bush" 0x780f
+		{Position 1374.61 -1442.91}
+		{xform zl -6.5}
+	}
+	{Entity "new_fir2" 0x7810
+		{Position 1198.7 -1433.37}
+		{xform zl 82.01}
+	}
+	{Entity "new_fir2" 0x7811
+		{Position 1246.06 -1705.04}
+		{xform zl -12.26}
+	}
+	{Entity "fir_bush" 0x7812
+		{Position 1745.41 -2092.9}
+		{xform zl 6.93}
+	}
+	{Entity "fir_bush" 0x7813
+		{Position 1651.85 -1804.12}
+		{xform zl 6.93}
+	}
+	{Entity "fir_bush" 0x7814
+		{Position 1365.51 -1904.52}
+		{xform zl 12.13}
+	}
+	{Entity "fir_bush" 0x7815
+		{Position 1766.29 -1501.76}
+		{xform zl 26.47}
+	}
+	{Entity "new_fir2" 0x7816
+		{Position 1613.53 -1589.5}
+		{xform zl 114.98}
+	}
+	{Entity "new_fir2" 0x7817
+		{Position 1801.12 -1791.63}
+		{xform zl 20.71}
+	}
+	{Entity "fir_bush" 0x7818
+		{Position -51.83 -1698.94}
+		{xform zl -7.26}
+	}
+	{Entity "fir_bush" 0x7819
+		{Position -71.74 -1396.04}
+		{xform zl -7.26}
+	}
+	{Entity "fir_bush" 0x781a
+		{Position -373.96 -1423.17}
+		{xform zl -2.06}
+	}
+	{Entity "fir_bush" 0x781b
+		{Position 113.34 -1130.96}
+		{xform zl 12.28}
+	}
+	{Entity "new_fir2" 0x781c
+		{Position -56.27 -1178.57}
+		{xform zl 100.79}
+	}
+	{Entity "new_fir2" 0x781d
+		{Position 76.04 -1420.52}
+		{xform zl 6.52}
+	}
+	{Entity "fir_bush" 0x781f
+		{Position -429.4 -646.21}
+		{xform zl -1.97}
+	}
+	{Entity "fir_bush" 0x7821
+		{Position -269.55 -365.19}
+		{xform zl 17.57}
+	}
+	{Entity "new_fir2" 0x7822
+		{Position -434.05 -428.25}
+		{xform zl 106.08}
+		{TexMod
+			{"/texture/common/flora/fir" "autlate"}
+		}
+	}
+	{Entity "new_fir2" 0x7823
+		{Position -279.99 -656.97}
+		{xform zl 11.81}
+	}
+	{Entity "hut" 0x7826
+		{Position 1231.71 -982.84}
+		{xform zl -60.85}
+	}
+	{Entity "hut" 0x7827
+		{Position 1299.89 -835.33}
+		{xform zl 3.34}
+	}
+	{Entity "hut" 0x7828
+		{Position 1103.17 -889.78}
+		{xform zl -155.26}
+	}
+	{Entity "beam1" 0x782a
+		{Position 1374.19 -438.74}
+		{xform zl -4.13}
+	}
+	{Entity "beam1" 0x200b
+		{Position 1361.72 -346.54}
+		{xform zl 41.78}
+	}
+	{Entity "block_tree" 0x200c
+		{Position 1307.05 -415.69}
+	}
+	{Entity "fir_bush" 0x200e
+		{Position 1243.8 -2244}
+		{xform zl -30.97}
+	}
+	{Entity "fir_bush" 0x200f
+		{Position 1347.36 -1958.66}
+		{xform zl -30.97}
+	}
+	{Entity "new_fir2" 0x2010
+		{Position 1472.82 -2040.49}
+		{xform zl -17.19}
+	}
+	{Entity "fir_bush" 0x2011
+		{Position 1237.34 -2098.25}
+		{xform zl -27.7}
+	}
+	{Entity "new_fir2" 0x2012
+		{Position 1076.78 -2025.76}
+		{xform zl 60.81}
+	}
+	{Entity "new_fir2" 0x2013
+		{Position 1022.71 -2296.17}
+		{xform zl -33.46}
+	}
+	{Entity "fir_bush" 0x2014
+		{Position -548.08 -2233.72}
+		{xform zl -52.3}
+	}
+	{Entity "fir_bush" 0x2015
+		{Position -347.81 -2005.59}
+		{xform zl -52.3}
+	}
+	{Entity "new_fir2" 0x2016
+		{Position -260.72 -2127.46}
+		{xform zl -38.52}
+	}
+	{Entity "fir_bush" 0x2017
+		{Position -501.08 -2095.6}
+		{xform zl -49.03}
+	}
+	{Entity "new_fir2" 0x2018
+		{Position -624.27 -1969.67}
+		{xform zl 39.48}
+	}
+	{Entity "new_fir2" 0x2019
+		{Position -773 -2201.89}
+		{xform zl -54.79}
+	}
+	{Entity "fir_bush" 0x201a
+		{Position -1047.45 -2219.87}
+		{xform zl -28.97}
+	}
+	{Entity "fir_bush" 0x201b
+		{Position -953.9 -1931.09}
+		{xform zl -28.97}
+	}
+	{Entity "new_fir2" 0x201c
+		{Position -825.66 -2008.5}
+		{xform zl -15.19}
+	}
+	{Entity "fir_bush" 0x201d
+		{Position -1058.99 -2074.44}
+		{xform zl -25.7}
+	}
+	{Entity "new_fir2" 0x201e
+		{Position -1221.98 -2007.58}
+		{xform zl 62.81}
+	}
+	{Entity "new_fir2" 0x201f
+		{Position -1266.58 -2279.72}
+		{xform zl -31.46}
+	}
+	{Entity "fir_bush" 0x2020
+		{Position 1539.66 -2477.52}
+		{xform zl -5.17}
+	}
+	{Entity "fir_bush" 0x2021
+		{Position 1508.73 -2175.55}
+		{xform zl -5.17}
+	}
+	{Entity "new_fir2" 0x2022
+		{Position 1657.3 -2194.63}
+		{xform zl 8.61}
+	}
+	{Entity "fir_bush" 0x2023
+		{Position 1470.42 -2349.11}
+		{xform zl -1.9}
+	}
+	{Entity "new_fir2" 0x2024
+		{Position 1294.31 -2353.71}
+		{xform zl 86.61}
+	}
+	{Entity "new_fir2" 0x2025
+		{Position 1363.31 -2620.71}
+		{xform zl -7.66}
+	}
+	{Entity "fir_bush" 0x2026
+		{Position -318.5 -2502.39}
+		{xform zl -36.88}
+	}
+	{Entity "fir_bush" 0x2027
+		{Position -186.1 -2229.23}
+		{xform zl -36.88}
+	}
+	{Entity "new_fir2" 0x2028
+		{Position -69.74 -2323.55}
+		{xform zl -23.1}
+	}
+	{Entity "fir_bush" 0x2029
+		{Position -309.91 -2356.75}
+		{xform zl -33.61}
+	}
+	{Entity "new_fir2" 0x202a
+		{Position -462.16 -2268.1}
+		{xform zl 54.9}
+	}
+	{Entity "new_fir2" 0x202b
+		{Position -543.78 -2531.51}
+		{xform zl -39.37}
+	}
+	{Entity "fir_bush" 0x202c
+		{Position -1270.83 -1827.99}
+		{xform zl -77.92}
+	}
+	{Entity "fir_bush" 0x202d
+		{Position -991.62 -1708.89}
+		{xform zl -77.92}
+	}
+	{Entity "new_fir2" 0x202e
+		{Position -965.78 -1856.43}
+		{xform zl -64.14}
+	}
+	{Entity "fir_bush" 0x202f
+		{Position -1168.73 -1723.78}
+		{xform zl -74.65}
+	}
+	{Entity "new_fir2" 0x2030
+		{Position -1225.36 -1556.96}
+		{xform zl 13.86}
+	}
+	{Entity "new_fir2" 0x2031
+		{Position -1242.12 -1665.33}
+		{xform zl -80.41}
+	}
+	{Entity "fir_bush" 0x2032
+		{Position -884.83 -1038.7}
+		{xform zl -47.91}
+	}
+	{Entity "fir_bush" 0x2035
+		{Position -848.54 -897.39}
+		{xform zl -44.64}
+	}
+	{Entity "new_fir2" 0x2036
+		{Position -861.81 -801.54}
+		{xform zl 43.87}
+	}
+	{Entity "new_fir2" 0x2037
+		{Position -1216.77 -994.82}
+		{xform zl -50.4}
+	}
+	{Entity "fir_bush" 0x2039
+		{Position -868.16 76.85}
+		{xform zl -15.08}
+	}
+	{Entity "new_fir2" 0x203a
+		{Position -725.1 32.47}
+		{xform zl -1.3}
+	}
+	{Entity "fir_bush" 0x203b
+		{Position -935.79 -87.52}
+		{xform zl -11.81}
+	}
+	{Entity "new_fir2" 0x203c
+		{Position -1110.06 -61.73}
+		{xform zl 76.7}
+	}
+	{Entity "new_fir2" 0x203d
+		{Position -1088.07 -336.62}
+		{xform zl -17.57}
+	}
+	{Entity "fir_bush" 0x203f
+		{Position -612.57 -203.01}
+		{xform zl -7.58}
+	}
+	{Entity "new_fir2" 0x2040
+		{Position -464.94 -228.33}
+		{xform zl 6.2}
+	}
+	{Entity "wood_toilet" 0x44
+		{Position 1442.85 -944.66 -0.08}
+		{xform zl -117.41}
+	}
+	{Entity "fence_wire1" 0x45
+		{Position 1319.65 -601.7}
+	}
+	{Entity "fence_wire1" 0x46
+		{Position 1424.15 -503.93}
+		{xform zl 86.65}
+	}
+	{Entity "fence_wire1" 0x401f
+		{Position 1434.15 -305.59}
+		{xform zl 86.65}
+	}
+	{Entity "fence_wire1" 0x4020
+		{Position 1340.99 -202.44}
+		{xform zl 177.79}
+	}
+	{Entity "beam1" 0x3800
+		{Position 1382.31 -286.38}
+		{xform zl 56.74}
+	}
+	{Entity "beam1" 0x3801
+		{Position 1358.78 -545.14}
+		{xform zl -25.65}
+	}
+	{Entity "stack_fence" 0x3802
+		{Position 1267.39 -1309.75}
+	}
+	{Entity "stack_fence" 0x3803
+		{Position 787.94 -1364.25}
+	}
+	{Entity "stack_fence" 0x3804
+		{Position 1093.49 -1749.43}
+	}
+	{Entity "stack_fence" 0x3805
+		{Position 541.55 -1593.44}
+	}
+	{Entity "stack_euro" 0x3806
+		{Position -278.62 -1202.78}
+	}
+	{Entity "stack_euro" 0x3807
+		{Position -368.65 -783.59}
+	}
+	{Entity "stack_euro" 0x3808
+		{Position -654.7 -886.34}
+	}
+	{Entity "stack_euro" 0x3809
+		{Position -575.36 -1263.6}
+	}
+	{Entity "stack_euro" 0x380a
+		{Position -408.29 -73.49}
+	}
+	{Entity "stack_euro" 0x380b
+		{Position 902.85 -1210.57}
+	}
+	{Entity "road_muddy33" 0x5000
+		{Position 388.32 -2324.13}
+	}
+	{Entity "road_muddy33" 0x5001
+		{Position 388.08 -2573.01}
+	}
+	{Entity "road_muddy33" 0x5002
+		{Position 389.59 -2830.29}
+	}
+	{Entity "road_muddy33" 0x5003
+		{Position 383.97 -3085.85}
+	}
+	{Entity "road_muddy33" 0x5004
+		{Position 380.76 -3349.83}
+	}
+	{Entity "road_muddy33" 0x5005
+		{Position 381.31 -3599.84}
+	}
+	{Entity "road_muddy33" 0x5006
+		{Position 378.61 -3865.26}
+	}
+	{Entity "road_muddy33" 0x5007
+		{Position 380.93 -4090.86}
+	}
+	{Entity "road_muddy33" 0x5008
+		{Position 387.11 -4341.5}
+	}
+	{Entity "road_muddy33" 0x5009
+		{Position 384.32 -4610.43}
+	}
+	{Entity "road_muddy33" 0x500a
+		{Position 386.41 -4838.43}
+	}
+	{Entity "road_muddy33" 0x500b
+		{Position 381.29 -5059}
+	}
+	{Entity "road_muddy33" 0x500c
+		{Position 378.73 -5310.84 -7.98}
+	}
+	{Entity "road_muddy33" 0x500d
+		{Position 381.76 -5527.45 -96.38}
+	}
+	{Entity "new_poplar2" 0x500e
+		{Position -316.17 -2473.11}
+		{xform zl 12.65}
+	}
+	{Entity "new_poplar2" 0x500f
+		{Position -873.44 -2735.01}
+		{xform zl -33.52}
+	}
+	{Entity "new_poplar2" 0x5011
+		{Position -1176.27 -2726.06}
+		{xform zl -33.52}
+	}
+	{Entity "new_poplar2" 0x5012
+		{Position -502.65 -2977.46}
+		{xform zl 4.59}
+	}
+	{Entity "new_poplar2" 0x5013
+		{Position -543.18 -3291.91}
+		{xform zl 4.59}
+	}
+	{Entity "new_poplar2" 0x5014
+		{Position -746.41 -3157.35}
+		{xform zl 4.59}
+	}
+	{Entity "fir_bush" 0x5015
+		{Position -89.15 -3025.6}
+		{xform zl 5.39}
+	}
+	{Entity "fir_bush" 0x5016
+		{Position -174.92 -2734.41}
+		{xform zl 5.39}
+	}
+	{Entity "fir_bush" 0x5017
+		{Position -463.86 -2827.07}
+		{xform zl 10.59}
+	}
+	{Entity "fir_bush" 0x5018
+		{Position -52.38 -2435.24}
+		{xform zl 24.93}
+	}
+	{Entity "new_fir2" 0x5019
+		{Position -207.45 -2518.84}
+		{xform zl 113.44}
+	}
+	{Entity "new_fir2" 0x501a
+		{Position -25.36 -2725.94}
+		{xform zl 19.17}
+	}
+	{Entity "fir_bush" 0x501b
+		{Position -456.24 -3656.08}
+		{xform zl -39.65}
+	}
+	{Entity "fir_bush" 0x501c
+		{Position -310.79 -3389.63}
+		{xform zl -39.65}
+	}
+	{Entity "new_fir2" 0x501d
+		{Position -199.13 -3489.47}
+		{xform zl -25.87}
+	}
+	{Entity "fir_bush" 0x501e
+		{Position -440.63 -3511.02}
+		{xform zl -36.38}
+	}
+	{Entity "new_fir2" 0x501f
+		{Position -588.41 -3415.12}
+		{xform zl 52.13}
+	}
+	{Entity "new_fir2" 0x5020
+		{Position -682.67 -3674.28}
+		{xform zl -42.14}
+	}
+	{Entity "fir_bush" 0x5021
+		{Position -946.52 -3751.93}
+		{xform zl -16.32}
+	}
+	{Entity "fir_bush" 0x5022
+		{Position -918.49 -3449.67}
+		{xform zl -16.32}
+	}
+	{Entity "new_fir2" 0x5023
+		{Position -776.41 -3497.11}
+		{xform zl -2.54}
+	}
+	{Entity "fir_bush" 0x5024
+		{Position -989.63 -3612.55}
+		{xform zl -13.05}
+	}
+	{Entity "new_fir2" 0x5025
+		{Position -1163.31 -3583.01}
+		{xform zl 75.46}
+	}
+	{Entity "new_fir2" 0x5026
+		{Position -1147.23 -3858.31}
+		{xform zl -18.81}
+	}
+	{Entity "fir_bush" 0x5027
+		{Position -173.4 -3867.95}
+		{xform zl -24.23}
+	}
+	{Entity "fir_bush" 0x5028
+		{Position -104.03 -3572.42}
+		{xform zl -24.23}
+	}
+	{Entity "new_fir2" 0x5029
+		{Position 30.16 -3638.97}
+		{xform zl -10.45}
+	}
+	{Entity "fir_bush" 0x502a
+		{Position -196.91 -3723.96}
+		{xform zl -20.96}
+	}
+	{Entity "new_fir2" 0x502b
+		{Position -364.88 -3670.81}
+		{xform zl 67.55}
+	}
+	{Entity "new_fir2" 0x502c
+		{Position -386.83 -3945.7}
+		{xform zl -26.72}
+	}
+	{Entity "fir_bush" 0x502d
+		{Position -1250.3 -3418.48}
+		{xform zl -65.27}
+	}
+	{Entity "fir_bush" 0x502e
+		{Position -1003.95 -3241.12}
+		{xform zl -65.27}
+	}
+	{Entity "new_fir2" 0x502f
+		{Position -946.43 -3379.42}
+		{xform zl -51.49}
+	}
+	{Entity "fir_bush" 0x5030
+		{Position -1173.5 -3294.44}
+		{xform zl -62}
+	}
+	{Entity "new_fir2" 0x5031
+		{Position -1265.29 -3144.07}
+		{xform zl 26.51}
+	}
+	{Entity "fir_bush" 0x5032
+		{Position -1046.52 -2563.81}
+		{xform zl -35.26}
+	}
+	{Entity "fir_bush" 0x5033
+		{Position -1042.06 -2417.99}
+		{xform zl -31.99}
+	}
+	{Entity "new_fir2" 0x5034
+		{Position -1270.9 -2599.29}
+		{xform zl -37.75}
+	}
+	{Entity "stack_euro" 0x5035
+		{Position -695.31 -2715.48}
+		{xform zl 12.65}
+	}
+	{Entity "new_poplar2" 0x5036
+		{Position 1680.19 -2765.3}
+		{xform zl -14.29}
+	}
+	{Entity "new_poplar2" 0x5037
+		{Position 1064.73 -2746.35}
+		{xform zl -60.46}
+	}
+	{Entity "new_poplar2" 0x5038
+		{Position 762.52 -2842.21}
+		{xform zl -60.46}
+	}
+	{Entity "new_poplar2" 0x5039
+		{Position 798.81 -2601.19}
+		{xform zl -60.46}
+	}
+	{Entity "new_poplar2" 0x503a
+		{Position 1285.47 -3130.47}
+		{xform zl -22.35}
+	}
+	{Entity "new_poplar2" 0x503b
+		{Position 1106.89 -3392.44}
+		{xform zl -22.35}
+	}
+	{Entity "new_poplar2" 0x503c
+		{Position 986.67 -3180.42}
+		{xform zl -22.35}
+	}
+	{Entity "fir_bush" 0x503d
+		{Position 1632.3 -3360.7}
+		{xform zl -21.55}
+	}
+	{Entity "fir_bush" 0x503e
+		{Position 1687.75 -3062.25}
+		{xform zl -21.55}
+	}
+	{Entity "fir_bush" 0x503f
+		{Position 1388.18 -3013.97}
+		{xform zl -16.35}
+	}
+	{Entity "fir_bush" 0x5040
+		{Position 1932.51 -2851.04}
+		{xform zl -2.01}
+	}
+	{Entity "new_fir2" 0x5041
+		{Position 1756.4 -2855.32}
+		{xform zl 86.5}
+	}
+	{Entity "new_fir2" 0x5042
+		{Position 1824.92 -3122.44}
+		{xform zl -7.77}
+	}
+	{Entity "fir_bush" 0x5043
+		{Position 1292.09 -3800.07}
+		{xform zl -66.59}
+	}
+	{Entity "fir_bush" 0x5044
+		{Position 1269.8 -3584.83}
+		{xform zl -66.59}
+	}
+	{Entity "new_fir2" 0x5045
+		{Position 1472.07 -3345.82}
+		{xform zl -52.81}
+	}
+	{Entity "fir_bush" 0x5046
+		{Position 1099.06 -3634.23}
+		{xform zl -63.32}
+	}
+	{Entity "new_fir2" 0x5047
+		{Position 1010.75 -3481.8}
+		{xform zl 25.19}
+	}
+	{Entity "new_fir2" 0x5048
+		{Position 1153.09 -4153.91}
+		{xform zl -69.08}
+	}
+	{Entity "fir_bush" 0x5049
+		{Position 538.92 -3619.84}
+		{xform zl -43.26}
+	}
+	{Entity "fir_bush" 0x504a
+		{Position 700.84 -3363.08}
+		{xform zl -43.26}
+	}
+	{Entity "new_fir2" 0x504b
+		{Position 806.01 -3469.74}
+		{xform zl -29.48}
+	}
+	{Entity "fir_bush" 0x504c
+		{Position 563.62 -3476.06}
+		{xform zl -39.99}
+	}
+	{Entity "new_fir2" 0x504d
+		{Position 535.7 -3299.3}
+		{xform zl 88.52}
+	}
+	{Entity "new_fir2" 0x504e
+		{Position 1212.41 -4332.52}
+		{xform zl -45.75}
+	}
+	{Entity "fir_bush" 0x504f
+		{Position 1175.62 -4073.5}
+		{xform zl -51.17}
+	}
+	{Entity "fir_bush" 0x5050
+		{Position 1371.33 -3841.46}
+		{xform zl -51.17}
+	}
+	{Entity "new_fir2" 0x5051
+		{Position 1460.81 -3961.57}
+		{xform zl -37.39}
+	}
+	{Entity "fir_bush" 0x5052
+		{Position 1219.88 -3934.48}
+		{xform zl -47.9}
+	}
+	{Entity "new_fir2" 0x5053
+		{Position 1255.48 -3743.72}
+		{xform zl 40.61}
+	}
+	{Entity "new_fir2" 0x5054
+		{Position 1107.49 -3926.77}
+		{xform zl -53.66}
+	}
+	{Entity "fir_bush" 0x5055
+		{Position 617.57 -3017.51}
+		{xform zl -72.21}
+	}
+	{Entity "fir_bush" 0x5056
+		{Position 719.11 -3138.44}
+		{xform zl -92.21}
+	}
+	{Entity "new_fir2" 0x5057
+		{Position 707.75 -3287.79}
+		{xform zl -78.43}
+	}
+	{Entity "fir_bush" 0x5058
+		{Position 543.81 -3109.16}
+		{xform zl -88.94}
+	}
+	{Entity "new_fir2" 0x5059
+		{Position 530.09 -2933.53}
+		{xform zl -0.43}
+	}
+	{Entity "fir_bush" 0x505a
+		{Position 987.98 -2515.32}
+		{xform zl -62.2}
+	}
+	{Entity "fir_bush" 0x505b
+		{Position 1058.01 -2387.34}
+		{xform zl -58.93}
+	}
+	{Entity "new_fir2" 0x505c
+		{Position 771.87 -2445.31}
+		{xform zl -64.69}
+	}
+	{Entity "stack_euro" 0x505d
+		{Position 1232.38 -2809.63}
+		{xform zl -14.29}
+	}
+	{Entity "new_poplar2" 0x505e
+		{Position -569.21 -4121.28}
+		{xform zl 29.04}
+	}
+	{Entity "fir_bush" 0x505f
+		{Position -339.34 -4416.8}
+		{xform zl -15.2}
+	}
+	{Entity "fir_bush" 0x5060
+		{Position -317.22 -4114.04}
+		{xform zl -15.2}
+	}
+	{Entity "new_fir2" 0x5061
+		{Position -174.25 -4158.71}
+		{xform zl -1.42}
+	}
+	{Entity "fir_bush" 0x5062
+		{Position -385.17 -4278.29}
+		{xform zl -11.93}
+	}
+	{Entity "new_fir2" 0x5063
+		{Position -559.39 -4252.16}
+		{xform zl 76.58}
+	}
+	{Entity "new_fir2" 0x5064
+		{Position -537.93 -4527.09}
+		{xform zl -17.69}
+	}
+	{Entity "fir_bush" 0x5065
+		{Position 5.83 -4492.6}
+		{xform zl 0.22}
+	}
+	{Entity "fir_bush" 0x5066
+		{Position -53.34 -4194.86}
+		{xform zl 0.22}
+	}
+	{Entity "new_fir2" 0x5067
+		{Position 96.36 -4199.9}
+		{xform zl 14}
+	}
+	{Entity "fir_bush" 0x5068
+		{Position -75.17 -4371.25}
+		{xform zl 3.49}
+	}
+	{Entity "new_fir2" 0x5069
+		{Position -250.07 -4392.39}
+		{xform zl 92}
+	}
+	{Entity "new_fir2" 0x506a
+		{Position -156.27 -4651.72}
+		{xform zl -2.27}
+	}
+	{Entity "new_poplar2" 0x506b
+		{Position 680.71 -4944.28}
+		{xform zl 74.15 scale 1.98}
+	}
+	{Entity "fir_bush" 0x506c
+		{Position 850.54 -4592.43 34.88}
+		{xform zl -20.09}
+	}
+	{Entity "fir_bush" 0x506d
+		{Position 898.41 -4292.67}
+		{xform zl -20.09}
+	}
+	{Entity "new_fir2" 0x506e
+		{Position 1037.05 -4349.37}
+		{xform zl -6.31}
+	}
+	{Entity "fir_bush" 0x506f
+		{Position 816.69 -4450.52 8.18}
+		{xform zl -16.82}
+	}
+	{Entity "new_fir2" 0x5070
+		{Position 1062.15 -5186.01}
+		{xform zl 71.69 scale 1.837}
+	}
+	{Entity "new_fir2" 0x5071
+		{Position 643.27 -4685.38}
+		{xform zl -22.58}
+	}
+	{Entity "fir_bush" 0x5072
+		{Position 1187.99 -4697.4}
+		{xform zl -4.67}
+	}
+	{Entity "fir_bush" 0x5073
+		{Position 1154.43 -4395.7}
+		{xform zl -4.67}
+	}
+	{Entity "new_fir2" 0x5074
+		{Position 1303.15 -4413.49}
+		{xform zl 9.11}
+	}
+	{Entity "fir_bush" 0x5075
+		{Position 1117.63 -4569.59}
+		{xform zl -1.4}
+	}
+	{Entity "new_fir2" 0x5076
+		{Position 941.56 -4575.73}
+		{xform zl 87.11}
+	}
+	{Entity "new_fir2" 0x5077
+		{Position 1012.9 -4842.11}
+		{xform zl -7.16}
+	}
+	{Entity "new_poplar2" 0x5078
+		{Position 1352.08 -3476.87}
+		{xform zl 54.6}
+	}
+	{Entity "fir_bush" 0x5079
+		{Position 1539.95 -3980.99}
+		{xform zl 10.36}
+	}
+	{Entity "fir_bush" 0x507a
+		{Position 1429.28 -3698.31}
+		{xform zl 10.36}
+	}
+	{Entity "new_fir2" 0x507b
+		{Position 1577.53 -3676.93}
+		{xform zl 24.14}
+	}
+	{Entity "fir_bush" 0x507c
+		{Position 1438.84 -3875.8}
+		{xform zl 13.63}
+	}
+	{Entity "new_fir2" 0x507d
+		{Position 1270.39 -3927.39}
+		{xform zl 102.14}
+	}
+	{Entity "new_fir2" 0x507e
+		{Position 1408.37 -4166.16}
+		{xform zl 7.87}
+	}
+	{Entity "fir_bush" 0x507f
+		{Position 1884.04 -3900.45}
+		{xform zl 25.78}
+	}
+	{Entity "fir_bush" 0x5080
+		{Position 1702.2 -3657.38}
+		{xform zl 25.78}
+	}
+	{Entity "new_fir2" 0x5081
+		{Position 1839.43 -3597.34}
+		{xform zl 39.56}
+	}
+	{Entity "fir_bush" 0x5082
+		{Position 1758.62 -3825.93}
+		{xform zl 29.05}
+	}
+	{Entity "new_fir2" 0x5083
+		{Position 1609.95 -3920.46}
+		{xform zl 117.56}
+	}
+	{Entity "new_fir2" 0x5084
+		{Position 1806.44 -4113.94}
+		{xform zl 23.29}
+	}
+	{Entity "new_poplar2" 0x5085
+		{Position 1287.12 -4562.4}
+		{xform zl 17.9}
+	}
+	{Entity "fir_bush" 0x5086
+		{Position 1455.58 -4896.77}
+		{xform zl -26.34}
+	}
+	{Entity "fir_bush" 0x5087
+		{Position 1535.76 -4603.98}
+		{xform zl -26.34}
+	}
+	{Entity "new_fir2" 0x5088
+		{Position 1667.41 -4675.43}
+		{xform zl -12.56}
+	}
+	{Entity "fir_bush" 0x5089
+		{Position 1437.36 -4752.01}
+		{xform zl -23.07}
+	}
+	{Entity "new_fir2" 0x508a
+		{Position 1271.47 -4692.72}
+		{xform zl 65.44}
+	}
+	{Entity "new_fir2" 0x508b
+		{Position 1239.42 -4966.62}
+		{xform zl -28.83}
+	}
+	{Entity "fir_bush" 0x508c
+		{Position 1779.6 -5037.81}
+		{xform zl -10.92}
+	}
+	{Entity "fir_bush" 0x508d
+		{Position 1779.06 -4734.25}
+		{xform zl -10.92}
+	}
+	{Entity "new_fir2" 0x508e
+		{Position 1924.96 -4768.11}
+		{xform zl 2.86}
+	}
+	{Entity "fir_bush" 0x508f
+		{Position 1723.57 -4903.11}
+		{xform zl -7.65}
+	}
+	{Entity "new_fir2" 0x5090
+		{Position 1547.87 -4890.06}
+		{xform zl 80.86}
+	}
+	{Entity "new_fir2" 0x5091
+		{Position 1589.81 -5162.62}
+		{xform zl -13.41}
+	}
+	{Entity "new_poplar2" 0x5092
+		{Position -760.41 -4633.13}
+		{xform zl -6.01}
+	}
+	{Entity "fir_bush" 0x5093
+		{Position -828.54 -5014.33 -48.67}
+		{xform zl -50.25}
+	}
+	{Entity "fir_bush" 0x5094
+		{Position -549.96 -4771.94}
+		{xform zl -50.25}
+	}
+	{Entity "new_fir2" 0x5095
+		{Position -458.58 -4890.62}
+		{xform zl -36.47}
+	}
+	{Entity "fir_bush" 0x5096
+		{Position -699.92 -4867.37}
+		{xform zl -46.98}
+	}
+	{Entity "new_fir2" 0x5097
+		{Position -827.53 -4745.91}
+		{xform zl 41.53}
+	}
+	{Entity "new_fir2" 0x5098
+		{Position -967.87 -4983.3 -34.34}
+		{xform zl -52.74}
+	}
+	{Entity "fir_bush" 0x5099
+		{Position -502.93 -5267.37}
+		{xform zl -34.83}
+	}
+	{Entity "fir_bush" 0x509a
+		{Position -380.37 -4989.65}
+		{xform zl -34.83}
+	}
+	{Entity "new_fir2" 0x509b
+		{Position -260.72 -5079.76}
+		{xform zl -21.05}
+	}
+	{Entity "fir_bush" 0x509c
+		{Position -246.83 -5222.5 17.03}
+		{xform zl -31.56}
+	}
+	{Entity "new_fir2" 0x509d
+		{Position -644.98 -5121.8 -1.55}
+		{xform zl 56.95}
+	}
+	{Entity "new_fir2" 0x509e
+		{Position -727.03 -5304.52 -38.63}
+		{xform zl -37.32}
+	}
+	{Entity "box_sentry" 0x509f
+		{Position 438.59 -4502.29 0}
+	}
+	{Entity "barrier3" 0x50a0
+		{Position 352.84 -4459.53}
+	}
+	{Entity "ekpp_119c" 0x1800
+		{Position 539.57 -4511.02 0}
+		{xform zl -3.87}
+	}
+	{Entity "fir_bush" 0x4e
+		{Position 1109.34 42.04}
+		{xform zl 20.55}
+	}
+	{Entity "fir_bush" 0x4f
+		{Position 47.56 263.35}
+		{xform zl 38.24}
+	}
+	{Entity "fir_bush" 0x50
+		{Position 947.02 -44.09}
+		{xform zl 48.55}
+	}
+	{Entity "fir_bush" 0x51
+		{Position 1234.69 -98.36}
+		{xform zl 40.09}
+	}
+	{Entity "fir_bush" 0x52
+		{Position 1118.88 289.13}
+		{xform zl 123.12}
+	}
+	{Entity "new_fir2" 0x53
+		{Position 1330.91 236.44}
+		{xform zl 20.55}
+	}
+	{Entity "new_fir2" 0x54
+		{Position 835.12 -30.45}
+		{xform zl 128.6}
+	}
+	{Entity "clay_111" 0x4021
+		{Position 1588.56 -825.84}
+		{xform zl -91.75}
+	}
+	{Entity "clay_111" 0x2033
+		{Position 1602.09 -591.88}
+		{xform zl -99.8}
+	}
+	{Entity "fir_bush" 0x2034
+		{Position 243.98 176.52}
+		{xform zl 22.75}
+	}
+	{Entity "fir_bush" 0x2038
+		{Position 761.86 184.41}
+		{xform zl 19.92}
+	}
+	{Entity "fir_bush" 0x203e
+		{Position 584.42 468.83}
+		{xform zl 54.81}
+	}
+	{Entity "new_fir2" 0x2041
+		{Position 775.32 345.02}
+		{xform zl 143.32}
+	}
+	{Entity "road_muddy33" 0x2042
+		{Position 385.62 -5791.85 -70.51}
+	}
+	{Entity "road_muddy33" 0x2043
+		{Position 384.57 -6046.17 -23.96}
+	}
+	{Entity "road_muddy33" 0x2044
+		{Position 385.28 -6295.85}
+	}
+	{Entity "road_muddy33" 0x2045
+		{Position 381.63 -6554.12}
+	}
+	{Entity "road_muddy33" 0x2046
+		{Position 379.49 -6809.17}
+	}
+	{Entity "road_muddy33" 0x2047
+		{Position 379.21 -7074.67}
+	}
+	{Entity "road_muddy33" 0x2048
+		{Position 378.51 -7338.35}
+	}
+	{Entity "fir_bush" 0x601f
+		{Position 2030.35 -5855.98}
+		{xform zl -0.74}
+	}
+	{Entity "greenhouse_basis" 0x5800
+		{Position 1246.55 -7380.11}
+		{xform zl -89.34}
+	}
+	{Entity "greenhouse_basis" 0x5819
+		{Position 1741.61 -7705.44}
+		{xform zl -5.03}
+	}
+	{Entity "watch_tower_1" 0x4815
+		{Position -485.99 -6841.71}
+		{xform zl -98.5}
+		{Placer
+			{State "mgun" {Unlinked}}
+		}
+	}
+	{Entity "watch_tower_1" 0x6802
+		{Position -545.27 -7679.95}
+		{xform zl -92.42}
+		{Placer
+			{State "mgun" {Unlinked}}
+		}
+	}
+	{Entity "svarka" 0x6806
+		{Position -1588.25 -6791.25}
+		{xform zl 155.86}
+	}
+	{Entity "ladder_big2" 0x6807
+		{Position -1579.38 -6794.03}
+		{xform zl -18.83}
+	}
+	{Entity "ladder_small" 0x680a
+		{Position -1621.69 -6792.47}
+		{xform zl -155.34}
+	}
+	{Entity "firebox" 0x680b
+		{Position -1376.72 -7218.04}
+		{xform zl -176.71}
+	}
+	{Entity "house_wood122" 0x3000
+		{Position 1049.83 -8892.51}
+		{xform zl -4.64}
+	}
+	{Entity "house_wood122" 0x6000
+		{Position 1679.96 -7958.98}
+		{xform zl 89.44}
+	}
+	{Entity "t62" 0x3001
+		{Position -1578.08 -6851.66}
+		{Extender "enumerator"
+			{number 646}
+		}
+		{Player 2}
+		{MID 10001}
+		{Chassis
+			{FuelBag
+				{Remain 0}
+			}
+		}
+	}
+	{Entity "fence_stone3a" 0x4022
+		{Position -831.58 -7021.69}
+		{xform zl -1.87}
+	}
+	{Entity "fence_stone3a" 0x4023
+		{Position -841.77 -7255.3}
+	}
+	{Entity "fence_stone3b" 0x4024
+		{Position -837.35 -6937.57}
+		{xform zl -90.56}
+	}
+	{Entity "fence_stone3b" 0x4025
+		{Position -834 -6812.85}
+		{xform zl -91.73}
+	}
+	{Entity "fence_stone3b" 0x4026
+		{Position -832.8 -6683.64}
+		{xform zl -91.73}
+	}
+	{Entity "fence_stone3b" 0x4027
+		{Position -893.8 -6631.14}
+		{xform zl -1.45}
+	}
+	{Entity "fence_stone3b" 0x4028
+		{Position -1020.41 -6631.88}
+		{xform zl -0.7}
+	}
+	{Entity "fence_stone3b" 0x4029
+		{Position -1152.2 -6634.52}
+		{xform zl -0.41}
+	}
+	{Entity "fence_stone3b" 0x402a
+		{Position -1278.51 -6632.54}
+		{xform zl -1.85}
+	}
+	{Entity "fence_stone3b" 0x402b
+		{Position -1399.48 -6630.08}
+		{xform zl -0.41}
+	}
+	{Entity "fence_stone3b" 0x402c
+		{Position -1499.27 -6632.78}
+		{xform zl 3.17}
+	}
+	{Entity "fence_stone3b" 0x402d
+		{Position -1624.8 -6632.89}
+		{xform zl -0.41}
+	}
+	{Entity "fence_stone3b" 0x402e
+		{Position -1736.81 -6629.82}
+		{xform zl -0.41}
+	}
+	{Entity "fence_stone3b" 0x402f
+		{Position -1825.38 -6628.54}
+		{xform zl -0.41}
+	}
+	{Entity "fence_stone3b" 0x4030
+		{Position -1880.38 -6690.86}
+		{xform zl 88.9}
+	}
+	{Entity "fence_wire" 0x2049
+		{Position -1565.58 -6750.13}
+	}
+	{Entity "fence_wire" 0x204a
+		{Position -1664.45 -6845.36}
+		{xform zl 92.68}
+	}
+	{Entity "fence_wire" 0x204c
+		{Position -1558.66 -6938.67}
+		{xform zl -177.2}
+	}
+	{Entity "fence_wood01" 0x6001
+		{Position 1520.77 -7324.37}
+	}
+	{Entity "fence_wood01" 0x6002
+		{Position 1637.68 -7324.64}
+	}
+	{Entity "fence_wood01" 0x6003
+		{Position 1708.69 -7387.36}
+		{xform zl -88.83}
+	}
+	{Entity "fence_wood01" 0x1000
+		{Position 992.5 -7334.86}
+	}
+	{Entity "fence_wood01" 0x1001
+		{Position 922.84 -7398.84}
+		{xform zl 84.4}
+	}
+	{Entity "fence_wood01" 0x1002
+		{Position 1773.95 -7458.28}
+		{xform zl -2.14}
+	}
+	{Entity "fence_wood01" 0x1003
+		{Position 1835.05 -7523.89}
+		{xform zl -94.23}
+	}
+	{Entity "fir_bush" 0x50a2
+		{Position 1834.86 -6815.61}
+		{xform zl -1.83}
+	}
+	{Entity "fir_bush" 0x50a3
+		{Position 1758.25 -6691.45}
+		{xform zl 1.44}
+	}
+	{Entity "new_fir2" 0x50a4
+		{Position 1582.7 -6706.31}
+		{xform zl 89.95 scale 2.333}
+	}
+	{Entity "new_fir2" 0x50a5
+		{Position 1899.58 -7081.95}
+		{xform zl -25.99}
+	}
+	{Entity "fir_bush" 0x50a6
+		{Position 1432.65 -6242.46}
+		{xform zl 33.94}
+	}
+	{Entity "fir_bush" 0x50a7
+		{Position 1297.92 -6186.49}
+		{xform zl 37.21}
+	}
+	{Entity "new_fir2" 0x50a8
+		{Position 1164.16 -6301.15}
+		{xform zl 125.72}
+	}
+	{Entity "new_fir2" 0x50a9
+		{Position 1640.83 -6420.75}
+		{xform zl 9.78 scale 1.727}
+	}
+	{Entity "fir_bush" 0x50aa
+		{Position 2269.92 -7247.41}
+		{xform zl -45.26}
+	}
+	{Entity "fir_bush" 0x50ab
+		{Position 2299.64 -7104.57}
+		{xform zl -41.99}
+	}
+	{Entity "new_fir2" 0x50ac
+		{Position 2161.93 -6994.68}
+		{xform zl 46.52}
+	}
+	{Entity "new_fir2" 0x50ad
+		{Position 2133.83 -7485.32}
+		{xform zl -69.42}
+	}
+	{Entity "fir_bush" 0x50ae
+		{Position -1280.03 -5849.36}
+		{xform zl 21.97}
+	}
+	{Entity "fir_bush" 0x50af
+		{Position -1400.23 -5766.66}
+		{xform zl 25.24}
+	}
+	{Entity "new_fir2" 0x50b0
+		{Position -1554.86 -5851.09}
+		{xform zl 113.75}
+	}
+	{Entity "new_fir2" 0x50b1
+		{Position -1113.35 -6066.94}
+		{xform zl -2.19}
+	}
+	{Entity "fir_bush" 0x50b2
+		{Position -1145.03 -8846.58}
+		{xform zl 169.15}
+	}
+	{Entity "fir_bush" 0x50b3
+		{Position -1088.84 -8981.23}
+		{xform zl 172.42}
+	}
+	{Entity "new_fir2" 0x50b4
+		{Position -913.13 -8994.07}
+		{xform zl -99.07}
+	}
+	{Entity "new_fir2" 0x50b5
+		{Position -1167.18 -8573.39}
+		{xform zl 144.99}
+	}
+	{Entity "fir_bush" 0x50b6
+		{Position -1687.52 -8973.45}
+		{xform zl 0.89}
+	}
+	{Entity "fir_bush" 0x50b7
+		{Position -1769.93 -8853.06}
+		{xform zl 4.16}
+	}
+	{Entity "new_fir2" 0x50b8
+		{Position -1944.57 -8876.21}
+		{xform zl 92.67}
+	}
+	{Entity "new_fir2" 0x50b9
+		{Position -1610.26 -9236.42}
+		{xform zl -23.27}
+	}
+	{Entity "fir_bush" 0x50ba
+		{Position -240.63 -8747.32}
+		{xform zl 27}
+	}
+	{Entity "fir_bush" 0x50bb
+		{Position -367.61 -8675.48}
+		{xform zl 30.27}
+	}
+	{Entity "new_fir2" 0x50bc
+		{Position -514.24 -8773.13}
+		{xform zl 118.78}
+	}
+	{Entity "new_fir2" 0x50bd
+		{Position -55.53 -8949.47}
+		{xform zl 2.84}
+	}
+	{Entity "road_muddy33" 0x3003
+		{Position 382.71 -7540.62}
+	}
+	{Entity "road_muddy33" 0x3004
+		{Position 382.43 -7806.12}
+	}
+	{Entity "road_muddy33" 0x3005
+		{Position 381.73 -8069.8}
+	}
+	{Entity "road_muddy33" 0x3006
+		{Position 379.34 -8293.23}
+	}
+	{Entity "road_muddy33" 0x3007
+		{Position 379.06 -8558.73}
+	}
+	{Entity "road_muddy33" 0x3008
+		{Position 378.36 -8822.42}
+	}
+	{Entity "road_muddy33" 0x3009
+		{Position 376.83 -8987.17}
+	}
+	{Entity "road_muddy33" 0x300a
+		{Position 376.55 -9252.67}
+	}
+	{Entity "road_muddy33" 0x300b
+		{Position 375.85 -9516.35}
+	}
+	{Entity "fence_wood01" 0x300c
+		{Position 1141.83 -7810.37}
+		{xform zl -0.87}
+	}
+	{Entity "fence_wood01" 0x300d
+		{Position 1010.19 -7808.62}
+		{xform zl -0.87}
+	}
+	{Entity "fence_wood01" 0x300e
+		{Position 975.55 -7999.57}
+		{xform zl -8.93}
+	}
+	{Entity "fence_wood01" 0x300f
+		{Position 1255.87 -7805.56}
+		{xform zl 3.21}
+	}
+	{Entity "fence_wood01" 0x3010
+		{Position 1389.27 -7806.1}
+		{xform zl -3.93}
+	}
+	{Entity "fence_stone3b" 0x4031
+		{Position -847.59 -7329.95}
+		{xform zl -90.96}
+	}
+	{Entity "fence_stone3b" 0x4032
+		{Position -849.51 -7456.93}
+		{xform zl -91.06}
+	}
+	{Entity "fence_stone3b" 0x4033
+		{Position -852.81 -7578.8}
+		{xform zl -91.06}
+	}
+	{Entity "fence_stone3b" 0x4034
+		{Position -856.35 -7701.4}
+		{xform zl -91.06}
+	}
+	{Entity "fence_stone3b" 0x4035
+		{Position -857.42 -7826.53}
+		{xform zl -91.06}
+	}
+	{Entity "fence_stone3b" 0x4036
+		{Position -854.85 -7962.23}
+		{xform zl -89.04}
+	}
+	{Entity "fence_stone3b" 0x4037
+		{Position -851.98 -8088}
+		{xform zl -91.06}
+	}
+	{Entity "fence_stone3b" 0x4038
+		{Position -852.7 -8211.15}
+		{xform zl -91.06}
+	}
+	{Entity "fence_stone3b" 0x4039
+		{Position -854.54 -8338.37}
+		{xform zl -91.06}
+	}
+	{Entity "fence_stone3b" 0x403a
+		{Position -918.78 -8469.05}
+		{xform zl -178.08}
+	}
+	{Entity "fence_stone3b" 0x403b
+		{Position -993.4 -8469.83}
+		{xform zl -178.08}
+	}
+	{Entity "fence_stone3b" 0x403c
+		{Position -1111.87 -8472.84}
+		{xform zl -179.79}
+	}
+	{Entity "fence_stone3b" 0x403d
+		{Position -1239.79 -8478.13}
+		{xform zl -179.23}
+	}
+	{Entity "netting" 0x204b
+		{Position -1589.71 -6851.34}
+	}
+	{Entity "fire_station_a" 0x50be
+		{Position -1323.98 -8199.48 -1}
+		{xform zl 179.76}
+	}
+	{Entity "fence_stone3b" 0x3002
+		{Position -856.66 -8411.29}
+		{xform zl -89.8}
+	}
+	{Entity "fence_stone3b" 0x3011
+		{Position -1365.52 -8483.06}
+		{xform zl 179.9}
+	}
+	{Entity "fence_stone3b" 0x3012
+		{Position -1486.81 -8482.68}
+		{xform zl 177.82}
+	}
+	{Entity "fence_stone3b" 0x3013
+		{Position -1612.79 -8475.3}
+		{xform zl 177.82}
+	}
+	{Entity "fence_stone3b" 0x3014
+		{Position -1735.42 -8470.56}
+		{xform zl 177.82}
+	}
+	{Entity "fence_stone3b" 0x3015
+		{Position -1809.28 -8410.08}
+		{xform zl 93.38}
+	}
+	{Entity "fence_stone3b" 0x3016
+		{Position -1816.17 -8285.98}
+		{xform zl 92.01}
+	}
+	{Entity "fence_stone3b" 0x3017
+		{Position -1823.07 -8161.69}
+		{xform zl 92.01}
+	}
+	{Entity "box_metall1" 0x680c
+		{Position -1591.13 -8217.8}
+		{xform zl -24.78}
+	}
+	{Entity "box_metall1" 0x800
+		{Position -1602.19 -8170.85}
+		{xform zl -65.6}
+	}
+	{Entity "box_metall1" 0x801
+		{Position -1565.64 -8189.28}
+		{xform zl -4.89}
+	}
+	{Entity "box_metall2" 0x802
+		{Position -1473.55 -8240.3}
+		{xform zl -22.06}
+	}
+	{Entity "box_metall1" 0x803
+		{Position -1438.28 -8233.62}
+		{xform zl -154.05}
+	}
+	{Entity "box_metall1" 0x804
+		{Position -1467.8 -8168.88}
+		{xform zl 1.56}
+	}
+	{Entity "box_wood2" 0x805
+		{Position -1425.16 -8195.53}
+		{xform zl 30.25}
+	}
+	{Entity "box_metall1" 0x806
+		{Position -1349.88 -8189.5}
+		{xform zl 76.85}
+	}
+	{Entity "box_wood2" 0x807
+		{Position -1374.11 -8244.94}
+		{xform zl -2.47}
+	}
+	{Entity "engine" 0x808
+		{Position -1434.36 -8143.96}
+		{xform zl 4.43}
+	}
+	{Entity "fence_stone3b" 0x809
+		{Position -1825.71 -8036.59}
+		{xform zl 91.65}
+	}
+	{Entity "fence_stone3b" 0x80a
+		{Position -1831.82 -7912.25}
+		{xform zl 91.65}
+	}
+	{Entity "fence_stone3b" 0x80b
+		{Position -1836.81 -7785.08}
+		{xform zl 92.01}
+	}
+	{Entity "fence_stone3b" 0x80c
+		{Position -1843.71 -7660.79}
+		{xform zl 92.01}
+	}
+	{Entity "fence_stone3b" 0x80d
+		{Position -1847.98 -7536.09}
+		{xform zl 92.01}
+	}
+	{Entity "fence_stone3b" 0x80e
+		{Position -1854.88 -7411.8}
+		{xform zl 92.01}
+	}
+	{Entity "fence_stone3b" 0x80f
+		{Position -1858.77 -7288.79}
+		{xform zl 92.01}
+	}
+	{Entity "fence_stone3b" 0x810
+		{Position -1865.67 -7164.5}
+		{xform zl 92.01}
+	}
+	{Entity "fence_stone3b" 0x811
+		{Position -1868.12 -7036.56}
+		{xform zl 92.01}
+	}
+	{Entity "fence_stone3b" 0x812
+		{Position -1875.02 -6912.27}
+		{xform zl 92.01}
+	}
+	{Entity "fence_stone3b" 0x813
+		{Position -1879.38 -6798.53}
+		{xform zl 92.01}
+	}
+	{Entity "border_cobble_02b" 0x50bf
+		{Position -962.86 -7042.52}
+	}
+	{Entity "border_cobble_02b" 0x7000
+		{Position -1044.62 -7044.24}
+	}
+	{Entity "border_cobble_02b" 0x7001
+		{Position -1230.78 -7039.8}
+	}
+	{Entity "border_cobble_02b" 0x7002
+		{Position -1324.01 -7039.73}
+	}
+	{Entity "border_cobble_02b" 0x7003
+		{Position -1419.47 -7041.88}
+	}
+	{Entity "border_cobble_02b" 0x7004
+		{Position -1499.49 -7042.43}
+	}
+	{Entity "border_cobble_02b" 0x7005
+		{Position -1575.04 -7042.97}
+	}
+	{Entity "border_cobble_02b" 0x814
+		{Position -1664.13 -7042.91}
+	}
+	{Entity "border_cobble_02b" 0x815
+		{Position -1738.14 -7042.9}
+	}
+	{Entity "border_cobble_02b" 0x816
+		{Position -1803.77 -7046.02}
+	}
+	{Entity "border_cobble_02b" 0x50c0
+		{Position -1019.22 -6903.13}
+		{xform zl 89.53}
+	}
+	{Entity "border_cobble_02b" 0x50c1
+		{Position -1018.17 -6984.91}
+		{xform zl 89.53}
+	}
+	{Entity "border_cobble_02b" 0x50c2
+		{Position -921.06 -7213.67}
+	}
+	{Entity "border_cobble_02b" 0x50c3
+		{Position -1002.82 -7215.39}
+	}
+	{Entity "border_cobble_02b" 0x50c4
+		{Position -1053.07 -7264.28}
+		{xform zl 89.52}
+	}
+	{Entity "border_cobble_02b" 0x50c5
+		{Position -1189.27 -7271.65}
+		{xform zl -89.85}
+	}
+	{Entity "border_cobble_02b" 0x50c6
+		{Position -1232.87 -7217.26}
+	}
+	{Entity "border_cobble_02b" 0x50c7
+		{Position -1314.63 -7218.98}
+	}
+	{Entity "border_cobble_02b" 0x50c8
+		{Position -1602.22 -7211.61}
+	}
+	{Entity "border_cobble_02b" 0x50c9
+		{Position -1683.98 -7213.33}
+	}
+	{Entity "border_cobble_02b" 0x50ca
+		{Position -1747.23 -7209.6}
+	}
+	{Entity "border_cobble_02b" 0x50cb
+		{Position -1828.99 -7211.32}
+	}
+	{Entity "border_cobble_02b" 0x50cc
+		{Position -924.51 -7043.7}
+	}
+	{Entity "border_cobble_02b" 0x50cd
+		{Position -1368.3 -6905.65}
+	}
+	{Entity "border_cobble_02b" 0x50ce
+		{Position -1282.51 -6902.02}
+	}
+	{Entity "border_cobble_02b" 0x50cf
+		{Position -1229.63 -6952.98}
+		{xform zl -89.15}
+	}
+	{Entity "border_cobble_02b" 0x50d0
+		{Position -1231.31 -6992.71}
+		{xform zl -89.15}
+	}
+	{Entity "border_cobble_02b" 0x50d1
+		{Position -1391.07 -6779.15}
+		{xform zl 0.62}
+	}
+	{Entity "border_cobble_02b" 0x50d2
+		{Position -1301.67 -6778.42}
+		{xform zl 0.62}
+	}
+	{Entity "border_cobble_02b" 0x50d3
+		{Position -1214.31 -6777.92}
+		{xform zl 0.62}
+	}
+	{Entity "border_cobble_02b" 0x50d4
+		{Position -1113.72 -6778.22}
+		{xform zl 0.62}
+	}
+	{Entity "border_cobble_02b" 0x50d5
+		{Position -1035.78 -6818.73}
+		{xform zl -61.57}
+	}
+	{Entity "border_cobble_02b" 0x50d6
+		{Position -1481.98 -6781.66}
+		{xform zl 0.62}
+	}
+	{Entity "border_cobble_02b" 0x50d7
+		{Position -1455.29 -6904.92}
+		{xform zl 0.62}
+	}
+	{Entity "border_cobble_02b" 0x50d8
+		{Position -1537.38 -6838.11}
+		{xform zl 88.24}
+	}
+	{Entity "border_cobble_02b" 0x50d9
+		{Position -1492.48 -6902.7}
+		{xform zl 0.62}
+	}
+	{Entity "border_cobble_02b" 0x96
+		{Position -1188.89 -7353.07}
+		{xform zl -89.85}
+	}
+	{Entity "border_cobble_02b" 0x97
+		{Position -1187.96 -7430.69}
+		{xform zl -89.85}
+	}
+	{Entity "border_cobble_02b" 0x98
+		{Position -1189.25 -7518.56}
+		{xform zl -89.85}
+	}
+	{Entity "border_cobble_02b" 0x99
+		{Position -1189.62 -7608.1}
+		{xform zl -89.85}
+	}
+	{Entity "border_cobble_02b" 0x9a
+		{Position -1186.66 -7685.15}
+		{xform zl -89.85}
+	}
+	{Entity "border_cobble_02b" 0x9b
+		{Position -1185.52 -7774.7}
+		{xform zl -89.85}
+	}
+	{Entity "border_cobble_02b" 0x9c
+		{Position -1182.86 -7846.52}
+		{xform zl -89.85}
+	}
+	{Entity "border_cobble_02b" 0x9d
+		{Position -1185.03 -7879.5}
+		{xform zl -89.85}
+	}
+	{Entity "border_cobble_02b" 0x9e
+		{Position -1233.94 -7922.22}
+		{xform zl 0.32}
+	}
+	{Entity "border_cobble_02b" 0x9f
+		{Position -1332.93 -7925.06}
+		{xform zl -179.67}
+	}
+	{Entity "border_cobble_02b" 0xa0
+		{Position -1409.53 -7926.68}
+		{xform zl 176.6}
+	}
+	{Entity "border_cobble_02b" 0xa1
+		{Position -1493.07 -7969.55}
+		{xform zl -89.85}
+	}
+	{Entity "border_cobble_02b" 0xa2
+		{Position -1493.54 -8010.02}
+		{xform zl -89.85}
+	}
+	{Entity "border_cobble_02b" 0xa3
+		{Position -1437.13 -8051.96}
+		{xform zl -1.32}
+	}
+	{Entity "border_cobble_02b" 0xa4
+		{Position -1344.85 -8051.87}
+		{xform zl -0.34}
+	}
+	{Entity "border_cobble_02b" 0xa5
+		{Position -1061.25 -8008.6}
+		{xform zl -89.85}
+	}
+	{Entity "border_cobble_02b" 0xa6
+		{Position -1059.28 -7925.12}
+		{xform zl -89.85}
+	}
+	{Entity "border_cobble_02b" 0xa7
+		{Position -1059.27 -7835.67}
+		{xform zl -89.85}
+	}
+	{Entity "border_cobble_02b" 0xa8
+		{Position -1056.38 -7754.95}
+		{xform zl -89.85}
+	}
+	{Entity "border_cobble_02b" 0xa9
+		{Position -1057.59 -7702.17}
+		{xform zl -89.85}
+	}
+	{Entity "border_cobble_02b" 0xaa
+		{Position -1060.64 -7649.93}
+		{xform zl -89.85}
+	}
+	{Entity "border_cobble_02b" 0xab
+		{Position -1056.15 -7360.72}
+		{xform zl -89.85}
+	}
+	{Entity "border_cobble_02b" 0xac
+		{Position -1054.02 -7440.21}
+		{xform zl -89.85}
+	}
+	{Entity "border_cobble_02b" 0xad
+		{Position -1056.37 -7525.61}
+		{xform zl -89.85}
+	}
+	{Entity "border_cobble_02b" 0xae
+		{Position -1058.6 -7565.37}
+		{xform zl -89.85}
+	}
+	{Entity "box_weapon" 0x95
+		{Position 1254.12 -564.57}
+		{xform zl 34.21}
+	}
+	{Entity "border_cobble_02b" 0xaf
+		{Position -1446.89 -7923.97}
+		{xform zl 179.04}
+	}
+	{Entity "border_cobble_02b" 0xb0
+		{Position -1270.32 -8050.37}
+		{xform zl 0.41}
+	}
+	{Entity "admin_house" 0x4800
+		{Position -1479.53 -7403.94}
+		{xform zl -90.1}
+	}
+	{Entity "border_cobble_02b" 0xb3
+		{Position -1188.94 -8048.84}
+		{xform zl 0.41}
+	}
+	{Entity "border_cobble_02b" 0xb4
+		{Position -1135.64 -8048.53}
+		{xform zl 0.41}
+	}
+	{Entity "border_cobble_02b" 0xb5
+		{Position -1106.65 -8048.91}
+		{xform zl 0.41}
+	}
+	{Entity "coaster_ship_inventory" 0xb6
+		{Position 1251.03 -250.86}
+		{xform zl -11.75}
+	}
+	{Entity "fence_wood01" 0xb7
+		{Position 1081.12 -7335.62}
+		{xform zl -2}
+	}
+	{Entity "fence_wood01" 0xb8
+		{Position 1425.63 -7324.18}
+		{xform zl -2}
+	}
+	{Entity "fence_wood01" 0xb9
+		{Position 848.74 -7462.47}
+		{xform zl -2}
+	}
+	{Entity "sunflover_bush" 0xba
+		{Position 1127.86 -7616.44}
+	}
+	{Entity "sunflover_bush" 0xbb
+		{Position 1165.42 -7678.5}
+		{xform zl -10.29}
+	}
+	{Entity "sunflover_bush" 0xbc
+		{Position 1228.3 -7628.92}
+		{xform zl 3.09}
+	}
+	{Entity "sunflover_bush" 0xbd
+		{Position 1257.79 -7681.37}
+		{xform zl -34.81}
+	}
+	{Entity "sunflover_bush" 0xbe
+		{Position 1164.86 -7540.87}
+		{xform zl 1.08}
+	}
+	{Entity "sunflover_bush" 0xbf
+		{Position 1020.76 -7636.55}
+		{xform zl 0.53}
+	}
+	{Entity "sunflover_bush" 0xc0
+		{Position 1044.53 -7748.04}
+		{xform zl -27.96}
+	}
+	{Entity "sunflover_bush" 0xc1
+		{Position 1347.74 -7542.36}
+		{xform zl 22.69}
+	}
+	{Entity "sunflover_bush" 0xc2
+		{Position 1416.69 -7656.79}
+		{xform zl -21.13}
+	}
+	{Entity "reed_bush" 0xc3
+		{Position 1198.17 -7605.69}
+		{xform zl -10.15}
+	}
+	{Entity "sunflover_bush" 0xc4
+		{Position 1220.5 -7588.19}
+		{xform zl 16.7}
+	}
+	{Entity "sunflover" 0xc5
+		{Position 1200.33 -7739.07}
+	}
+	{Entity "sunflover" 0xc6
+		{Position 1105.61 -7673.19}
+	}
+	{Entity "sunflover" 0xc7
+		{Position 963.59 -7702.11}
+	}
+	{Entity "sunflover" 0xc8
+		{Position 999.71 -7574.5}
+	}
+	{Entity "sunflover" 0xc9
+		{Position 1459.16 -7740.97}
+	}
+	{Entity "sunflover" 0xca
+		{Position 1583.48 -7635.09}
+	}
+	{Entity "sunflover" 0xcb
+		{Position 1539.22 -7538.02}
+	}
+	{Entity "sunflover" 0xcc
+		{Position 1391.88 -7586.75}
+	}
+	{Entity "camp_fire2" 0x403e
+		{Position 1213.9 -858.36}
+	}
+	{Entity "mts-boiler1" 0x200d
+		{Position 1600.65 -8219.38}
+	}
+	{Entity "barricade_brick1_c1" 0x6004
+		{Position 544.68 -7100.8}
+		{xform zl 50}
+	}
+	{Entity "barricade_brick1_c1" 0x6005
+		{Position 240.95 -7111.06}
+		{xform zl -40}
+	}
+	{Entity "barricade_brick1_c1" 0x6006
+		{Position 218.16 -7101.77}
+		{xform zl -10}
+	}
+	{Entity "barricade_brick1_c1" 0x6007
+		{Position 190.03 -7102.2}
+		{xform zl 10}
+	}
+	{Entity "barricade_brick1_c1" 0x6008
+		{Position 562.14 -7089.11}
+		{xform zl 20}
+	}
+	{Entity "barricade_brick1_c1" 0x6009
+		{Position 580.81 -7090.47}
+		{xform zl -30}
+	}
+	{Entity "new_fir2" 0x1004
+		{Position 268.31 -4717.5}
+		{xform zl 13.53 scale 1.79}
+	}
+	{Entity "fir_bush" 0x1005
+		{Position 513.44 -5122.32 5.15}
+		{xform zl -14.83 scale 1.677}
+	}
+	{Entity "fir_bush" 0x1006
+		{Position 21.98 -5180.11}
+		{xform zl -14.83}
+	}
+	{Entity "new_fir2" 0x1007
+		{Position 291.59 -5153.28}
+		{xform zl 8.95 scale 1.363}
+	}
+	{Entity "new_fir2" 0x1009
+		{Position -181.47 -5394.79 -13.7}
+		{xform zl 76.95}
+	}
+	{Entity "new_fir2" 0x100a
+		{Position -613.54 -5611.04 -4.23}
+		{xform zl -66.47}
+	}
+	{Entity "fir_bush" 0x100b
+		{Position -807.46 -5920.13 -50.61}
+		{xform zl -64.83}
+	}
+	{Entity "fir_bush" 0x100c
+		{Position -595.32 -5735.9 -2}
+		{xform zl -64.83}
+	}
+	{Entity "fir_bush" 0x100e
+		{Position -870.18 -6140.07}
+		{xform zl -61.56}
+	}
+	{Entity "new_fir2" 0x100f
+		{Position -857.69 -5723.03 -73.42}
+		{xform zl 26.95}
+	}
+	{Entity "new_fir2" 0x1010
+		{Position -42.79 -5964.77 14.98}
+		{xform zl -56.47 scale 1.26}
+	}
+	{Entity "fir_bush" 0x1011
+		{Position -213.33 -6303.63}
+		{xform zl -54.83}
+	}
+	{Entity "fir_bush" 0x1012
+		{Position -3.17 -6084.58 5.31}
+		{xform zl -54.83}
+	}
+	{Entity "fir_bush" 0x1014
+		{Position 42.68 -6349.06}
+		{xform zl -51.56}
+	}
+	{Entity "new_fir2" 0x1015
+		{Position -297.02 -6118.26}
+		{xform zl 36.95}
+	}
+	{Entity "crate2_scene_" 0x50da
+		{Position -1673.01 -7673.67}
+		{xform zl -10}
+	}
+	{Entity "crate2_scene_" 0x50db
+		{Position -1681.82 -7783.3}
+		{xform zl 20}
+	}
+	{Entity "crate2_scene_" 0x50dc
+		{Position -1635.88 -7915.03}
+		{xform zl 40}
+	}
+	{Entity "crate6" 0x50dd
+		{Position -1616.26 -7658.46}
+		{xform zl -30}
+	}
+	{Entity "crate6" 0x50de
+		{Position -1626.42 -7689.52}
+		{xform zl -10}
+	}
+	{Entity "crate6" 0x50df
+		{Position -1624.32 -7724.8}
+		{xform zl 10}
+	}
+	{Entity "crate6" 0x50e0
+		{Position -1577.07 -7880.74}
+		{xform zl 170}
+	}
+	{Entity "crate6" 0x50e1
+		{Position -1567.01 -7919.19}
+		{xform zl -130}
+	}
+	{Entity "crate6" 0x50e2
+		{Position -1606.14 -7840.01}
+		{xform zl 160}
+	}
+	{Entity "crate_one" 0x50e3
+		{Position -1548.43 -7888.99}
+		{xform zl -70}
+	}
+	{Entity "crate_one" 0x50e4
+		{Position -1652.76 -7735.55}
+		{xform zl -50}
+	}
+	{Entity "netting" 0x50e5
+		{Position -1644.54 -7783.82}
+		{xform zl 10}
+	}
+	{Entity "netting" 0x50e6
+		{Position -1593.07 -7922.75}
+		{xform zl 30}
+	}
+	{Entity "netting" 0x50e7
+		{Position -1604.84 -7663.6}
+		{xform zl -50}
+	}
+	{Entity "water_river4" 0x3018
+		{Position 2906.36 -6116.95 -66}
+	}
+	{Entity "water_river4" 0x3019
+		{Position 3191.18 -6179.84 -66}
+		{xform zl -10}
+	}
+	{Entity "water_river4" 0x301a
+		{Position 3046.58 -6048.18 -66}
+	}
+	{Entity "water_river4" 0x301b
+		{Position 2899.14 -6707.71 -58}
+	}
+	{Entity "water_river4" 0x301c
+		{Position 3183.96 -6770.6 -58}
+		{xform zl -10}
+	}
+	{Entity "water_river4" 0x301d
+		{Position 3039.36 -6638.94 -58}
+	}
+	{Entity "water_river4" 0x301e
+		{Position 2895.06 -7236.48 -58}
+		{xform zl 20}
+	}
+	{Entity "water_river4" 0x301f
+		{Position 3184.22 -7198.16 -58}
+		{xform zl 10}
+	}
+	{Entity "water_river4" 0x3020
+		{Position 3003.31 -7123.9 -58}
+		{xform zl 20}
+	}
+	{Entity "water_river4" 0x3021
+		{Position 2722.01 -7568.33 -58}
+		{xform zl -30}
+	}
+	{Entity "water_river4" 0x3022
+		{Position 2937.23 -7765.21 -58}
+		{xform zl -40}
+	}
+	{Entity "water_river4" 0x3023
+		{Position 2877.83 -7578.89 -58}
+		{xform zl -30}
+	}
+	{Entity "water_river4" 0x3024
+		{Position 2447.97 -7217.65 -58}
+		{xform zl -30}
+	}
+	{Entity "water_river4" 0x3025
+		{Position 2663.19 -7414.53 -58}
+		{xform zl -40}
+	}
+	{Entity "water_river4" 0x3026
+		{Position 2603.79 -7228.21 -58}
+		{xform zl -30}
+	}
+	{Entity "water_river4" 0x3027
+		{Position 2546.55 -6706 -58}
+		{xform zl -20}
+	}
+	{Entity "water_river4" 0x3028
+		{Position 2792.68 -6862.51 -58}
+		{xform zl -30}
+	}
+	{Entity "water_river4" 0x3029
+		{Position 2701.83 -6689.34 -58}
+		{xform zl -20}
+	}
+	{Entity "barrel_woods4" 0xcf
+		{Position 996.43 -7360.79}
+		{xform zl 140}
+	}
+	{Entity "barrel_woods4" 0xd0
+		{Position 972.4 -7397.74}
+		{xform zl 160}
+	}
+	{Entity "barrel_woods4" 0xd1
+		{Position 1107.71 -7374.16}
+		{xform zl 60}
+	}
+	{Entity "barrel_woods4" 0xd2
+		{Position 1138.28 -7398.96}
+		{xform zl 20}
+	}
+	{Entity "barrel_woods_small" 0xd3
+		{Position 850.04 -7496.88}
+		{xform zl 30}
+	}
+	{Entity "barrel_woods_small" 0xd4
+		{Position 1392.79 -7386.04}
+		{xform zl 70}
+	}
+	{Entity "barrel_woods_small" 0xd5
+		{Position 1543.48 -7465.95}
+		{xform zl 30}
+	}
+	{Entity "barrel_woods_small" 0xd6
+		{Position 1605.16 -7430.23}
+		{xform zl 50}
+	}
+	{Entity "stack_fence" 0x204d
+		{Position 1856.95 -7217.48}
+	}
+	{Entity "stack_fence" 0x2050
+		{Position 1324.41 -5954.05}
+	}
+	{Entity "stack_fence" 0x2051
+		{Position -119.52 -5736.52 -41.9}
+	}
+	{Entity "stack_fence" 0x2052
+		{Position -199.73 -6863.07}
+	}
+	{Entity "stack_fence" 0x2053
+		{Position -354.19 -6478.94}
+	}
+	{Entity "stack_fence" 0x2054
+		{Position 1661.25 -6239.35}
+	}
+	{Entity "telega" 0x2055
+		{Position 1954.22 -8127.28}
+		{xform zl -30}
+	}
+	{Entity "new_fir2" 0x2056
+		{Position 24.96 -6634.17 -0.17}
+		{xform zl 3.53}
+	}
+	{Entity "fir_bush" 0x2057
+		{Position 73.88 -6799.95 0.18}
+		{xform zl 5.17}
+	}
+	{Entity "new_fir2" 0x2058
+		{Position 215.99 -6702.48}
+		{xform zl 18.95}
+	}
+	{Entity "fir_bush" 0x2059
+		{Position 242.02 -6890.08}
+		{xform zl 8.44}
+	}
+	{Entity "new_fir2" 0x205b
+		{Position 820.25 -6548.8}
+		{xform zl 58.95 scale 0.547}
+	}
+	{Entity "new_fir2" 0x205c
+		{Position 609.12 -6344.18}
+		{xform zl 58.95 scale 1.407}
+	}
+	{Entity "new_fir2" 0x205d
+		{Position 1131.17 -6602.3}
+		{xform zl 28.95}
+	}
+	{Entity "new_fir2" 0x205e
+		{Position 936.56 -6760.52}
+		{xform zl 38.95 scale 1.24}
+	}
+	{Entity "new_fir2" 0x205f
+		{Position 656.81 -7231.93}
+		{xform zl 18.95}
+	}
+	{Entity "new_fir2" 0x2060
+		{Position 1737.55 -8434.37}
+		{xform zl 18.95}
+	}
+	{Entity "new_fir2" 0x2061
+		{Position 1328.44 -8899.34}
+		{xform zl 18.95}
+	}
+	{Entity "new_fir2" 0x2062
+		{Position 657.02 -8901.89}
+		{xform zl 18.95}
+	}
+	{Entity "new_fir2" 0x2063
+		{Position 774.31 -9144.56}
+		{xform zl 18.95}
+	}
+	{Entity "new_fir2" 0x2064
+		{Position 582.23 -8801.24}
+		{xform zl 18.95}
+	}
+	{Entity "new_fir2" 0x2065
+		{Position 192.51 -8561.74}
+		{xform zl 18.95}
+	}
+	{Entity "new_fir2" 0x2066
+		{Position 152.06 -8961.04}
+		{xform zl 18.95}
+	}
+	{Entity "wire_left_a" 0x2067
+		{Position 470.26 -6891.29}
+		{xform zl -20}
+	}
+	{Entity "wire_left_a" 0x2068
+		{Position 304.13 -6905.06}
+		{xform zl 20}
+	}
+	{Entity "wire_left_a" 0x2069
+		{Position 602.97 -6941.2}
+		{xform zl -30}
+	}
+	{Entity "wire_left_a" 0x206a
+		{Position 148.59 -6958.51}
+		{xform zl 30}
+	}
+	{Entity "fence_wood_r10" 0x206b
+		{Position 863.07 -8871.73}
+	}
+	{Entity "fence_wood_r10" 0x206c
+		{Position 863.58 -8776.8}
+	}
+	{Entity "fence_wood_r10" 0x206d
+		{Position 863.37 -8682.35}
+	}
+	{Entity "fence_wood_r10" 0x206e
+		{Position 1206.54 -8869.71}
+	}
+	{Entity "fence_wood_r10" 0x206f
+		{Position 1207.05 -8774.78}
+	}
+	{Entity "fence_wood_r10" 0x2070
+		{Position 1206.84 -8680.33}
+	}
+	{Entity "fence_wood_r10" 0x600a
+		{Position 862.02 -8965.68}
+	}
+	{Entity "fence_wood_r10" 0x600b
+		{Position 912.25 -9014.51}
+		{xform zl 90}
+	}
+	{Entity "fence_wood_r10" 0x600c
+		{Position 1007.77 -9014.39}
+		{xform zl 90}
+	}
+	{Entity "fence_wood_r10" 0x600d
+		{Position 1096.25 -9014.63}
+		{xform zl 90}
+	}
+	{Entity "fence_wood_r10" 0x600e
+		{Position 1190.18 -9006.71}
+		{xform zl 100}
+	}
+	{Entity "fence_wood_r10" 0x600f
+		{Position 1221.95 -8954.11}
+		{xform zl -160}
+	}
+	{Entity "fence_wood_r10" 0x6010
+		{Position 915.9 -8631.89}
+		{xform zl -90}
+	}
+	{Entity "fence_wood_r10" 0x6011
+		{Position 1156.78 -8632.3}
+		{xform zl -90}
+	}
+	{Entity "fence_wood_r5" 0x1016
+		{Position 1696.77 -8081.09}
+	}
+	{Entity "fence_wood_r5" 0x1017
+		{Position 1618.83 -8082.1}
+	}
+	{Entity "fence_wood_r5" 0x1018
+		{Position 1543.7 -8082.28}
+	}
+	{Entity "fence_wood_r5" 0x1019
+		{Position 1712.48 -7835.26}
+	}
+	{Entity "fence_wood_r5" 0x101a
+		{Position 1633.8 -7836.23}
+	}
+	{Entity "fence_wood_r5" 0x101b
+		{Position 1555.12 -7836.89}
+	}
+	{Entity "fence_wood_r5" 0x101c
+		{Position 1516.62 -7875.62}
+		{xform zl 90}
+	}
+	{Entity "fence_wood_r5" 0x101d
+		{Position 1503.79 -8036.41}
+		{xform zl 90}
+	}
+	{Entity "fence_wood_r5" 0x101e
+		{Position 1804.38 -7898.68}
+		{xform zl 90}
+	}
+	{Entity "fence_wood_r5" 0x101f
+		{Position 1802.75 -7961.92}
+		{xform zl 90}
+	}
+	{Entity "fence_wood_r5" 0x1020
+		{Position 1803.08 -8035.03}
+		{xform zl 90}
+	}
+	{Entity "fence_wood01" 0x1021
+		{Position 1901.17 -7596.02}
+		{xform zl -4.23}
+	}
+	{Entity "fence_wood01" 0x1022
+		{Position 1919.28 -7805.89}
+		{xform zl -4.23}
+	}
+	{Entity "fence_wood01" 0x1023
+		{Position 1792.57 -7794.31}
+		{xform zl -4.23}
+	}
+	{Entity "fence_wood01" 0x1024
+		{Position 1658.48 -7797.75}
+		{xform zl 5.77}
+	}
+	{Entity "fence_wood01" 0x1025
+		{Position 1531.69 -7808.33}
+		{xform zl 5.77}
+	}
+	{Entity "coaster_ship_crate2" 0x1026
+		{Position -1753.66 -7917.75}
+		{xform zl 70}
+	}
+	{Entity "coaster_ship_crate2" 0x1027
+		{Position -1757.62 -7999.87}
+		{xform zl 110}
+	}
+	{Entity "coaster_ship_crate2" 0x1028
+		{Position -1757.68 -8313.52}
+		{xform zl 140}
+	}
+	{Entity "coaster_ship_crate2" 0x1029
+		{Position -1767.95 -8223.31}
+		{xform zl 70}
+	}
+	{Entity "coaster_ship_crate3" 0x102a
+		{Position -1783.52 -6920.25}
+		{xform zl -20}
+	}
+	{Entity "coaster_ship_crate3" 0x102b
+		{Position -1791.12 -6990.76}
+	}
+	{Entity "coaster_ship_crate2" 0x102c
+		{Position -1715.85 -6953.23}
+		{xform zl 80}
+	}
+	{Entity "barbed_wire" 0xd7
+		{Position 136.44 -6715.22}
+		{xform zl 20}
+	}
+	{Entity "barbed_wire" 0xd8
+		{Position -5.17 -6734.1}
+	}
+	{Entity "barbed_wire" 0xd9
+		{Position -491.3 -7362.88}
+		{xform zl -30}
+	}
+	{Entity "wire_left_a" 0x102e
+		{Position -758.99 -7269.81}
+		{xform zl 110}
+	}
+	{Entity "barbed_wire" 0x6012
+		{Position -133.97 -6762.78}
+		{xform zl 30}
+	}
+	{Entity "barbed_wire" 0x6013
+		{Position -260.15 -6777.51}
+		{xform zl -10}
+	}
+	{Entity "barbed_wire" 0x3030
+		{Position -381.35 -6724.1}
+		{xform zl -30}
+	}
+	{Entity "barbed_wire" 0x3031
+		{Position -468.18 -6651.11}
+		{xform zl -40}
+	}
+	{Entity "fir_bush" 0x817
+		{Position 1326.82 -5446.5}
+		{xform zl -4.67}
+	}
+	{Entity "new_poplar2" 0x818
+		{Position 1172.52 -5384.3}
+		{xform zl 17.9 scale 3.62}
+	}
+	{Entity "fir_bush" 0x819
+		{Position 1594.41 -5645.87}
+		{xform zl -26.34}
+	}
+	{Entity "fir_bush" 0x81a
+		{Position 1576.19 -5501.11}
+		{xform zl -23.07}
+	}
+	{Entity "new_fir2" 0x81b
+		{Position 1124.29 -5591.58}
+		{xform zl 135.44 scale 1.783}
+	}
+	{Entity "new_fir2" 0x81c
+		{Position 1378.25 -5715.72}
+		{xform zl -28.83 scale 1.66}
+	}
+	{Entity "fir_bush" 0x81d
+		{Position 1862.4 -5652.21}
+		{xform zl -7.65}
+	}
+	{Entity "new_fir2" 0x81e
+		{Position 1686.7 -5639.16}
+		{xform zl 80.86}
+	}
+	{Entity "new_fir2" 0x81f
+		{Position 1488.68 -5918.14}
+		{xform zl 16.59 scale 1.437}
+	}
+	{Entity "fir_bush" 0x820
+		{Position 1963.84 -5964.15}
+		{xform zl -4.67}
+	}
+	{Entity "new_poplar2" 0x821
+		{Position 2062.97 -5829.15}
+		{xform zl 17.9}
+	}
+	{Entity "fir_bush" 0x822
+		{Position 2231.43 -6163.52}
+		{xform zl -26.34}
+	}
+	{Entity "fir_bush" 0x823
+		{Position 2213.21 -6018.76}
+		{xform zl -23.07}
+	}
+	{Entity "new_fir2" 0x824
+		{Position 2047.32 -5959.47}
+		{xform zl 65.44}
+	}
+	{Entity "new_fir2" 0x825
+		{Position 2015.27 -6233.37}
+		{xform zl -28.83}
+	}
+	{Entity "new_fir2" 0x827
+		{Position 2323.72 -6156.81}
+		{xform zl 80.86}
+	}
+	{Entity "ground_clay5" 0x50a1
+		{Position 2671.69 -6030.3 -38.92}
+		{xform zl 60}
+	}
+	{Entity "new_boat3" 0x1801
+		{Position 2801.13 -6604.5 -67}
+		{xform zl 180 y 50 zw 180}
+		{Constrain water}
+	}
+	{Entity "pier" 0x1802
+		{Position 2690.34 -6566.84 -55.03}
+		{xform zl 80}
+	}
+	{Entity "metall_circle1" 0xda
+		{Position -1345.92 -8084.11}
+		{xform zl -70}
+	}
+	{Entity "metall_circle1" 0xdd
+		{Position -1380.56 -8078.11}
+		{xform zl 60}
+	}
+	{Entity "metall_circle1" 0xde
+		{Position -1301.72 -8076.23}
+		{xform zl 60}
+	}
+	{Entity "pipe4" 0xdf
+		{Position -1333.47 -8069.9}
+	}
+	{Entity "pipe4" 0xe0
+		{Position -1325.82 -8066.37}
+	}
+	{Entity "pipe4" 0xe1
+		{Position -1288.71 -8070.58}
+	}
+	{Entity "pipe4" 0xe2
+		{Position -1266.63 -8083.17}
+	}
+	{Entity "pipe4" 0xe3
+		{Position -1329.4 -8086.66}
+	}
+	{Entity "ground_clay" 0x50e8
+		{Position 729.2 535.13}
+		{xform zl -40.32}
+	}
+	{Entity "ground_clay" 0x50e9
+		{Position 637.5 646.21}
+		{xform zl -60.32}
+	}
+	{Entity "ground_clay" 0x302a
+		{Position 488.4 1102.72}
+		{xform zl -89.37}
+	}
+	{Entity "ground_clay" 0x302b
+		{Position 505.78 945.77}
+		{xform zl -79.37}
+	}
+	{Entity "ground_clay" 0x302c
+		{Position 564.72 774.86}
+		{xform zl -59.37}
+	}
+	{Entity "ground_clay" 0x3032
+		{Position 877.14 453.84}
+		{xform zl -20.32}
+	}
+	{Entity "ground_clay" 0x3033
+		{Position 1055.68 421.67}
+		{xform zl -0.32}
+	}
+	{Entity "ground_clay" 0x3034
+		{Position 1250.06 439.36}
+		{xform zl 9.68}
+	}
+	{Entity "ground_clay" 0x3035
+		{Position 1434.79 481.95}
+		{xform zl 9.68}
+	}
+	{Entity "ground_clay" 0x3036
+		{Position 1636.9 536.69}
+		{xform zl 19.68}
+	}
+	{Entity "ground_clay" 0x3037
+		{Position 1795.9 581.56}
+		{xform zl 9.68}
+	}
+	{Entity "ground_clay" 0x3038
+		{Position 1951.18 630.64}
+		{xform zl 29.68}
+	}
+	{Entity "clay_81" 0xc
+		{Position 620.49 -1894.3}
+		{xform zl -100}
+	}
+	{Entity "clay_81" 0xd
+		{Position 739.23 -1666.4}
+		{xform zl -130}
+	}
+	{Entity "clay_81" 0x21
+		{Position 903.51 -1678.82}
+		{xform zl 140}
+	}
+	{Entity "stack_fence" 0x22
+		{Position 1366.81 -1811.61}
+	}
+	{Entity "clay_81" 0x4000
+		{Position 988.67 -1868.61}
+		{xform zl 100}
+	}
+	{Entity "clay_81" 0x4001
+		{Position 972.41 -2092.49}
+		{xform zl 80}
+	}
+	{Entity "clay_81" 0x4002
+		{Position 863.44 -2307.82}
+		{xform zl 50}
+	}
+	{Entity "clay_81" 0x4003
+		{Position 607.74 -2174.7}
+		{xform zl -90}
+	}
+	{Entity "clay_81" 0x205a
+		{Position 684.46 -2322.94}
+		{xform zl -50}
+	}
+	{Entity "clay_81" 0x2071
+		{Position 245.78 -2083.08 -21.67}
+		{xform zl 80}
+	}
+	{Entity "clay_81" 0x2072
+		{Position 233.39 -2332.84 -18.21}
+		{xform zl 90}
+	}
+	{Entity "clay_81" 0x2073
+		{Position 240.49 -2547.5 12.02}
+		{xform zl 110}
+	}
+	{Entity "clay_81" 0x2074
+		{Position 296.44 -2755.01 3.07}
+		{xform zl 90}
+	}
+	{Entity "clay_81" 0x2075
+		{Position 295.23 -3005.26 2.66}
+		{xform zl 90}
+	}
+	{Entity "clay_81" 0x2076
+		{Position 286.17 -1869.01 -5.15}
+		{xform zl 90}
+	}
+	{Entity "clay_81" 0x2077
+		{Position 288.22 -1663.97 6.93}
+		{xform zl 100}
+	}
+	{Entity "clay_81" 0x2078
+		{Position 297.05 -1421.56 0.04}
+		{xform zl 100}
+	}
+	{Entity "clay_81" 0x2079
+		{Position 269.17 -3279.73 -24.61}
+		{xform zl 80}
+	}
+	{Entity "clay_81" 0x207a
+		{Position 246.82 -3500 -8.32}
+		{xform zl 80}
+	}
+	{Entity "clay_81" 0x207b
+		{Position 293.89 -2294.18 -21.97}
+		{xform zl 90}
+	}
+	{Entity "clay_81" 0x207c
+		{Position 319.32 -2499.66 0.04}
+		{xform zl 110}
+	}
+	{Entity "clay_81" 0x207d
+		{Position 309.96 -2051.98 -9.06}
+		{xform zl 90}
+	}
+	{Entity "clay_81" 0x207e
+		{Position 294.5 -1188.79 0.04}
+		{xform zl 90}
+	}
+	{Entity "clay_81" 0x207f
+		{Position 273.79 -917.36 27.11}
+		{xform zl 90}
+	}
+	{Entity "clay_81" 0x2080
+		{Position 262.18 -742.49 1.16}
+		{xform zl 90}
+	}
+	{Entity "clay_81" 0x2081
+		{Position 256.36 -499.53 11.09}
+		{xform zl 90}
+	}
+	{Entity "clay_81" 0x2082
+		{Position 265.42 -276.09 19.87}
+		{xform zl 90}
+	}
+	{Entity "clay_81" 0x2083
+		{Position 223.95 -48.5 0.04}
+		{xform zl 120}
+	}
+	{Entity "clay_81" 0x2084
+		{Position 41.57 8.44 0.04}
+		{xform zl -160}
+	}
+	{Entity "clay_81" 0x2085
+		{Position -116.55 -164.83 8.53}
+		{xform zl -110}
+	}
+	{Entity "clay_81" 0x2086
+		{Position -162.34 -403.54 0.04}
+		{xform zl -90}
+	}
+	{Entity "clay_81" 0x2087
+		{Position -126.76 -677.92 0.04}
+		{xform zl -70}
+	}
+	{Entity "clay_81" 0x2088
+		{Position -22.33 -868.05 0.04}
+		{xform zl -50}
+	}
+	{Entity "clay_81" 0x2089
+		{Position 29.21 -934.77 0.04}
+		{xform zl -50}
+	}
+	{Entity "clay_81" 0x208a
+		{Position 78.47 -938.01 0.04}
+		{xform zl -40}
+	}
+	{Entity "ammo_crate_1" 0x208b
+		{Position -1616.81 -7784.72}
+		{xform zl 40}
+	}
+	{Entity "ammo_crate_1" 0x208c
+		{Position -1642.18 -7829.83}
+		{xform zl 30}
+	}
+	{Entity "ground_clay" 0x23
+		{Position -526.55 -6249.22}
+		{xform zl -20}
+	}
+	{Entity "ground_clay" 0x24
+		{Position -655.13 -6132.91}
+		{xform zl -60}
+	}
+	{Entity "ground_clay" 0x25
+		{Position -673.16 -5960.87}
+		{xform zl -100}
+	}
+	{Entity "ground_clay" 0x26
+		{Position -563.26 -5826.32}
+		{xform zl -160}
+	}
+	{Entity "ground_clay" 0x27
+		{Position -412.02 -5836.81}
+		{xform zl 160}
+	}
+	{Entity "ground_clay" 0xe4
+		{Position -326.18 -5969.6}
+		{xform zl 110}
+	}
+	{Entity "ground_clay" 0xe5
+		{Position -356.66 -6180.19}
+		{xform zl 70}
+	}
+	{Entity "clay_81" 0xe6
+		{Position -956.18 -5504.63 -35.48}
+		{xform zl 100}
+	}
+	{Entity "clay_81" 0xe7
+		{Position -944.17 -5765.86 9.77}
+		{xform zl 80}
+	}
+	{Entity "clay_81" 0xe8
+		{Position -1015.72 -5271.88}
+		{xform zl 110}
+	}
+	{Entity "clay_81" 0xe9
+		{Position -1065.51 -4976.92 32.62}
+		{xform zl 90}
+	}
+	{Entity "clay_81" 0xea
+		{Position -1136.25 -4760.04}
+		{xform zl 130}
+	}
+	{Entity "clay_81" 0xeb
+		{Position -1330.98 -4689.42}
+		{xform zl 180}
+	}
+	{Entity "clay_81" 0xec
+		{Position -1534.08 -4805.04}
+		{xform zl -120}
+	}
+	{Entity "clay_81" 0xed
+		{Position -1611.97 -5073.78}
+		{xform zl -90}
+	}
+	{Entity "clay_81" 0xee
+		{Position -1574.18 -5292.6}
+		{xform zl -70}
+	}
+	{Entity "clay_81" 0xef
+		{Position -1488.5 -5521.8}
+		{xform zl -70}
+	}
+	{Entity "clay_81" 0xf0
+		{Position -1366.08 -5788.31}
+		{xform zl -60}
+	}
+	{Entity "clay_81" 0xf1
+		{Position -1171.57 -5980.39}
+		{xform zl -30}
+	}
+	{Entity "clay_81" 0xf2
+		{Position -1016.39 -5950.45}
+		{xform zl 60}
+	}
+	{Entity "ground_clay5" 0xf3
+		{Position 439.03 -5343.15}
+		{xform zl -90}
+	}
+	{Entity "ground_clay5" 0xf4
+		{Position 448.82 -5492.45}
+		{xform zl -90}
+	}
+	{Entity "ground_clay5" 0xfb
+		{Position 224.5 -485.32}
+		{xform zl 90}
+	}
+	{Entity "ground_clay5" 0xfc
+		{Position 223.96 -657.83}
+		{xform zl 90}
+	}
+	{Entity "ground_clay5" 0xfd
+		{Position 252.63 -808.17}
+		{xform zl 110}
+	}
+	{Entity "ground_clay5" 0xfe
+		{Position 212.39 -303.55}
+		{xform zl 100}
+	}
+	{Entity "ground_clay5" 0xff
+		{Position 144.1 -151.2}
+		{xform zl 130}
+	}
+	{Entity "ground_clay5" 0x100
+		{Position 6.48 -164.15}
+		{xform zl -130}
+	}
+	{Entity "ground_clay5" 0x101
+		{Position -52.4 -364.72}
+		{xform zl -90}
+	}
+	{Entity "ground_clay5" 0x102
+		{Position -51.1 -537.86}
+		{xform zl -90}
+	}
+	{Entity "ground_clay5" 0x103
+		{Position -30.56 -673.64}
+		{xform zl -70}
+	}
+	{Entity "ground_clay5" 0x104
+		{Position 71.75 -845}
+		{xform zl -50}
+	}
+	{Entity "ground_clay5" 0x105
+		{Position 151.68 -947.5}
+		{xform zl -50}
+	}
+	{Entity "ground_clay5" 0x106
+		{Position 258.85 -949.02}
+		{xform zl 70}
+	}
+	{Entity "ground_clay5" 0x107
+		{Position 131.41 -1617.71}
+		{xform zl -90}
+	}
+	{Entity "ground_clay5" 0x108
+		{Position 126.76 -1433.08}
+		{xform zl -90}
+	}
+	{Entity "ground_clay5" 0x109
+		{Position 125.84 -1244.87}
+		{xform zl -90}
+	}
+	{Entity "ground_clay5" 0x10a
+		{Position 112.73 -1795.7}
+		{xform zl -100}
+	}
+	{Entity "ground_clay5" 0x10b
+		{Position 80.2 -1943.57}
+		{xform zl -110}
+	}
+	{Entity "ground_clay5" 0x10c
+		{Position 59.75 -2013.84}
+		{xform zl -110}
+	}
+	{Entity "ground_clay5" 0x10d
+		{Position -7.61 -2164.37}
+		{xform zl -90}
+	}
+	{Entity "ground_clay5" 0x10e
+		{Position 18.88 -2349.73}
+		{xform zl -70}
+	}
+	{Entity "ground_clay5" 0x10f
+		{Position 126.75 -2501.54}
+		{xform zl -60}
+	}
+	{Entity "ground_clay5" 0x110
+		{Position 185.22 -2668.92}
+		{xform zl -80}
+	}
+	{Entity "ground_clay5" 0x111
+		{Position 203.53 -2829.82}
+		{xform zl -90}
+	}
+	{Entity "ground_clay5" 0x112
+		{Position 113.95 -2991.58}
+		{xform zl -140}
+	}
+	{Entity "ground_clay5" 0x113
+		{Position -14.74 -3109.33}
+		{xform zl -130}
+	}
+	{Entity "ground_clay5" 0x114
+		{Position -66.79 -3304.59}
+		{xform zl -80}
+	}
+	{Entity "ground_clay5" 0x115
+		{Position -7.87 -3477.62}
+		{xform zl -60}
+	}
+	{Entity "ground_clay5" 0x116
+		{Position 103.47 -3600.01}
+		{xform zl -30}
+	}
+	{Entity "ground_clay5" 0x117
+		{Position 147.87 -3618.4}
+		{xform zl -20}
+	}
+	{Entity "ground_clay5b" 0x400a
+		{Position 132.28 -3436.13 -44.54}
+	}
+	{Entity "ground_clay5b" 0x400b
+		{Position 69.06 -3391.47 -43.84}
+		{xform zl -50}
+	}
+	{Entity "ground_clay5b" 0x400c
+		{Position 67 -3317.45 -73.35}
+		{xform zl -110}
+	}
+	{Entity "ground_clay5b" 0x400d
+		{Position 126.42 -3307.19 -99.18}
+		{xform zl 180}
+	}
+	{Entity "ground_clay5b" 0x400e
+		{Position 176.61 -3382.47 -94.64}
+		{xform zl 90}
+	}
+	{Entity "clay_11a" 0x403f
+		{Position 531.94 -22.41 22.22}
+		{xform zl -90}
+	}
+	{Entity "clay_11a" 0x4041
+		{Position 531.73 -293.44 11.35}
+		{xform zl -90}
+	}
+	{Entity "clay_11a" 0x4042
+		{Position 549.88 -515 3.3}
+		{xform zl -90}
+	}
+	{Entity "clay_11a" 0x4043
+		{Position 543.57 79.57 37.52}
+		{xform zl -100}
+	}
+	{Entity "clay_11a" 0x4044
+		{Position 685.52 -582.57 7.65}
+		{xform zl 40}
+	}
+	{Entity "clay_11a" 0x4045
+		{Position 779.69 -463.62 9.4}
+		{xform zl 60}
+	}
+	{Entity "clay_11a" 0x4046
+		{Position 854.17 -215.59 -0.04}
+		{xform zl 90}
+	}
+	{Entity "clay_11a" 0x4047
+		{Position 808.92 -27.81 7.13}
+		{xform zl 110}
+	}
+	{Entity "clay_11a" 0x4048
+		{Position 682.99 156.91 13.96}
+		{xform zl 140}
+	}
+	{Entity "ground_clay5ax" 0x4049
+		{Position 1282.92 -583.7}
+		{xform zl 170}
+	}
+	{Entity "ground_clay5ax" 0x208d
+		{Position 1372.68 -579.93}
+		{xform zl -160}
+	}
+	{Entity "ground_clay5ax" 0x208e
+		{Position 1410.26 -524.51}
+		{xform zl -100}
+	}
+	{Entity "ground_clay5ax" 0x208f
+		{Position 1413.22 -434.92}
+		{xform zl -90}
+	}
+	{Entity "ground_clay5ax" 0x2090
+		{Position 1412.73 -339.53}
+		{xform zl -80}
+	}
+	{Entity "ground_clay5ax" 0x2091
+		{Position 1419.84 -269.2}
+		{xform zl -90}
+	}
+	{Entity "ground_clay5ax" 0x2092
+		{Position 1390.88 -221.92}
+		{xform zl -30}
+	}
+	{Entity "ground_clay5ax" 0x2093
+		{Position 1337.94 -206.23}
+		{xform zl -10}
+	}
+	{Entity "ground_clay5ax" 0x2094
+		{Position 1306.05 -209.34}
+		{xform zl -10}
+	}
+	{Entity "clay_111" 0x118
+		{Position 1639.5 -350.37}
+		{xform zl -99.8}
+	}
+	{Entity "clay_111" 0x119
+		{Position 1659.53 -199.31}
+		{xform zl -99.8}
+	}
+	{Entity "clay_111" 0x11a
+		{Position 1666.94 40.2}
+		{xform zl -79.8}
+	}
+	{Entity "clay_111" 0x11b
+		{Position 1574.54 -1033.04}
+		{xform zl -99.8}
+	}
+	{Entity "clay_111" 0x11c
+		{Position 1578.27 -1272.04}
+		{xform zl -89.8}
+	}
+	{Entity "clay_111" 0x11d
+		{Position 1592.65 -1478.82}
+		{xform zl -79.8}
+	}
+	{Entity "clay_111" 0x11e
+		{Position 1616.25 -1718.72}
+		{xform zl -79.8}
+	}
+	{Entity "clay_111" 0x11f
+		{Position 1662.12 -1954.35}
+		{xform zl -79.8}
+	}
+	{Entity "clay_111" 0x120
+		{Position 1697.26 -2145.28}
+		{xform zl -79.8}
+	}
+	{Entity "clay_111" 0x121
+		{Position 1734.66 -2325.1}
+		{xform zl -79.8}
+	}
+	{Entity "clay_111" 0x122
+		{Position 1772.06 -2507.07}
+		{xform zl -79.8}
+	}
+	{Entity "clay_111" 0x123
+		{Position 1845.67 -2733.84}
+		{xform zl -69.8}
+	}
+	{Entity "clay_111" 0x124
+		{Position 1897.37 -2970.67}
+		{xform zl -89.8}
+	}
+	{Entity "clay_111" 0x125
+		{Position 1882.08 -3185.52}
+		{xform zl -99.8}
+	}
+	{Entity "clay_111" 0x126
+		{Position 1858.95 -3398.06}
+		{xform zl -89.8}
+	}
+	{Entity "clay_111" 0x127
+		{Position 1883.45 -3582.57}
+		{xform zl -89.8}
+	}
+	{Entity "clay_111" 0x128
+		{Position 1901.86 -3756.33}
+		{xform zl -79.8}
+	}
+	{Entity "clay_111" 0x129
+		{Position 1903.28 -3991.01}
+		{xform zl -99.8}
+	}
+	{Entity "clay_111" 0x12a
+		{Position 1903.31 -4206.73}
+		{xform zl -79.8}
+	}
+	{Entity "clay_111" 0x12b
+		{Position 1925.66 -4412.39}
+		{xform zl -89.8}
+	}
+	{Entity "clay_111" 0x12c
+		{Position 1922.08 -4650.83}
+		{xform zl -89.8}
+	}
+	{Entity "clay_111" 0x12d
+		{Position 1922.56 -4876.99}
+		{xform zl -79.8}
+	}
+	{Entity "clay_111" 0x12e
+		{Position 1935.74 -5135.11}
+		{xform zl -89.8}
+	}
+	{Entity "clay_111" 0x12f
+		{Position 1991.22 -5369.09}
+		{xform zl -69.8}
+	}
+	{Entity "clay_111" 0x130
+		{Position 2109.95 -5551.28}
+		{xform zl -49.8}
+	}
+	{Entity "clay_111" 0x131
+		{Position 2302.27 -5708.95}
+		{xform zl -29.8}
+	}
+	{Entity "ground_clay5" 0x134
+		{Position 2783.97 -5891.25 -43.37}
+		{xform zl 50}
+	}
+	{Entity "ground_clay5" 0x135
+		{Position 2897.13 -5776.42 -35.9}
+		{xform zl 30}
+	}
+	{Entity "ground_clay5" 0x136
+		{Position 3075.6 -5864.03 -66.3}
+		{xform zl -50}
+	}
+	{Entity "ground_clay5" 0x137
+		{Position 3207.48 -6018.82 -32.68}
+		{xform zl -60}
+	}
+	{Entity "clay_111" 0x404a
+		{Position 2433.86 -5762.23}
+		{xform zl -19.8}
+	}
+	{Entity "clay_111" 0x404b
+		{Position 2615.92 -5792.2}
+		{xform zl -9.8}
+	}
+	{Entity "clay_111" 0x404c
+		{Position 2831.49 -5748.4}
+		{xform zl 30.2}
+	}
+	{Entity "clay_111" 0x404d
+		{Position 2962.39 -5682.26}
+		{xform zl 30.2}
+	}
+	{Entity "clay_111" 0x404e
+		{Position 3125.88 -5595.15}
+		{xform zl 30.2}
+	}
+	{Entity "ground_clay" 0x404f
+		{Position 193.38 -5351.4}
+		{xform zl 70}
+	}
+	{Entity "ground_clay" 0x4050
+		{Position 115.16 -5532.37}
+		{xform zl 60}
+	}
+	{Entity "ground_clay" 0x4051
+		{Position -15.91 -5651.29}
+		{xform zl 30}
+	}
+	{Entity "ground_clay" 0x4052
+		{Position -141.74 -5595.47}
+		{xform zl -70}
+	}
+	{Entity "ground_clay" 0x4053
+		{Position -148.1 -5412.64}
+		{xform zl -100}
+	}
+	{Entity "ground_clay" 0x4054
+		{Position -102.94 -5261.2}
+		{xform zl -110}
+	}
+	{Entity "ground_clay" 0x4055
+		{Position -106.24 -5144.97}
+		{xform zl -90}
+	}
+	{Entity "new_fir2" 0x132
+		{Position -248.05 -5285.06}
+		{xform zl -6.47}
+	}
+	{Entity "ground_clay" 0x133
+		{Position -98.39 -4966.09}
+		{xform zl -80}
+	}
+	{Entity "ground_clay" 0x138
+		{Position -121.88 -4813.71}
+		{xform zl -80}
+	}
+	{Entity "ground_clay" 0x139
+		{Position -84.77 -4691.51}
+		{xform zl -130}
+	}
+	{Entity "ground_clay" 0x13a
+		{Position 86.13 -4675.27}
+		{xform zl 160}
+	}
+	{Entity "ground_clay" 0x13b
+		{Position 193.34 -4815.19}
+		{xform zl 100}
+	}
+	{Entity "ground_clay" 0x13c
+		{Position 225.22 -5009.11}
+		{xform zl 100}
+	}
+	{Entity "ground_clay" 0x13d
+		{Position 235.15 -5161.53}
+		{xform zl 80}
+	}
+	{Entity "clay_11a" 0x13f
+		{Position 499.93 -5395.71}
+		{xform zl 90}
+	}
+	{Entity "clay_11a" 0x140
+		{Position 643.56 -5746.66}
+		{xform zl -10}
+	}
+	{Entity "clay_11a" 0x141
+		{Position 877.36 -5688.7}
+		{xform zl 40}
+	}
+	{Entity "clay_11a" 0x142
+		{Position 950.97 -5507.44}
+		{xform zl 90}
+	}
+	{Entity "clay_11a" 0x143
+		{Position 822.6 -5289}
+		{xform zl 150}
+	}
+	{Entity "clay_11a" 0x144
+		{Position 579.96 -5274.48}
+		{xform zl -150}
+	}
+	{Entity "ground_clay5" 0x149
+		{Position 295.76 -6317.22}
+		{xform zl -90}
+	}
+	{Entity "ground_clay5" 0x14a
+		{Position 293.41 -6452.03}
+		{xform zl -90}
+	}
+	{Entity "road_aero" 0x4056
+		{Position -1416.61 -6897.98}
+		{xform zl 60}
+	}
+	{Entity "road_aero" 0x4057
+		{Position -1199.47 -7057.33}
+		{xform zl -120}
+	}
+	{Entity "road_aero" 0x4058
+		{Position -888.13 -7150.38}
+		{xform zl 70}
+	}
+	{Entity "road_aero" 0x4059
+		{Position -621.12 -7236.63}
+		{xform zl -100}
+	}
+	{Entity "road_aero" 0x405a
+		{Position -293.22 -7184.32}
+		{xform zl 100}
+	}
+	{Entity "road_aero" 0x405b
+		{Position -33.18 -7053.19}
+		{xform zl 130}
+	}
+	{Entity "road_aero" 0x405c
+		{Position 104.19 -6858.29}
+		{xform zl 150}
+	}
+	{Entity "new_fir2" 0x156
+		{Position 877.4 -5941.14}
+		{xform zl 11.17 scale 2.04}
+	}
+	{Entity "stack_fence" 0x157
+		{Position 897.42 -6267.77}
+		{xform zl 20 scale 1.147}
+	}
+	{Entity "wires_new" 0x50ea
+		{Position 555.67 -6843.34}
+	}
+	{Entity "wires_new" 0x50eb
+		{Position 633.06 -6852.33}
+		{xform zl -10}
+	}
+	{Entity "wires_new" 0x50ec
+		{Position 703.47 -6874.16}
+		{xform zl -20}
+	}
+	{Entity "wires_new" 0x50ed
+		{Position 779.76 -6900.67}
+		{xform zl -20}
+	}
+	{Entity "wires_new" 0x50ee
+		{Position 841.46 -6929.6}
+		{xform zl -30}
+	}
+	{Entity "wires_new" 0x50ef
+		{Position 932.14 -6969.94}
+		{xform zl -20}
+	}
+	{Entity "new_fir2" 0x50f0
+		{Position 805.8 -6595.63}
+		{xform zl 88.95 scale 0.547}
+	}
+	{Entity "new_fir2" 0x50f1
+		{Position 754.43 -6556.66}
+		{xform zl 148.95 scale 0.547}
+	}
+	{Entity "bush10b" 0xdb
+		{Position -558.92 -3034.44}
+		{xform zl 10 scale 1.227}
+	}
+	{Entity "bush10b" 0xdc
+		{Position -516.36 -2738.84}
+		{xform zl 40 scale 1.227}
+	}
+	{Entity "bush10b" 0x158
+		{Position -375.07 -2404.11}
+		{xform zl 50 scale 1.227}
+	}
+	{Entity "bush10b" 0x159
+		{Position -198.04 -2099.98}
+		{xform zl 140 scale 1.227}
+	}
+	{Entity "bush10b" 0x15a
+		{Position -459.45 -1876.12}
+		{xform zl 20 scale 0.887}
+	}
+	{Entity "bush10b" 0x15b
+		{Position -309.08 -1943.49}
+		{xform zl 70 scale 0.75}
+	}
+	{Entity "bush10b" 0x15c
+		{Position -707.9 -1389.27}
+		{xform zl 60 scale 0.75}
+	}
+	{Entity "bush10b" 0x15d
+		{Position -541.92 -1468.46}
+		{xform zl -40 scale 0.75}
+	}
+	{Entity "bush10b" 0x15e
+		{Position -1070.64 -1657.77}
+		{xform zl 40 scale 0.75}
+	}
+	{Entity "bush10b" 0x15f
+		{Position -817.5 -1750.27}
+		{xform zl 40 scale 0.75}
+	}
+	{Entity "bush8a" 0x160
+		{Position -353.31 -1690.9}
+		{xform zl 10 scale 2.06}
+	}
+	{Entity "bush8a" 0x161
+		{Position -139.24 -1866.18}
+		{xform zl 40}
+	}
+	{Entity "bush8a" 0x162
+		{Position -1031.18 -2302.92}
+	}
+	{Entity "bush8a" 0x163
+		{Position -665.73 -2343.27}
+	}
+	{Entity "bush8a" 0x164
+		{Position -623.06 -1124.75}
+		{xform zl -30}
+	}
+	{Entity "bush8a" 0x165
+		{Position -367.4 -300.65}
+	}
+	{Entity "bush8a" 0x166
+		{Position -166.14 -6254.72}
+		{xform zl 30}
+	}
+	{Entity "bush8a" 0x167
+		{Position 119.24 -6386.51}
+	}
+	{Entity "bush8a" 0x168
+		{Position -465.11 -6401.99}
+	}
+	{Entity "rock05" 0x16a
+		{Position 591.31 -847.67 9.08}
+		{xform zl -90 y 10 zw 180 scale 0.833}
+	}
+	{Entity "rock05" 0x16b
+		{Position 590.45 -820.41 8.18}
+		{xform zl 170 scale 0.68}
+	}
+	{Entity "rock05" 0x16c
+		{Position 582.83 -833.36 9.98}
+		{xform zl -90 y 10 zw -130 scale 0.333}
+	}
+	{Entity "rock05" 0x16d
+		{Position 571.71 -825.58 9.73}
+		{xform zl -90 y 10 zw -60 scale 0.333}
+	}
+	{Entity "rock05" 0x16e
+		{Position 1359.07 -1640.55 -0.9}
+		{xform zl 110 y 10 zw 80 scale 1.563}
+	}
+	{Entity "rock05" 0x16f
+		{Position 1145.86 -1484.76 0.09}
+		{xform zl 110 scale 0.573}
+	}
+	{Entity "rock05" 0x170
+		{Position 1325.17 -1549.82 0.6}
+		{xform zl -90 y 10 zw -100 scale 0.333}
+	}
+	{Entity "rock05" 0x171
+		{Position 1178.21 -1637.26 0.59}
+		{xform zl 120 y 50 zw 110 scale 0.333}
+	}
+	{Entity "rock05" 0x172
+		{Position 923.01 -1735.99 47.95}
+		{xform zl 110 y 10 zw 120 scale 1.563}
+	}
+	{Entity "rock02" 0x173
+		{Position 699.25 -1918.07 33.49}
+		{xform zl -100 y 10 zw 180 scale 1.35}
+	}
+	{Entity "rock02" 0x174
+		{Position 781.44 -1758.56 50.18}
+		{xform zl 70 y 10 zw -80 scale 1.35}
+		{TexMod "2"}
+	}
+	{Entity "rock05" 0x175
+		{Position 848.68 -1832.5 32.21}
+		{xform zl -60 y 20 zw -30 scale 1.563}
+	}
+	{Entity "rock08" 0x176
+		{Position 785.72 -1956.63}
+		{xform zl -100 y 10 zw -60}
+	}
+	{Entity "ground_clay5bx" 0x177
+		{Position 702.57 -1987.8 36.91}
+		{xform zl 30}
+	}
+	{Entity "ground_clay5bx" 0x178
+		{Position 638.51 -1965.15 19.72}
+		{xform zl -30}
+	}
+	{Entity "ground_clay5bx" 0x179
+		{Position 634.43 -1899.15 14.21}
+		{xform zl -100}
+	}
+	{Entity "ground_clay5bx" 0x17a
+		{Position 724.89 -1857 37.93}
+		{xform zl 170}
+	}
+	{Entity "ground_clay5bx" 0x17b
+		{Position 764.15 -1930.18 35.25}
+		{xform zl 110}
+	}
+	{Entity "ground_clay5bx" 0x17c
+		{Position 701.31 -1729.16 39.42}
+		{xform zl 50}
+	}
+	{Entity "ground_clay5bx" 0x17d
+		{Position 754.28 -1664.2 53.32}
+		{xform zl 90}
+	}
+	{Entity "ground_clay5bx" 0x17e
+		{Position 820.94 -1637.45 47.02}
+		{xform zl -30}
+	}
+	{Entity "ground_clay5bx" 0x17f
+		{Position 883.11 -1686.08 58.39}
+		{xform zl -20}
+	}
+	{Entity "ground_clay5bx" 0x180
+		{Position 935.55 -1755.81 45.22}
+		{xform zl -60}
+	}
+	{Entity "rock02" 0x181
+		{Position 668.72 -1995.43 31.74}
+		{xform zl -100 y 30 zw -140 scale 0.783}
+	}
+	{Entity "rock02" 0x182
+		{Position 637.06 -1939.87 17.65}
+		{xform zl -140 y 60 zw 170 scale 0.783}
+		{TexMod "2"}
+	}
+	{Entity "rock02" 0x183
+		{Position 677.19 -1828.09 21.95}
+		{xform zl -120 y 40 zw 110 scale 0.783}
+		{TexMod "2"}
+	}
+	{Entity "rock03" 0x184
+		{Position 198.81 -1941.51}
+		{xform zl -60 y 20 zw -30}
+	}
+	{Entity "rock03" 0x185
+		{Position 235.17 -1914.28}
+		{xform zl -170 y 20 zw 10}
+	}
+	{Entity "rock03" 0x186
+		{Position 211.35 -1982.12}
+		{xform zl -170 y 20 zw 30}
+		{TexMod "4"}
+	}
+	{Entity "rock06" 0x187
+		{Position 301.98 -2061.52}
+		{xform zl 20}
+	}
+	{Entity "rock06" 0x188
+		{Position 308.58 -2078.82}
+		{xform zl 100}
+	}
+	{Entity "rock06" 0x189
+		{Position 722.6 -2020.98}
+		{xform zl -140}
+	}
+	{Entity "rock06" 0x18a
+		{Position 712.36 -2104}
+		{xform zl 120}
+	}
+	{Entity "bush10b" 0x18b
+		{Position -905.12 -1361.54}
+		{xform zl 100 scale 0.973}
+	}
+	{Entity "bush10b" 0x18c
+		{Position -736.85 -1092.56}
+		{xform zl 110 scale 1.04}
+	}
+	{Entity "bush10b" 0x18d
+		{Position -254.06 -955.17}
+		{xform zl 60 scale 1.077}
+	}
+	{Entity "netting" 0x18e
+		{Position 236.69 -7090.86}
+	}
+	{Entity "netting" 0x18f
+		{Position 574.7 -7057.33}
+	}
+	{Entity "new_boat" 0x190
+		{Position 2334.41 -7828.28}
+	}
+	{Entity "telega_gals01" 0x2097
+		{Position 702.14 -6023.37 -8.55}
+		{xform zl -40}
+	}
+	{Entity "shaft_african" 0x4040
+		{Position 1799.89 -5927.24}
+	}
+	{Entity "new_fir2" 0x191
+		{Position 511.28 -1873.2}
+	}
+	{Entity "new_fir2" 0x192
+		{Position 500.83 -2531.68}
+	}
+	{Entity "rock05" 0x405e
+		{Position 334.4 -1409.41}
+	}
+	{Entity "rock05" 0x405f
+		{Position 333.94 -1378.48}
+		{xform zl 30 scale 0.62}
+	}
+	{Entity "rock05" 0x4060
+		{Position 353.46 -1430.91}
+		{xform zl -60 scale 0.583}
+	}
+	{Entity "rock07" 0x4061
+		{Position 318.03 -1282.16}
+		{xform zl -70}
+	}
+	{Entity "rock07" 0x4062
+		{Position 292.62 -1336.45}
+		{xform zl -20 scale 0.647}
+	}
+	{Entity "rock07" 0x4063
+		{Position 257.81 -1292.55}
+		{xform zl -80 scale 0.647}
+	}
+	{Entity "rock07" 0x4064
+		{Position 337.25 -1232.05}
+		{xform zl -20 scale 0.647}
+	}
+	{Entity "clay_81" 0x4065
+		{Position 576.76 -4178.7}
+		{xform zl -70}
+	}
+	{Entity "clay_81" 0x4066
+		{Position 539.54 -3943.38}
+		{xform zl -90}
+	}
+	{Entity "clay_81" 0x4067
+		{Position 561.77 -3676.89}
+		{xform zl -100}
+	}
+	{Entity "clay_81" 0x4068
+		{Position 668.65 -3440.51}
+		{xform zl -130}
+	}
+	{Entity "clay_81" 0x4069
+		{Position 881.69 -3473.27}
+		{xform zl 130}
+	}
+	{Entity "clay_81" 0x406a
+		{Position 958.35 -3690.56}
+		{xform zl 100}
+	}
+	{Entity "clay_81" 0x406b
+		{Position 961.78 -3952.02}
+		{xform zl 80}
+	}
+	{Entity "clay_81" 0x406c
+		{Position 931.26 -4206.39}
+		{xform zl 90}
+	}
+	{Entity "clay_81" 0x406d
+		{Position 849.6 -4390.03}
+		{xform zl 50}
+	}
+	{Entity "clay_81" 0x406e
+		{Position 701.1 -4390.86}
+		{xform zl -50}
+	}
+	{Entity "stone_gr4" 0x406f
+		{Position 723.42 -4123.05 24.42}
+		{xform zl 130}
+	}
+	{Entity "stone_gr4" 0x4070
+		{Position 754.41 -4119.2 23.97}
+		{xform zl 170}
+	}
+	{Entity "stone_gr4" 0x4071
+		{Position 625.84 -4070.41 5.69}
+		{xform zl 170}
+	}
+	{Entity "stone_gr4" 0x4072
+		{Position 592.66 -4051.2 1.24}
+		{xform zl -40}
+	}
+	{Entity "stone_gr4" 0x4073
+		{Position 578.02 -4138.65 7.49}
+		{xform zl 120}
+	}
+	{Entity "stone_gr4" 0x4074
+		{Position 569.54 -4104.95 2.98}
+		{xform zl 170}
+	}
+	{Entity "stone_gr4" 0x4075
+		{Position 577.49 -4283.75 5.45}
+		{xform zl 150}
+	}
+	{Entity "stone_gr4" 0x4076
+		{Position 469.38 -4245.77 0.07}
+		{xform zl 130 scale 0.57}
+	}
+	{Entity "stone_gr4" 0x4077
+		{Position 468.57 -4255.65 0.07}
+		{xform zl -160 scale 0.327}
+	}
+	{Entity "stone_gr4" 0x4078
+		{Position 479.9 -4239.48 0.07}
+		{xform zl 130 scale 0.353}
+	}
+	{Entity "stone_gr4" 0x4079
+		{Position 239.24 -2024.63 -16.38}
+		{xform zl 160 scale 0.353}
+	}
+	{Entity "stone_gr4" 0x407a
+		{Position 218.96 -2023.28 -15.63}
+		{xform zl -80 scale 0.353}
+	}
+	{Entity "stone_gr4" 0x407b
+		{Position 171.92 -2008.71 -4.15}
+		{xform zl -150 scale 0.353}
+	}
+	{Entity "stone_gr4" 0x407c
+		{Position 286.32 -1391.14 0.07}
+		{xform zl -120 scale 0.353}
+	}
+	{Entity "stone_gr4" 0x407d
+		{Position 290 -1341.29 0.07}
+		{xform zl -100 scale 0.353}
+	}
+	{Entity "stone_gr4" 0x407e
+		{Position 556.43 65.17 40.05}
+		{xform zl -110 scale 0.353}
+	}
+	{Entity "stone_gr4" 0x407f
+		{Position 549.92 79.75 38.95}
+		{xform zl 70 scale 0.353}
+	}
+	{Entity "stone_gr4" 0x4080
+		{Position 533.07 29.14 29.62}
+		{xform zl -150 scale 0.353}
+	}
+	{Entity "stone_gr4" 0x4081
+		{Position 516.89 -5.02 18.09}
+		{xform zl -130 scale 0.353}
+	}
+	{Entity "stone_gr4" 0x4082
+		{Position 492.27 128.46 19.77}
+		{xform zl -120 scale 0.353}
+	}
+	{Entity "stone_gr4" 0x4083
+		{Position 460.09 -141.21 3.35}
+		{xform zl 20 scale 0.353}
+	}
+	{Entity "stone_gr4" 0x4084
+		{Position 279.3 -386.17 14.87}
+		{xform zl -160 scale 0.353}
+	}
+	{Entity "road_muddy33" 0x4085
+		{Position 190.78 251.74}
+	}
+	{Entity "rock05" 0x4086
+		{Position 503.16 -1338.86 3.44}
+		{xform zl 160}
+	}
+	{Entity "rock05" 0x4087
+		{Position 482.13 -1352.94 1.21}
+		{xform zl 180 scale 0.527}
+	}
+	{Entity "rock05" 0x4088
+		{Position 520.85 -1377.87 2.11}
+		{xform zl -90 scale 0.527}
+	}
+	{Entity "rock05" 0x4089
+		{Position 226.48 -911.4 46.38}
+		{xform zl 130 scale 0.527}
+	}
+	{Entity "rock05" 0x408a
+		{Position 224.44 -933.06 46.02}
+		{xform zl -130 scale 0.527}
+	}
+	{Entity "rock05" 0x408b
+		{Position 237.98 -895.61 41.55}
+		{xform zl 70 scale 0.527}
+	}
+	{Entity "ground_clay5" 0x4091
+		{Position 446.45 -8708.74}
+		{xform zl 90}
+	}
+	{Entity "road_aero" 0x2098
+		{Position 268.25 -6666.11}
+		{xform zl -40}
+	}
+	{Entity "clay_111" 0x6014
+		{Position -1284.56 669.12 -0.09}
+		{xform zl 90.63}
+	}
+	{Entity "clay_111" 0x6015
+		{Position -1321.75 417.94 -0.09}
+		{xform zl 70.63}
+	}
+	{Entity "clay_111" 0x6016
+		{Position -1407.08 203.53 6.91}
+		{xform zl 70.63}
+	}
+	{Entity "clay_111" 0x6017
+		{Position -1487.41 36.09 5.91}
+		{xform zl 60.63}
+	}
+	{Entity "clay_111" 0x6018
+		{Position -1550.27 -218.85 10.06}
+		{xform zl 90.63}
+	}
+	{Entity "clay_111" 0x6019
+		{Position -1539.39 -451.95 28.33}
+		{xform zl 100.63}
+	}
+	{Entity "clay_111" 0x601a
+		{Position -1490.2 -664.62 20.74}
+		{xform zl 110.63}
+	}
+	{Entity "clay_111" 0x601b
+		{Position -1436.61 -875.39 8.62}
+		{xform zl 100.63}
+	}
+	{Entity "clay_111" 0x601c
+		{Position -1404.67 -1098.06 28.31}
+		{xform zl 100.63}
+	}
+	{Entity "clay_111" 0x601d
+		{Position -1394.82 -1294.51 20}
+		{xform zl 90.63}
+	}
+	{Entity "clay_111" 0x601e
+		{Position -1417.08 -1534.02 23.07}
+		{xform zl 80.63}
+	}
+	{Entity "clay_111" 0x6020
+		{Position -1485.56 -1729.1 10.2}
+		{xform zl 70.63}
+	}
+	{Entity "clay_111" 0x6021
+		{Position -1545.99 -1926.95 -11.51}
+		{xform zl 80.63}
+	}
+	{Entity "clay_111" 0x6022
+		{Position -1562.5 -2137.29 -45.76}
+		{xform zl 90.63}
+	}
+	{Entity "clay_111" 0x6023
+		{Position -1548.15 -2371.78 -23.07}
+		{xform zl 90.63}
+	}
+	{Entity "clay_111" 0x6024
+		{Position -1547.53 -2631.21 -17.29}
+		{xform zl 90.63}
+	}
+	{Entity "clay_111" 0x6025
+		{Position -1534.57 -2882.75 -7.76}
+		{xform zl 90.63}
+	}
+	{Entity "clay_111" 0x6026
+		{Position -1529.98 -3075.54 -9.21}
+		{xform zl 90.63}
+	}
+	{Entity "clay_111" 0x6027
+		{Position -1534.95 -3281.83 -7.18}
+		{xform zl 80.63}
+	}
+	{Entity "clay_111" 0x6028
+		{Position -1554.77 -3508.56 -9.14}
+		{xform zl 90.63}
+	}
+	{Entity "clay_111" 0x6029
+		{Position -1553.66 -3714.22 -0.09}
+		{xform zl 90.63}
+	}
+	{Entity "clay_111" 0x602a
+		{Position -1544.91 -3976.76 -8.43}
+		{xform zl 90.63}
+	}
+	{Entity "clay_111" 0x602b
+		{Position -1542.11 -4245.8 -18.64}
+		{xform zl 90.63}
+	}
+	{Entity "clay_111" 0x602c
+		{Position -1557.05 -4472.31 -27.89}
+		{xform zl 70.63}
+	}
+	{Entity "clay_111" 0x602d
+		{Position -1690.3 -4634.56 -36.63}
+		{xform zl 30.63}
+	}
+	{Entity "clay_111" 0x602e
+		{Position -1834.93 -4602.53 -31.71}
+		{xform zl -59.37}
+	}
+	{Entity "clay_111" 0x602f
+		{Position -1893.53 -4359.17 -39.46}
+		{xform zl -89.37}
+	}
+	{Entity "clay_111" 0x6030
+		{Position -1900.6 -4141.46 -12.78}
+		{xform zl -89.37}
+	}
+	{Entity "clay_111" 0x6031
+		{Position -1902.95 -3908.24 -7.5}
+		{xform zl -89.37}
+	}
+	{Entity "clay_111" 0x6032
+		{Position -1911.27 -3657.87 -35.54}
+		{xform zl -89.37}
+	}
+	{Entity "clay_111" 0x6033
+		{Position -1927.53 -3431.76 -2.14}
+		{xform zl -89.37}
+	}
+	{Entity "clay_111" 0x6034
+		{Position -1940.36 -3230 -0.1}
+		{xform zl -89.37}
+	}
+	{Entity "clay_111" 0x6035
+		{Position -1948.73 -2991.82 -9.87}
+		{xform zl -89.37}
+	}
+	{Entity "clay_111" 0x6036
+		{Position -1957.7 -2840.26 -16.28}
+		{xform zl -89.37}
+	}
+	{Entity "clay_111" 0x6037
+		{Position -1951.22 -2667.34 -9.72}
+		{xform zl -89.37}
+	}
+	{Entity "clay_111" 0x6038
+		{Position -1958.46 -2471.69 -3.31}
+		{xform zl -89.37}
+	}
+	{Entity "clay_111" 0x6039
+		{Position -1971.55 -2260.59 0.11}
+		{xform zl -89.37}
+	}
+	{Entity "clay_111" 0x603a
+		{Position -1989.13 -2094.49 -0.1}
+		{xform zl -89.37}
+	}
+	{Entity "clay_111" 0x603b
+		{Position -2000.43 -1895.33 -0.1}
+		{xform zl -99.37}
+	}
+	{Entity "clay_111" 0x603c
+		{Position -1997.67 -1662.13 -7.42}
+		{xform zl -99.37}
+	}
+	{Entity "clay_111" 0x603d
+		{Position -2001.86 -1467.14 -16.21}
+		{xform zl -89.37}
+	}
+	{Entity "clay_111" 0x603e
+		{Position -2020.66 -1266.35 -9.02}
+		{xform zl -89.37}
+	}
+	{Entity "clay_111" 0x603f
+		{Position -2030.48 -1108.23 -11.04}
+		{xform zl -89.37}
+	}
+	{Entity "clay_111" 0x6040
+		{Position -2018.31 -979.94 -14.35}
+		{xform zl -89.37}
+	}
+	{Entity "clay_111" 0x6041
+		{Position -2025.32 -807.51 -24.26}
+		{xform zl -89.37}
+	}
+	{Entity "clay_111" 0x6042
+		{Position -2015.32 -619.31 -18.89}
+		{xform zl -89.37}
+	}
+	{Entity "clay_111" 0x6043
+		{Position -2015 -449.93 0.34}
+		{xform zl -89.37}
+	}
+	{Entity "clay_111" 0x6044
+		{Position -1999.98 -321.9 5.86}
+		{xform zl -89.37}
+	}
+	{Entity "clay_111" 0x6045
+		{Position -2007.53 -146.5 12.16}
+		{xform zl -89.37}
+	}
+	{Entity "clay_111" 0x6046
+		{Position -2004.57 46.99 25.22}
+		{xform zl -89.37}
+	}
+	{Entity "clay_111" 0x6047
+		{Position -2024.44 262.62 33.79}
+		{xform zl -89.37}
+	}
+	{Entity "clay_111" 0x6048
+		{Position -2029.35 459.63 11.02}
+		{xform zl -89.37}
+	}
+	{Entity "clay_111" 0x6049
+		{Position -2033.21 661.8 -0.1}
+		{xform zl -89.37}
+	}
+	{Entity "clay_111" 0x604a
+		{Position -2019.37 730.3 -0.1}
+		{xform zl -89.37}
+	}
+	{Entity "clay_111" 0x604b
+		{Position -2022.62 918.34 -0.1}
+		{xform zl -89.37}
+	}
+	{Entity "clay_111" 0x604c
+		{Position -2022.39 1088.11 -0.1}
+		{xform zl -89.37}
+	}
+	{Entity "clay_111" 0x604d
+		{Position -2025.27 1260.78 -0.1}
+		{xform zl -89.37}
+	}
+	{Entity "clay_111" 0x604e
+		{Position -2039.1 1429.42 0.9}
+		{xform zl -89.37}
+	}
+	{Entity "clay_111" 0x604f
+		{Position -2036.31 1536.52 0.17}
+		{xform zl -89.37}
+	}
+	{Entity "clay_111" 0x6050
+		{Position -2029.96 1619.52 3.85}
+		{xform zl -89.37}
+	}
+	{Entity "clay_111" 0x6051
+		{Position -2033.33 1767.85 8.76}
+		{xform zl -89.37}
+	}
+	{Entity "clay_111" 0x6052
+		{Position -2029.95 1920.91 3.94}
+		{xform zl -99.37}
+	}
+	{Entity "clay_111" 0x6053
+		{Position -1979.56 2001.08 4.9}
+		{xform zl 160.63}
+	}
+	{Entity "clay_111" 0x6054
+		{Position -1762.75 1980.38 39.91}
+		{xform zl -179.37}
+	}
+	{Entity "clay_111" 0x6055
+		{Position -1620.7 2000.97 -0.1}
+		{xform zl -179.37}
+	}
+	{Entity "clay_111" 0x6056
+		{Position -1543.25 2002.96 -0.1}
+		{xform zl 170.63}
+	}
+	{Entity "clay_111" 0x6057
+		{Position -1419.75 1930.93 2.91}
+		{xform zl -89.72}
+	}
+	{Entity "clay_111" 0x6058
+		{Position -1323.01 2002.04 -0.09}
+		{xform zl -179.72}
+	}
+	{Entity "clay_111" 0x6059
+		{Position -1064.82 2001.38 -0.09}
+		{xform zl -179.72}
+	}
+	{Entity "clay_111" 0x605a
+		{Position -886.6 2019.82 -0.09}
+		{xform zl -179.72}
+	}
+	{Entity "clay_111" 0x605b
+		{Position -715.28 2021.96 -0.09}
+		{xform zl -179.72}
+	}
+	{Entity "clay_111" 0x605c
+		{Position -539.31 2028.05 -0.09}
+		{xform zl -179.72}
+	}
+	{Entity "clay_111" 0x605d
+		{Position -399.02 2035.62 -0.09}
+		{xform zl -179.72}
+	}
+	{Entity "clay_11a" 0x605e
+		{Position 508.1 -5600.66}
+		{xform zl -80}
+	}
+	{Entity "leaves6" 0x7006
+		{Position -16.29 288.33}
+	}
+	{Entity "leaves6" 0x7007
+		{Position -69.57 312.78}
+		{xform zl -30}
+	}
+	{Entity "leaves6" 0x7008
+		{Position -223.59 132.73}
+		{xform zl 10}
+	}
+	{Entity "leaves6" 0x7009
+		{Position -238.26 168.64}
+		{xform zl 10}
+	}
+	{Entity "leaves6" 0x700a
+		{Position -124.35 148.24}
+	}
+	{Entity "leaves6" 0x700b
+		{Position -109.62 189.55}
+		{xform zl 10}
+	}
+	{Entity "leaves6" 0x700c
+		{Position -154.7 175.21}
+	}
+	{Entity "leaves6" 0x700d
+		{Position -373.41 32.7}
+		{xform zl 50}
+	}
+	{Entity "leaves6" 0x700e
+		{Position -409.83 64.42}
+	}
+	{Entity "leaves6" 0x700f
+		{Position -364.93 73.3}
+	}
+	{Entity "leaves6" 0x7010
+		{Position -280.49 -182.98}
+	}
+	{Entity "leaves6" 0x7011
+		{Position -283.29 -217.7}
+		{xform zl 10}
+	}
+	{Entity "leaves6" 0x7012
+		{Position -313.32 -210.08}
+	}
+	{Entity "leaves6" 0x7013
+		{Position -389.56 -275.76}
+		{xform zl 10}
+	}
+	{Entity "leaves6" 0x7014
+		{Position -355.07 -284.55}
+	}
+	{Entity "leaves6" 0x7015
+		{Position -378.08 -321.33}
+		{xform zl -150}
+	}
+	{Entity "leaves4a" 0x7016
+		{Position -380.78 -528.51}
+	}
+	{Entity "leaves4a" 0x7017
+		{Position -456.53 -535.68}
+	}
+	{Entity "leaves4a" 0x7018
+		{Position -505.06 -524.01}
+		{xform zl 20}
+	}
+	{Entity "leaves4a" 0x7019
+		{Position -573.79 -556.66}
+		{xform zl 20}
+	}
+	{Entity "leaves4a" 0x701a
+		{Position -445.91 -618.54}
+		{xform zl -10}
+	}
+	{Entity "leaves4a" 0x701b
+		{Position -521.75 -612.45}
+		{xform zl -10}
+	}
+	{Inventory 0x95
+		{box
+			{clear}
+			{item "antitank" "mine" 50 {cell 0 0}}
+			{item "antitank" "mine" 50 {cell 2 0}}
+			{item "antitank" "mine" 50 {cell 4 0}}
+			{item "antitank" "mine" 50 {cell 6 0}}
+			{item "antipersonnel" "mine" 50 {cell 0 2}}
+			{item "antipersonnel" "mine" 50 {cell 1 2}}
+			{item "antipersonnel" "mine" 50 {cell 2 2}}
+			{item "antipersonnel" "mine" 50 {cell 3 2}}
+			{item "antipersonnel" "mine" 50 {cell 4 2}}
+			{item "antipersonnel" "mine" 50 {cell 5 2}}
+			{item "antipersonnel" "mine" 50 {cell 6 2}}
+			{item "antipersonnel" "mine" 50 {cell 7 2}}
+			{item "antipersonnel" "mine" 50 {cell 0 3}}
+			{item "antipersonnel" "mine" 50 {cell 1 3}}
+			{item "antipersonnel" "mine" 50 {cell 2 3}}
+			{item "antipersonnel" "mine" 50 {cell 3 3}}
+			{item "antipersonnel" "mine" 50 {cell 4 3}}
+			{item "antipersonnel" "mine" 50 {cell 5 3}}
+			{item "antipersonnel" "mine" 50 {cell 6 3}}
+			{item "antipersonnel" "mine" 50 {cell 7 3}}
+			{item "antipersonnel" "mine" 50 {cell 0 4}}
+			{item "antipersonnel" "mine" 50 {cell 1 4}}
+			{item "antipersonnel" "mine" 50 {cell 2 4}}
+			{item "antipersonnel" "mine" 50 {cell 3 4}}
+			{item "antipersonnel" "mine" 50 {cell 4 4}}
+			{item "antipersonnel" "mine" 50 {cell 5 4}}
+			{item "antipersonnel" "mine" 50 {cell 6 4}}
+		}
+	}
+	{Inventory 0xb6
+		{box
+			{clear}
+			{item "rpg29rocket" "ammo" 50 {cell 0 2}}
+			{item "rpg29rocket" "ammo" 50 {cell 3 2}}
+			{item "rpg29rocket" "ammo" 50 {cell 0 3}}
+			{item "rpg29rocket" "ammo" 50 {cell 3 3}}
+			{item "rpg29rocket" "ammo" 50 {cell 0 4}}
+			{item "rpg29rocket" "ammo" 50 {cell 3 4}}
+			{item "rpg29rocket" "ammo" 50 {cell 0 5}}
+			{item "rpg29rocket" "ammo" 50 {cell 3 5}}
+			{item "rpg29" "weapon" filled {cell 0 0}}
+		}
+	}
+}

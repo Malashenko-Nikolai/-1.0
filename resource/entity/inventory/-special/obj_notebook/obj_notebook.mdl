@@ -1,0 +1,119 @@
+;Exported by: Vorabat
+;Date:        Sat Nov 07 23:51:02 2009
+;File:        C:\Users\Vorabat\Documents\3dsmax\scenes\lab1.max
+{Skeleton
+	{bone "obj_notebook"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "obj_notebook.ply"}
+	}
+}
+{Volume "body"
+	{Box 8.79298 6.00496 0.857852}
+	{Bone "obj_notebook"}
+	{Position 0.0617342	-1.11878	0.428926}
+}
+{Volume "box128"
+	{Box 8.93596 0.357438 6.29091}
+	{Bone "obj_notebook"}
+	{Matrix34
+		1	0	0
+		0	0.965926	-0.258819
+		0	0.258819	0.965926
+		-0.0110807	2.7288	3.35957
+	}
+}
+{Volume "select"
+	{Box 8.79298 6.00496 0.857852}
+	{Bone "obj_notebook"}
+	{Position 0.0617342	-1.11878	0.428926}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin -6.03	3.15681	6.13665}
+			{lookat -3.95194	1.7748	3.75304}
+			{fov 55}
+			{horizon 0.999951}
+		}
+		{lights
+			{"0"
+				{type spot}
+				{position -0.00873819	-4.37239	9.8095}
+				{direction -0.00149179	0.235221	-0.441213}
+				{theta 43}
+				{phi 45}
+			}
+			{"1"
+				{type spot}
+				{position -3.26418	-6.73438	16.1749}
+				{direction 0.0819321	0.211334	-0.445674}
+				{theta 43}
+				{phi 45}
+			}
+			{"2"
+				{type point}
+				{position -0.222445	3.63804	-0.0769647}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin -6.86688	4.09406	7.75086}
+			{lookat -3.58802	1.91348	3.98989}
+			{fov 55}
+			{horizon -34}
+		}
+		{lights
+			{"0"
+				{type spot}
+				{position -0.00873819	-4.37239	9.8095}
+				{direction -0.00149179	0.235221	-0.441213}
+				{theta 43}
+				{phi 45}
+			}
+			{"1"
+				{type spot}
+				{position -3.26418	-6.73438	16.1749}
+				{direction 0.0819321	0.211334	-0.445674}
+				{theta 43}
+				{phi 45}
+			}
+			{"2"
+				{type point}
+				{position -0.222445	3.63804	-0.0769647}
+			}
+		}
+	}
+	{"Stuff_secondary"
+		{camera
+			{origin -6.72632	3.71858	7.38156}
+			{lookat -3.74256	1.73425	3.95909}
+			{fov 55}
+			{horizon -21}
+		}
+		{lights
+			{"0"
+				{type spot}
+				{position -0.00873819	-4.37239	9.8095}
+				{direction -0.00149179	0.235221	-0.441213}
+				{theta 43}
+				{phi 45}
+			}
+			{"1"
+				{type spot}
+				{position -3.26418	-6.73438	16.1749}
+				{direction 0.0819321	0.211334	-0.445674}
+				{theta 43}
+				{phi 45}
+			}
+			{"2"
+				{type point}
+				{position -0.222445	3.63804	-0.0769647}
+			}
+		}
+	}
+}

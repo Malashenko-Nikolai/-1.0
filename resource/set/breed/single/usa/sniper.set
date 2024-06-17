@@ -1,0 +1,33 @@
+{breed
+	{behaviour soldier}
+	{skin "us_army_gi_bdu_pasgt_sniper_gasmask"}
+	{icon_priority 0}
+	{nationality usa}
+	{armors
+		{head bdu_cap}
+	}
+	{perks
+		{"stamina" "100%"
+		}
+		{"melee" lvl_1
+		}
+		{"health" "100%"
+		}
+		{"at_rifle" lvl_1
+		}
+		{"mgun" lvl_1
+		}
+		{"rifle" lvl_5
+		}
+		{"pistol" lvl_1
+		}
+		{"smg" lvl_1
+		}
+		{"vision" mp_soldier
+		}
+	}
+	{inventory
+		{item "m82a1" filling "12799_10 ammo" 10}
+		{in_hands 0}
+	}
+}

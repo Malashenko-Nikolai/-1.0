@@ -1,0 +1,14 @@
+{from "pattern sniper_rifle"
+	{filling "ammo 76251_20m14" 20}
+	{inventory
+		{size 5 2 }
+	}
+	{entity "m21"}
+	{fireSound "rifle/m14_burst/"}
+	{reloadSound "m14_reload"}
+	{range 88 98}
+	{healthDamage 300}
+	{recoveryTime 2}
+	{mass 4.3}
+
+}

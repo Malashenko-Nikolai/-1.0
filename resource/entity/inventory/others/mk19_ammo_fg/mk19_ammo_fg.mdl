@@ -1,0 +1,82 @@
+;Exported by: Pheonix
+;Date:        Wed Aug 05 23:49:54 2009
+;File:        D:\Documents and Settings\Pheonix\Мои документы\3dsmax\scenes\MyWorks\Weapons\Podstvol_ammo\PD_2.max
+{Skeleton
+	{bone "pgb"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "pgb.ply"}
+		{bone "tail"
+			{Matrix34
+				-1	0	0
+				0	-1	0
+				0	0	1
+				-1.62061	0.11385	0.087499
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 2.99707 1.30578 1.20198}
+	{Bone "pgb"}
+	{Matrix34
+		-1	0	0
+		0	0	1
+		0	1	0
+		-0.0427539	0.0378999	0.0381185
+	}
+}
+{Volume "select"
+	{Polyhedron "select.vol"}
+	{Bone "pgb"}
+	{Position -0.1102	0.265676	0.0732379}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 2.82022	-6.45881	0.0229958}
+			{lookat 0.747848	-1.64544	0.0229958}
+			{fov 31.7555}
+			{horizon -152.17}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 0.816872	-3.24933	5.57583}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0783768	0.397715	-0.292712}
+			}
+			{"2"
+				{type point}
+				{position -4.6187	-2.64295	4.00646}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin 2.82022	-6.45881	0.0229958}
+			{lookat 0.747848	-1.64544	0.0229958}
+			{fov 81.7555}
+			{horizon -152.17}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 0.816872	-3.24933	5.57583}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0783768	0.397715	-0.292712}
+			}
+			{"2"
+				{type point}
+				{position -4.6187	-2.64295	4.00646}
+			}
+		}
+	}
+}

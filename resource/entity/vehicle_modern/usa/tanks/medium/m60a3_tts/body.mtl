@@ -1,0 +1,5 @@
+{material simple
+    {diffuse "$/vehicle5/m60_dif"}
+    {blend none}
+	{emitsheat}
+}

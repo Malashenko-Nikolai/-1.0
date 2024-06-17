@@ -1,0 +1,4 @@
+{from "helmet1_ger"
+	{entity "ber_vdv_sov"}
+	{desc "Берет ВДВ"}                        
+}

@@ -1,0 +1,41 @@
+;Exported by: Игорь
+;Date:        Thu Nov 10 22:22:39 2011
+;File:        E:\Делаю\military_angar\Ангар рабочий\Ангар рабочий\military hangar 1b.max
+{Skeleton
+	{bone "mh_1bl4h3"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "mh_1bl4h3.ply"}
+	}
+}
+{Obstacle "body12"
+	{Obb2
+		{Center 4.48529 29.8435}
+		{Extent 9.61495 7.86921}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body13"
+	{Obb2
+		{Center -9.47839 -3.05202}
+		{Extent 4.56032 44.6464}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body12"
+	{Polyhedron "body12.vol"}
+	{Bone "mh_1bl4h3"}
+	{Position 4.48529	-29.8435	42.9622}
+}
+{Volume "body13"
+	{Polyhedron "body13.vol"}
+	{Bone "mh_1bl4h3"}
+	{Position -9.47839	3.05202	44.7839}
+}

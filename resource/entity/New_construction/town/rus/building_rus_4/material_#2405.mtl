@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "wall1"}
+	{bump "wall1_bump"}
+	{specular "wall1_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

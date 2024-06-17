@@ -1,0 +1,25 @@
+{from "pattern smg"
+	{tag "assaultsmg"}
+	{filling "ammo 54539_30" 30}
+	{inventory
+		{size 5 2 }
+		{link_bone "gun_back"}
+		{weight 100 }
+	}
+	{mass 2.7}
+	{entity "aks74u_3"}
+	{fireSound "small_arms/silenced_ak74/"}
+	{reloadSound "ak47"}
+	{rechargeTime 3.0}
+	
+	{Automatic}
+	{healthDamage 230}
+	("recoveryTime" r(700))
+	("accuracy_rifle")
+	("speed" s(750))
+	{range 60 70}
+	{burst
+		{short 3 0.5}
+		{long 30 0.5}
+	}
+}

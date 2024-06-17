@@ -1,0 +1,60 @@
+;Exported by: Наталья
+;Date:        Mon May 07 00:47:25 2012
+;File:        G:\military_angar\Ангар рабочий\Ангар рабочий\Новая папка\Untitled.max
+{Skeleton
+	{bone "mh_1bl4h2"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "mh_1bl4h2.ply"}
+	}
+}
+{Obstacle "body14"
+	{Obb2
+		{Center -64.9856 3.22176}
+		{Extent 4.57677 30.4921}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body15"
+	{Obb2
+		{Center -50.9699 21.7224}
+		{Extent 9.7503 7.91748}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body16"
+	{Obb2
+		{Center 62.8056 21.7224}
+		{Extent 9.74932 7.91748}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body14"
+	{Polyhedron "body14.vol"}
+	{Bone "mh_1bl4h2"}
+	{Matrix34
+		0	1	0
+		-1	0	0
+		0	0	1
+		-64.9856	-3.22176	38.7284
+	}
+}
+{Volume "body15"
+	{Polyhedron "body15.vol"}
+	{Bone "mh_1bl4h2"}
+	{Position -50.9699	-21.7224	18.9215}
+}
+{Volume "body16"
+	{Polyhedron "body16.vol"}
+	{Bone "mh_1bl4h2"}
+	{Position 62.8056	-21.7224	20.2747}
+}

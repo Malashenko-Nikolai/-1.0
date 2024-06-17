@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "smola_angar"}
+	{bump "smola_angar_bp"}
+	{blend none}
+}

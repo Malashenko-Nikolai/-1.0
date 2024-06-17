@@ -1,0 +1,8 @@
+{game_entity
+	(include "/properties/stuff.ext")
+	{extension "mk19_ammo_fg.mdl"}
+	(include "/properties/shadow/round.inc")
+	{extender "stuff"
+		{item "ammo bullet40 fg"}
+	}
+}

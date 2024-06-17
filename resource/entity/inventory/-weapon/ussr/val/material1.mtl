@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "wpn_vss"}
+	{blend test}
+}

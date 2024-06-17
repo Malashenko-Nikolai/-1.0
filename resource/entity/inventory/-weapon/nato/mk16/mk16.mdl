@@ -1,0 +1,110 @@
+;Exported by: Bradley
+;Date:        Sat Jun 26 21:12:07 2021
+;File:        C:\Users\Bradley\Desktop\mk16.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "handle"
+			{parameters "Voxels=0;"}
+			{Matrix34
+				0	1	0
+				0	0	-1
+				-1	0	0
+				-0.722671	0.00995386	-0.0258957
+			}
+		}
+		{bone "fxshell"
+			{parameters "Voxels=0;"}
+			{Matrix34
+				0	0	1
+				0	1	0
+				-1	0	0
+				2.38243	2.18519	0.287296
+			}
+		}
+		{bone "foresight3"
+			{parameters "Voxels=0;"}
+			{Position 9.64086	2.00162	-0.203018}
+		}
+		{bone "w_ar_fnscar-l_t3"
+			{parameters "CommonMesh;"}
+			{Matrix34
+				0	-0.0871558	-0.996195
+				-1	0	0
+				0	0.996195	-0.0871558
+				0.2148	0.430262	-0.076053
+			}
+			{VolumeView "w_ar_fnscar-l_t3.ply"}
+		}
+	}
+}
+{Volume "body"
+	{Box 2.84305 39.647 8.48956}
+	{Bone "basis"}
+	{Matrix34
+		0	0	-0.393681
+		-0.393681	0	0
+		0	0.393681	0
+		1.90215	1.33494	-0.236985
+	}
+}
+{Volume "select"
+	{Box 9.84252 39.8962 9.84252}
+	{Bone "basis"}
+	{Matrix34
+		0	0	-0.393681
+		-0.393681	0	0
+		0	0.393681	0
+		2.01048	1.12314	-0.0258958
+	}
+}
+{Extender "preview"
+	{"Stuff_primary"
+		{camera
+			{origin 2.75152	-4.48795	22.5836}
+			{lookat 2.29127	-1.50639	4.72776}
+			{fov 45}
+			{horizon -177.044}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 11.0405	-2.48929	-3.46495}
+			}
+			{"1"
+				{type directional}
+				{direction -0.061741	0.203878	-0.452351}
+			}
+			{"2"
+				{type point}
+				{position -7.75116	-0.213119	-5.09503}
+			}
+		}
+	}
+	{"Stuff"
+		{camera
+			{origin 1.9667	0.562624	-23.6713}
+			{lookat 2.07479	-2.31361	20.4648}
+			{fov 45}
+			{horizon -177.044}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 21.4119	-16.8741	39.0539}
+			}
+			{"1"
+				{type directional}
+				{direction -0.127017	-0.0764374	0.477519}
+			}
+			{"2"
+				{type point}
+				{position -13.4689	15.39	47.503}
+			}
+		}
+	}
+}

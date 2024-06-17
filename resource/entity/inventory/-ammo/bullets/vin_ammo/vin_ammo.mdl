@@ -1,0 +1,47 @@
+;Exported by: Pheonix
+;Date:        Thu Aug 06 15:42:36 2009
+;File:        D:\Documents and Settings\Pheonix\Мои документы\3dsmax\scenes\MyWorks\Weapons\Vintorez\Magazin.max
+{Skeleton
+	{bone "vintorez"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "vintorez.ply"}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "vintorez"}
+	{Position -0.076612	0.0645628	-0.577825}
+}
+{Volume "select"
+	{Polyhedron "select.vol"}
+	{Bone "vintorez"}
+	{Position 0.0153153	0.051369	-1.08812}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 1.03393	-3.80039	8.29323}
+			{lookat -0.958892	3.09774	-6.85487}
+			{fov 19.729}
+			{horizon -177.644}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 13.9816	-6.44476	4.45815}
+			}
+			{"1"
+				{type directional}
+				{direction -0.118399	0.197721	-0.443721}
+			}
+			{"2"
+				{type point}
+				{position -11.6422	-5.83851	5.1246}
+			}
+		}
+	}
+}

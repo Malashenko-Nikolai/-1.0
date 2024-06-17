@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "prop_grate5"}
+	{blend none}
+}

@@ -1,0 +1,8 @@
+{from "pattern pistol"
+	{filling "ammo 1143_7" 7}
+	{entity "coltm1911a1"}
+	{fireSound	"pistol/colt1911_fire"}
+	{reloadSound "colt1911_reload"}
+	{range 30 35}
+	{healthDamage 300}
+}

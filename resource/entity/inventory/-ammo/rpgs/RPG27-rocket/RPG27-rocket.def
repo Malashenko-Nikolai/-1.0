@@ -1,0 +1,11 @@
+{game_entity
+	(include "/properties/stuff_small.ext" scale(1.2))
+	{collider "ammo"}
+	{extender "stuff"
+		{item "M72LAW ammo"}
+	}
+	{Extension "RPG27-rocket.mdl"}
+	{constrain none}
+	{fogable never}
+	(include "/properties/shadow/round.inc")
+}

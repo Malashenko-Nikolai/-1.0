@@ -1,0 +1,99 @@
+;Exported by: Андрей
+;Date:        Thu Jan 28 18:02:49 2016
+;File:        C:\Users\Андрей\Documents\3dsmax\scenes\ящики сталкер2.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "piece1"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				0.172702	0.223263	2.33758
+			}
+			{VolumeView "piece1.ply"}
+		}
+		{bone "piece3"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				0.172702	0.223267	2.33758
+			}
+			{VolumeView "piece3.ply"}
+		}
+		{bone "piece2"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				0.172702	0.223267	2.33758
+			}
+			{VolumeView "piece2.ply"}
+		}
+	}
+}
+{Volume "body1"
+	{Polyhedron "body1.vol"}
+	{Bone "piece1"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		0.236297	2.33691	-3.60767
+	}
+}
+{Volume "body2"
+	{Polyhedron "body2.vol"}
+	{Bone "piece2"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		0.236297	2.33691	3.97736
+	}
+}
+{Volume "body3"
+	{Box 11.8595 0.905892 17.0528}
+	{Bone "piece3"}
+	{Matrix34
+		1	0	0
+		0	-1	0
+		0	0	-1
+		0.0446768	-1.916	0.0643368
+	}
+}
+{Volume "piece1"
+	{Polyhedron "piece1.vol"}
+	{Bone "piece1"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		0.236297	2.33691	-3.60767
+	}
+}
+{Volume "piece2"
+	{Polyhedron "piece2.vol"}
+	{Bone "piece2"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		0.236297	2.33691	3.97736
+	}
+}
+{Volume "piece3"
+	{Box 11.8595 0.905892 17.0528}
+	{Bone "piece3"}
+	{Matrix34
+		1	0	0
+		0	-1	0
+		0	0	-1
+		0.0446768	-1.916	0.0643368
+	}
+}

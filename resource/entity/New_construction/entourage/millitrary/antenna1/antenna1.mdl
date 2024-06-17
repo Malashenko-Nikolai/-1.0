@@ -1,0 +1,13 @@
+;Exported by: Vorabat
+;Date:        Wed Mar 24 04:39:17 2010
+;File:        
+{Skeleton
+	{bone "antenna1"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "antenna1.ply"}
+	}
+}

@@ -1,0 +1,103 @@
+;Exported by: Parsek
+;Date:        Sat Sep 01 23:40:14 2012
+;File:        C:\Documents and Settings\Parsek\Мои документы\3dsmax\scenes\АКС-74 (глушитель, оптика).max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "foresight3"
+			{Matrix34
+				0.999386	0.0350285	0
+				-0.0350284	0.999386	0
+				0	0	1
+				12.0892	1.97798	0.220977
+			}
+		}
+		{bone "fxshell"
+			{Matrix34
+				0	0	1
+				0	1	0
+				-1	0	0
+				2.99972	1.88111	0.146244
+			}
+		}
+		{bone "aks74"
+			{Matrix34
+				0.998879	-0.0473446	0
+				0.0236807	0.499618	-0.865922
+				0.0409967	0.864951	0.500179
+				5.40115	-16.1781	31.6563
+			}
+			{VolumeView "aks74.ply"}
+		}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "basis"}
+	{Matrix34
+		0.999386	0.0350284	0
+		-0.0350285	0.999386	0
+		0	0	1
+		4.11924	0.0724933	-0.270256
+	}
+}
+{Volume "select"
+	{Polyhedron "select.vol"}
+	{Bone "basis"}
+	{Matrix34
+		0.999386	0.0350284	0
+		-0.0350285	0.999386	0
+		0	0	1
+		4.18129	0.222586	-0.344651
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 3.82426	-1.60968	28.0874}
+			{lookat 4.14549	-1.55122	0.242537}
+			{fov 45}
+			{horizon -76.7316}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 12.9256	10.4409	-11.9365}
+			}
+			{"1"
+				{type directional}
+				{direction -0.130376	0.000741037	-0.482702}
+			}
+			{"2"
+				{type point}
+				{position -0.834915	-16.3291	-16.0853}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin 3.72523	-1.7324	29.1898}
+			{lookat 4.05932	-1.67161	0.231178}
+			{fov 45}
+			{horizon -76.7316}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 12.8437	10.3461	-11.9477}
+			}
+			{"1"
+				{type directional}
+				{direction -0.130376	0.000740994	-0.482702}
+			}
+			{"2"
+				{type point}
+				{position -0.91674	-16.4239	-16.0965}
+			}
+		}
+	}
+}

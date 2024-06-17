@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/humanskin/usa/oldschool/m1951_cap_bdu"}
+	{bump "$/humanskin/usa/oldschool/m1951_cap_nm"}
+	{specular "$/humanskin/usa/oldschool/m1951_cap_sp"}
+	{color "230 230 230 25"}
+	{blend test}
+}

@@ -1,0 +1,17 @@
+{game_entity
+	(include "/properties/building.inc")			
+	{props "cornered" "concrete" "parts" "construction" "wall"}
+	("armor_heavy" args 0.8)
+	{mass 50000}
+	{Extension "mh_1bc3l6.mdl"}
+	{Volume "body4"
+		{Tags  "body"}
+		{Thickness 50}
+		{able {visible 1}}
+	}
+	{Volume "body5"
+		{Tags  "body"}
+		{Thickness 50}
+		{able {visible 1}}
+	}
+}

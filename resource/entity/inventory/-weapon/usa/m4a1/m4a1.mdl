@@ -1,0 +1,102 @@
+;Exported by: þæ
+;Date:        Mon Jul 06 17:26:32 2009
+;File:        C:\Users\þæ\Desktop\m4.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "handle"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				4.3493	1.47644	0.274144
+			}
+		}
+		{bone "fxshell"
+			{Matrix34
+				0	0	1
+				0	1	0
+				1	0	0
+				3.0526	2.03242	0.280772
+			}
+		}
+		{bone "foresight3"
+			{Matrix34
+				1	0	0
+				0	0.707107	-0.707107
+				0	0.707107	0.707107
+				10.4359	2.15166	0.280772
+			}
+		}
+		{bone "m4"
+			{parameters "ID=smg;"}
+			{Matrix34
+				0	0	1
+				0	1	0
+				1	0	0
+				2.4975	1.10582	0.286902
+			}
+			{VolumeView "m4.ply"}
+		}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "basis"}
+	{Position 1.42789	-0.670189	-0.356022}
+}
+{Volume "select"
+	{Polyhedron "select.vol"}
+	{Bone "basis"}
+	{Position 1.23311	-1.3606	-1.58913}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 4.79188	-6.3698	32.1661}
+			{lookat 4.30706	-3.61943	15.6367}
+			{fov 45}
+			{horizon -177.044}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 12.7333	-4.38938	7.74909}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0660742	0.202516	-0.452351}
+			}
+			{"2"
+				{type point}
+				{position -5.40079	-2.58428	6.17975}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin 4.79604	-6.4833	32.8271}
+			{lookat 4.29183	-3.62293	15.6366}
+			{fov 45}
+			{horizon -177.044}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 12.7333	-4.38938	7.74909}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0660742	0.202516	-0.452351}
+			}
+			{"2"
+				{type point}
+				{position -5.40079	-2.58428	6.17975}
+			}
+		}
+	}
+}

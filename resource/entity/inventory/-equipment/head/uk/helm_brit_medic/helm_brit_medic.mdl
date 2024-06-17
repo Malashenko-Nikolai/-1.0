@@ -1,0 +1,57 @@
+;Exported by: Администратор
+;Date:        Wed Jul 30 21:52:39 2014
+;File:        C:\Documents and Settings\Администратор\Мои документы\3dsMax\scenes\UAHM\-equipment\-head\helm_brit_army.max
+{Skeleton
+	{bone "drawcall_0037"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "drawcall_0037.ply"}
+		{bone "handle"
+			{Matrix34
+				1	0	0
+				0	0	1
+				0	-1	0
+				2.28439	-0.0268076	2.00731
+			}
+		}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "drawcall_0037"}
+	{Matrix34
+		1	0	0
+		0	-1	0
+		0	0	-1
+		-0.0178143	-0.0220262	2.07695
+	}
+}
+{Volume "select"
+	{Polyhedron "select.vol"}
+	{Bone "drawcall_0037"}
+	{Matrix34
+		1	0	0
+		0	-1	0
+		0	0	-1
+		-0.0156766	-0.0220262	2.07695
+	}
+}
+{Extender "preview"
+	{"stuff"
+		{camera
+			{origin 5.15511	5.36194	6.85866}
+			{lookat -10.5573	-10.999	-2.01488}
+			{fov 45}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.324048	-0.33451	-0.181922}
+				{ambient 0x959595}
+			}
+		}
+	}
+}

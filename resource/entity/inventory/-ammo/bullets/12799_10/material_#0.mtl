@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "m82a3_d"}
+	{blend none}
+}

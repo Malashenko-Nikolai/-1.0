@@ -1,0 +1,118 @@
+{game_entity
+	(include "/properties/tank.ext")
+	(include "/properties/shadow/tank.inc"  scale(1.2))
+	(include "/properties/selection/vehicle.inc"  scale(1.2))
+	{props "light" "turret_rotator" "vision_vehicle_low" "amphibia"}
+
+	{extender "enumerator"}
+	{PatherID "amphibia"}
+	{volume "body1"
+		{tags "body"}
+		{component "body"}
+		{thickness 30}
+	}
+	{volume "body2"
+		{tags "body"}
+		{component "body"}
+		{thickness 30}
+	}
+	{volume "body3"
+		{tags "body"}
+		{component "body"}
+		{thickness 30}
+	}
+	("armor_medium" turret(10 10 10 10) body(12 10 10 6))
+	("armor_engine"  t(30 30 20 22))
+	("armor_mantlet" t(10))
+
+
+
+	{boarder
+		{anm "left"
+			{forward	{begin	"board_tank_left"} {end "seat_m7_mgunner"} {base"open_driver"}}
+			{reverse 	{end	"emit_tank_1_hold"} {base"open_driver"}}
+		}
+		{anm "right"
+			{forward	{begin	"board_tank_right"} {end "seat_m7_mgunner"}}
+			{reverse 	{end	"emit_tank_1_hold"}}
+		}
+		{anm "open_left"
+			{forward	{begin	"board_sd222_driver"} {end "seat_passenger"} {base"open_back"}}   
+			{reverse 	{end	"emit_body" 1} {base"open_back"}}
+		}
+		{anm "open_right"
+			{forward	{begin	"board_sd222_driver"} {end "seat_passenger"} {base"open_back"}}   
+			{reverse 	{end	"emit_body" 1} {base"open_back"}}
+		}
+	}
+
+	("crew_human" place(driver)	door1(emit1) door2(emit2) visor(driver))
+	("crew_human" place(commander)	door1(emit1) door2(emit2) visor(commander))
+
+	{extender "inventory"
+		{box
+			{item "ammo flaer" 100}
+		}
+	}
+
+	{Weaponry
+		{place "gun2"
+			{gunner "commander"}
+			{charger "commander"}
+			{weapon "weapon flaerlauncher_ger" filled}
+			{foresight "foresight"}
+           		{basic}
+		}
+	}
+
+	{mass 11450}
+	{Chassis
+		("tank_trace" fx("tracks_mid") step(0.52) len(1.3))
+		{Locomotion ("locomotion")
+			{MaxSpeed	 40}
+			{maxSpeedAtMaxTurn 12}
+			{StartTime	  15}
+			{TurnTime  	  8}
+    		{TurnStart  1.7} 
+    		{BrakeTime    1} 
+    		{StopTime     2} 
+    		{TurnRadius   9} 
+    		{TurnStop   0.9}
+     		{Gears  0.2 0.5 1} 
+    		{RearGears 0.6}
+		}
+		{FuelBag
+			{volume 360 }	
+			{rate	53 }   
+			{remain 360 }
+			{fuel "fuel"}
+		}
+		{speed
+        	{Normal  10}
+        	{Slow  16}
+    		}
+		{switch
+			{exitFromWater}
+			{terrain not "water" "deep_water"}
+		}
+	}
+
+	{Extension "m577.mdl"}
+
+	{chassis "water"
+		("chassis_defaults")
+		{ignorePatherBounds}
+		{waterline 1.15}
+		{switch
+			{terrain "water" "deep_water"}
+		}	
+	}
+	{bone "turret_flare"
+		{speed 0.09}
+	}
+	{bone "gun_flare"
+		{speed 0.09}
+		{limits -80 0}
+	}
+	{texmod "rfa"}
+}

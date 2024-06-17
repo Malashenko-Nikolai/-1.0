@@ -1,0 +1,37 @@
+{breed
+	{behaviour soldier}
+	{skin "us_army_gi_bdu_pasgt_co_gasmask"}
+	{portrait usa_ranger_smg}
+	{icon_priority 0}
+	{nationality usa}
+	{armors
+		{head pasgt_helmet}
+	}
+	{perks
+		{"stamina" "100%"
+		}
+		{"health" "100%"
+		}
+		{"melee" lvl_1
+		}
+		{"at_rifle" lvl_1
+		}
+		{"mgun" lvl_1
+		}
+		{"pistol" lvl_1
+		}
+		{"rifle" lvl_1
+		}
+		{"smg" lvl_5
+		}
+		{"vision" mp_soldier
+		}
+	}
+	{inventory
+		{item "car15" filling "55645_30ar ammo" 30}
+		{item "55645_30ar ammo" 50}
+		{item "m67_grenade grenade" 4}
+		{item "bandage" 10}
+		{in_hands 0}
+	}
+}

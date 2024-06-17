@@ -1,0 +1,47 @@
+;Exported by: Pheonix
+;Date:        Thu Aug 06 15:34:00 2009
+;File:        D:\Documents and Settings\Pheonix\Мои документы\3dsmax\scenes\MyWorks\Weapons\SVD\Magazin.max
+{Skeleton
+	{bone "svd_ammo"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "svd_ammo.ply"}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "svd_ammo"}
+	{Position 0.195714	0.158186	-0.586262}
+}
+{Volume "select"
+	{Polyhedron "select.vol"}
+	{Bone "svd_ammo"}
+	{Position 0.287641	0.144992	-1.09656}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 1.30628	-3.89407	8.28488}
+			{lookat -0.686547	3.00406	-6.86322}
+			{fov 19.729}
+			{horizon -177.644}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 14.2539	-6.53844	4.4498}
+			}
+			{"1"
+				{type directional}
+				{direction -0.118399	0.197722	-0.443721}
+			}
+			{"2"
+				{type point}
+				{position -11.3698	-5.93219	5.11625}
+			}
+		}
+	}
+}

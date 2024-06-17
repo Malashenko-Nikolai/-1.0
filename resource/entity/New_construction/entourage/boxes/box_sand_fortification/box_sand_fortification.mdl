@@ -1,0 +1,53 @@
+;Exported by: Администратор
+;Date:        Sat Mar 30 08:15:54 2013
+;File:        G:\Работа с Pheonix\Редактирование\Мои модели\Фортификация\Корзина с песком США\sand_box 4.max
+{Skeleton
+	{bone "box_sand_fortification"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "box_sand_fortification.ply"}
+		{bone "climb2"
+			{Matrix34
+				-1	0	0
+				0	-1	0
+				0	0	1
+				26.4868	1.73323	0.286257
+			}
+		}
+		{bone "climb3"
+			{Matrix34
+				0	1	0
+				-1	0	0
+				0	0	1
+				-0.67149	-25.425	0.286259
+			}
+		}
+		{bone "climb1"
+			{Position -27.8297	1.73323	0.286257}
+		}
+		{bone "climb4"
+			{Matrix34
+				0	-1	0
+				1	0	0
+				0	0	1
+				-0.67146	28.8915	0.286256
+			}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -0.642443 0.772422}
+		{Extent 12.969 12.6502}
+		{Axis 1 0}
+	}
+	{Rotate}
+}
+{Volume "body"
+	{Box 25.9379 25.3004 23.0375}
+	{Bone "box_sand_fortification"}
+	{Position -0.642443	-0.772421	10.9375}
+}

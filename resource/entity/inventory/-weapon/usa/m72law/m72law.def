@@ -1,0 +1,9 @@
+{actor
+        (include "/properties/stuff_small.ext")
+	{Extension "m72law.mdl"}
+	{extender "stuff"
+		{item "weapon m72law" filled}
+	}
+	{nogroupmesh 1}
+	{lodclass "human"}
+}

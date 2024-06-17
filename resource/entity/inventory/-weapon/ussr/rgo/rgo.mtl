@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "rgo"}
+	{blend none}
+}

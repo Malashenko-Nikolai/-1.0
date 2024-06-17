@@ -1,0 +1,31 @@
+;Exported by: Ghosteron
+;Date:        Sat Nov 02 16:56:14 2013
+;File:        C:\Users\Ghosteron\Desktop\Проект Ghosteron\escape_baze_military_block9.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "body"
+			{Matrix34
+				0.999286	-0.0377784	0
+				-0.00085647	-0.0226547	-0.999743
+				0.0377687	0.999029	-0.0226709
+				0.320035	-1.57986	69.3707
+			}
+			{VolumeView "body.ply"}
+		}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "body"}
+	{Matrix34
+		0.999286	-0.000856265	0.0377689
+		-0.0377787	-0.0226547	0.999029
+		0	-0.999743	-0.0226709
+		-0.79876	2.07005	3.43029
+	}
+}

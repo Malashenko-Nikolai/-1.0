@@ -1,0 +1,32 @@
+{from "pattern fg"
+	{tag "big kaset"}
+	{inventory
+		{size 5 1}
+	}	
+	{mass 13.5}
+    {damage blastwave 
+	    {energy 0.1} 
+		{area 23.1 25.1}
+	}
+    {damage add blastwave 
+	    {energy 0.2} 
+		{area 21.3 23}
+	}
+    {damage add blastwave 
+	    {energy 0.3} 
+		{area 17.5 18.7}
+	}
+    {damage add blastwave 
+	    {energy 0.4} 
+		{area 15 15.7}
+	}
+    {damage add blastwave 
+	    {energy 0.5} 
+		{area 12.5 12.9}
+	}
+	{damage add blastwave	 ; HE, kinetic, direct hit
+		{energy 5}
+		{area 5.1 5.1}
+	}
+	{entity "shell_kaset_155"}
+}

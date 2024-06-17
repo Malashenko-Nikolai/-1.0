@@ -1,0 +1,12 @@
+{game_entity
+	(include "/properties/stuff_small.ext")
+	{extender "stuff"
+		{item "remington870"}
+	}
+	{nogroupmesh 1}
+	{Extension "remington870.mdl"}
+	{Volume "body"
+	}
+	{Volume "select"
+	}
+}

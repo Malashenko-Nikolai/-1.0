@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "tratuar"}
+	{bump "tratuar_bp"}
+	{specular "tratuar_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

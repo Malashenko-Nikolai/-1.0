@@ -1,0 +1,68 @@
+{game_entity
+    (include "/properties/building.inc")
+        {props "cornered" "concrete" "parts" "construction" "wall"}
+        {Extension "angar_army.mdl"}
+        {Extender "land_patch"
+        {TerrainType "road" "bridge"}
+        {on 1}
+        {updateEntities 1}
+        {Nonormals 1}
+        }
+	{Volume "box01"
+		{Tags  "body"}
+		{Thickness 30}
+		{able {visible 1}}
+	}
+	{Volume "box02"
+		{Tags  "body"}
+		{Thickness 30}
+		{able {visible 1}}
+	}
+	{Volume "cylinder01"
+		{Tags  "body"}
+		{Thickness 30}
+		{able {visible 1}}
+	}
+	{Volume "object01"
+		{Thickness 20}
+		{able {visible 0}{obstacle 0}}
+	}
+	{Volume "object04"
+		{Thickness 20}
+		{able {visible 0}{obstacle 0}}
+	}
+	{Volume "object07"
+		{Thickness 20}
+		{able {visible 0}{obstacle 0}}
+	}
+	{Volume "object08"
+		{Thickness 20}
+		{able {visible 0}{obstacle 0}}
+	}
+	{Volume "object09"
+		{Thickness 20}
+		{able {visible 0}{obstacle 0}}
+	}
+	{Volume "object10"
+		{Thickness 20}
+		{able {visible 0}{obstacle 0}}
+	}
+	{Volume "object11"
+		{Tags  "body"}
+		{Thickness 30}
+		{able {visible 1}}
+	}
+	{Volume "object12"
+		{Thickness 20}
+		{able {visible 0}{obstacle 0}}
+	}
+	{Volume "object13"
+		{Thickness 20}
+		{able {visible 0}{obstacle 0}}
+	}
+	{Volume "object14"
+		{Tags  "body"}
+		{Thickness 30}
+		{able {visible 1}}
+	}
+}

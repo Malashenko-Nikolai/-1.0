@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "table"}
+	{blend none}
+}

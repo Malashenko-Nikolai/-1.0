@@ -1,0 +1,13 @@
+{from "pattern sniper_rifle"
+	{filling "ammo 76254_10" 10}
+	{inventory
+		{size 5 2 }
+	}
+	{entity "svd"}
+	{fireSound "small_arms/dragunov/"}
+	{reloadSound "svd_reload"}
+	{range 100 110}
+	{healthDamage 350}
+	{recoveryTime 1.5}
+	{mass 4.3}
+}

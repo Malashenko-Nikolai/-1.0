@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "dshkm"}
+        {bump "$/model/other/dshkm_bp"}
+	{specular "dshkm"}
+	{blend none}
+}

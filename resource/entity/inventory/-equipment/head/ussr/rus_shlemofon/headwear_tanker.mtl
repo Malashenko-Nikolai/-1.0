@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/humanskin/rus_shlemofon_diffuse"}
+	{bump "$/humanskin/rus_shlemofon_bump"}
+	{specular "$/humanskin/rus_shlemofon_spc"}
+	{color "229 229 229 25"}
+	{blend none}
+}

@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "556x45_clip_m4a1"}
+	{blend none}
+}

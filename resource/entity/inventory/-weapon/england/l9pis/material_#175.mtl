@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "gbpis_l9_c"}
+	{bump "gbpis_l9_b"}
+	{specular "gbpis_l9_s"}
+	{color "230 230 230 25"}
+	{blend none}
+}

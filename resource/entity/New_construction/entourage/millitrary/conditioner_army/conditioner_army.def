@@ -1,0 +1,19 @@
+{game_entity
+	(include "/properties/building.inc")
+	{Extension "conditioner_army.mdl"}
+	{props "cornered" "construction" "steel" "parts""no_destroyed_stamp" "wall"}
+	{obstacleid "construction"}
+	{Volume "body1"
+		{Tags  "body"}
+		{Thickness 30}
+	}
+	{Volume "body2"
+		{Tags  "body"}
+		{Thickness 30}
+	}
+	{Volume "body"
+		{Tags  "body"}
+		{Thickness 30}
+	}
+	{lodclass "decor_small"}
+}

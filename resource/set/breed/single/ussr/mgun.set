@@ -1,0 +1,19 @@
+{breed
+	{behaviour soldier}
+	{skin "ussr_soldier"}
+	{portrait ussr_mgun}
+	{icon_priority 0}
+	{nationality rus}
+	{armors
+		{body belt_a}
+		{head rus_afg_sh68_ermolka}
+	}
+	{inventory
+		{item "rpk74" filling "54539_45 ammo" 45}
+		{item "54539_45 ammo" 100}
+		{item "rgn grenade" 2}
+		{item "f1 grenade"}
+		{item "bandage" 10}
+		{in_hands 0}
+	}
+}

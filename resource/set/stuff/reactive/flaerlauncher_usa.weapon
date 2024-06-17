@@ -1,0 +1,32 @@
+{weapon_bullet
+	{tag "mrl gun"}
+	{filling "ammo flaer" 10}
+
+	{fireSound "reactive/usa_arty"}
+	{foresight "foresight"}
+	
+	{spreading
+		{SpreadRadius 18}
+		{SpreadPower 1}
+		{radiusFunction
+			0.0		1.2
+			0.2		1.2
+			0.5		1.2
+			0.8		1.2
+			1.00		1.2
+		}
+	}
+	{aimRange 200}
+	{maxRange 200}
+	{recoveryTime 0.001}
+	{RechargeTime 180}
+	{gravity 6}
+	{burst {min 10} {noaiming}}
+
+	{speed 75}
+	{AimingTolerance 0.1}
+	
+	{aimtype curved}
+	{cursor "cannon_on_fg"}
+	{cursorReloading "cannon_reload_fg"}
+}

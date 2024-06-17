@@ -1,0 +1,14 @@
+;Exported by: Игорь
+;Date:        Thu Nov 10 22:22:26 2011
+;File:        E:\Делаю\military_angar\Ангар рабочий\Ангар рабочий\military hangar 1b.max
+{Skeleton
+	{bone "mh_1bp1"
+		{parameters "Land;Ground;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "mh_1bp1.ply" {Ground}}
+	}
+}

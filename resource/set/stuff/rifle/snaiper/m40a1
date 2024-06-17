@@ -1,0 +1,12 @@
+{from "pattern sniper_rifle"
+	{filling "ammo 76251_5" 5}
+	{inventory
+		{size 5 2 }
+	}
+	{entity "m40a1"}
+	{fireSound "rifle/m40a1_fire"}
+	{reloadSound "m40a1_reload"}
+
+	{healthDamage 305}
+	{rechargeTime 5}	
+}

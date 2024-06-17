@@ -1,0 +1,28 @@
+;Exported by: Timosh
+;Date:        Sun May 22 10:14:00 2016
+;File:        G:\Работа с Pheonix\Редактирование\Мои модели\Здания\Палатка РФ\Palatka12.max
+{Skeleton
+	{bone "body"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "body.ply"}
+	}
+}
+{Volume "body1"
+	{Box 20.9006 9.4967 12.8901}
+	{Bone "body"}
+	{Position -8.54714	-2.91203	15.3616}
+}
+{Volume "body2"
+	{Box 20.9006 26.7875 3.35142}
+	{Bone "body"}
+	{Position -8.54714	-7.93026	9.15543}
+}
+{Volume "body"
+	{Box 38.3215 15.5786 24.3209}
+	{Bone "body"}
+	{Position -8.54714	11.9076	13.3529}
+}

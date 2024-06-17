@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/ak74/upg_sil_762ar"}
+	{blend none}
+}

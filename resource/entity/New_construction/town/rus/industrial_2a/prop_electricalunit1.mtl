@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "prop_electricalunit1"}
+	{blend none}
+}

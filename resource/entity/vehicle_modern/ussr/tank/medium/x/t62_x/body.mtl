@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/vehicle2/t-62/body_diffuse_x"}
+	{bump "$/vehicle2/t-62/body_normal_x"}
+	{specular "$/vehicle2/t-62/body_specular_x"}
+	{color "230 230 230 155"}
+	{blend none}
+}

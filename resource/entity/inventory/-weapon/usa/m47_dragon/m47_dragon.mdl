@@ -1,0 +1,93 @@
+;Exported by: Richtofen
+;Date:        Fri Jan 20 09:53:35 2017
+;File:        C:\Users\Richtofen\Desktop\?????\m47_dragon\plugin.max
+{Skeleton
+	{bone revolute "m47_dragon"
+		{parameters "CommonMesh;ID=mgun;"}
+		{Orientation
+			0.8	0	0
+			0	-0.8	0
+			0	0	0.8
+		}
+		{VolumeView "m47_dragon.ply"}
+		{bone "foresight3"
+			{parameters "Voxels=0;"}
+			{Position -20.311	-0.109723	4.8326}
+		}
+		{bone "handle"
+			{parameters "Voxels=0;"}
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				-3.96442	-0.34653	1.72044
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 29.5276 3.93701 2.3622}
+	{Bone "m47_dragon"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		-4.92908	-0.0876342	4.75302
+	}
+}
+{Volume "select"
+	{Box 31.4961 9.84252 4.3449}
+	{Bone "m47_dragon"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		-5.33797	-0.260134	4.92406
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin -3.22466	-7.39529	51.1162}
+			{lookat -3.88966	-4.68285	34.5868}
+			{fov 45}
+			{horizon -177.044}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 10.256	-1.03545	27.1039}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0792752	0.197722	-0.452351}
+			}
+			{"2"
+				{type point}
+				{position -7.95762	-0.429199	25.5346}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin -2.80266	-8.06948	51.6687}
+			{lookat -3.49426	-5.24855	34.4781}
+			{fov 45}
+			{horizon -177.044}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 10.256	-1.03545	27.1039}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0792752	0.197722	-0.452351}
+			}
+			{"2"
+				{type point}
+				{position -7.95762	-0.429199	25.5346}
+			}
+		}
+	}
+}

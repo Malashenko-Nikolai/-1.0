@@ -1,0 +1,168 @@
+;Exported by: Verena
+;Date:        Thu Mar 22 11:37:02 2018
+;File:        D:\work in progress\Modeling\camo_net\3D_camo_net_trench\camo_net_trench_03.max
+{Skeleton
+	{bone "camo_net_trench_short"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{LODView
+			{VolumeView "camo_net_trench_short.ply"}
+			{VolumeView "camo_net_trench_short_lod1.ply"}
+		}
+	}
+}
+{Obstacle "body1"
+	{Obb2
+		{Center 35.307 0.0917721}
+		{Extent 1.1811 26.3704}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Rotate}
+}
+{Obstacle "body2"
+	{Obb2
+		{Center 33.4361 23.2614}
+		{Extent 1.1811 1.1811}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Rotate}
+}
+{Obstacle "body3"
+	{Obb2
+		{Center 33.2173 -20.8743}
+		{Extent 1.1811 1.1811}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Rotate}
+}
+{Obstacle "body4"
+	{Obb2
+		{Center -33.1194 -19.1598}
+		{Extent 1.1811 1.1811}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Rotate}
+}
+{Obstacle "body5"
+	{Obb2
+		{Center -33.0493 17.3078}
+		{Extent 1.1811 1.1811}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Rotate}
+}
+{Obstacle "body6"
+	{Obb2
+		{Center -35.1457 0.0770512}
+		{Extent 1.1811 26.4788}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Rotate}
+}
+{Obstacle "body7"
+	{Obb2
+		{Center -39.0792 -0.237434}
+		{Extent 6.73769 25.4354}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Rotate}
+}
+{Obstacle "body8"
+	{Obb2
+		{Center 39.6765 0.631442}
+		{Extent 5.35706 25.6923}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Rotate}
+}
+{Volume "body1"
+	{Box 2.3622 2.3622 52.7408}
+	{Bone "camo_net_trench_short"}
+	{Matrix34
+		0	0	-1
+		1	0	0
+		0	-1	0
+		35.307	-0.091774	14.5867
+	}
+}
+{Volume "body2"
+	{Box 2.3622 2.3622 31.9004}
+	{Bone "camo_net_trench_short"}
+	{Matrix34
+		-1	0	0
+		0	-1	0
+		0	0	1
+		33.4361	-23.2614	15.3292
+	}
+}
+{Volume "body3"
+	{Box 2.3622 2.3622 32.1759}
+	{Bone "camo_net_trench_short"}
+	{Matrix34
+		-1	0	0
+		0	-1	0
+		0	0	1
+		33.2173	20.8743	15.3004
+	}
+}
+{Volume "body4"
+	{Box 2.3622 2.3622 29.7623}
+	{Bone "camo_net_trench_short"}
+	{Matrix34
+		-1	0	0
+		0	-1	0
+		0	0	1
+		-33.1194	19.1598	14.3242
+	}
+}
+{Volume "body5"
+	{Box 2.3622 2.3622 30.0135}
+	{Bone "camo_net_trench_short"}
+	{Matrix34
+		-1	0	0
+		0	-1	0
+		0	0	1
+		-33.0493	-17.3078	14.3536
+	}
+}
+{Volume "body6"
+	{Box 2.3622 2.3622 52.9576}
+	{Bone "camo_net_trench_short"}
+	{Matrix34
+		0	0	-1
+		1	0	0
+		0	-1	0
+		-35.1457	-0.0770531	14.5867
+	}
+}
+{Volume "body7"
+	{Box 32.9093 2.3622 50.8708}
+	{Bone "camo_net_trench_short"}
+	{Matrix34
+		-0.34202	0	-0.939693
+		0.939693	0	-0.34202
+		0	-1	0
+		-39.0792	0.237432	13.238
+	}
+}
+{Volume "body8"
+	{Box 32.5802 2.3622 51.3847}
+	{Bone "camo_net_trench_short"}
+	{Matrix34
+		0.258819	0	-0.965926
+		-0.965926	0	-0.258819
+		0	1	0
+		39.6765	-0.631442	14.9564
+	}
+}

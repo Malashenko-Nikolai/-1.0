@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "ak74_skin2_d1"}
+	{blend none}
+}

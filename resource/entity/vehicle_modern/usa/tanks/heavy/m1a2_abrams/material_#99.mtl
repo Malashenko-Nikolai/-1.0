@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/vehicle6/m1a2_abrams/sep"}
+	{blend test}
+}

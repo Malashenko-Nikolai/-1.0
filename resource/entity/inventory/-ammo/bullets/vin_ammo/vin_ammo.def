@@ -1,0 +1,12 @@
+;Created by Pheonix
+{game_entity
+	(include "/properties/stuff_small.ext")
+	{collider "ammo"}
+	{extender "stuff"
+		{item "ammo 939_20"}
+	}
+	{Volume "body"
+		{thickness 2}
+	}
+	{Extension "vin_ammo.mdl"}
+}

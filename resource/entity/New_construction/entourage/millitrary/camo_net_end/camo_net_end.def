@@ -1,0 +1,14 @@
+{game_entity
+	(include "/properties/construction_medium.ext")
+	{props "no_slices" "cornered" "steel" "parts" "construction" "wall" "burning" "no_destroyed_stamp"}
+	{Extension "camo_net_end.mdl"}
+	{Volume "body1"
+		{able {bullet 0}{obstacle 0}}
+	}
+	{Volume "body2"
+		{able {bullet 0}{obstacle 0}}
+	}
+	{Volume "body3"
+		{able {bullet 0}{obstacle 0}}
+	}
+}

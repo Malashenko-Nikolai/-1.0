@@ -1,0 +1,144 @@
+{game_entity
+	(include "/properties/tank.ext")
+	(include "/properties/shadow/tank.inc"  scale(1.2))
+	(include "/properties/selection/vehicle.inc"  scale(1.2))
+	{props "light" "turret_rotator" "vision_vehicle_low" "amphibia" "muzzle_minimum"}
+
+	{extender "enumerator"}
+	{PatherID "amphibia"}
+	{volume "body1"
+		{tags "body"}
+		{component "body"}
+		{thickness 30}
+	}
+	{volume "body2"
+		{tags "body"}
+		{component "body"}
+		{thickness 30}
+	}
+	("armor_medium" turret(10 10 10 10) body(12 10 10 6))
+	("armor_engine"  t(30 30 20 22))
+	("armor_mantlet" t(10))
+
+
+
+	{boarder
+		{anm "driver"
+			{forward	{begin	"board_tank_left"} {end "seat_m7_mgunner"} {base"open_driver"}}
+			{reverse 	{end	"emit_tank_1_hold"} {base"open_driver"}}
+		}
+		{anm "gunner2"
+			{forward	{begin	"board_tank_right"} {end "pose_mgun_pz6"}}
+			{reverse 	{end	"emit_tank_1_hold"}}
+		}
+		{anm "gunner"
+			{forward	{begin	"board_sd222_driver"} {end "pose_pak40_gunlayer"} {base"open_back"}}   
+			{reverse 	{end	"emit_body" 1} {base"open_back"}}
+		}
+		{anm "commander"
+			{forward	{begin	"board_sd222_driver"} {end "pose_pak40_charger"} {base"open_back"}}   
+			{reverse 	{end	"emit_body" 1} {base"open_back"}}
+		}
+	}
+{Placer
+	{place "gunner2"		{LinkBone "gunner2"}	{Group "crew"}	{turnoff {sensor} {shadow}} {visor "main"}}
+	{place "gunner"		{LinkBone "gunner"}	{Group "crew"}	{turnoff {sensor} {shadow}} {visor "main"}}
+	{place "commander"		{LinkBone "commander"}	{Group "crew"}	{turnoff {sensor} {shadow}} {visor "main"}}
+}
+(define "crew_human"
+	{placer
+		{place "%place" {group "%group"} {visor "%visor"}}
+	}
+	{boarder
+		{door "%door"}
+		{link "%door" "%place" {anm "%animation"} {forward putoff} {reverse puton}}
+	}
+)
+	("crew_human" place(driver)		animation(driver)	door(emit1))
+	("crew_human" place(gunner2)		animation(gunner2)	door(emit2))
+	("crew_human" place(gunner)		animation(gunner)	door(emit3))
+	("crew_human" place(commander)		animation(commander)	door(emit4))
+
+	{extender "inventory"
+		{box
+			{item "ammo mortar fg" 140}
+			{item "ammo 12799_100" 1000}
+		}
+	}
+
+	{Weaponry
+		{place "gun"
+			{weapon "weapon 81mm_m29" filling "ammo mortar fg" 1}
+			{foresight "foresight1"}
+			{gunner "gunner"}
+			{charger "gunner"}
+		}
+		{place "mgun"
+			{type "mgun_main"}
+			{weapon "browning" filled}
+			{gunner "gunner2"}
+			{charger "gunner2"}
+			("abm_mgun")
+          			 {basic}
+         			 {rotate}
+		}
+	}
+
+	{mass 11450}
+	{Chassis
+		("tank_trace" fx("tracks_mid") step(0.52) len(1.3))
+		{Locomotion ("locomotion")
+			{MaxSpeed	 40}
+			{maxSpeedAtMaxTurn 12}
+			{StartTime	  15}
+			{TurnTime  	  8}
+    		{TurnStart  1.7} 
+    		{BrakeTime    1} 
+    		{StopTime     2} 
+    		{TurnRadius   9} 
+    		{TurnStop   0.9}
+     		{Gears  0.2 0.5 1} 
+    		{RearGears 0.6}
+		}
+		{FuelBag
+			{volume 257 }	
+			{rate	38 }   
+			{remain 257 }
+			{fuel "fuel"}
+		}
+		{speed
+        	{Normal  10}
+        	{Slow  16}
+    		}
+		{switch
+			{exitFromWater}
+			{terrain not "water" "deep_water"}
+		}
+	}
+
+	{Extension "m106a2.mdl"}
+
+	{chassis "water"
+		("chassis_defaults")
+		{ignorePatherBounds}
+		{waterline 1.15}
+		{switch
+			{terrain "water" "deep_water"}
+		}	
+	}
+	{bone "mgun"
+		{limits -15 15}
+		{speed 0.007}
+	}
+	{bone "turret_mgun"
+		{limits -90 90}
+		{speed 0.015}
+	}
+	{bone "gun_rot"
+		{limits -15 15}
+		{speed 0.007}
+	}
+	{bone "turret"
+		{speed 0.015}
+	}
+}

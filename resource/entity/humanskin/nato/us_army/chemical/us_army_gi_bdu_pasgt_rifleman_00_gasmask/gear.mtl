@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/humanskin/usa/oldschool/alice_full"}
+	{bump "$/humanskin/usa/oldschool/alice_full_nm"}
+	{specular "$/humanskin/usa/oldschool/alice_full_sp"}
+	{color "230 230 230 25"}
+	{blend test}
+}

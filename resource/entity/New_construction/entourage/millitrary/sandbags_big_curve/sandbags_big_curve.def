@@ -1,0 +1,20 @@
+{game_entity
+	(include "/properties/construction_medium.ext")
+	{props "sand_bag_big"}
+	{volume defaultmaterial "sand"}
+	
+	{Extension "sandbags_big_curve.mdl"}
+	
+	{Volume "body1"
+		{Tags  "body"}
+		{Thickness 50}
+	}
+	{Volume "body2"
+		{Tags  "body"}
+		{Thickness 50}
+	}
+	{Volume "body3"
+		{Tags  "body"}
+		{Thickness 50}
+	}
+}

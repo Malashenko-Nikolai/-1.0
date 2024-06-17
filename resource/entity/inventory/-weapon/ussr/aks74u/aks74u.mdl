@@ -1,0 +1,110 @@
+;Exported by: Default
+;Date:        Mon Jun 28 15:55:41 2021
+;File:        C:\Users\Default.DESKTOP-6KJHV81\Desktop\Modding stuff\mk16.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "handle"
+			{parameters "Voxels=0;"}
+			{Matrix34
+				0	1	0
+				0	0	-1
+				-1	0	0
+				0.598329	-0.281166	-0.0258957
+			}
+		}
+		{bone "fxshell"
+			{parameters "Voxels=0;"}
+			{Matrix34
+				0	0	1
+				0	1	0
+				-1	0	0
+				3.92186	1.7373	0.287296
+			}
+		}
+		{bone "foresight3"
+			{parameters "Voxels=0;"}
+			{Position 9.84132	1.46349	-0.0386832}
+		}
+		{bone "object01"
+			{parameters "CommonMesh;"}
+			{Matrix34
+				0	0	1
+				1	0	0
+				0	1	0
+				2.50193	-0.134622	0.131453
+			}
+			{VolumeView "object01.ply"}
+		}
+	}
+}
+{Volume "body"
+	{Box 2.92832 36.2037 9.01184}
+	{Bone "object01"}
+	{Matrix34
+		-0.393681	0	0
+		0	-0.393681	0
+		0	0	0.393681
+		-0.168038	-0.0282941	1.01785
+	}
+}
+{Volume "select"
+	{Box 8.90051 36.4459 9.84252}
+	{Bone "basis"}
+	{Matrix34
+		0	0	-0.393681
+		-0.393681	0	0
+		0	0.393681	0
+		2.57755	0.675245	-0.0258958
+	}
+}
+{Extender "preview"
+	{"Stuff_primary"
+		{camera
+			{origin 3.31859	-4.04006	22.5836}
+			{lookat 2.85834	-1.05849	4.72776}
+			{fov 45}
+			{horizon -177.044}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 11.6076	-2.0414	-3.46495}
+			}
+			{"1"
+				{type directional}
+				{direction -0.061741	0.203878	-0.452351}
+			}
+			{"2"
+				{type point}
+				{position -7.18409	0.234772	-5.09503}
+			}
+		}
+	}
+	{"Stuff"
+		{camera
+			{origin 2.53377	1.01051	-23.6713}
+			{lookat 2.64185	-1.86571	20.4648}
+			{fov 45}
+			{horizon -177.044}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 21.979	-16.4262	39.0539}
+			}
+			{"1"
+				{type directional}
+				{direction -0.127017	-0.0764374	0.477519}
+			}
+			{"2"
+				{type point}
+				{position -12.9018	15.8379	47.503}
+			}
+		}
+	}
+}

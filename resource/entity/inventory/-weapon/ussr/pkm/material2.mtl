@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "wpn_pkm"}
+	{blend test}
+}

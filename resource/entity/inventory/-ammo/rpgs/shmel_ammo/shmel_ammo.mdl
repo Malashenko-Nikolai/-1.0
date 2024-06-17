@@ -1,0 +1,50 @@
+;Exported by: User
+;Date:        Tue Oct 26 19:13:42 2010
+;File:        C:\Users\User\Documents\3dsmax\scenes\MyWorks\Weapons\Shmell_fire.max
+{Skeleton
+	{bone "main"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "main.ply"}
+		{bone "tail"
+			{Matrix34
+				-1	0	0
+				0	-1	0
+				0	0	1
+				-8.82309	-0.0262023	0.0484164
+			}
+		}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "main"}
+	{Position -2.9738	0.0883179	-0.102684}
+}
+{Extender "preview"
+	{"stuff"
+		{camera
+			{origin 0.298161	-0.693612	18.444}
+			{lookat 0.336391	0.11276	-4.66388}
+			{fov 54.906}
+			{horizon -177.044}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 2.65633	0.288934	-4.34537}
+			}
+			{"1"
+				{type directional}
+				{direction 0.131875	0.16697	-0.452471}
+			}
+			{"2"
+				{type point}
+				{position 6.6906	0.0148715	-11.5016}
+			}
+		}
+	}
+}

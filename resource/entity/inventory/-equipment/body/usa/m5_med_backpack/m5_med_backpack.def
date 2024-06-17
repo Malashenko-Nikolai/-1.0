@@ -1,0 +1,14 @@
+{game_entity
+	(include "/properties/stuff_small.ext")
+	{props "inventory_box"}
+	{extender "inventory"
+		{box
+			{size 3 6}
+			{weight 100}
+		}
+	}
+	{extender "stuff"
+		{item "m5_med_backpack"}
+	}
+	{Extension "m5_med_backpack.mdl"}
+}

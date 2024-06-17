@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "762x39_clip2"}
+	{blend none}
+}

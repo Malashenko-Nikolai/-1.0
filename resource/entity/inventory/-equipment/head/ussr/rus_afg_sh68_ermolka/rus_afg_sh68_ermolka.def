@@ -1,0 +1,7 @@
+{actor
+	(include "/properties/stuff_small.ext")
+	{extender "stuff"
+		{item "rus_afg_sh68_ermolka"}
+	}
+	{Extension "rus_afg_sh68_ermolka.mdl"}
+}

@@ -1,0 +1,50 @@
+;Exported by: Sea-Knight
+;Date:        Fri Nov 27 00:33:18 2020
+;File:        D:\Users\Sea-Knight\Documents\3dsMax\scenes\3D-Work\-Vietnam\-Inventory\-Stuff\-Head\USA\m40_gasmask.max
+{Skeleton
+	{bone "m40_full_wip_v_00"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "m40_full_wip_v_00.ply"}
+		{bone "handle"
+			{Position 0.467248	0.226303	3.90322}
+		}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "m40_full_wip_v_00"}
+	{Position 0.237003	0.220505	0.347756}
+}
+{Volume "select"
+	{Polyhedron "select.vol"}
+	{Bone "m40_full_wip_v_00"}
+	{Position 0.237003	0.213632	0.0184628}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 6.11442	-0.470623	2.86207}
+			{lookat -10.2529	-0.845487	0.0690584}
+			{fov 45}
+			{horizon -0.200769}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.171162	0.146829	-0.446256}
+			}
+			{"1"
+				{type directional}
+				{direction -0.189277	0.266067	0.378659}
+			}
+			{"2"
+				{type directional}
+				{direction -0.105484	-0.229601	-0.431458}
+			}
+		}
+	}
+}

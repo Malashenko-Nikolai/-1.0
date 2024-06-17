@@ -1,0 +1,43 @@
+{breed
+	{behaviour soldier}
+	{skin "ussr_soldier"}
+	{portrait ussr_bazokeer}
+	{icon_priority 0}
+	{nationality rus}
+	{armors
+		{body belt_a_rpg}
+		{head helmet_rus_guard}
+	}
+	{perks
+		{"stamina" "100%"
+		}
+		{"health" "100%"
+		}
+		{"speed" 1
+		}
+		{"stealth"}
+		{"vision" mp_soldier
+		}
+		{"at_rifle" lvl_5
+		}
+		{"mgun" lvl_1
+		}
+		{"rifle" lvl_1
+		}
+		{"pistol" lvl_1
+		}
+		{"mgun_light" lvl_1
+		}
+		{"smg" lvl_1
+		}
+		{"melee" lvl_1
+		}
+	}
+	{inventory
+		{item "rpg7 weapon" filling "rpg7rocket ammo" 10}
+		{item "ak47" filling "76239_30 ammo" 30}
+		{item "76251_30bren ammo"}
+		{item "rpg7rocket ammo" 10}
+		{in_hands 0}
+	}
+}

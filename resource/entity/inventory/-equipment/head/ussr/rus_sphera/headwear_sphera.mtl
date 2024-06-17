@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "$/humanskin/rus_sphera_diff"}
+	{bump "$/humanskin/rus_sphera_bump"}
+	{blend none}
+}

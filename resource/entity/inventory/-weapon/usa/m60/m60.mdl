@@ -1,0 +1,98 @@
+;Exported by: Олег
+;Date:        Wed Apr 27 19:50:22 2011
+;File:        D:\Documents and Settings\Олег\Рабочий стол\Оружие\m60\m60.max
+{Skeleton
+	{bone "basis"
+		{parameters "ID=mgun;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "handle"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				0.080328	0.257122	0.00262141
+			}
+		}
+		{bone "foresight3"
+			{Position 15.3721	0.873003	0.0546043}
+		}
+		{bone "m60e5"
+			{parameters "CommonMesh;ID=mgun;"}
+			{Matrix34
+				0	0	1
+				1	0	0
+				0	1	0
+				7.47995	0.479215	0.151751
+			}
+			{VolumeView "m60e5.ply"}
+		}
+		{bone "fxshell"
+			{Matrix34
+				0	0	1
+				0	1	0
+				-1	0	0
+				2.15805	2.76601	0.112918
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 23.1538 3.36158 1.17113}
+	{Bone "basis"}
+	{Position 4.56037	0.638396	-0.0419775}
+}
+{Volume "select"
+	{Box 27.7845 9.72703 4.3449}
+	{Bone "basis"}
+	{Position 4.11119	1.14285	0.311795}
+}
+{Extender "preview"
+	{"Stuff_primary"
+		{camera
+			{origin 3.37353	-6.30136	29.4433}
+			{lookat 2.68194	-3.48043	12.2527}
+			{fov 45}
+			{horizon -177.044}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -7.05805	-3.08273	2.79591}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0792752	0.197722	-0.452351}
+			}
+			{"2"
+				{type point}
+				{position 11.1556	-3.68898	4.36525}
+			}
+		}
+	}
+	{"Stuff"
+		{camera
+			{origin 3.43545	-6.18838	28.7822}
+			{lookat 2.77046	-3.47594	12.2528}
+			{fov 45}
+			{horizon -177.044}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -6.9845	-3.08273	2.79591}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0792752	0.197722	-0.452351}
+			}
+			{"2"
+				{type point}
+				{position 11.2291	-3.68898	4.36525}
+			}
+		}
+	}
+}

@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "upgrades1"}
+	{blend none}
+}

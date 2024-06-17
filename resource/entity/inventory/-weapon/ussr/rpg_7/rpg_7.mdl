@@ -1,0 +1,130 @@
+;Exported by: ART
+;Date:        Wed Oct 07 12:14:22 2020
+;File:        E:\Autodesk\Low poly\freelance\DMS 2.0\Weapon 2.0\RPG 7\export\RPG 7.max
+{Skeleton
+	{bone "rpg7"
+		{parameters "ID=mgun;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{LODView
+			{VolumeView "rpg7.ply"}
+			{VolumeView "rpg7_lod1.ply"}
+			{VolumeView "rpg7_lod2.ply"}
+			{VolumeView "rpg7_lod3.ply"}
+		}
+		{bone "rpg_rocket"
+			{parameters "ID=mgun;"}
+			{Matrix34
+				-1	0	0
+				0	-1	0
+				0	0	1
+				8.36578	-0.00346542	0.985236
+			}
+			{LODView
+				{VolumeView "rpg_rocket.ply"}
+				{VolumeView "rpg_rocket_lod1.ply"}
+				{VolumeView "rpg_rocket_lod2.ply"}
+				{VolumeView "rpg_rocket_lod3.ply"}
+			}
+		}
+		{bone "fxshot"
+			{Matrix34
+				-1	0	0
+				0	0	1
+				0	1	0
+				-9.49086	-0.00337665	0.980719
+			}
+		}
+		{bone "foresight3"
+			{Matrix34
+				1	0	0
+				0	0	1
+				0	-1	0
+				9.23599	-0.003371	0.98426
+			}
+		}
+		{bone "handle"
+			{Matrix34
+				1	0	0
+				0	1	0
+				0	0	1
+				5.27129	0.00182677	1.54906
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 19.1107 5.0288 2.46539}
+	{Bone "rpg7"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		-0.124024	-0.0343584	0.367259
+	}
+}
+{Volume "select"
+	{Box 29.6004 7.78607 4.21499}
+	{Bone "rpg7"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		3.9335	-0.0738978	0.794493
+	}
+}
+{Extender "preview"
+	{"Stuff_primary"
+		{camera
+			{origin 4.11646	66.3688	7.13447}
+			{lookat 4.10244	0.0624334	1.04052}
+			{fov 23.9132}
+			{horizon 10.1062}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 4.38248	2.74259	-9.02473}
+				{diffuse 0x737373}
+			}
+			{"1"
+				{type point}
+				{position 13.5116	20.2485	8.37078}
+				{diffuse 0x737373}
+			}
+			{"2"
+				{type directional}
+				{direction 0.000724989	-0.285263	-0.410639}
+				{diffuse 0x787878}
+			}
+		}
+	}
+	{"Stuff"
+		{camera
+			{origin 4.06398	67.3103	8.48075}
+			{lookat 4.02741	0.103872	0.587938}
+			{fov 23.9132}
+			{horizon 0.941284}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 4.38248	8.41264	-12.8557}
+				{diffuse 0x737373}
+			}
+			{"1"
+				{type directional}
+				{direction 0.000176623	-0.27363	-0.418482}
+				{diffuse 0x787878}
+			}
+			{"2"
+				{type point}
+				{position 15.3532	18.7945	11.4003}
+				{diffuse 0x737373}
+			}
+		}
+	}
+}

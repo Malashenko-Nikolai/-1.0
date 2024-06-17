@@ -1,0 +1,11 @@
+{game_entity
+	(include "/properties/building.inc")			
+	{props "cornered" "concrete" "parts" "construction" "wall"}
+	("armor_heavy" args 0.8)
+	{mass 50000}
+	{Extension "mh_1bp1.mdl"}
+	{Extender "land_patch"
+		{TerrainType "road" "bridge"}	
+	}
+}
+

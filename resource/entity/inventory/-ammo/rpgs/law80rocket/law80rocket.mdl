@@ -1,0 +1,62 @@
+;Exported by: Ali
+;Date:        Fri Jan 04 20:51:13 2008
+;File:        D:\3ds max FOW Models Modifayed\M72LAW\M72LAW_Rocket.max
+{Skeleton
+	{bone "m72law_rocket"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "m72law_rocket.ply"}
+		{bone "tail"
+			{Matrix34
+				-1	0	0
+				0	-1	0
+				0	0	1
+				-4.59583	0.00176909	0
+			}
+		}
+	}
+}
+{Volume "body"
+	{Cylinder 0.897704 11.5887}
+	{Bone "m72law_rocket"}
+	{Matrix34
+		0	0	-1
+		0	-1	0
+		-1	0	0
+		-0.0732303	-0.00936753	0
+	}
+}
+{Volume "select"
+	{Cylinder 0.915748 11.8216}
+	{Bone "m72law_rocket"}
+	{Matrix34
+		0	0	-1
+		0	-1	0
+		-1	0	0
+		-0.13596	-0.00936761	0
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 0.338995	5.39851	-19.3183}
+			{lookat 0.141322	0.159788	0.0543785}
+			{fov 33.5897}
+			{horizon 23}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0.0144333	-0.115668	0.486223}
+				{ambient 0x666666}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0156661	-0.146801	0.477707}
+			}
+		}
+	}
+}

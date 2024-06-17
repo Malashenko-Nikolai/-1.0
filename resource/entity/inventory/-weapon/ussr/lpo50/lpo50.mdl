@@ -1,0 +1,89 @@
+;Exported by: sergienko
+;Date:        Tue Nov 15 17:53:59 2005
+;File:        D:\tmp\mg34\mg34.max
+{Skeleton
+	
+	{bone "mg34"
+		{parameters "CommonMesh;ID=mgun;"}
+		{Orientation
+			2.5	0	0
+			0	-2.4	0
+			0	0	2.4
+		}
+                {Position 5.5 1.6 0}
+		{LODView
+			  {VolumeView "type74.ply"}
+
+		}
+              
+
+		
+		{bone "handle"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				3.95689	1.44474	-0.00369238
+			}
+		}
+		{bone "foresight3"
+			{Position 16.9	1.43	0.0482913}
+		}
+	}
+}
+{Volume "body"
+	{Box 23.1538 2.54273 1.17113}
+	{Bone "mg34"}
+	{Position 4.99835	0.775756	-0.0482917}
+}
+{Volume "select"
+	{Box 27.7845 9.72703 4.3449}
+	{Bone "mg34"}
+	{Position 4.99835	-0.680618	0.0254383}
+}
+{Extender "preview"
+	{"stuff"
+		{camera
+			{origin 7.1665	-0.112112	23.7993}
+			{lookat 5.04445	-0.653797	-1.21268}
+			{fov 54.4322}
+			{horizon 93.7738}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.0279442	0.245571	-0.434642}
+			}
+			{"1"
+				{type point}
+				{position 14.5053	-4.7574	5.59321}
+			}
+			{"2"
+				{type point}
+				{position -6.93948	-3.33939	3.58117}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin 7.24452	-0.0931339	25.0525}
+			{lookat 5.01637	-0.661905	-1.21012}
+			{fov 54.4322}
+			{horizon 91.7738}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.0279442	0.245571	-0.434642}
+			}
+			{"1"
+				{type point}
+				{position 14.5053	-4.7574	5.59321}
+			}
+			{"2"
+				{type point}
+				{position -6.93948	-3.33939	3.58117}
+			}
+		}
+	}
+}

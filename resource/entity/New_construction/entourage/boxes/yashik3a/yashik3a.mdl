@@ -1,0 +1,23 @@
+;Exported by: Vorabat
+;Date:        Tue Sep 15 22:46:11 2009
+;File:        (null)
+{Skeleton
+	{bone "drawcall_0015"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "drawcall_0015.ply"}
+	}
+}
+{Volume "box02"
+	{Box 0.340343 0.479461 0.131666}
+	{Bone "drawcall_0015"}
+	{Matrix34
+		47.5196	0	0
+		0	47.5196	0
+		0	0	47.5196
+		-0.093071	-0.129089	3.12835
+	}
+}

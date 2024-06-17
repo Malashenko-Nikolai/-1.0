@@ -1,0 +1,90 @@
+;Exported by: User
+;Date:        Tue Oct 26 19:52:20 2010
+;File:        C:\Users\User\Documents\3dsmax\scenes\MyWorks\Weapons\Shmell.max
+{Skeleton
+	{bone "main"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "main.ply"}
+		{bone "foresight3"
+			{Matrix34
+				1	0	0
+				0	0	1
+				0	-1	0
+				12.3834	-0.131791	-0.121058
+			}
+		}
+		{bone "handle"
+			{Position 0.432737	-0.0314897	0.133969}
+		}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "main"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		8.92013	0.519421	-0.825012
+	}
+}
+{Volume "select"
+	{Polyhedron "select.vol"}
+	{Bone "main"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		8.72535	2.13711	-2.09766
+	}
+}
+{Extender "preview"
+	{"Stuff_primary"
+		{camera
+			{origin 4.82637	30.3034	2.38785}
+			{lookat 4.36918	5.42558	0.135522}
+			{fov 39.2853}
+			{horizon 14.4776}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 18.7324	5.66094	0.681567}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0800069	-0.456523	-0.187579}
+			}
+			{"2"
+				{type point}
+				{position 0.518725	4.09157	0.0751867}
+			}
+		}
+	}
+	{"Stuff"
+		{camera
+			{origin 4.4267	30.3034	2.38785}
+			{lookat 3.96951	5.42558	0.135522}
+			{fov 50.3916}
+			{horizon 4.47763}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 18.3327	5.66094	0.681567}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0800069	-0.456523	-0.187579}
+			}
+			{"2"
+				{type point}
+				{position 0.119058	4.09157	0.0751867}
+			}
+		}
+	}
+}

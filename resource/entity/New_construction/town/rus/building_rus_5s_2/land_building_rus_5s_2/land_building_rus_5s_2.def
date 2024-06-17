@@ -1,0 +1,5 @@
+{game_entity
+	{Extension "land_building_rus_5s_2.mdl"}
+	{Extender "land_patch"
+	}
+}

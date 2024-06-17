@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "m2a1_dif"}
+	{specular "m2a1_spec"}
+	{color "229 229 229 50"}
+	{blend test}
+	{tile}
+}

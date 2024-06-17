@@ -1,0 +1,63 @@
+;Exported by: Administrator
+;Date:        Fri Jan 07 02:56:39 2011
+;File:        F:\3dmax存档\FOR战争之人3D模型\WY武器制造公司\轻武器\手枪和刀\92dj.max
+{Skeleton
+	{bone "92dj"
+		{parameters "CommonMesh;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "92dj.ply"}
+		{bone "handle"
+			{Position 0.251473	0	0.877406}
+		}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "92dj"}
+	{Position 0.0279582	0.00856733	-0.00291433}
+}
+{Volume "select"
+	{Polyhedron "select.vol"}
+	{Bone "92dj"}
+	{Position 0.0348371	0.0132814	-0.00733938}
+}
+{Extender "preview"
+	{"stuff"
+		{camera
+			{origin 0.0191587	3.16769	-0.0110168}
+			{lookat 0.0191587	0.308317	-0.0110168}
+			{fov 45}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -0.544756	1.21292	1.05266}
+			}
+			{"1"
+				{type point}
+				{position 0.586516	1.21292	1.05266}
+			}
+		}
+	}
+	{"stuff_primary"
+		{camera
+			{origin 0.082474	3.16409	-0.000396659}
+			{lookat 0.0824741	0.308317	-0.000396636}
+			{fov 45}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 0.586516	1.21292	1.05266}
+			}
+			{"1"
+				{type point}
+				{position -0.544756	1.21292	1.05266}
+			}
+		}
+	}
+}

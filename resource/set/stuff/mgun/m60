@@ -1,0 +1,16 @@
+{from "pattern mgun"
+	{filling "ammo 76251_100" 100}
+	{entity "m60"}
+	{fireSound	"small_arms/m240/"}
+	{reloadSound "fnmag_reload"}
+
+	("recoveryTime" r(550))
+	("burst_long")
+	("speed" s(855))
+	{range 95 100}
+	{Spreading 1
+		{SpreadPower	1}
+		{BurstAccuracy 100.0 98.0 95.0 93.0 90.0 89.0 85.0 82.0 80.0 78.0 75.0 72.0 70.0 50.0}
+	}
+	{healthDamage 260}
+}

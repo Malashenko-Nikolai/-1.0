@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "m24_parts_c"}
+	{specular "m24_parts_s"}
+	{color "230 230 230 25"}
+	{blend none}
+}

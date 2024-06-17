@@ -1,0 +1,79 @@
+;Exported by: Kislov_A
+;Date:        Thu Jan 21 11:49:58 2010
+;File:        E:\Men of war red tide2\Art\Models\Weapons\USA\Machete\machete.max
+{Skeleton
+	{bone "machete"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "machete.ply"}
+	}
+}
+{Volume "body"
+	{Box 11.6393 1.33409 0.875037}
+	{Bone "machete"}
+	{Matrix34
+		0.422705	0.906268	0
+		-0.906268	0.422705	0
+		0	0	1
+		2.45587	3.82858	-0.153646
+	}
+}
+{Volume "select"
+	{Box 13.9967 2.23156 1.9685}
+	{Bone "machete"}
+	{Matrix34
+		0.422705	0.906268	0
+		-0.906268	0.422705	0
+		0	0	1
+		2.53271	3.81188	-0.176815
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 0.430093	-5.25295	15.1833}
+			{lookat 1.75386	-4.33355	5.20343}
+			{fov 45}
+			{horizon 178.956}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0.19406	0.158667	-0.432626}
+			}
+			{"1"
+				{type point}
+				{position 3.20757	-8.53906	1.78748}
+			}
+			{"2"
+				{type point}
+				{position -0.966355	0.415852	1.34335}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin -0.289587	-5.83449	16.7404}
+			{lookat 1.40483	-4.65766	6.68715}
+			{fov 45}
+			{horizon 178.956}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0.195054	0.159125	-0.432011}
+			}
+			{"1"
+				{type point}
+				{position 3.22635	-8.56595	1.80758}
+			}
+			{"2"
+				{type point}
+				{position -0.947649	0.379431	1.35408}
+			}
+		}
+	}
+}

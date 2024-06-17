@@ -1,0 +1,9 @@
+{actor
+	
+	(include "/properties/stuff_small.ext")
+	{Extension "svd_no_skope.mdl"}
+	{extender "stuff"
+		{item "svd_no_skope"}
+	}
+	{nogroupmesh 1}
+}

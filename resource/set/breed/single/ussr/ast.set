@@ -1,0 +1,35 @@
+{breed
+	{behaviour soldier}
+	{hero}
+	{skin "ussr_soldier_sql"}
+	{portrait ussr_ast}
+	{icon_priority 0}
+	{nationality rus}
+	{perks
+		{"stamina" "100%"
+		}
+		{"health" "100%"
+		}
+		{"mgun" lvl_1
+		}
+		{"at_rifle" lvl_1
+		}
+		{"rifle" lvl_1
+		}
+		{"pistol" lvl_1
+		}
+		{"smg" lvl_5
+		}
+		{"vision" mp_officer
+		}
+		{"speed" 1
+		}
+		{"melee" lvl_1
+		}
+	}
+	{inventory
+		{item "akms" filling "76239_30 ammo" 30}
+		{item "pm_sil" filling "918_8 ammo" 8}
+		{in_hands 0}
+	}
+}

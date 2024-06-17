@@ -1,0 +1,19 @@
+{from "pattern fg"
+	{tag "big" "size_big" "shell_verybig"}
+	{inventory
+		{size 5 1}
+	}	
+	("fg_medium" args 7.0)
+	{mass 23}
+	
+	; anti-apc
+	{damage add blastwave
+		{energy 3.4}
+		{area 4 5}
+	}
+	{damage cumulative
+		{damage 150}
+		{distance 0.1}
+	}
+	{entity "shell_hesh_120"}
+}

@@ -1,0 +1,10 @@
+;Model by g521
+{actor
+	
+	(include "/properties/stuff_small.ext")
+	{Extension "m203.mdl"}
+	{extender "stuff"
+		{item "m203a"}
+	}
+	{nogroupmesh 1}
+}

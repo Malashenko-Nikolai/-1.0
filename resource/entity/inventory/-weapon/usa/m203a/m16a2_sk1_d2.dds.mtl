@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "m16a2_sk1_d2"}
+	{blend none}
+}

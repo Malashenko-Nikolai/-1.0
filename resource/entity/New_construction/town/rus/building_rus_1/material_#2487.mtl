@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "roof"}
+	{bump "roof_bump"}
+	{specular "roof_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

@@ -1,0 +1,11 @@
+;Model by Pheonix
+{actor
+	
+	(include "/properties/stuff_small.ext")
+	{Extension "M240.mdl"}
+	{extender "stuff"
+		{item "M240"}
+	}
+	{nogroupmesh 1}
+}
+

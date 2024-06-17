@@ -1,0 +1,16 @@
+{breed
+	{behaviour soldier}
+	{skin "ussr_sniper"}
+	{portrait ussr_sniper}
+	{icon_priority 0}
+	{nationality rus}
+	{armors
+		{body belt_a_sniper}
+	}
+	{inventory
+		{item "svd" filling "76254_10 ammo" 10}
+		{item "knife_ger"}
+		{item "pb" filling "918_8 ammo" 8}
+		{in_hands 0}
+	}
+}

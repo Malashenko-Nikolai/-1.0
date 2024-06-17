@@ -1,0 +1,101 @@
+;Exported by: Павел
+;Date:        Mon Feb 21 22:09:48 2011
+;File:        C:\Users\Павел\Documents\3dsmax\scenes\minigun.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "foresight3"
+			{Matrix34
+				1	0	0
+				0	-1	0
+				0	0	-1
+				15.8316	-0.2779619	0.01505
+			}
+		}
+		{bone "fxshell"
+			{Matrix34
+				0	0	-1
+				0	1	0
+				1	0	0
+				-0.0526	2.03242	-2.280772
+			}
+		}
+		{bone "minigun"
+			{parameters "ID=mgun;"}
+			{Matrix34
+				0	-1	0
+				1	0	0
+				0	0	1
+				4.519	0.176616	0.53127
+			}
+			{VolumeView "minigun.ply"}
+		}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "minigun"}
+	{Matrix34
+		0	1	0
+		-1	0	0
+		0	0	1
+		2.20853	-1.06734	-2.52659
+	}
+}
+{Volume "select"
+	{Polyhedron "select.vol"}
+	{Bone "basis"}
+	{Position 5.45162	-2.03194	-2.027476}
+}
+{Extender "preview"
+	{"Stuff_primary"
+		{camera
+			{origin 13.5178	-4.22426	24.9805}
+			{lookat 12.8262	-1.40332	7.78995}
+			{fov 45}
+			{horizon -177.044}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 21.2998	-1.61187	-0.0975183}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0792752	0.197722	-0.452351}
+			}
+			{"2"
+				{type point}
+				{position 3.08616	-1.00562	-1.66686}
+			}
+		}
+	}
+	{"Stuff"
+		{camera
+;			{origin 13.5678	-4.44056	24.2357}
+			{origin 9.5678	-4.44056	24.2357}
+;			{lookat 12.9028	-1.72812	7.70632}
+			{lookat 8.9028	-1.72812	11.70632}
+			{fov 45}
+			{horizon -177.044}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 21.3614	-1.94116	-0.181278}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0792752	0.197722	-0.452351}
+			}
+			{"2"
+				{type point}
+				{position 3.1478	-1.33491	-1.75062}
+			}
+		}
+	}
+}

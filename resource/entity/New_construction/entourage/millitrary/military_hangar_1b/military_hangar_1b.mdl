@@ -1,0 +1,112 @@
+;Exported by: Наталья
+;Date:        Mon May 07 00:45:50 2012
+;File:        G:\military_angar\Ангар рабочий\Ангар рабочий\Новая папка\Untitled.max
+{Skeleton
+	{animation
+		{sequence "open" {speed 0.5}}
+		{sequence "close" {speed 0.5}}
+	}
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "mh_1bl4h2"
+			{Position 0.177165	-39.0157	13.7795}
+		}
+		{bone "mh_1bl3h1"
+			{Position 1.87008	-10.6299	13.7795}
+		}
+		{bone "mh_1bl2"
+			{Position -31.4567	31.0236	13.7795}
+		}
+		{bone "mh_1bl5"
+			{Position -64.8228	32.185	13.7795}
+		}
+		{bone "mh_1bc3l6"
+			{Position -27.7362	101.024	13.7795}
+		}
+		{bone "mh_1bc4"
+			{Position 32.3622	137.067	13.7795}
+		}
+		{bone "mh_1bc1"
+			{Position 32.7363	94.6457	13.7795}
+		}
+		{bone "mh_1bc2l1"
+			{Position -27.6378	104.39	13.7795}
+		}
+		{bone "lamp"
+			{Position 61.7438	-76.8294	112.757}
+		}
+		{bone "doorr"
+			{parameters "CommonMesh;"}
+			{Position -41.3204	-62.0472	63.7261}
+			{VolumeView "doorr.ply"}
+		}
+		{bone "doorl"
+			{parameters "CommonMesh;"}
+			{Position 53.4994	-62.0472	63.7303}
+			{VolumeView "doorl.ply"}
+		}
+		{bone "land"
+			{parameters "Land;Ground;"}
+			{Position 0	0	0}
+			{VolumeView "land.ply" {Ground}}
+		}
+	}
+}
+{Obstacle "doorl"
+	{Obb2
+		{Center -19.3224 62.0472}
+		{Extent 22.1828 1.97268}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "door_close" "body"}
+}
+{Obstacle "doorr"
+	{Obb2
+		{Center 28.3564 62.0472}
+		{Extent 25.496 1.97268}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "door_lock" "body"}
+}
+{Obstacle "left"
+	{Obb2
+		{Center -43.8525 98.9835}
+		{Extent 2.43077 24.3077}
+		{Axis -1 0}
+	}
+	{Rotate}
+}
+{Obstacle "right"
+	{Obb2
+		{Center 55.9056 98.9835}
+		{Extent 2.43077 24.3077}
+		{Axis -1 0}
+	}
+	{Rotate}
+}
+{Volume "doorl"
+	{Box 44.3656 3.94535 100.197}
+	{Bone "doorl"}
+	{Position -72.8218	0	0.0331039}
+}
+{Volume "doorr"
+	{Box 50.992 3.94535 100.197}
+	{Bone "doorr"}
+	{Position 69.6768	0	0.0373154}
+}
+{Volume "switch"
+	{Box 40.5287 1.9685 94.3333}
+	{Bone "doorr"}
+	{Position 67.1417	0	-0.0322647}
+}
+{Volume "theswitch"
+	{Box 40.5287 1.9685 94.3333}
+	{Bone "doorl"}
+	{Position -72.8218	0	-0.0364761}
+}

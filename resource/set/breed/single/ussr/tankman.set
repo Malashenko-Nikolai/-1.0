@@ -1,0 +1,38 @@
+{breed
+	{behaviour soldier}
+	{skin "ussr_tankman"}
+	{portrait ussr_tankman}
+	{icon_priority 0}
+	{nationality rus}
+	{armors
+		{head tankhelmet_rus}
+	}
+	{perks
+		{"stamina" "100%"
+		}
+		{"health" "100%"
+		}
+		{"melee" lvl_1
+		}
+		{"vision" mp_soldier
+		}
+		{"at_rifle" lvl_1
+		}
+		{"mgun" lvl_1
+		}
+		{"rifle" lvl_1
+		}
+		{"pistol" lvl_1
+		}
+		{"telescope"}
+		{"smg" lvl_2
+		}
+		{"speed" 1
+		}
+	}
+	{inventory
+		{item "akms" filling "76239_30 ammo" 30}
+		{item "76239_30 ammo" 4}
+		{in_hands 0}
+	}
+}

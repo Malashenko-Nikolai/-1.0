@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/humanskin/usa/oldschool/us_body_bdu_ranger_alice"}
+	{bump "$/humanskin/usa/oldschool/us_body_bdu_ranger_alice_nm"}
+	{specular "$/humanskin/usa/oldschool/us_body_bdu_sp"}
+	{color "230 230 230 25"}
+	{blend test}
+}

@@ -1,0 +1,8 @@
+{actor
+	(include "/properties/stuff_small.ext")
+	{Extension "dshkm.mdl"}
+	{extender "stuff"
+		{item "dshkm"}
+	}
+	{nogroupmesh 1}
+}

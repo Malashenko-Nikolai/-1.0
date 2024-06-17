@@ -1,0 +1,58 @@
+;Exported by: Администрато?
+;Date:        Sun Jul 20 02:05:39 2014
+;File:        C:\Documents and Settings\Администратор\Мо?документы\3dsMax\scenes\UAHM\-equipment\-head\kepi_frg.max
+{Skeleton
+	{bone "drawcall_0037"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{Position -0.6	0	0.15}
+		{VolumeView "drawcall_0037.ply"}
+		{bone "handle"
+			{Matrix34
+				1	0	0
+				0	0	1
+				0	-1	0
+				2.28439	-0.0268077	2.44923
+			}
+		}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "drawcall_0037"}
+	{Matrix34
+		1	0	0
+		0	-1	0
+		0	0	-1
+		-0.0178143	-0.0220263	2.51887
+	}
+}
+{Volume "select"
+	{Polyhedron "select.vol"}
+	{Bone "drawcall_0037"}
+	{Matrix34
+		1	0	0
+		0	-1	0
+		0	0	-1
+		-0.0156766	-0.0220263	2.51887
+	}
+}
+{Extender "preview"
+	{"stuff"
+		{camera
+			{origin 5.15511	5.36194	6.85866}
+			{lookat -10.5573	-10.999	-2.01488}
+			{fov 45}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.324048	-0.33451	-0.181922}
+				{ambient 0x959595}
+			}
+		}
+	}
+}

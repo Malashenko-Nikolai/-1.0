@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "$/humanskin/usa/oldschool/m40_gasmask"}
+	{specular "$/humanskin/usa/oldschool/m40_gasmask_sp"}
+	{color "230 230 230 25"}
+	{blend blend}
+}

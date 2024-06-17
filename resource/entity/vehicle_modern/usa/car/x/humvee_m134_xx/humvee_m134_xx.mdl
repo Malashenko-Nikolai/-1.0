@@ -1,0 +1,138 @@
+;Exported by: Richtofen
+;Date:        Wed Jul 20 14:32:23 2016
+;File:        C:\Users\Richtofen\Desktop\humvee_m134\plugin_Xx.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "pivot_front"
+			{parameters "ID=body;"}
+			{Position 32.4618	0.000991821	7.3954}
+			{VolumeView "pivot_front.ply"}
+			{bone revolute "steer_r1"
+				{Matrix34
+					1	0	0
+					0	-1	0
+					0	0	-1
+					-0.0621529	-15.974	-1.59015
+				}
+				{bone revolute "wheelr1"
+					{parameters "ID=wheelright1;"}
+					{Matrix34
+						-1	0	0
+						0	0	-1
+						0	-1	0
+						0.102592	1.88099	-0.0276566
+					}
+					{VolumeView "wheelr1.ply"}
+				}
+			}
+			{bone revolute "steer_l1"
+				{Matrix34
+					1	0	0
+					0	-1	0
+					0	0	-1
+					-0.0621529	16.0581	-1.59015
+				}
+				{bone revolute "wheell1"
+					{parameters "ID=wheelleft1;"}
+					{Matrix34
+						1	0	0
+						0	0	1
+						0	-1	0
+						0.102596	-1.78926	-0.0276384
+					}
+					{VolumeView "wheell1.ply"}
+				}
+			}
+		}
+		{bone "pivot_back"
+			{parameters "ID=body;"}
+			{Position -29.4913	0.000991821	6.50521}
+			{VolumeView "pivot_back.ply"}
+			{bone revolute "wheell2"
+				{parameters "ID=wheelleft2;"}
+				{Matrix34
+					1	0	0
+					0	0	-1
+					0	1	0
+					-0.104229	17.8473	-0.672307
+				}
+				{VolumeView "wheell2.ply"}
+			}
+			{bone revolute "wheelr2"
+				{parameters "ID=wheelright2;"}
+				{Matrix34
+					-1	0	0
+					0	0	1
+					0	1	0
+					-0.104227	-17.8549	-0.672301
+				}
+				{VolumeView "wheelr2.ply"}
+			}
+		}
+		{bone "body"
+			{parameters "CommonMesh;ID=body;"}
+			{Matrix34
+				0.999318	0	-0.0369199
+				-0.00182078	0.998783	-0.0492835
+				0.036875	0.0493172	0.998102
+				-0.164488	0.000999451	7.51851
+			}
+			{VolumeView "body.ply"}
+			{bone "doorr2"
+				{parameters "ID=body;"}
+				{Position -1.91124	-21.2632	7.9154}
+				{VolumeView "doorr2.ply"}
+			}
+			{bone "doorr1"
+				{parameters "ID=body;"}
+				{Position 15.0895	-21.2654	4.51771}
+				{VolumeView "doorr1.ply"}
+			}
+			{bone "doorl1"
+				{parameters "ID=body;"}
+				{Position 15.0952	21.2793	4.51541}
+				{VolumeView "doorl1.ply"}
+			}
+			{bone "doorl2"
+				{parameters "ID=body;"}
+				{Position -1.91277	21.2639	7.9154}
+				{VolumeView "doorl2.ply"}
+			}
+			{bone "engine"
+				{parameters "CommonMesh;ID=engine;"}
+				{Matrix34
+					0.638392	0	0.769712
+					0	1	0
+					-0.769712	0	0.638392
+					17.116	0	12.4986
+				}
+				{VolumeView "engine.ply"}
+			}
+			{bone "anten1"
+				{parameters "ID=body;"}
+				{Position -38.1122	-15.362	18.1606}
+				{VolumeView "anten1.ply"}
+			}
+			{bone revolute "turret_mgun"
+				{parameters "ID=body;"}
+				{Position -1.94978	-0.00099954	20.2067}
+				{VolumeView "turret_mgun.ply"}
+				{bone revolute "mgun"
+					{parameters "ID=gun;"}
+					{Matrix34
+						1	0	0
+						0	0	-1
+						0	1	0
+						10.7351	0.662758	11.7779
+					}
+					{VolumeView "mgun.ply"}
+				}
+			}
+		}
+	}
+}

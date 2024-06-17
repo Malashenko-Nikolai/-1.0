@@ -1,0 +1,1399 @@
+-= Animation: start, Node body =-
+	Frame 0 {
+		Visibility 1
+		Position	-2.83391	-0.00359967	15.8491
+		Orientation	0 0 0 1
+	}
+	Frame 1 {
+		Orientation	0 0.0011563 0 0.999999
+	}
+	Frame 2 {
+		Orientation	0 0.00425516 0 0.999991
+	}
+	Frame 3 {
+		Orientation	0 0.00874149 0 0.999962
+	}
+	Frame 4 {
+		Orientation	0 0.0140601 0 0.999901
+	}
+	Frame 5 {
+		Orientation	0 0.0196558 0 0.999807
+	}
+	Frame 6 {
+		Orientation	0 0.0249734 0 0.999688
+	}
+	Frame 7 {
+		Orientation	0 0.0294582 0 0.999566
+	}
+	Frame 8 {
+		Orientation	0 0.0325556 0 0.99947
+	}
+	Frame 9 {
+		Orientation	0 0.0337112 0 0.999432
+	}
+	Frame 10 {
+		Orientation	0 0.0330728 0 0.999453
+	}
+	Frame 11 {
+		Orientation	0 0.0312617 0 0.999511
+	}
+	Frame 12 {
+		Orientation	0 0.0284342 0 0.999596
+	}
+	Frame 13 {
+		Orientation	0 0.0247462 0 0.999694
+	}
+	Frame 14 {
+		Orientation	0 0.0203542 0 0.999793
+	}
+	Frame 15 {
+		Orientation	0 0.0154143 0 0.999881
+	}
+	Frame 16 {
+		Orientation	0 0.010083 0 0.999949
+	}
+	Frame 17 {
+		Orientation	0 0.00451669 0 0.99999
+	}
+	Frame 18 {
+		Orientation	0 -0.00112794 0 0.999999
+	}
+	Frame 19 {
+		Orientation	0 -0.00669431 0 0.999978
+	}
+	Frame 20 {
+		Orientation	0 -0.0120258 0 0.999928
+	}
+	Frame 21 {
+		Orientation	0 -0.016966 0 0.999856
+	}
+	Frame 22 {
+		Orientation	0 -0.0213584 0 0.999772
+	}
+	Frame 23 {
+		Orientation	0 -0.0250466 0 0.999686
+	}
+	Frame 24 {
+		Orientation	0 -0.0278744 0 0.999611
+	}
+	Frame 25 {
+		Orientation	0 -0.0296857 0 0.999559
+	}
+	Frame 26 {
+		Orientation	0 -0.0303242 0 0.99954
+	}
+	Frame 27 {
+		Orientation	0 -0.0300396 0 0.999549
+	}
+	Frame 28 {
+		Orientation	0 -0.0292249 0 0.999573
+	}
+	Frame 29 {
+		Orientation	0 -0.0279391 0 0.99961
+	}
+	Frame 30 {
+		Orientation	0 -0.026241 0 0.999656
+	}
+	Frame 31 {
+		Orientation	0 -0.0241894 0 0.999707
+	}
+	Frame 32 {
+		Orientation	0 -0.0218432 0 0.999761
+	}
+	Frame 33 {
+		Orientation	0 -0.0192613 0 0.999815
+	}
+	Frame 34 {
+		Orientation	0 -0.0165025 0 0.999864
+	}
+	Frame 35 {
+		Orientation	0 -0.0136257 0 0.999907
+	}
+	Frame 36 {
+		Orientation	0 -0.01069 0 0.999943
+	}
+	Frame 37 {
+		Orientation	0 -0.0077541 0 0.99997
+	}
+	Frame 38 {
+		Orientation	0 -0.00487709 0 0.999988
+	}
+	Frame 39 {
+		Orientation	0 -0.00211787 0 0.999998
+	}
+	Frame 40 {
+		Orientation	0 0.000464613 0 1
+	}
+	Frame 41 {
+		Orientation	0 0.00281143 0 0.999996
+	}
+	Frame 42 {
+		Orientation	0 0.00486366 0 0.999988
+	}
+	Frame 43 {
+		Orientation	0 0.00656238 0 0.999978
+	}
+	Frame 44 {
+		Orientation	0 0.00784868 0 0.999969
+	}
+	Frame 45 {
+		Orientation	0 0.00866366 0 0.999963
+	}
+	Frame 46 {
+		Orientation	0 0.00894841 0 0.99996
+	}
+	Frame 47 {
+		Orientation	0 0.00867603 0 0.999962
+	}
+	Frame 48 {
+		Orientation	0 0.00791777 0 0.999969
+	}
+	Frame 49 {
+		Orientation	0 0.00676198 0 0.999977
+	}
+	Frame 50 {
+		Orientation	0 0.00529698 0 0.999986
+	}
+	Frame 51 {
+		Orientation	0 0.00361111 0 0.999994
+	}
+	Frame 52 {
+		Orientation	0 0.00179272 0 0.999998
+	}
+	Frame 53 {
+		Orientation	0 -6.98554e-05 0 1
+	}
+	Frame 54 {
+		Orientation	0 -0.00188825 0 0.999998
+	}
+	Frame 55 {
+		Orientation	0 -0.00357413 0 0.999994
+	}
+	Frame 56 {
+		Orientation	0 -0.00503915 0 0.999987
+	}
+	Frame 57 {
+		Orientation	0 -0.00619495 0 0.999981
+	}
+	Frame 58 {
+		Orientation	0 -0.00695321 0 0.999976
+	}
+	Frame 59 {
+		Orientation	0 -0.0072256 0 0.999974
+	}
+	Frame 60 {
+		Orientation	0 -0.00682536 0 0.999977
+	}
+	Frame 61 {
+		Orientation	0 -0.00579314 0 0.999983
+	}
+	Frame 62 {
+		Orientation	0 -0.00438173 0 0.99999
+	}
+	Frame 63 {
+		Orientation	0 -0.00284392 0 0.999996
+	}
+	Frame 64 {
+		Orientation	0 -0.00143249 0 0.999999
+	}
+	Frame 65 {
+		Orientation	0 -0.000400255 0 1
+	}
+	Frame 66 {
+		Visibility 1
+		Position	-2.83391	-0.00359967	15.8491
+		Orientation	0 0 0 1
+	}
+-= Animation: stop, Node body =-
+	Frame 66 {
+		Visibility 1
+		Position	-2.83391	-0.00359967	15.8491
+		Orientation	0 0 0 1
+	}
+	Frame 67 {
+		Orientation	0 -0.000890884 0 1
+	}
+	Frame 68 {
+		Orientation	0 -0.00327845 0 0.999995
+	}
+	Frame 69 {
+		Orientation	0 -0.00673504 0 0.999977
+	}
+	Frame 70 {
+		Orientation	0 -0.0108329 0 0.999941
+	}
+	Frame 71 {
+		Orientation	0 -0.0151445 0 0.999885
+	}
+	Frame 72 {
+		Orientation	0 -0.0192419 0 0.999815
+	}
+	Frame 73 {
+		Orientation	0 -0.0226978 0 0.999742
+	}
+	Frame 74 {
+		Orientation	0 -0.0250847 0 0.999685
+	}
+	Frame 75 {
+		Orientation	0 -0.0259753 0 0.999663
+	}
+	Frame 76 {
+		Orientation	0 -0.0255988 0 0.999672
+	}
+	Frame 77 {
+		Orientation	0 -0.0245271 0 0.999699
+	}
+	Frame 78 {
+		Orientation	0 -0.0228472 0 0.999739
+	}
+	Frame 79 {
+		Orientation	0 -0.0206459 0 0.999787
+	}
+	Frame 80 {
+		Orientation	0 -0.0180099 0 0.999838
+	}
+	Frame 81 {
+		Orientation	0 -0.0150262 0 0.999887
+	}
+	Frame 82 {
+		Orientation	0 -0.0117816 0 0.999931
+	}
+	Frame 83 {
+		Orientation	0 -0.00836309 0 0.999965
+	}
+	Frame 84 {
+		Orientation	0 -0.00485755 0 0.999988
+	}
+	Frame 85 {
+		Orientation	0 -0.00135194 0 0.999999
+	}
+	Frame 86 {
+		Orientation	0 0.00206675 0 0.999998
+	}
+	Frame 87 {
+		Orientation	0 0.0053116 0 0.999986
+	}
+	Frame 88 {
+		Orientation	0 0.00829565 0 0.999966
+	}
+	Frame 89 {
+		Orientation	0 0.010932 0 0.99994
+	}
+	Frame 90 {
+		Orientation	0 0.0131337 0 0.999914
+	}
+	Frame 91 {
+		Orientation	0 0.0148139 0 0.99989
+	}
+	Frame 92 {
+		Orientation	0 0.0158858 0 0.999874
+	}
+	Frame 93 {
+		Orientation	0 0.0162623 0 0.999868
+	}
+	Frame 94 {
+		Orientation	0 0.015958 0 0.999873
+	}
+	Frame 95 {
+		Orientation	0 0.0150919 0 0.999886
+	}
+	Frame 96 {
+		Orientation	0 0.0137343 0 0.999906
+	}
+	Frame 97 {
+		Orientation	0 0.0119552 0 0.999929
+	}
+	Frame 98 {
+		Orientation	0 0.00982491 0 0.999952
+	}
+	Frame 99 {
+		Orientation	0 0.00741368 0 0.999973
+	}
+	Frame 100 {
+		Orientation	0 0.00479171 0 0.999988
+	}
+	Frame 101 {
+		Orientation	0 0.00202924 0 0.999998
+	}
+	Frame 102 {
+		Orientation	0 -0.000803477 0 1
+	}
+	Frame 103 {
+		Orientation	0 -0.00363619 0 0.999993
+	}
+	Frame 104 {
+		Orientation	0 -0.00639864 0 0.99998
+	}
+	Frame 105 {
+		Orientation	0 -0.00902058 0 0.999959
+	}
+	Frame 106 {
+		Orientation	0 -0.0114318 0 0.999935
+	}
+	Frame 107 {
+		Orientation	0 -0.013562 0 0.999908
+	}
+	Frame 108 {
+		Orientation	0 -0.015341 0 0.999882
+	}
+	Frame 109 {
+		Orientation	0 -0.0166987 0 0.999861
+	}
+	Frame 110 {
+		Orientation	0 -0.0175648 0 0.999846
+	}
+	Frame 111 {
+		Orientation	0 -0.0178691 0 0.99984
+	}
+	Frame 112 {
+		Orientation	0 -0.0176871 0 0.999844
+	}
+	Frame 113 {
+		Orientation	0 -0.0171628 0 0.999853
+	}
+	Frame 114 {
+		Orientation	0 -0.0163288 0 0.999867
+	}
+	Frame 115 {
+		Orientation	0 -0.0152177 0 0.999884
+	}
+	Frame 116 {
+		Orientation	0 -0.0138621 0 0.999904
+	}
+	Frame 117 {
+		Orientation	0 -0.0122945 0 0.999924
+	}
+	Frame 118 {
+		Orientation	0 -0.0105477 0 0.999944
+	}
+	Frame 119 {
+		Orientation	0 -0.00865404 0 0.999963
+	}
+	Frame 120 {
+		Orientation	0 -0.00664627 0 0.999978
+	}
+	Frame 121 {
+		Orientation	0 -0.00455698 0 0.99999
+	}
+	Frame 122 {
+		Orientation	0 -0.00241876 0 0.999997
+	}
+	Frame 123 {
+		Orientation	0 -0.000264224 0 1
+	}
+	Frame 124 {
+		Orientation	0 0.00187401 0 0.999998
+	}
+	Frame 125 {
+		Orientation	0 0.00396333 0 0.999992
+	}
+	Frame 126 {
+		Orientation	0 0.00597113 0 0.999982
+	}
+	Frame 127 {
+		Orientation	0 0.00786479 0 0.999969
+	}
+	Frame 128 {
+		Orientation	0 0.00961172 0 0.999954
+	}
+	Frame 129 {
+		Orientation	0 0.0111793 0 0.999938
+	}
+	Frame 130 {
+		Orientation	0 0.012535 0 0.999921
+	}
+	Frame 131 {
+		Orientation	0 0.0136461 0 0.999907
+	}
+	Frame 132 {
+		Orientation	0 0.0144801 0 0.999895
+	}
+	Frame 133 {
+		Orientation	0 0.0150044 0 0.999887
+	}
+	Frame 134 {
+		Orientation	0 0.0151864 0 0.999885
+	}
+	Frame 135 {
+		Orientation	0 0.0150159 0 0.999887
+	}
+	Frame 136 {
+		Orientation	0 0.014534 0 0.999894
+	}
+	Frame 137 {
+		Orientation	0 0.0137851 0 0.999905
+	}
+	Frame 138 {
+		Orientation	0 0.0128137 0 0.999918
+	}
+	Frame 139 {
+		Orientation	0 0.0116644 0 0.999932
+	}
+	Frame 140 {
+		Orientation	0 0.0103816 0 0.999946
+	}
+	Frame 141 {
+		Orientation	0 0.00900976 0 0.999959
+	}
+	Frame 142 {
+		Orientation	0 0.00759344 0 0.999971
+	}
+	Frame 143 {
+		Orientation	0 0.00617711 0 0.999981
+	}
+	Frame 144 {
+		Orientation	0 0.00480525 0 0.999988
+	}
+	Frame 145 {
+		Orientation	0 0.00352238 0 0.999994
+	}
+	Frame 146 {
+		Orientation	0 0.00237297 0 0.999997
+	}
+	Frame 147 {
+		Orientation	0 0.00140154 0 0.999999
+	}
+	Frame 148 {
+		Orientation	0 0.000652568 0 1
+	}
+	Frame 149 {
+		Orientation	0 0.000170557 0 1
+	}
+	Frame 150 {
+		Visibility 1
+		Position	-2.83391	-0.00359967	15.8491
+		Orientation	0 0 0 1
+	}
+-= Animation: fire, Node body =-
+	Frame 150 {
+		Visibility 1
+		Position	-2.83391	-0.00359967	15.8491
+		Orientation	0 0 0 1
+	}
+	Frame 151 {
+		Orientation	0 0.000718909 0 1
+	}
+	Frame 152 {
+		Orientation	0 0.00267023 0 0.999996
+	}
+	Frame 153 {
+		Orientation	0 0.00554584 0 0.999985
+	}
+	Frame 154 {
+		Orientation	0 0.00903759 0 0.999959
+	}
+	Frame 155 {
+		Orientation	0 0.0128373 0 0.999918
+	}
+	Frame 156 {
+		Orientation	0 0.0166368 0 0.999862
+	}
+	Frame 157 {
+		Orientation	0 0.0201281 0 0.999797
+	}
+	Frame 158 {
+		Orientation	0 0.0230031 0 0.999735
+	}
+	Frame 159 {
+		Orientation	0 0.0249538 0 0.999689
+	}
+	Frame 160 {
+		Orientation	0 0.0256725 0 0.99967
+	}
+	Frame 161 {
+		Orientation	0 0.0251953 0 0.999683
+	}
+	Frame 162 {
+		Orientation	0 0.023859 0 0.999715
+	}
+	Frame 163 {
+		Orientation	0 0.0218068 0 0.999762
+	}
+	Frame 164 {
+		Orientation	0 0.0191817 0 0.999816
+	}
+	Frame 165 {
+		Orientation	0 0.0161269 0 0.99987
+	}
+	Frame 166 {
+		Orientation	0 0.0127855 0 0.999918
+	}
+	Frame 167 {
+		Orientation	0 0.00930082 0 0.999957
+	}
+	Frame 168 {
+		Orientation	0 0.005816 0 0.999983
+	}
+	Frame 169 {
+		Orientation	0 0.00247433 0 0.999997
+	}
+	Frame 170 {
+		Orientation	0 -0.000580943 0 1
+	}
+	Frame 171 {
+		Orientation	0 -0.00320656 0 0.999995
+	}
+	Frame 172 {
+		Orientation	0 -0.00525931 0 0.999986
+	}
+	Frame 173 {
+		Orientation	0 -0.00659597 0 0.999978
+	}
+	Frame 174 {
+		Orientation	0 -0.00707334 0 0.999975
+	}
+	Frame 175 {
+		Orientation	0 -0.00685507 0 0.999977
+	}
+	Frame 176 {
+		Orientation	0 -0.0062382 0 0.999981
+	}
+	Frame 177 {
+		Orientation	0 -0.00527967 0 0.999986
+	}
+	Frame 178 {
+		Orientation	0 -0.00403643 0 0.999992
+	}
+	Frame 179 {
+		Orientation	0 -0.00256542 0 0.999997
+	}
+	Frame 180 {
+		Orientation	0 -0.000923564 0 1
+	}
+	Frame 181 {
+		Orientation	0 0.000832177 0 1
+	}
+	Frame 182 {
+		Orientation	0 0.00264486 0 0.999997
+	}
+	Frame 183 {
+		Orientation	0 0.00445753 0 0.99999
+	}
+	Frame 184 {
+		Orientation	0 0.00621325 0 0.999981
+	}
+	Frame 185 {
+		Orientation	0 0.00785506 0 0.999969
+	}
+	Frame 186 {
+		Orientation	0 0.00932603 0 0.999956
+	}
+	Frame 187 {
+		Orientation	0 0.0105692 0 0.999944
+	}
+	Frame 188 {
+		Orientation	0 0.0115277 0 0.999934
+	}
+	Frame 189 {
+		Orientation	0 0.0121445 0 0.999926
+	}
+	Frame 190 {
+		Orientation	0 0.0123628 0 0.999924
+	}
+	Frame 191 {
+		Orientation	0 0.0120167 0 0.999928
+	}
+	Frame 192 {
+		Orientation	0 0.0110771 0 0.999939
+	}
+	Frame 193 {
+		Orientation	0 0.00969254 0 0.999953
+	}
+	Frame 194 {
+		Orientation	0 0.00801122 0 0.999968
+	}
+	Frame 195 {
+		Orientation	0 0.00618152 0 0.999981
+	}
+	Frame 196 {
+		Orientation	0 0.00435181 0 0.999991
+	}
+	Frame 197 {
+		Orientation	0 0.00267043 0 0.999996
+	}
+	Frame 198 {
+		Orientation	0 0.00128576 0 0.999999
+	}
+	Frame 199 {
+		Orientation	0 0.000346167 0 1
+	}
+	Frame 200 {
+		Visibility 1
+		Position	-2.83391	-0.00359967	15.8491
+		Orientation	0 0 0 1
+	}
+-= Animation: hit, Node body =-
+	Frame 200 {
+		Visibility 1
+		Position	-2.83391	-0.00359967	15.8491
+		Orientation	0 0 0 1
+	}
+	Frame 201 {
+		Orientation	-0.000441513 0.000447365 2.32676e-05 1
+	}
+	Frame 202 {
+		Orientation	-0.00167048 0.00169284 8.59587e-05 0.999997
+	}
+	Frame 203 {
+		Orientation	-0.00354342 0.00359156 0.000175626 0.999987
+	}
+	Frame 204 {
+		Orientation	-0.00591678 0.00599869 0.000279053 0.999964
+	}
+	Frame 205 {
+		Orientation	-0.00864701 0.00876926 0.000383919 0.999924
+	}
+	Frame 206 {
+		Orientation	-0.0115906 0.0117582 0.000480044 0.999864
+	}
+	Frame 207 {
+		Orientation	-0.0146044 0.0148203 0.000560224 0.999783
+	}
+	Frame 208 {
+		Orientation	-0.0175452 0.0178101 0.00062065 0.999687
+	}
+	Frame 209 {
+		Orientation	-0.0202703 0.0205824 0.000660911 0.999582
+	}
+	Frame 210 {
+		Orientation	-0.0226372 0.0229916 0.00068358 0.999479
+	}
+	Frame 211 {
+		Orientation	-0.0245038 0.0248924 0.00069338 0.99939
+	}
+	Frame 212 {
+		Orientation	-0.025728 0.0261394 0.000695936 0.999327
+	}
+	Frame 213 {
+		Orientation	-0.0261677 0.0265874 0.000696104 0.999304
+	}
+	Frame 214 {
+		Orientation	-0.0259335 0.0263797 0.000704296 0.999315
+	}
+	Frame 215 {
+		Orientation	-0.0252565 0.0257795 0.000727343 0.999348
+	}
+	Frame 216 {
+		Orientation	-0.0241752 0.0248206 0.000762305 0.999399
+	}
+	Frame 217 {
+		Orientation	-0.0227278 0.0235374 0.000805606 0.999464
+	}
+	Frame 218 {
+		Orientation	-0.0209528 0.0219637 0.000853303 0.999539
+	}
+	Frame 219 {
+		Orientation	-0.0188885 0.0201338 0.000901315 0.999618
+	}
+	Frame 220 {
+		Orientation	-0.0165734 0.0180817 0.000945643 0.999699
+	}
+	Frame 221 {
+		Orientation	-0.0140458 0.0158415 0.000982547 0.999775
+	}
+	Frame 222 {
+		Orientation	-0.0113441 0.0134475 0.00100871 0.999845
+	}
+	Frame 223 {
+		Orientation	-0.00850702 0.0109338 0.00102137 0.999904
+	}
+	Frame 224 {
+		Orientation	-0.00557299 0.00833464 0.00101841 0.999949
+	}
+	Frame 225 {
+		Orientation	-0.00258064 0.00568435 0.000998484 0.99998
+	}
+	Frame 226 {
+		Orientation	0.000431399 0.00301717 0.000960998 0.999995
+	}
+	Frame 227 {
+		Orientation	0.00342448 0.000367353 0.000906198 0.999994
+	}
+	Frame 228 {
+		Orientation	0.00635993 -0.00223086 0.000835143 0.999977
+	}
+	Frame 229 {
+		Orientation	0.00919908 -0.00474324 0.000749681 0.999946
+	}
+	Frame 230 {
+		Orientation	0.0119033 -0.00713561 0.000652397 0.999904
+	}
+	Frame 231 {
+		Orientation	0.0144339 -0.00937382 0.000546534 0.999852
+	}
+	Frame 232 {
+		Orientation	0.0167523 -0.0114238 0.000435887 0.999794
+	}
+	Frame 233 {
+		Orientation	0.01882 -0.0132515 0.000324671 0.999735
+	}
+	Frame 234 {
+		Orientation	0.0205982 -0.0148228 0.000217359 0.999678
+	}
+	Frame 235 {
+		Orientation	0.0220486 -0.0161039 0.000118504 0.999627
+	}
+	Frame 236 {
+		Orientation	0.0231325 -0.0170608 3.25231e-05 0.999587
+	}
+	Frame 237 {
+		Orientation	0.0238114 -0.0176595 -3.65381e-05 0.99956
+	}
+	Frame 238 {
+		Orientation	0.0240467 -0.017866 -8.52665e-05 0.999551
+	}
+	Frame 239 {
+		Orientation	0.0235745 -0.0175138 -0.000106925 0.999569
+	}
+	Frame 240 {
+		Orientation	0.0222676 -0.0165416 -0.000101746 0.999615
+	}
+	Frame 241 {
+		Orientation	0.0202927 -0.0150735 -7.87928e-05 0.99968
+	}
+	Frame 242 {
+		Orientation	0.0178165 -0.0132333 -4.7529e-05 0.999754
+	}
+	Frame 243 {
+		Orientation	0.0150059 -0.011145 -1.6368e-05 0.999825
+	}
+	Frame 244 {
+		Orientation	0.0120277 -0.00893252 0 0.999888
+	}
+	Frame 245 {
+		Orientation	0.00904909 -0.00672003 2.3047e-05 0.999936
+	}
+	Frame 246 {
+		Orientation	0.00623716 -0.00463159 2.69804e-05 0.99997
+	}
+	Frame 247 {
+		Orientation	0.00375911 -0.00279132 2.21699e-05 0.999989
+	}
+	Frame 248 {
+		Orientation	0.00178213 -0.00132327 1.2708e-05 0.999998
+	}
+	Frame 249 {
+		Orientation	0.000473383 -0.000351489 0 1
+	}
+	Frame 250 {
+		Visibility 1
+		Position	-2.83391	-0.00359967	15.8491
+		Orientation	0 0 0 1
+	}
+-= Animation: repair, Node body =-
+	Frame 630 {
+		Visibility 1
+		Position	-2.83391	-0.00359967	15.8491
+		Orientation	0 0 0 1
+	}
+	Frame 631 {
+		Orientation	0 0.00122173 0 0.999999
+	}
+	Frame 632 {
+		Orientation	0 0.00453784 0 0.99999
+	}
+	Frame 633 {
+		Orientation	0 0.00942464 0 0.999956
+	}
+	Frame 634 {
+		Orientation	0 0.0153583 0 0.999882
+	}
+	Frame 635 {
+		Orientation	0 0.0218149 0 0.999762
+	}
+	Frame 636 {
+		Orientation	0 0.0282706 0 0.9996
+	}
+	Frame 637 {
+		Orientation	0 0.0342018 0 0.999415
+	}
+	Frame 638 {
+		Orientation	0 0.0390854 0 0.999236
+	}
+	Frame 639 {
+		Orientation	0 0.0423988 0 0.999101
+	}
+	Frame 640 {
+		Orientation	0 0.0436194 0 0.999048
+	}
+	Frame 641 {
+		Orientation	0 0.0419358 0 0.99912
+	}
+	Frame 642 {
+		Orientation	0 0.0372806 0 0.999305
+	}
+	Frame 643 {
+		Orientation	0 0.0302468 0 0.999542
+	}
+	Frame 644 {
+		Orientation	0 0.0214276 0 0.99977
+	}
+	Frame 645 {
+		Orientation	0 0.0114174 0 0.999935
+	}
+	Frame 646 {
+		Orientation	0 0.000811258 0 1
+	}
+	Frame 647 {
+		Orientation	0 -0.00979495 0 0.999952
+	}
+	Frame 648 {
+		Orientation	0 -0.0198054 0 0.999804
+	}
+	Frame 649 {
+		Orientation	0 -0.0286249 0 0.99959
+	}
+	Frame 650 {
+		Orientation	0 -0.0356592 0 0.999364
+	}
+	Frame 651 {
+		Orientation	0 -0.0403147 0 0.999187
+	}
+	Frame 652 {
+		Orientation	0 -0.0419984 0 0.999118
+	}
+	Frame 653 {
+		Orientation	0 -0.0414636 0 0.99914
+	}
+	Frame 654 {
+		Orientation	0 -0.0399587 0 0.999201
+	}
+	Frame 655 {
+		Orientation	0 -0.0376327 0 0.999292
+	}
+	Frame 656 {
+		Orientation	0 -0.0346348 0 0.9994
+	}
+	Frame 657 {
+		Orientation	0 -0.031114 0 0.999516
+	}
+	Frame 658 {
+		Orientation	0 -0.0272196 0 0.999629
+	}
+	Frame 659 {
+		Orientation	0 -0.0231007 0 0.999733
+	}
+	Frame 660 {
+		Orientation	0 -0.0189068 0 0.999821
+	}
+	Frame 661 {
+		Orientation	0 -0.0147872 0 0.999891
+	}
+	Frame 662 {
+		Orientation	0 -0.0108914 0 0.999941
+	}
+	Frame 663 {
+		Orientation	0 -0.00736892 0 0.999973
+	}
+	Frame 664 {
+		Orientation	0 -0.0043691 0 0.99999
+	}
+	Frame 665 {
+		Orientation	0 -0.00204141 0 0.999998
+	}
+	Frame 666 {
+		Orientation	0 -0.00053525 0 1
+	}
+	Frame 667 {
+		Visibility 1
+		Position	-2.83391	-0.00359967	15.8491
+		Orientation	0 0 0 1
+	}
+-= Animation: repair, Node engine =-
+	Frame 300 {
+		Visibility 1
+		Position	21.6859	4.89993	21.4312
+		Orientation	0 0 0 1
+	}
+	Frame 301 {
+		Orientation	0.0217513 0 0 0.999763
+	}
+	Frame 302 {
+		Orientation	0.0777743 0 0 0.996971
+	}
+	Frame 303 {
+		Orientation	0.153946 0 0 0.988079
+	}
+	Frame 304 {
+		Orientation	0.235894 0 0 0.971779
+	}
+	Frame 305 {
+		Orientation	0.30967 0 0 0.950844
+	}
+	Frame 306 {
+		Orientation	0.362497 0 0 0.931985
+	}
+	Frame 307 {
+		Orientation	0.382683 0 0 0.92388
+	}
+	Frame 308 {
+		Orientation	0.382104 0 0 0.924119
+	}
+	Frame 309 {
+		Orientation	0.380401 0 0 0.924822
+	}
+	Frame 310 {
+		Orientation	0.377626 0 0 0.925958
+	}
+	Frame 311 {
+		Orientation	0.373832 0 0 0.927497
+	}
+	Frame 312 {
+		Orientation	0.369067 0 0 0.929403
+	}
+	Frame 313 {
+		Orientation	0.363382 0 0 0.93164
+	}
+	Frame 314 {
+		Orientation	0.356825 0 0 0.934171
+	}
+	Frame 315 {
+		Orientation	0.349445 0 0 0.936957
+	}
+	Frame 316 {
+		Orientation	0.341292 0 0 0.939957
+	}
+	Frame 317 {
+		Orientation	0.332414 0 0 0.943134
+	}
+	Frame 318 {
+		Orientation	0.322862 0 0 0.946446
+	}
+	Frame 319 {
+		Orientation	0.312685 0 0 0.949857
+	}
+	Frame 320 {
+		Orientation	0.301936 0 0 0.953328
+	}
+	Frame 321 {
+		Orientation	0.290666 0 0 0.956824
+	}
+	Frame 322 {
+		Orientation	0.278929 0 0 0.960312
+	}
+	Frame 323 {
+		Orientation	0.266779 0 0 0.963758
+	}
+	Frame 324 {
+		Orientation	0.254271 0 0 0.967133
+	}
+	Frame 325 {
+		Orientation	0.241462 0 0 0.97041
+	}
+	Frame 326 {
+		Orientation	0.228408 0 0 0.973566
+	}
+	Frame 327 {
+		Orientation	0.215169 0 0 0.976577
+	}
+	Frame 328 {
+		Orientation	0.201802 0 0 0.979426
+	}
+	Frame 329 {
+		Orientation	0.188369 0 0 0.982098
+	}
+	Frame 330 {
+		Orientation	0.17493 0 0 0.984581
+	}
+	Frame 331 {
+		Orientation	0.161546 0 0 0.986865
+	}
+	Frame 332 {
+		Orientation	0.148278 0 0 0.988946
+	}
+	Frame 333 {
+		Orientation	0.13519 0 0 0.99082
+	}
+	Frame 334 {
+		Orientation	0.122342 0 0 0.992488
+	}
+	Frame 335 {
+		Orientation	0.109798 0 0 0.993954
+	}
+	Frame 336 {
+		Orientation	0.0976202 0 0 0.995224
+	}
+	Frame 337 {
+		Orientation	0.0858704 0 0 0.996306
+	}
+	Frame 338 {
+		Orientation	0.0746109 0 0 0.997213
+	}
+	Frame 339 {
+		Orientation	0.063904 0 0 0.997956
+	}
+	Frame 340 {
+		Orientation	0.053811 0 0 0.998551
+	}
+	Frame 341 {
+		Orientation	0.0443935 0 0 0.999014
+	}
+	Frame 342 {
+		Orientation	0.0357125 0 0 0.999362
+	}
+	Frame 343 {
+		Orientation	0.0278286 0 0 0.999613
+	}
+	Frame 344 {
+		Orientation	0.0208023 0 0 0.999784
+	}
+	Frame 345 {
+		Orientation	0.0146935 0 0 0.999892
+	}
+	Frame 346 {
+		Orientation	0.00956207 0 0 0.999954
+	}
+	Frame 347 {
+		Orientation	0.00546766 0 0 0.999985
+	}
+	Frame 348 {
+		Orientation	0.00246957 0 0 0.999997
+	}
+	Frame 349 {
+		Orientation	0.000627252 0 0 1
+	}
+	Frame 350 {
+		Visibility 1
+		Position	21.6859	4.89993	21.4312
+		Orientation	0 0 0 1
+	}
+-= Animation: repair, Node turret =-
+	Frame 460 {
+		Visibility 1
+		Position	0.966326	-0.0179749	20.8196
+		Orientation	0 0 0 1
+	}
+	Frame 461 {
+		Orientation	0 0 -0.00334215 0.999994
+	}
+	Frame 462 {
+		Orientation	0 0 -0.0125058 0.999922
+	}
+	Frame 463 {
+		Orientation	0 0 -0.0261952 0.999657
+	}
+	Frame 464 {
+		Orientation	0 0 -0.0431112 0.99907
+	}
+	Frame 465 {
+		Orientation	0 0 -0.0619519 0.998079
+	}
+	Frame 466 {
+		Orientation	0 0 -0.0814153 0.99668
+	}
+	Frame 467 {
+		Orientation	0 0 -0.100204 0.994967
+	}
+	Frame 468 {
+		Orientation	0 0 -0.11703 0.993128
+	}
+	Frame 469 {
+		Orientation	0 0 -0.130617 0.991433
+	}
+	Frame 470 {
+		Orientation	0 0 -0.139697 0.990194
+	}
+	Frame 471 {
+		Orientation	0 0 -0.143005 0.989722
+	}
+	Frame 472 {
+		Orientation	0 0 -0.13537 0.990795
+	}
+	Frame 473 {
+		Orientation	0 0 -0.114605 0.993411
+	}
+	Frame 474 {
+		Orientation	0 0 -0.0839164 0.996473
+	}
+	Frame 475 {
+		Orientation	0 0 -0.0465469 0.998916
+	}
+	Frame 476 {
+		Orientation	0 0 -0.00580758 0.999983
+	}
+	Frame 477 {
+		Orientation	0 0 0.0349414 0.999389
+	}
+	Frame 478 {
+		Orientation	0 0 0.0723368 0.99738
+	}
+	Frame 479 {
+		Orientation	0 0 0.103059 0.994675
+	}
+	Frame 480 {
+		Orientation	0 0 0.123852 0.992301
+	}
+	Frame 481 {
+		Orientation	0 0 0.1315 0.991316
+	}
+	Frame 482 {
+		Orientation	0 0 0.127015 0.991901
+	}
+	Frame 483 {
+		Orientation	0 0 0.114983 0.993367
+	}
+	Frame 484 {
+		Orientation	0 0 0.097535 0.995232
+	}
+	Frame 485 {
+		Orientation	0 0 0.0768101 0.997046
+	}
+	Frame 486 {
+		Orientation	0 0 0.0549683 0.998488
+	}
+	Frame 487 {
+		Orientation	0 0 0.0341849 0.999416
+	}
+	Frame 488 {
+		Orientation	0 0 0.0166428 0.999861
+	}
+	Frame 489 {
+		Orientation	0 0 0.00452268 0.99999
+	}
+	Frame 490 {
+		Visibility 1
+		Position	0.966326	-0.0179749	20.8196
+		Orientation	0 0 0 1
+	}
+-= Animation: open, Node cover =-
+	Frame 200 {
+		Visibility 1
+		Position	-11.4955	-0.0982298	5.91766
+		Orientation	0 0 0 1
+	}
+	Frame 201 {
+		Orientation	0 -0.0204752 0 0.99979
+	}
+	Frame 202 {
+		Orientation	0 -0.0759827 0 0.997109
+	}
+	Frame 203 {
+		Orientation	0 -0.157306 0 0.98755
+	}
+	Frame 204 {
+		Orientation	0 -0.254587 0 0.96705
+	}
+	Frame 205 {
+		Orientation	0 -0.35756 0 0.93389
+	}
+	Frame 206 {
+		Orientation	0 -0.456349 0 0.889801
+	}
+	Frame 207 {
+		Orientation	0 -0.542445 0 0.840091
+	}
+	Frame 208 {
+		Orientation	0 -0.609359 0 0.792895
+	}
+	Frame 209 {
+		Orientation	0 -0.652463 0 0.75782
+	}
+	Frame 210 {
+		Visibility 1
+		Position	-11.4955	-0.0982296	5.91766
+		Orientation	0 -0.667843 0 0.744302
+	}
+-= Animation: open, Node gun_rot =-
+	Frame 200 {
+		Visibility 1
+		Position	1.20049	-1.2689	11.6807
+		Orientation	0.707107 0 0 0.707107
+	}
+	Frame 201 {
+		Orientation	0.70696 0.0144081 0.0144081 0.70696
+	}
+	Frame 202 {
+		Orientation	0.705082 0.0534687 0.0534687 0.705082
+	}
+	Frame 203 {
+		Orientation	0.698388 0.110699 0.110699 0.698388
+	}
+	Frame 204 {
+		Orientation	0.684031 0.179169 0.179169 0.684031
+	}
+	Frame 205 {
+		Orientation	0.660806 0.251666 0.251666 0.660806
+	}
+	Frame 206 {
+		Orientation	0.629921 0.321246 0.321246 0.629921
+	}
+	Frame 207 {
+		Orientation	0.595094 0.38192 0.38192 0.595094
+	}
+	Frame 208 {
+		Orientation	0.562022 0.429105 0.429105 0.562022
+	}
+	Frame 209 {
+		Orientation	0.537441 0.459519 0.459519 0.537441
+	}
+	Frame 210 {
+		Visibility 1
+		Position	1.20049	-1.2689	11.6807
+		Orientation	0.527966 0.470374 0.470374 0.527966
+	}
+-= Animation: open_back, Node door_back =-
+	Frame 430 {
+		Visibility 1
+		Position	-39.6382	0	-6.97498
+		Orientation	0 0 0 1
+	}
+	Frame 431 {
+		Orientation	0 0.0232108 0 0.999731
+	}
+	Frame 432 {
+		Orientation	0 0.0861125 0 0.996285
+	}
+	Frame 433 {
+		Orientation	0 0.178115 0 0.98401
+	}
+	Frame 434 {
+		Orientation	0 0.287695 0 0.957722
+	}
+	Frame 435 {
+		Orientation	0 0.402747 0 0.915312
+	}
+	Frame 436 {
+		Orientation	0 0.511743 0 0.859139
+	}
+	Frame 437 {
+		Orientation	0 0.605155 0 0.796108
+	}
+	Frame 438 {
+		Orientation	0 0.676362 0 0.736569
+	}
+	Frame 439 {
+		Orientation	0 0.721398 0 0.692521
+	}
+	Frame 440 {
+		Orientation	0 0.737277 0 0.67559
+	}
+	Frame 571 {
+		Orientation	0 0.7301 0 0.68334
+	}
+	Frame 572 {
+		Orientation	0 0.70947 0 0.704735
+	}
+	Frame 573 {
+		Orientation	0 0.676362 0 0.736569
+	}
+	Frame 574 {
+		Orientation	0 0.631598 0 0.775296
+	}
+	Frame 575 {
+		Orientation	0 0.576221 0 0.817294
+	}
+	Frame 576 {
+		Orientation	0 0.511743 0 0.859139
+	}
+	Frame 577 {
+		Orientation	0 0.440276 0 0.897863
+	}
+	Frame 578 {
+		Orientation	0 0.364528 0 0.931193
+	}
+	Frame 579 {
+		Orientation	0 0.287695 0 0.957722
+	}
+	Frame 580 {
+		Orientation	0 0.213283 0 0.976991
+	}
+	Frame 581 {
+		Orientation	0 0.144906 0 0.989445
+	}
+	Frame 582 {
+		Orientation	0 0.0861124 0 0.996285
+	}
+	Frame 583 {
+		Orientation	0 0.0402739 0 0.999189
+	}
+	Frame 584 {
+		Orientation	0 0.0105623 0 0.999944
+	}
+	Frame 585 {
+		Visibility 1
+		Position	-39.6382	0	-6.97498
+		Orientation	0 0 0 1
+	}
+-= Animation: open_driver, Node door_front =-
+	Frame 430 {
+		Visibility 1
+		Position	14.3799	13.2191	21.5895
+		Orientation	0 0 0 1
+	}
+	Frame 431 {
+		Orientation	0 0.0256535 0 0.999671
+	}
+	Frame 432 {
+		Orientation	0 0.0951508 0 0.995463
+	}
+	Frame 433 {
+		Orientation	0 0.196631 0 0.980478
+	}
+	Frame 434 {
+		Orientation	0 0.316974 0 0.948434
+	}
+	Frame 435 {
+		Orientation	0 0.442289 0 0.896873
+	}
+	Frame 436 {
+		Orientation	0 0.559482 0 0.828842
+	}
+	Frame 437 {
+		Orientation	0 0.658164 0 0.752875
+	}
+	Frame 438 {
+		Orientation	0 0.73183 0 0.681488
+	}
+	Frame 439 {
+		Orientation	0 0.777475 0 0.628913
+	}
+	Frame 440 {
+		Orientation	0 0.793353 0 0.608761
+	}
+	Frame 571 {
+		Orientation	0 0.786193 0 0.617982
+	}
+	Frame 572 {
+		Orientation	0 0.765471 0 0.643471
+	}
+	Frame 573 {
+		Orientation	0 0.73183 0 0.681488
+	}
+	Frame 574 {
+		Orientation	0 0.685705 0 0.727879
+	}
+	Frame 575 {
+		Orientation	0 0.627812 0 0.778365
+	}
+	Frame 576 {
+		Orientation	0 0.559482 0 0.828842
+	}
+	Frame 577 {
+		Orientation	0 0.482841 0 0.875708
+	}
+	Frame 578 {
+		Orientation	0 0.400811 0 0.916161
+	}
+	Frame 579 {
+		Orientation	0 0.316974 0 0.948434
+	}
+	Frame 580 {
+		Orientation	0 0.235331 0 0.971915
+	}
+	Frame 581 {
+		Orientation	0 0.160034 0 0.987111
+	}
+	Frame 582 {
+		Orientation	0 0.0951507 0 0.995463
+	}
+	Frame 583 {
+		Orientation	0 0.0445106 0 0.999009
+	}
+	Frame 584 {
+		Orientation	0 0.0116741 0 0.999932
+	}
+	Frame 585 {
+		Visibility 1
+		Position	14.3799	13.2191	21.5895
+		Orientation	0 0 0 1
+	}

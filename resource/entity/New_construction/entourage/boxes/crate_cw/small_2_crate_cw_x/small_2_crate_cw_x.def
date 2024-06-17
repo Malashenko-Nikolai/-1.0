@@ -1,0 +1,15 @@
+{game_entity
+	{Extension "small_2_crate_cw_x.mdl"}
+	{Volume "body1"
+	}
+	{Volume "body2"
+	}
+	{Volume "body3"
+	}
+	{Volume "piece1"
+	}
+	{Volume "piece2"
+	}
+	{Volume "piece3"
+	}
+}

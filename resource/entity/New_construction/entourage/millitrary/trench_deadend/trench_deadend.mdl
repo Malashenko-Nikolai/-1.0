@@ -1,0 +1,166 @@
+;Exported by: Администратор
+;Date:        Sun Jun 03 10:19:13 2012
+;File:        G:\Работа с Pheonix\Редактирование\Мои модели\Фортификация\Концевая ячейка\trench_deadend 4.max
+{Skeleton
+	{bone "trench_deadend"
+		{parameters "CommonMesh;Ground;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "trench_deadend.ply" {Ground} {DecalTarget}}
+		{bone "wood_deadend"
+			{parameters "ground;"}
+			{Position 0	0	-0.867453}
+			{VolumeView "wood_deadend.ply" {Ground}}
+		}
+		{bone "point5"
+			{Position 31.2562	-21.9789	0}
+		}
+		{bone "point3"
+			{Position 50.9277	-0.0374718	0}
+		}
+		{bone "point2"
+			{Position 45.9679	14.6923	0}
+		}
+		{bone "point1"
+			{Position 31.2229	21.5307	0}
+		}
+		{bone "point4"
+			{Position 46.081	-15.0882	0}
+		}
+		{bone "point"
+			{Position -10.0259	21.5307	0}
+		}
+		{bone "point6"
+			{Position -10.0307	-21.9789	0}
+		}
+		{bone "floor"
+			{parameters "ground;"}
+			{Position -3.1238	0.8415	-0.867453}
+			{VolumeView "floor.ply" {Ground}}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 10.669 -21.5034}
+		{Extent 20.737 1.96851}
+		{Axis 1 0}
+	}
+	{Rotate}
+}
+{Obstacle "body1"
+	{Obb2
+		{Center 10.669 21.2064}
+		{Extent 20.737 1.96851}
+		{Axis 1 0}
+	}
+	{Rotate}
+}
+{Obstacle "body2"
+	{Obb2
+		{Center 39.6091 18.8469}
+		{Extent 1.97367 8.99466}
+		{Axis 0.423139 0.906065}
+	}
+	{Rotate}
+}
+{Obstacle "body3"
+	{Obb2
+		{Center 49.4802 8.0005}
+		{Extent 1.9697 8.99379}
+		{Axis 0.96596 0.258691}
+	}
+	{Rotate}
+}
+{Obstacle "body4"
+	{Obb2
+		{Center 49.5591 -7.28023}
+		{Extent 8.99475 1.97408}
+		{Axis 0.342602 0.939481}
+	}
+	{Rotate}
+}
+{Obstacle "body5"
+	{Obb2
+		{Center 39.318 -18.7914}
+		{Extent 8.99388 1.97009}
+		{Axis 0.939753 0.341854}
+	}
+	{Rotate}
+}
+{Area "cut"
+	{Polygon2
+		{Radius 0}
+		{Vertex 46.4702 18.9793}
+		{Vertex 30.4319 25.2541}
+		{Vertex -11.437 22.8975}
+		{Vertex -11.437 -21.9851}
+		{Vertex 30.4319 -24.3679}
+		{Vertex 46.4702 -17.908}
+		{Vertex 55.1445 0}
+	}
+	{Rotate}
+}
+{Volume "body"
+	{Box 1.9685 20.737 12.8318}
+	{Bone "trench_deadend"}
+	{Matrix34
+		0	-2	0
+		2	0	0
+		0	0	2
+		10.669	21.5034	-3.80923
+	}
+}
+{Volume "body1"
+	{Box 1.9685 20.737 12.8318}
+	{Bone "trench_deadend"}
+	{Matrix34
+		0	-2	0
+		2	0	0
+		0	0	2
+		10.669	-21.2064	-3.80923
+	}
+}
+{Volume "body2"
+	{Box 1.9685 8.99353 12.8318}
+	{Bone "trench_deadend"}
+	{Matrix34
+		0.845237	-1.81262	0
+		1.81262	0.845237	0
+		0	0	2
+		39.6091	-18.8469	-3.80923
+	}
+}
+{Volume "body3"
+	{Box 1.9685 8.99353 12.8318}
+	{Bone "trench_deadend"}
+	{Matrix34
+		1.93185	-0.517638	0
+		0.517638	1.93185	0
+		0	0	2
+		49.4802	-8.0005	-3.80923
+	}
+}
+{Volume "body4"
+	{Box 1.9685 8.99353 12.8318}
+	{Bone "trench_deadend"}
+	{Matrix34
+		1.87939	0.68404	0
+		-0.68404	1.87939	0
+		0	0	2
+		49.5591	7.28023	-3.80923
+	}
+}
+{Volume "body5"
+	{Box 1.9685 8.99353 12.8318}
+	{Bone "trench_deadend"}
+	{Matrix34
+		0.68404	1.87939	0
+		-1.87939	0.68404	0
+		0	0	2
+		39.318	18.7914	-3.80923
+	}
+}

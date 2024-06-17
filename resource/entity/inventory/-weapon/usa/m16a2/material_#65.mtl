@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "m16a1_body_c"}
+	{bump "m16a1_body_b"}
+;	{specular "m16a1_body_s"}
+	{color "230 230 230 25"}
+	{blend none}
+}

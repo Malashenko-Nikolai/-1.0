@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "prop_tubedetails1"}
+	{blend none}
+}

@@ -1,0 +1,60 @@
+;Exported by: Vorabat
+;Date:        Mon Apr 26 21:41:01 2010
+;File:        C:\Users\Vorabat\Documents\3dsmax\scenes\leniniki.max
+{Skeleton
+	{bone "body"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "body.ply"}
+	}
+}
+{Obstacle "box02"
+	{Obb2
+		{Center 17.2308 2.82751}
+		{Extent 179.517 479.092}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "box03"
+	{Obb2
+		{Center -170.396 -176.145}
+		{Extent 27.2116 37.6071}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "box04"
+	{Obb2
+		{Center -187.212 -265.424}
+		{Extent 2.29312 1.98737}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "box02"
+	{Polyhedron "box02.vol"}
+	{Bone "body"}
+	{Position 19.6578	-2.82752	0}
+}
+{Volume "box03"
+	{Box 54.4232 75.2141 61.1497}
+	{Bone "body"}
+	{Position -170.396	176.145	30.5749}
+}
+{Volume "box04"
+	{Box 4.58624 3.97473 61.1497}
+	{Bone "body"}
+	{Position -187.212	265.424	30.5749}
+}
+{Volume "box05"
+	{Box 60.1027 140.096 5.62112}
+	{Bone "body"}
+	{Position -174.846	204.501	59.8991}
+}

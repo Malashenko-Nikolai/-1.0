@@ -1,0 +1,17 @@
+{breed
+	{behaviour soldier}
+	{skin "ussr_soldier_berezka"}
+	{portrait ussr_scout}
+	{icon_priority 0}
+	{nationality rus}
+	{armors
+		{body belt_a2}
+	}
+	{inventory
+		{item "aks74u_3" filling "54539_30 ammo" 30}
+		{item "pb" filling "918_8 ammo" 8}
+		{item "knife_ger"}
+		{item "54539_30 ammo" 20}
+		{in_hands 0}
+	}
+}

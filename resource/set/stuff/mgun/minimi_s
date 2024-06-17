@@ -1,0 +1,16 @@
+{from "pattern mgun"
+	{filling "ammo 55645_200" 200}
+	{entity "minimi_s"}
+	{fireSound	"small_arms/m249/"}
+	{reloadSound "m249_reload"}
+
+	("recoveryTime" r(850))
+	("burst_long")
+	("speed" s(915))
+	{range 90 100}
+	{Spreading 1
+		{SpreadPower	1}
+		{BurstAccuracy 100.0 98.0 95.0 93.0 90.0 89.0 85.0 82.0 80.0 78.0 75.0 72.0 70.0 50.0}
+	}
+	{healthDamage 210}
+}

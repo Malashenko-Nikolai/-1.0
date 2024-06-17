@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "machete_dif"}
+	{specular "machete_spec"}
+	{color "229 229 229 50"}
+	{blend test}
+}

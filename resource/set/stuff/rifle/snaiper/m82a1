@@ -1,0 +1,14 @@
+{from "pattern sniper_rifle"
+	{filling "ammo 12799_10" 10}
+	{inventory
+		{size 6 2 }
+	}
+	{entity "m82a1"}
+	{fireSound "rifle/M82_Shot"}
+	{reloadSound "M82_Reload"}
+	{healthDamage 400}
+	{recoveryTime 1.85}
+   	{RelaxationTime 3}
+	{projectileDamageTable {0 25} {35 20} {50 17} {80 12} {100 10}}
+	{projectileDamageThreshold 1}
+}

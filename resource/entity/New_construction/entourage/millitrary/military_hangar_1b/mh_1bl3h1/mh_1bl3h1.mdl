@@ -1,0 +1,93 @@
+;Exported by: Наталья
+;Date:        Mon May 07 00:47:17 2012
+;File:        G:\military_angar\Ангар рабочий\Ангар рабочий\Новая папка\Untitled.max
+{Skeleton
+	{bone "mh_1bl3h1"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "mh_1bl3h1.ply"}
+		{bone "fix07"
+			{Position -52.6591	-50.0999	35.2992}
+		}
+		{bone "fix06"
+			{Position 61.1164	-50.1082	30.0877}
+		}
+		{bone "fix05"
+			{Position -66.6749	-22.8768	36.946}
+		}
+	}
+}
+{Obstacle "roof5"
+	{Obb2
+		{Center -31.4116 27.5812}
+		{Extent 30.7257 30.4705}
+		{Axis 1 0}
+	}
+	{Rotate}
+}
+{Obstacle "roof6"
+	{Obb2
+		{Center 38.9229 5.37974}
+		{Extent 39.6089 52.6719}
+		{Axis 1 0}
+	}
+	{Rotate}
+}
+{Volume "body10"
+	{Polyhedron "body10.vol"}
+	{Bone "mh_1bl3h1"}
+	{Matrix34
+		0	1	0
+		-1	0	0
+		0	0	1
+		-66.6748	-31.605	94.0135
+	}
+}
+{Volume "body11"
+	{Polyhedron "body11.vol"}
+	{Bone "mh_1bl3h1"}
+	{Position -52.6591	-50.1082	81.4115}
+}
+{Volume "body12"
+	{Polyhedron "body12.vol"}
+	{Bone "mh_1bl3h1"}
+	{Position 61.1164	-50.1082	80.0188}
+}
+{Volume "body13"
+	{Polyhedron "body13.vol"}
+	{Bone "mh_1bl3h1"}
+	{Position 3.88275	-54.0179	99.8476}
+}
+{Volume "lamp1"
+	{Box 8.32071 6.42441 8.96228}
+	{Bone "mh_1bl3h1"}
+	{Matrix34
+		0.981293	-0.191789	0.0167791
+		0.132035	0.733858	0.666348
+		-0.140112	-0.651667	0.745452
+		59.882	-66.1995	98.9776
+	}
+}
+{Volume "roof5"
+	{Polyhedron "roof5.vol"}
+	{Bone "mh_1bl3h1"}
+	{Matrix34
+		-1	0	0
+		0	-1	0
+		0	0	1
+		-31.6051	-19.3122	121.208
+	}
+}
+{Volume "roof6"
+	{Polyhedron "roof6.vol"}
+	{Bone "mh_1bl3h1"}
+	{Matrix34
+		-1	0	0
+		0	-1	0
+		0	0	1
+		30.0397	25.0907	121.208
+	}
+}

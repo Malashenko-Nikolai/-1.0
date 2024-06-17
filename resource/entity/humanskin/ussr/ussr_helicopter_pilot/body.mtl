@@ -1,0 +1,4 @@
+{material simple
+    {diffuse "$/humanskin/ussr_soldier_helicopter_pilot_body_dif"}
+    {blend none}
+}

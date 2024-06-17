@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/humanskin_1/sniper_body2_diff"}
+	{blend none}
+}

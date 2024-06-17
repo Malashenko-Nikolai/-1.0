@@ -1,0 +1,27 @@
+{game_entity
+	{Extension "big_crate_cw_xx.mdl"}
+	{Volume "body1"
+	}
+	{Volume "body2"
+	}
+	{Volume "body3"
+	}
+	{Volume "body4"
+	}
+	{Volume "body5"
+	}
+	{Volume "body6"
+	}
+	{Volume "piece1"
+	}
+	{Volume "piece2"
+	}
+	{Volume "piece3"
+	}
+	{Volume "piece4"
+	}
+	{Volume "piece5"
+	}
+	{Volume "piece6"
+	}
+}

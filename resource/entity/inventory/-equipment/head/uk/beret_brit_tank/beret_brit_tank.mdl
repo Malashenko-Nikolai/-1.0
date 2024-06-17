@@ -1,0 +1,41 @@
+;Exported by: Администратор
+;Date:        Wed Jul 30 21:45:56 2014
+;File:        C:\Documents and Settings\Администратор\Мои документы\3dsMax\scenes\UAHM\-equipment\-head\beret_brit_tank.max
+{Skeleton
+	{bone "drawcall_0037"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "drawcall_0037.ply"}
+		{bone "handle"
+			{Matrix34
+				1	0	0
+				0	0	1
+				0	-1	0
+				2.28439	-0.0268076	2.00731
+			}
+		}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "drawcall_0037"}
+	{Matrix34
+		1	0	0
+		0	-1	0
+		0	0	-1
+		-0.0178143	-0.0220262	2.07695
+	}
+}
+{Volume "select"
+	{Polyhedron "select.vol"}
+	{Bone "drawcall_0037"}
+	{Matrix34
+		1	0	0
+		0	-1	0
+		0	0	-1
+		-0.0156766	-0.0220262	2.07695
+	}
+}

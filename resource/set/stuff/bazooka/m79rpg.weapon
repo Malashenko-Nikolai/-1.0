@@ -1,0 +1,11 @@
+{from "pattern rpg_weapon"
+	{filling "ammo m79rpg" 1}
+	{fillingVisible "rocket"}
+	{preloaded}
+	{entity "m79rpg"}
+	{projectileDamage 400}
+	{fireSound "bazooka/pzf3"}
+	{reloadSound "gunstav_reload"}
+	("speed" s(250))
+	{range 30 40}
+}

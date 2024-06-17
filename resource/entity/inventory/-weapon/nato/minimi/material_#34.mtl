@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "minimi_components_c"}
+	{bump "minimi_components_b"}
+	{specular "minimi_components_s"}
+	{color "230 230 230 25"}
+	{blend none}
+}

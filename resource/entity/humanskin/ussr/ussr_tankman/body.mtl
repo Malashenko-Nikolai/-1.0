@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/humanskin/sov/sov_tanker_dif"}
+	{blend none}
+}

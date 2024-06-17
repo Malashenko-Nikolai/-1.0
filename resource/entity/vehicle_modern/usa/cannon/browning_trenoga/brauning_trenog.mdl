@@ -1,0 +1,113 @@
+;Exported by: Администратор
+;Date:        Tue Jul 29 23:31:03 2014
+;File:        C:\Documents and Settings\Администратор\Мои документы\3dsMax\scenes\WIC\US\vehicle\statik\brauning_trenog.max
+{Skeleton
+	{animation
+		{sequence "close" {speed 0.5}}
+	}
+	{bone revolute "basis"
+		{speed 0.01}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "emit1"
+			{Position -13.9461	12.369	1.55034}
+		}
+		{bone "emit2"
+			{Position -13.7828	-13.6119	1.55035}
+		}
+		{bone "driver2"
+			{Matrix34
+				0.999858	0.0168627	0
+				-0.0168627	0.999858	0
+				0	0	1
+				-7.88638	-6.09797	0.24281
+			}
+		}
+		{bone "driver1"
+			{Matrix34
+				0.999858	0.0168627	0
+				-0.0168627	0.999858	0
+				0	0	1
+				6.72579	7.35868	0.24281
+			}
+		}
+		{bone "body"
+			{parameters "ID=body;"}
+			{Matrix34
+				0.999858	0.0168627	0
+				-0.0168627	0.999858	0
+				0	0	1
+				-1.25063	-0.198574	21.1464
+			}
+			{VolumeView "body.ply"}
+			{bone revolute "turret"
+				{parameters "ID=turret;"}
+				{Position -0.173753	0.00132084	3.87687}
+				{VolumeView "turret.ply"}
+				{bone revolute "mgun_rot"
+					{parameters "ID=mgun;"}
+					{limits -20 20}
+					{Matrix34
+						1	0	0
+						0	0	-1
+						0	1	0
+						-0.0584786	0.0391426	-0.750544
+					}
+					{bone "mgun"
+						{parameters "ID=mgun;"}
+						{Matrix34
+							1	0	0
+							0	0	1
+							0	-1	0
+							7.02539	0.894979	4.28719
+						}
+						{VolumeView "mgun.ply"}
+						{bone "foresight3"
+							{Position 17.933	-4.34132	2.59654}
+						}
+						{bone "visor1"
+							{Matrix34
+								0	1	0
+								0	0	1
+								1	0	0
+								-1.63502	-4.16888	4.34381
+							}
+						}
+					}
+				}
+				{bone "commander"
+					{Position -5.40709	9.81031	-24.9399}
+				}
+				{bone "gunner"
+					{Matrix34
+						0.996195	-0.0871557	0
+						0.0871557	0.996195	0
+						0	0	1
+						-15.7815	-0.492969	-24.9489
+					}
+				}
+			}
+			{bone "obj2"
+				{Position 0.0436831	-0.0302833	1.46458}
+				{VolumeView "obj2.ply"}
+				{bone "obj02"
+					{Position 2.51164	0.0558658	-11.1518}
+					{VolumeView "obj02.ply"}
+				}
+			}
+		}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "body"}
+	{Position 0.0582892	0.0112591	-18.7047}
+}
+{Volume "turret"
+	{Polyhedron "turret.vol"}
+	{Bone "turret"}
+	{Position 0.263481	9.63435e-005	-1.53754}
+}

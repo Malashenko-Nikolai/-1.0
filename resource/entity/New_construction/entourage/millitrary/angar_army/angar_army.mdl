@@ -1,0 +1,213 @@
+;Exported by: User
+;Date:        Wed Oct 21 00:38:55 2015
+;File:        C:\Users\User\Desktop\пробы моделей\новинки\1233.max
+{Skeleton
+	{bone "body"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "body.ply"}
+		{bone "exterior"
+			{Orientation
+				0.999383	0.035109	0.000746244
+				-0.0350772	0.999047	-0.0259814
+				-0.00165771	0.0259391	0.999662
+			}
+			{VolumeView "exterior.ply"}
+		}
+		{bone "land"
+			{Orientation
+				0.999383	0.0351087	0.00074625
+				-0.0350775	0.999047	-0.0259814
+				-0.00165771	0.0259391	0.999662
+			}
+                        {parameters "Land;Ground;"}
+                        {VolumeView "land.ply" {Ground} {DecalTarget}}
+		}
+	}
+}
+{Obstacle "box01"
+	{Obb2
+		{Center 210.826 324.7}
+		{Extent 42.3089 1.45749}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "box02"
+	{Obb2
+		{Center -217.768 327.166}
+		{Extent 49.7512 1.24527}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "cylinder01"
+	{Obb2
+		{Center 249.728 -61.2277}
+		{Extent 23.6121 406.905}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Area "interior"
+	{Obb2
+		{Center -2.05873 -73.001}
+		{Extent 240.783 383.718}
+		{Axis 1 0}
+	}
+	{Rotate}
+}
+{Obstacle "object11"
+	{Obb2
+		{Center -251.806 -61.2295}
+		{Extent 24.5851 406.905}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "object14"
+	{Obb2
+		{Center -1.52547 -465.296}
+		{Extent 274.866 2.84084}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "box01"
+	{Polyhedron "box01.vol"}
+	{Bone "body"}
+	{Matrix34
+		1	0	0
+		0	1	-2.62332e-005
+		0	2.62193e-005	1
+		209.283	-329.448	0
+	}
+}
+{Volume "box02"
+	{Polyhedron "box02.vol"}
+	{Bone "body"}
+	{Matrix34
+		1	0	0
+		0	1	-2.62332e-005
+		0	2.62193e-005	1
+		-207.417	-330.377	3.05482e-005
+	}
+}
+{Volume "cylinder01"
+	{Polyhedron "cylinder01.vol"}
+	{Bone "body"}
+	{Matrix34
+		1	0	0
+		0	2.61725e-005	1
+		0	-1	2.61944e-005
+		-2.94729	470.654	1.53344e-005
+	}
+}
+{Volume "object01"
+	{Polyhedron "object01.vol"}
+	{Bone "body"}
+	{Matrix34
+		1	0	0
+		0	2.61725e-005	1
+		0	-1	2.61944e-005
+		-2.94729	470.654	1.53344e-005
+	}
+}
+{Volume "object04"
+	{Polyhedron "object04.vol"}
+	{Bone "body"}
+	{Matrix34
+		1	0	0
+		0	2.61751e-005	1
+		0	-1	2.61944e-005
+		-2.94728	470.655	1.53344e-005
+	}
+}
+{Volume "object07"
+	{Polyhedron "object07.vol"}
+	{Bone "body"}
+	{Matrix34
+		1	0	0
+		0	2.61751e-005	1
+		0	-1	2.61944e-005
+		-2.94728	470.655	1.53344e-005
+	}
+}
+{Volume "object08"
+	{Polyhedron "object08.vol"}
+	{Bone "body"}
+	{Matrix34
+		1	0	0
+		0	2.61751e-005	1
+		0	-1	2.61944e-005
+		-2.94728	470.655	1.53344e-005
+	}
+}
+{Volume "object09"
+	{Polyhedron "object09.vol"}
+	{Bone "body"}
+	{Matrix34
+		1	0	0
+		0	2.61751e-005	1
+		0	-1	2.61944e-005
+		-2.94728	470.655	1.53344e-005
+	}
+}
+{Volume "object10"
+	{Polyhedron "object10.vol"}
+	{Bone "body"}
+	{Matrix34
+		1	0	0
+		0	2.61751e-005	1
+		0	-1	2.61944e-005
+		-2.94728	470.655	1.53344e-005
+	}
+}
+{Volume "object11"
+	{Polyhedron "object11.vol"}
+	{Bone "body"}
+	{Matrix34
+		1	0	0
+		0	2.61845e-005	1
+		0	-1	2.61797e-005
+		-2.94727	470.656	1.53344e-005
+	}
+}
+{Volume "object12"
+	{Polyhedron "object12.vol"}
+	{Bone "body"}
+	{Matrix34
+		1	0	0
+		0	2.61845e-005	1
+		0	-1	2.61797e-005
+		-2.94727	470.656	1.53344e-005
+	}
+}
+{Volume "object13"
+	{Polyhedron "object13.vol"}
+	{Bone "body"}
+	{Matrix34
+		1	0	0
+		0	2.61845e-005	1
+		0	-1	2.61797e-005
+		2.68303	-326.403	120.49
+	}
+}
+{Volume "object14"
+	{Polyhedron "object14.vol"}
+	{Bone "body"}
+	{Matrix34
+		1	0	0
+		0	2.61845e-005	1
+		0	-1	2.61797e-005
+		-2.94727	470.656	1.53344e-005
+	}
+}

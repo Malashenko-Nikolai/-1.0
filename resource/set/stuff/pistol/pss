@@ -1,0 +1,8 @@
+{from "pattern pistol"
+	{filling "ammo 76242_6" 6}
+	{entity "pss"}
+	{fireSound	"pistol/silent/"}
+	{reloadSound "tt"}
+	{range 25 30}
+	{healthDamage 300}
+}

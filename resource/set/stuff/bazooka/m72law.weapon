@@ -1,0 +1,14 @@
+{from "pattern rpg_weapon"
+	{filling "ammo m72lawrocket" 1}
+	{preloaded}
+	{inventory
+		{size 6 1}
+	}
+	{mass 2.36}
+	{entity "m72law"}
+	{fireSound "bazooka/m72_fire"}
+	{ammoLocked}
+    {projectileDamage 350}
+	{range 25 35}
+	("speed" s(80))
+}

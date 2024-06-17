@@ -1,0 +1,21 @@
+{game_entity
+	(include "/properties/post.inc")
+	{props "cornered" "concrete" "parts" "construction" "wall"}
+	("armor_medium" args 0.7)
+
+	{Extension "military_hangar_lamp.mdl"}
+{extender "structure_bone"	
+		{hold "lamp"}
+	}
+
+	{Volume "lamp1"
+		{Thickness 1}
+		{able {obstacle 0}}
+	}
+{extender "light"
+		{lamp "1"}
+		{lightfx "light_wall"}
+	}
+}
+
+

@@ -1,0 +1,15 @@
+{breed
+	{behaviour soldier}
+	{skin "ussr_soldier_navy"}
+	{portrait ussr_navy}
+	{icon_priority 0}
+	{nationality rus}
+	{inventory
+		{item "ak74b" filling "54539_30 ammo" 30}
+		{item "54539_30 ammo" 200}
+		{item "f1 grenade" 2}
+		{item "rgo grenade" 3}
+		{item "bandage" 10}
+		{in_hands 0}
+	}
+}

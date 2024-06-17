@@ -1,0 +1,18 @@
+{bullet
+;	{tag "ammo shell itemin2hands big size_big shell_verybig ap rocketlauncher dropboxed no_ricochet cumulative"}
+	{tag "ammo ap shell dropboxed cumulative pierce"}
+	{inventory
+		{weight 100}
+		{size 2 1}
+	}	
+	{damage blastwave
+		{energy 1}
+		{area 2 8}
+	}
+
+	{cumulative 1.5}
+	{mass 2.75}
+
+	{detonationThickness 1} ; Explode when hitting armor thicker than 1mm	
+;	{possibleDamageRadius 0.1}
+}

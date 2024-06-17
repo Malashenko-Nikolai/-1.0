@@ -1,0 +1,12 @@
+{from "pattern smg"
+	{filling "ammo 919_34" 34}
+	{entity "sterling"}
+	{fireSound	"smg/sterling_fire/"}
+	{reloadSound "sterling_reload"}
+	
+	{range 50 60}
+	{healthDamage 200}
+	("recoveryTime" r(550))
+	("burst_short")
+ 	("speed" s(800))
+}

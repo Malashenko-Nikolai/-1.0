@@ -1,0 +1,19 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{props "sand" "sandbag" "heap" "construction" "burning" "no_destroyed_stamp" "one" "staged" }
+
+	{Extension "box_sand_fortification.mdl"}
+;	{Extender "land_patch"
+;		{updateentities 0}
+;	}
+	{Extender "land_patch"
+		{updateentities 0}
+		{TerrainType "road" "bridge"} 
+	}
+	{NoGroupMesh 1}
+	{Volume "body"
+		{Tags  "body" "climb"}
+		{Thickness 50}
+		{able {visible 1}{touch}}
+	}
+}

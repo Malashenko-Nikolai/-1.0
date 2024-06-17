@@ -1,0 +1,50 @@
+;Exported by: Sea-Knight
+;Date:        Mon Nov 23 20:59:50 2020
+;File:        D:\Users\Sea-Knight\Documents\3dsMax\scenes\3D-Work\-Vietnam\-Inventory\-Stuff\-Head\USA\-Army\pasgt_helmet_glasses.max
+{Skeleton
+	{bone "pasgt_helmet_glasses"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "pasgt_helmet_glasses.ply"}
+		{bone "handle"
+			{Position 0.969802	0.161941	3.77281}
+		}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "pasgt_helmet_glasses"}
+	{Position 0.18366	0.156143	1.30823}
+}
+{Volume "select"
+	{Polyhedron "select.vol"}
+	{Bone "pasgt_helmet_glasses"}
+	{Position 0.18366	0.14927	0.978936}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 6.44811	0.0221362	3.66371}
+			{lookat -9.91918	-0.352728	0.870698}
+			{fov 45}
+			{horizon -0.200769}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.171162	0.146829	-0.446256}
+			}
+			{"1"
+				{type directional}
+				{direction -0.189277	0.266067	0.378659}
+			}
+			{"2"
+				{type directional}
+				{direction -0.105484	-0.229601	-0.431458}
+			}
+		}
+	}
+}

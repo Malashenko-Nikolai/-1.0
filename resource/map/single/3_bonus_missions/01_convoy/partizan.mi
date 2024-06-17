@@ -1,0 +1,2069 @@
+{mission
+	{Entity "browning_trenoga" 0xa002
+		{Position -1547.18 524.66}
+		{xform zl -55.68}
+		{Placer
+			{State "driver1" {Disable}}
+			{State "driver2" {Disable}}
+		}
+		{Extender "cannon"
+			{animation
+				{switch close}
+			}
+		}
+		{Player 1}
+		{MID 3}
+	}
+	{Entity "box_weapon" 0xe000
+		{Position -2114.62 821.05}
+		{xform zl -99.66}
+	}
+	{Human "single/usa/rifle" 0xe806
+		{Position -1277.55 -365.53}
+		{Player 1}
+		{MID 13}
+		{NameId 86 72}
+		{FsmState "stand"}
+	}
+	{Entity "m16a2" 0xe807
+		{Extender "stuff"
+			{Item "m16a2" filled}
+		}
+	}
+	{Entity "humvee" 0xc008
+		{Position 1858.77 230.17}
+		{xform zl -172.25}
+		{Player 1}
+		{MID 20}
+		{Weaponry
+			{State
+				{Weapon "browning" filling "hmgun" "ammo" 77}
+				{Ammo "weapon_bullet"
+					{reload}
+				}
+			}
+		}
+	}
+	{Human "single/usa/mgun" 0xc00a
+		{Position 1854.09 243.02}
+		{xform zl -82.25}
+		{Player 1}
+		{MID 22}
+		{NameId 50 102}
+		{LastItem "m249"}
+	}
+	{Entity "m249" 0xc00b
+		{Extender "stuff"
+			{Item "m249" filled}
+		}
+	}
+	{Human "single/usa/rifle" 0xc00c
+		{Position 1857.65 216.87}
+		{xform zl 142.75}
+		{Player 1}
+		{MID 23}
+		{NameId 146 51}
+		{LastItem "m16a2"}
+	}
+	{Entity "m16a2" 0xc00d
+		{Extender "stuff"
+			{Item "m16a2" filled}
+		}
+	}
+	{Human "single/usa/rifle" 0xc00e
+		{Position 1863.76 230.89}
+		{xform zl -172.25}
+		{Player 1}
+		{MID 24}
+		{NameId 145 90}
+		{LastItem "m16a2"}
+	}
+	{Entity "m16a2" 0xc00f
+		{Extender "stuff"
+			{Item "m16a2" filled}
+		}
+	}
+	{Human "single/usa/officer" 0xc010
+		{Position 1869.35 245.1}
+		{xform zl 142.75}
+		{Player 1}
+		{MID 25}
+		{NameId 31 57}
+		{LastItem "mk16"}
+	}
+	{Entity "mk16" 0xc011
+		{Extender "stuff"
+			{Item "mk16" filled}
+		}
+	}
+	{Human "single/ussr/gru" 0x8003
+		{Position 1906.42 -288.19}
+		{xform zl -176.12}
+		{SpawnedInFog}
+		{Player 2}
+		{MID 16}
+		{NameId 80 1}
+		{LastThrowItem "smoke grenade"}
+		{FsmState "stand"}
+	}
+	{Entity "aks74u" 0x8004
+		{Extender "stuff"
+			{Item "aks74u" filling "54539_30" "ammo" 80}
+		}
+	}
+	{Human "single/ussr/scout" 0x8005
+		{Position 1907.25 -347.35}
+		{xform zl 149.52}
+		{SpawnedInFog}
+		{Player 2}
+		{MID 17}
+		{NameId 39 57}
+		{LastThrowItem "f1 grenade"}
+		{FsmState "stand"}
+	}
+	{Entity "aks74u_3" 0x8006
+		{Extender "stuff"
+			{Item "aks74u_3" filled}
+		}
+	}
+	{Entity "m249" 0xe009
+		{Extender "stuff"
+			{Item "m249" filled}
+		}
+	}
+	{Human "single/usa/mgun" 0xe00a
+		{Position 1593.43 146.22}
+		{xform zl -54.31}
+		{Player 1}
+		{MID 28}
+		{NameId 145 91}
+		{LastItem "m249"}
+	}
+	{Entity "m16a2" 0xe00b
+		{Extender "stuff"
+			{Item "m16a2" filled}
+		}
+	}
+	{Human "single/usa/rifle" 0xe00c
+		{Position 1608.83 124.78}
+		{xform zl 170.69}
+		{Player 1}
+		{MID 30}
+		{NameId 26 14}
+		{LastItem "m16a2"}
+	}
+	{Entity "m16a2" 0xe00d
+		{Extender "stuff"
+			{Item "m16a2" filled}
+		}
+	}
+	{Human "single/usa/rifle" 0xe00e
+		{Position 1607.66 140.04}
+		{xform zl -144.31}
+		{Player 1}
+		{MID 31}
+		{NameId 144 95}
+		{LastItem "m16a2"}
+	}
+	{Entity "humvee" 0xe00f
+		{Position 1603.59 137.06}
+		{xform zl -144.31}
+		{Player 1}
+		{MID 32}
+	}
+	{Entity "m249" 0x9002
+		{Extender "stuff"
+			{Item "m249" filled}
+		}
+	}
+	{Human "single/usa/mgun" 0x9003
+		{Position -493.46 175.04}
+		{xform zl -69.38}
+		{Player 1}
+		{MID 2}
+		{NameId 31 58}
+		{FsmState "stand"}
+	}
+	{Human "special/hint" 0x8008
+		{Position 2123.63 354.48}
+		{xform zl 80 y 70 zw -80}
+		{SpawnedInFog}
+		{Player 2}
+		{MID 6}
+		{NameId 80 3}
+		{FsmState "stand"}
+	}
+	{Human "single/ussr/radioman" 0xc000
+		{Position 2087.05 -196.9}
+		{xform zl 180}
+		{SpawnedInFog}
+		{Player 2}
+		{MID 7}
+		{NameId 80 0}
+		{FsmState "stand"}
+	}
+	{Entity "radio_station" 0xc001
+		{Extender "stuff"
+			{Item "radio_station"}
+		}
+	}
+	{Entity "ak74" 0xc002
+		{Extender "stuff"
+			{Item "ak74" filled}
+		}
+	}
+	{Entity "pointer" 0x8001
+		{Position -482.53 180.01}
+	}
+	{Entity "pointer" 0x8002
+		{Position -486.73 -262.67}
+	}
+	{Entity "m61_grenade" 0x8007
+		{Position -469.3 -260.61}
+	}
+	{Entity "m61_grenade" 0x8013
+		{Position -455.71 211.12}
+	}
+	{Entity "m61_grenade" 0x8014
+		{Position -463.45 205.01}
+	}
+	{Entity "pointer" 0x8010
+		{Position -3699.9 152.79}
+	}
+	{Entity "car15" 0x800f
+		{Extender "stuff"
+			{Item "car15" filled}
+		}
+	}
+	{Human "single/usa/smg" 0x8012
+		{Position -2055.34 503.14}
+		{xform zl 150.52}
+		{Player 1}
+		{MID 8}
+		{NameId 90 1}
+		{LastThrowItem "m67_grenade grenade"}
+		{FsmState "stand"}
+	}
+	{Entity "m16a2" 0xe805
+		{Extender "stuff"
+			{Item "m16a2" filled}
+		}
+	}
+	{Human "single/usa/rifle" 0xe804
+		{Position -1282.8 -395.1}
+		{Player 1}
+		{MID 12}
+		{NameId 106 4}
+		{FsmState "stand"}
+	}
+	{Entity "car15" 0x8015
+		{Extender "stuff"
+			{Item "car15" filled}
+		}
+	}
+	{Human "single/usa/smg" 0x8016
+		{Position -2069.85 525.62}
+		{xform zl -30}
+		{Player 1}
+		{MID 9}
+		{NameId 31 59}
+		{FsmState "stand"}
+	}
+	{Human "single/usa/smg" 0xa000
+		{Position -1182.84 713.9 -0.02}
+		{xform zl -80}
+		{Player 1}
+		{MID 4}
+		{NameId 23 48}
+		{FsmState "stand"}
+	}
+	{Entity "car15" 0xa001
+		{Extender "stuff"
+			{Item "car15" filled}
+		}
+	}
+	{Entity "car15" 0xa003
+		{Extender "stuff"
+			{Item "car15" filled}
+		}
+	}
+	{Human "single/usa/smg" 0xa004
+		{Position -1294.96 721.81 -0.02}
+		{xform zl -100}
+		{Player 1}
+		{MID 5}
+		{NameId 68 98}
+		{FsmState "stand"}
+	}
+	{Human "single/usa/rifle" 0xa005
+		{Position -2440.73 -442.53}
+		{xform zl -80}
+		{Player 1}
+		{MID 10}
+		{NameId 50 101}
+		{FsmState "stand"}
+	}
+	{Entity "m16a2" 0xa006
+		{Extender "stuff"
+			{Item "m16a2" filled}
+		}
+	}
+	{Human "single/usa/rifle" 0xa007
+		{Position -2433.05 -468.05}
+		{xform zl 90}
+		{Player 1}
+		{MID 11}
+		{Weaponry
+			{State
+				{AccuracyByMotion
+					{value 0.75}
+					{prevposition -2444.05 -454.563 24.4256}
+					{prevdirection -0.386324 0.922344 -0.00592303}
+				}
+			}
+		}
+		{NameId 146 50}
+		{FsmState "stand"}
+	}
+	{Entity "m16a2" 0xa008
+		{Extender "stuff"
+			{Item "m16a2" filled}
+		}
+	}
+	{Entity "m151a1" 0xc005
+		{Position 1720.73 201.95}
+		{xform zl -170}
+		{Player 1}
+		{MID 14}
+	}
+	{Human "single/usa/officer" 0xc006
+		{Position 1728.76 194.02}
+		{xform zl 145}
+		{Player 1}
+		{MID 15}
+		{NameId 90 2}
+		{LastItem "mk16"}
+	}
+	{Entity "mk16" 0xc007
+		{Extender "stuff"
+			{Item "mk16" filled}
+		}
+	}
+	{Human "single/usa/rifle" 0xc009
+		{Position 1725.76 210.97}
+		{xform zl -80}
+		{Player 1}
+		{MID 18}
+		{NameId 31 60}
+		{LastItem "m16a2"}
+	}
+	{Entity "m16a2" 0xc012
+		{Extender "stuff"
+			{Item "m16a2" filled}
+		}
+	}
+	{Human "single/usa/rifle" 0xc013
+		{Position 1605.94 155.21}
+		{xform zl 170.69}
+		{Player 1}
+		{MID 19}
+		{NameId 112 27}
+		{LastItem "m16a2"}
+	}
+	{Entity "m16a2" 0xc014
+		{Extender "stuff"
+			{Item "m16a2" filled}
+		}
+	}
+	{Human "single/usa/rifle" 0xc015
+		{Position 1621.34 133.77}
+		{xform zl 170.69}
+		{Player 1}
+		{MID 21}
+		{NameId 23 47}
+		{LastItem "m16a2"}
+	}
+	{Entity "m16a2" 0xc016
+		{Extender "stuff"
+			{Item "m16a2" filled}
+		}
+	}
+	{Human "single/usa/mgun" 0x800a
+		{Position -504.33 -262.79}
+		{Player 1}
+		{MID 1}
+		{NameId 90 0}
+		{FsmState "stand"}
+	}
+	{Entity "m249" 0x800b
+		{Extender "stuff"
+			{Item "m249" filled}
+		}
+	}
+	{Link 0xc00a {0xc008 "driver"}}
+	{Link 0xc00c {0xc008 "commander"}}
+	{Link 0xc00e {0xc008 "gunner"}}
+	{Link 0xc010 {0xc008 "seat1"}}
+	{Link 0xe00a {0xe00f "driver"}}
+	{Link 0xe00c {0xe00f "commander"}}
+	{Link 0xe00e {0xe00f "gunner"}}
+	{Link 0xc013 {0xe00f "seat1"}}
+	{Link 0xc015 {0xe00f "seat2"}}
+	{Link 0xc009 {0xc005 "driver"}}
+	{Link 0xc006 {0xc005 "commander"}}
+	{Tags "keep_places_without_door" 0x209f}
+	{Tags "keep_places_without_door" 0x4800}
+	{Tags "keep_places_without_door" 0x480c}
+	{Tags "box_weapon" 0x128}
+	{Tags "keep_places_without_door" 0x1042}
+	{Tags "keep_places_without_door" 0x200d}
+	{Tags "broyning_mgun" 0xa002}
+	{Tags "ranger_pat_2" 0xe806}
+	{Tags "convoy" "hidden" 0xc008}
+	{Tags "officer_usa" 0xc010}
+	{Tags "hidden" "player" "gru" 0x8003}
+	{Tags "hidden" "player" "scout" 0x8005}
+	{Tags "hidden" "convoy" 0xe00f}
+	{Tags "mguns_usa" 0x9003}
+	{Tags "hidden" "hint" 0x8008}
+	{Tags "radioman" "hidden" 0xc000}
+	{Tags "chekpoint" "pointer" 0x8001}
+	{Tags "chekpoint" "pointer" 0x8002}
+	{Tags "leave" "pointer" 0x8010}
+	{Tags "patrol_ranger_1" 0x8012}
+	{Tags "ranger_pat_2" 0xe804}
+	{Tags "patrol_ranger_1" 0x8016}
+	{Tags "rangers_usa_1" 0xa000}
+	{Tags "rangers_usa_1" 0xa004}
+	{Tags "convoy" "hidden" 0xc005}
+	{Tags "officer" 0xc006}
+	{Inventory 0xe000
+		{box
+			{clear}
+			{item "antipersonnel" "mine" 50 {cell 0 0}}
+			{item "antitank" "mine" 50 {cell 1 0}}
+			{item "antitank" "mine" 50 {cell 3 0}}
+			{item "hedgehog_kit" 50 {cell 5 0}}
+			{item "hedgehog_kit" 50 {cell 0 2}}
+		}
+	}
+	{Inventory 0xe806
+		{box
+			{clear}
+			{item 0xe807 {cell 0 0}{user "hand_right"}}
+			{item "pasgt_helmet" {cell 0 2}{user "head"}}
+		}
+	}
+	{Inventory 0xc00a
+		{box
+			{clear}
+			{item 0xc00b {cell 0 0}}
+			{item "pasgt_helmet" {cell 0 2}{user "head"}}
+		}
+	}
+	{Inventory 0xc00c
+		{box
+			{clear}
+			{item 0xc00d {cell 0 0}}
+			{item "pasgt_helmet" {cell 0 2}{user "head"}}
+		}
+	}
+	{Inventory 0xc00e
+		{box
+			{clear}
+			{item 0xc00f {cell 0 0}}
+			{item "pasgt_helmet" {cell 0 2}{user "head"}}
+		}
+	}
+	{Inventory 0xc010
+		{box
+			{clear}
+			{item 0xc011 {cell 0 0}}
+			{item "bdu_cap" {cell 0 2}{user "head"}}
+		}
+	}
+	{Inventory 0x8003
+		{box
+			{clear}
+			{item 0x8004 {cell 0 0}{user "hand_right"}}
+			{item "pm_sil" filling "918_8" "ammo" 10 {cell 0 2}}
+			{item "54539_30" "ammo" 30 {cell 5 0}}
+			{item "belt_a2" {cell 4 2}{user "body"}}
+			{item "bandage" 5 {cell 2 2}}
+			{item "f1" "grenade" {cell 5 2}}
+			{item "rus_afg_ermolka" {cell 0 3}{user "head"}}
+			{item "smoke" "grenade" {cell 2 3}}
+			{item "rgo" "grenade" {cell 4 3}}
+		}
+	}
+	{Inventory 0x8005
+		{box
+			{clear}
+			{item 0x8006 {cell 0 0}}
+			{item "pb" filled {cell 0 2}}
+			{item "knife_ger" {cell 2 2}}
+			{item "belt_a2" {cell 4 2}{user "body"}}
+			{item "54539_30" "ammo" 30 {cell 5 0}}
+			{item "bandage" 4 {cell 0 3}}
+			{item "smoke" "grenade" {cell 2 3}}
+			{item "f1" "grenade" {cell 4 3}}
+			{item "rgn" "grenade" {cell 5 2}}
+			{item "rus_afg_sh68_ermolka" {cell 0 4}{user "head"}}
+		}
+	}
+	{Inventory 0xe00a
+		{box
+			{clear}
+			{item 0xe009 {cell 0 0}}
+			{item "pasgt_helmet" {cell 0 2}{user "head"}}
+		}
+	}
+	{Inventory 0xe00c
+		{box
+			{clear}
+			{item 0xe00b {cell 0 0}}
+			{item "pasgt_helmet" {cell 0 2}{user "head"}}
+		}
+	}
+	{Inventory 0xe00e
+		{box
+			{clear}
+			{item 0xe00d {cell 0 0}}
+			{item "pasgt_helmet" {cell 0 2}{user "head"}}
+		}
+	}
+	{Inventory 0x9003
+		{box
+			{clear}
+			{item 0x9002 {cell 0 0}{user "hand_right"}}
+			{item "pasgt_helmet" {cell 0 2}{user "head"}}
+			{item "bandage" 5 {cell 2 2}}
+			{item "bandage" 5 {cell 2 3}}
+			{item "m67_grenade" "grenade" {cell 5 0}}
+			{item "m67_grenade" "grenade" {cell 5 1}}
+			{item "m67_grenade" "grenade" {cell 5 2}}
+			{item "55645_200" "ammo" 200 {cell 0 4}}
+			{item "55645_200" "ammo" 200 {cell 2 4}}
+		}
+	}
+	{Inventory 0x8008
+		{box
+			{clear}
+			{item "b33r" {cell 0 0}}
+			{item "winterhat" {cell 3 0}{user "head"}}
+		}
+	}
+	{Inventory 0xc000
+		{box
+			{clear}
+			{item 0xc001 {cell 0 0}}
+			{item 0xc002 {cell 0 4}{user "hand_right"}}
+			{item "belt_a" {cell 3 0}{user "body"}}
+		}
+	}
+	{Inventory 0x8012
+		{box
+			{clear}
+			{item 0x800f {cell 0 0}}
+			{item "pasgt_helmet" {cell 0 2}{user "head"}}
+			{item "bandage" 5 {cell 2 2}}
+			{item "bandage" 5 {cell 4 2}}
+			{item "bandage" 5 {cell 2 3}}
+			{item "bandage" 5 {cell 4 3}}
+			{item "bandage" 5 {cell 0 4}}
+			{item "m61_grenade" "grenade" {cell 5 1}}
+			{item "m67_grenade" "grenade" {cell 5 0}{user "hand_right"}}
+			{item "m67_grenade" "grenade" {cell 2 4}}
+			{item "55645_30ar" "ammo" 30 {cell 3 4}}
+			{item "55645_30ar" "ammo" 30 {cell 4 4}}
+			{item "55645_30ar" "ammo" 30 {cell 5 4}}
+			{item "55645_30ar" "ammo" 30 {cell 0 5}}
+			{item "55645_30ar" "ammo" 30 {cell 1 5}}
+			{item "55645_30ar" "ammo" 30 {cell 2 5}}
+			{item "55645_30ar" "ammo" 30 {cell 3 6}}
+			{item "55645_30ar" "ammo" 30 {cell 4 6}}
+			{item "55645_30ar" "ammo" 30 {cell 5 6}}
+		}
+	}
+	{Inventory 0xe804
+		{box
+			{clear}
+			{item 0xe805 {cell 0 0}{user "hand_right"}}
+			{item "pasgt_helmet" {cell 0 2}{user "head"}}
+			{item "55645_30ar" "ammo" 30 {cell 5 0}}
+			{item "55645_30ar" "ammo" 30 {cell 2 2}}
+			{item "55645_30ar" "ammo" 30 {cell 3 2}}
+			{item "55645_30ar" "ammo" 30 {cell 4 2}}
+			{item "55645_30ar" "ammo" 30 {cell 5 2}}
+			{item "55645_30ar" "ammo" 30 {cell 0 4}}
+			{item "55645_30ar" "ammo" 30 {cell 1 4}}
+			{item "55645_30ar" "ammo" 30 {cell 2 4}}
+			{item "55645_30ar" "ammo" 30 {cell 3 4}}
+		}
+	}
+	{Inventory 0x8016
+		{box
+			{clear}
+			{item 0x8015 {cell 0 0}}
+			{item "pasgt_helmet" {cell 0 2}{user "head"}}
+			{item "bandage" 5 {cell 2 2}}
+			{item "bandage" 5 {cell 4 2}}
+			{item "bandage" 5 {cell 2 3}}
+			{item "bandage" 5 {cell 4 3}}
+			{item "bandage" 5 {cell 0 4}}
+			{item "m61_grenade" "grenade" {cell 5 1}}
+			{item "m67_grenade" "grenade" {cell 5 0}}
+			{item "m67_grenade" "grenade" {cell 2 4}}
+			{item "55645_30ar" "ammo" 30 {cell 3 4}}
+			{item "55645_30ar" "ammo" 30 {cell 4 4}}
+			{item "55645_30ar" "ammo" 30 {cell 5 4}}
+			{item "55645_30ar" "ammo" 30 {cell 0 5}}
+			{item "55645_30ar" "ammo" 30 {cell 1 5}}
+			{item "55645_30ar" "ammo" 30 {cell 2 5}}
+			{item "55645_30ar" "ammo" 30 {cell 3 6}}
+			{item "55645_30ar" "ammo" 30 {cell 4 6}}
+			{item "55645_30ar" "ammo" 30 {cell 5 6}}
+		}
+	}
+	{Inventory 0xa000
+		{box
+			{clear}
+			{item 0xa001 {cell 0 0}}
+			{item "55645_30ar" "ammo" 30 {cell 5 0}}
+			{item "55645_30ar" "ammo" 20 {cell 0 2}}
+			{item "m67_grenade" "grenade" {cell 1 2}}
+			{item "m67_grenade" "grenade" {cell 2 2}}
+			{item "m67_grenade" "grenade" {cell 3 2}}
+			{item "m67_grenade" "grenade" {cell 4 2}}
+			{item "bandage" 5 {cell 1 3}}
+			{item "bandage" 5 {cell 3 3}}
+			{item "pasgt_helmet" {cell 0 4}{user "head"}}
+		}
+	}
+	{Inventory 0xa004
+		{box
+			{clear}
+			{item 0xa003 {cell 0 0}}
+			{item "55645_30ar" "ammo" 30 {cell 5 0}}
+			{item "55645_30ar" "ammo" 20 {cell 0 2}}
+			{item "m67_grenade" "grenade" {cell 1 2}}
+			{item "m67_grenade" "grenade" {cell 2 2}}
+			{item "m67_grenade" "grenade" {cell 3 2}}
+			{item "m67_grenade" "grenade" {cell 4 2}}
+			{item "bandage" 5 {cell 1 3}}
+			{item "bandage" 5 {cell 3 3}}
+			{item "pasgt_helmet" {cell 0 4}{user "head"}}
+		}
+	}
+	{Inventory 0xa005
+		{box
+			{clear}
+			{item 0xa006 {cell 0 0}{user "hand_right"}}
+			{item "55645_30ar" "ammo" 20 {cell 5 0}}
+			{item "m67_grenade" "grenade" {cell 0 2}}
+			{item "m67_grenade" "grenade" {cell 1 2}}
+			{item "m67_grenade" "grenade" {cell 2 2}}
+			{item "m67_grenade" "grenade" {cell 3 2}}
+			{item "bandage" 5 {cell 4 2}}
+			{item "bandage" 5 {cell 0 3}}
+			{item "pasgt_helmet" {cell 2 3}{user "head"}}
+		}
+	}
+	{Inventory 0xa007
+		{box
+			{clear}
+			{item 0xa008 {cell 0 0}{user "hand_right"}}
+			{item "55645_30ar" "ammo" 20 {cell 5 0}}
+			{item "m67_grenade" "grenade" {cell 0 2}}
+			{item "m67_grenade" "grenade" {cell 1 2}}
+			{item "m67_grenade" "grenade" {cell 2 2}}
+			{item "m67_grenade" "grenade" {cell 3 2}}
+			{item "bandage" 5 {cell 4 2}}
+			{item "bandage" 5 {cell 0 3}}
+			{item "pasgt_helmet" {cell 2 3}{user "head"}}
+		}
+	}
+	{Inventory 0xc006
+		{box
+			{clear}
+			{item 0xc007 {cell 0 0}}
+			{item "55645_30ar" "ammo" 10 {cell 5 0}}
+			{item "bdu_cap" {cell 0 2}{user "head"}}
+		}
+	}
+	{Inventory 0xc009
+		{box
+			{clear}
+			{item 0xc012 {cell 0 0}}
+			{item "55645_30ar" "ammo" 20 {cell 5 0}}
+			{item "m67_grenade" "grenade" {cell 0 2}}
+			{item "m67_grenade" "grenade" {cell 1 2}}
+			{item "m67_grenade" "grenade" {cell 2 2}}
+			{item "m67_grenade" "grenade" {cell 3 2}}
+			{item "bandage" 5 {cell 4 2}}
+			{item "bandage" 5 {cell 0 3}}
+			{item "pasgt_helmet" {cell 2 3}{user "head"}}
+		}
+	}
+	{Inventory 0xc013
+		{box
+			{clear}
+			{item 0xc014 {cell 0 0}}
+			{item "55645_30ar" "ammo" 20 {cell 5 0}}
+			{item "m67_grenade" "grenade" {cell 0 2}}
+			{item "m67_grenade" "grenade" {cell 1 2}}
+			{item "m67_grenade" "grenade" {cell 2 2}}
+			{item "m67_grenade" "grenade" {cell 3 2}}
+			{item "bandage" 5 {cell 4 2}}
+			{item "bandage" 5 {cell 0 3}}
+			{item "pasgt_helmet" {cell 2 3}{user "head"}}
+		}
+	}
+	{Inventory 0xc015
+		{box
+			{clear}
+			{item 0xc016 {cell 0 0}}
+			{item "55645_30ar" "ammo" 20 {cell 5 0}}
+			{item "m67_grenade" "grenade" {cell 0 2}}
+			{item "m67_grenade" "grenade" {cell 1 2}}
+			{item "m67_grenade" "grenade" {cell 2 2}}
+			{item "m67_grenade" "grenade" {cell 3 2}}
+			{item "bandage" 5 {cell 4 2}}
+			{item "bandage" 5 {cell 0 3}}
+			{item "pasgt_helmet" {cell 2 3}{user "head"}}
+		}
+	}
+	{Inventory 0x800a
+		{box
+			{clear}
+			{item 0x800b {cell 0 0}{user "hand_right"}}
+			{item "55645_200" "ammo" 3 {cell 0 2}}
+			{item "bandage" 5 {cell 2 2}}
+			{item "bandage" 5 {cell 4 2}}
+			{item "m67_grenade" "grenade" {cell 5 0}}
+			{item "m67_grenade" "grenade" {cell 5 1}}
+			{item "m67_grenade" "grenade" {cell 2 3}}
+			{item "m67_grenade" "grenade" {cell 3 3}}
+			{item "pasgt_helmet" {cell 4 3}{user "head"}}
+		}
+	}
+	{Brain 0x9003
+		{Properties
+			{move_mode hold}
+		}
+	}
+	{Brain 0xc005
+		{Properties
+			{fire_mode hold}
+		}
+	}
+	{Brain 0x800a
+		{Properties
+			{move_mode hold}
+		}
+	}
+	{Environment "skirmish/rus-kursk"}
+	{Helpers
+		{event "timer"}
+		{zone "circle"
+			{position -1475.43 1000.31 7}
+			{Name "ammo_box"}
+			{Radius 39.1047}
+		}
+		{zone "circle"
+			{position -2848.96 425.049 0}
+			{Name "ammo_box_2"}
+			{Radius 57.4111}
+		}
+		{zone "poly"
+			{position -504.849 -17.584 0}
+			{Name "chehpoint_mgun"}
+			{Point -109.174 -325.242}
+			{Point -117.792 354.706}
+			{Point 124.535 314.785}
+			{Point 102.432 -344.249}
+		}
+		{zone "circle"
+			{position -3699.43 156.347 1}
+			{Name "delete"}
+			{Radius 73.6294}
+		}
+		{zone "circle"
+			{position -1370.92 976.54 7}
+			{Name "dopros"}
+			{Radius 50.5425}
+		}
+		{zone "poly"
+			{position 1110.13 -55.8204 0}
+			{Name "forest"}
+			{Point -956.511 -991.521}
+			{Point -855.858 1348.76}
+			{Point 892.134 1240.58}
+			{Point 920.234 -1597.81}
+		}
+		{zone "circle"
+			{position -2171 802.138 9}
+			{Name "mine_box"}
+			{Radius 95.7024}
+		}
+		{zone "circle"
+			{position 1646.68 -278.806 0}
+			{Name "razvedka"}
+			{Radius 113.091}
+		}
+		{zone "poly"
+			{position -2157.95 145.896 0}
+			{Name "village"}
+			{Point -1392.1 -1320.57}
+			{Point -1419.22 1267.12}
+			{Point 1414.07 1167.63}
+			{Point 1397.26 -1114.18}
+		}
+		{tasks
+			{"chekpoint"
+				{desc "$/chekpoint"}
+				{state hidden}
+				{point chekpoint}
+			}
+			{"village"
+				{desc "$/village"}
+				{primary}
+				{state hidden}
+			}
+			{"hamwvv"
+				{desc "$/convoy"}
+				{primary}
+				{state hidden}
+			}
+			{"ammo box"
+				{desc "$/box_weapon_task"}
+				{state hidden}
+			}
+			{"officer_usa"
+				{desc "$/officer_usa_task"}
+				{primary}
+				{state hidden}
+			}
+			{"mine_box"
+				{desc "$/mine_box_task"}
+				{state hidden}
+			}
+			{"player"
+				{desc "$/razvedka_alive"}
+				{primary}
+				{state hidden}
+			}
+			{"dopros"
+				{desc "$/dopros"}
+				{primary}
+				{state hidden}
+			}
+			{"leave"
+				{desc "$/leave"}
+				{state hidden}
+				{point leave}
+			}
+			{"ammo"
+				{desc "$/ammo"}
+				{primary}
+				{state hidden}
+			}
+		}
+		{reinforcements
+			{scoreTotal 0}
+			{scoreCurrent 0}
+		}
+		{cameras
+			{"convoy"
+				{"key000"
+					{position 1439.07 -89.493 47.3648}
+					{look_at 1587.1 166.192 -4.72962}
+					{fov 55}
+				}
+				{"key001"
+					{time 1}
+					{position 1439.07 -89.493 47.3648}
+					{look_at 1587.1 166.192 -4.72962}
+					{fov 55}
+				}
+				{"key002"
+					{time 2}
+					{position 1364.14 -281.003 51.8276}
+					{look_at 1488.04 -13.6999 -4.72962}
+					{fov 55}
+				}
+				{"key003"
+					{time 3}
+					{position 1148.7 -427.141 61.0539}
+					{look_at 1327.03 -195.036 -4.72962}
+					{fov 55}
+				}
+				{"key004"
+					{time 4}
+					{position 825.601 -499.354 53.883}
+					{look_at 1065.23 -328.646 -4.72962}
+					{fov 55}
+				}
+				{"key005"
+					{time 5}
+					{position 598.066 -505.42 53.883}
+					{look_at 837.697 -334.712 -4.72962}
+					{fov 55}
+				}
+				{"key006"
+					{time 6}
+					{position 354.84 -303.237 47.3648}
+					{look_at 650.272 -305.652 -4.72962}
+					{fov 55}
+				}
+				{"key007"
+					{time 7}
+					{position 298.849 -70.514 47.3648}
+					{look_at 575.759 -173.504 -4.72962}
+					{fov 55}
+				}
+				{"key008"
+					{time 8}
+					{position 139.462 -11.2338 47.3648}
+					{look_at 416.372 -114.224 -4.72962}
+					{fov 55}
+				}
+				{"key009"
+					{time 9}
+					{position -270.549 141.26 47.3648}
+					{look_at 6.36139 38.2701 -4.72962}
+					{fov 55}
+				}
+			}
+			{"start"
+				{"key000"
+					{position 1750.9 -323.259 43.412}
+					{look_at 1996.53 -306.412 0}
+					{fov 65}
+				}
+				{"key001"
+					{time 1}
+					{position 1680.83 -328.065 43.412}
+					{look_at 1926.45 -311.218 0}
+					{fov 65}
+				}
+				{"key002"
+					{time 2}
+					{position 1489.88 -303.759 43.412}
+					{look_at 1735.7 -317.544 0}
+					{fov 65}
+				}
+			}
+		}
+		{triggers
+			{"start"
+				{condition
+				}
+				{actions
+					{"fade"
+						{time 0.1}
+						{color 0xff000000}
+					}
+					{"delay"
+						{time 2}
+					}
+					{"scenario"
+						{message
+							{text "$/start_camera"}
+						}
+						{camera
+							{name "start"}
+						}
+						{do_not_store_camera}
+					}
+				}
+			}
+			{"timer"
+				{condition
+					{terms
+						{"1.entities"
+							{selector
+								{zone "village"}
+								{player "1"}
+								{state "not dead"}
+							}
+							{count
+								{op "=="}
+								{value 0}
+							}
+						}
+					}
+				}
+				{actions
+					{"timer"
+						{time 300}
+						{title "$/timer"}
+					}
+				}
+			}
+			{"music"
+				{condition
+				}
+				{actions
+					{"music"
+						{start "/music/workshop/world in conflict ost — spetsnaz.mp3"}
+						{volume game}
+						{loop}
+					}
+				}
+			}
+			{"usa/usa_rangers"
+				{condition
+				}
+				{actions
+					{"actor_state"
+						{selector
+							{zone "village"}
+							{player "1"}
+						}
+						{fire_mode open}
+						{move_mode hold}
+						{weapon_prepare on}
+					}
+				}
+			}
+			{"usa/patrols"
+				{condition
+				}
+				{actions
+					{"waypoint"
+						{who
+							{type actor}
+							{actors
+								{tag patrol_ranger_1}
+							}
+						}
+						{action
+							{type start}
+							{waypoint "1"}
+							{approach force}
+						}
+					}
+					{"waypoint"
+						{who
+							{type actor}
+							{actors
+								{tag ranger_pat_2}
+							}
+						}
+						{action
+							{type start}
+							{waypoint "5"}
+							{approach force}
+						}
+					}
+				}
+			}
+			{"timer_hide"
+				{condition
+					{terms
+						{"1.entities"
+							{selector
+								{player "2"}
+								{type human}
+								{state "not dead"}
+							}
+							{count
+								{op "=="}
+								{value 3}
+							}
+						}
+						{"2.entities"
+							{selector
+								{zone "village"}
+								{player "1"}
+								{type human}
+								{state "not dead"}
+							}
+							{count
+								{op "=="}
+								{value 0}
+							}
+						}
+					}
+				}
+				{actions
+					{"timer"
+						{hide}
+						{time 300}
+						{title "$/timer"}
+					}
+				}
+			}
+			{"missions/scouts/alive!"
+				{condition
+					{terms
+						{"1.entities"
+							{selector
+								{zone "forest"}
+								{player "2"}
+								{type human}
+								{state "not dead"}
+							}
+							{count
+								{op "=="}
+								{value 2}
+							}
+						}
+					}
+				}
+				{actions
+					{"task"
+						{name "player"}
+					}
+				}
+			}
+			{"missions/scouts/copmlete_alive"
+				{condition
+					{terms
+						{"1.entities"
+							{selector
+								{tag officer_usa}
+								{zone "village"}
+								{state dead}
+							}
+							{count
+								{op "=="}
+								{value 1}
+							}
+						}
+					}
+				}
+				{actions
+					{"task"
+						{name "player"}
+						{state complete}
+					}
+				}
+			}
+			{"missions/scouts/failed_alive"
+				{condition
+					{terms
+						{"1.entities"
+							{selector
+								{tag player}
+								{type human}
+								{state "not dead"}
+							}
+							{count
+								{op "=="}
+								{value 0}
+							}
+						}
+					}
+				}
+				{actions
+					{"task"
+						{name "player"}
+						{state fail}
+					}
+					{"gameover"
+						{result loose}
+						{message "$/scouts_failed"}
+					}
+					{"music"
+						{start "/music/hill/alter games - lost.mp3"}
+						{stop "/music/workshop/world in conflict ost — spetsnaz.mp3"}
+						{volume game}
+					}
+				}
+			}
+			{"missions/village/show"
+				{condition
+					{terms
+						{"1.entities"
+							{selector
+								{zone "razvedka"}
+								{player "2"}
+								{state "not dead"}
+							}
+							{count
+								{op "=="}
+								{value 2}
+							}
+						}
+					}
+				}
+				{actions
+					{"task"
+						{name "village"}
+					}
+				}
+			}
+			{"missions/village/failed"
+				{condition
+					{terms
+						{"1.entities"
+							{selector
+								{player "2"}
+							}
+						}
+					}
+				}
+			}
+			{"ussr/player/waitpoint"
+				{condition
+				}
+				{actions
+					{"waypoint"
+						{who
+							{type actor}
+							{actors
+								{tag player}
+							}
+						}
+						{action
+							{type start}
+							{waypoint "13"}
+							{approach force}
+						}
+					}
+					{"actor_state"
+						{selector
+							{tag player}
+						}
+						{control user}
+						{fire_mode hold}
+						{move_mode hold}
+						{weapon_prepare off}
+						{movement
+							{speed assault}
+						}
+					}
+				}
+			}
+			{"usa/car_music/hamww_music"
+				{condition
+				}
+				{actions
+					{"delay"
+						{time 300}
+					}
+					{"music"
+						{start "/music/village_rus/aaron rutherford - they shall not pass.mp3"}
+						{stop "/music/workshop/world in conflict ost — spetsnaz.mp3"}
+						{volume game}
+						{loop}
+					}
+					{"scenario"
+						{message
+							{text ""}
+						}
+						{camera
+							{name "convoy"}
+						}
+					}
+				}
+			}
+			{"usa/usa_soilders/actor_state"
+				{condition
+				}
+				{actions
+					{"actor_state"
+						{selector
+							{player "1"}
+						}
+						{fire_mode open}
+						{move_mode hold}
+						{weapon_prepare on}
+						{human
+							{health 500}
+							{stamina 500}
+						}
+						{ai
+							{no_advance on}
+							{no_retreat off}
+						}
+					}
+				}
+			}
+			{"usa/convoy/hamww"
+				{condition
+					{terms
+						{"1.entities"
+							{selector
+								{zone "village"}
+								{player "1"}
+								{type human}
+								{state "not dead"}
+							}
+							{count
+								{op "=="}
+								{value 0}
+							}
+						}
+					}
+				}
+				{actions
+					{"delay"
+						{time 300}
+					}
+					{"waypoint"
+						{who
+							{type actor}
+							{actors
+								{tag convoy}
+							}
+						}
+						{action
+							{type start}
+							{waypoint "11"}
+							{approach force}
+						}
+					}
+					{"actor_state"
+						{selector
+							{tag convoy}
+						}
+						{ai
+							{no_advance on}
+							{no_retreat off}
+						}
+					}
+				}
+			}
+			{"missions/village/copmlete"
+				{condition
+					{terms
+						{"1.entities"
+							{selector
+								{player "1"}
+								{type human}
+								{state "not dead"}
+							}
+							{count
+								{op "=="}
+								{value 0}
+							}
+						}
+					}
+				}
+				{actions
+					{"task"
+						{name "village"}
+						{state complete}
+					}
+					{"talk"
+						{selector
+							{tag hint}
+						}
+						{text "$/hint_boxs"}
+					}
+					{"autosave"}
+				}
+			}
+			{"missions/chekpoint/attack_show"
+				{condition
+					{terms
+						{"1.entities"
+							{selector
+								{tag player}
+								{zone "razvedka"}
+								{state "not dead"}
+							}
+							{count
+								{op "=="}
+								{value 2}
+							}
+						}
+					}
+				}
+				{actions
+					{"task"
+						{name "chekpoint"}
+					}
+				}
+			}
+			{"missions/chekpoint/attack_hide"
+				{condition
+					{terms
+						{"1.entities"
+							{selector
+								{tag player}
+								{state "not dead"}
+							}
+							{count
+								{op "=="}
+								{value 0}
+							}
+						}
+					}
+				}
+				{actions
+					{"task"
+						{name "chekpoint"}
+						{state hide}
+					}
+				}
+			}
+			{"missions/chekpoint/attack__copmelete"
+				{condition
+					{terms
+						{"1.entities"
+							{selector
+								{zone "chehpoint_mgun"}
+								{player "1"}
+								{state "not dead"}
+							}
+							{count
+								{op "=="}
+								{value 0}
+							}
+						}
+					}
+				}
+				{actions
+					{"task"
+						{name "chekpoint"}
+						{state complete}
+					}
+					{"actor_state"
+						{selector
+							{player "1"}
+						}
+						{fire_mode open}
+						{move_mode free}
+						{weapon_prepare on}
+					}
+					{"autosave"}
+				}
+			}
+			{"missions/convoy/show"
+				{condition
+					{terms
+						{"1.entities"
+							{selector
+								{zone "village"}
+								{player "1"}
+								{type human}
+								{state "not dead"}
+							}
+							{count
+								{op "=="}
+								{value 0}
+							}
+						}
+					}
+				}
+				{actions
+					{"task"
+						{name "hamwvv"}
+					}
+				}
+			}
+			{"missions/convoy/copmlete"
+				{condition
+					{terms
+						{"1.entities"
+							{selector
+								{source advanced}
+								{group
+									{select
+										{tag
+											{tag convoy}
+										}
+									}
+									{exclude
+										{state
+											{state inhabited}
+										}
+									}
+								}
+							}
+							{count
+								{op "=="}
+								{value 3}
+							}
+						}
+					}
+				}
+				{actions
+					{"task"
+						{name "hamwvv"}
+						{state complete}
+					}
+				}
+			}
+			{"missions/secret_task_box"
+				{condition
+					{type 1}
+					{terms
+						{"1.entities"
+							{selector
+								{tag player}
+								{zone "ammo_box"}
+								{state "not dead"}
+							}
+							{count
+								{op "=="}
+								{value 2}
+							}
+						}
+						{"2.entities"
+							{selector
+								{tag player}
+								{zone "ammo_box"}
+								{state "not dead"}
+							}
+							{count
+								{op "=="}
+								{value 1}
+							}
+						}
+					}
+				}
+				{actions
+					{"task"
+						{name "ammo box"}
+						{state complete}
+					}
+					{"autosave"}
+				}
+			}
+			{"missions/documets/show"
+				{condition
+					{terms
+						{"1.entities"
+							{selector
+								{tag officer_usa}
+								{zone "village"}
+								{state "not dead"}
+							}
+							{count
+								{op "=="}
+								{value 0}
+							}
+						}
+					}
+				}
+			}
+			{"missions/secret_task_box_2"
+				{condition
+					{type 1}
+					{terms
+						{"1.entities"
+							{selector
+								{tag player}
+								{zone "mine_box"}
+								{state "not dead"}
+							}
+							{count
+								{op "=="}
+								{value 2}
+							}
+						}
+					}
+				}
+				{actions
+					{"task"
+						{name "mine_box"}
+						{state complete}
+					}
+					{"autosave"}
+				}
+			}
+			{"missions/secret_task_box_3"
+				{condition
+					{terms
+						{"1.entities"
+							{selector
+								{tag player}
+								{zone "ammo_box_2"}
+								{state "not dead"}
+							}
+							{count
+								{op "=="}
+								{value 2}
+							}
+						}
+						{"2.entities"
+							{selector
+								{tag player}
+								{zone "ammo_box_2"}
+								{state "not dead"}
+							}
+							{count
+								{op "<<"}
+								{value 2}
+							}
+						}
+					}
+				}
+				{actions
+					{"task"
+						{name "ammo"}
+						{state complete}
+					}
+				}
+			}
+			{"missions/leave_village/show"
+				{condition
+					{terms
+						{"1.entities"
+							{selector
+								{tag officer_usa}
+								{zone "village"}
+								{state "not dead"}
+							}
+							{count
+								{op "=="}
+								{value 0}
+							}
+						}
+						{"2.entities"
+							{selector
+								{source advanced}
+								{group
+									{select
+										{tag
+											{tag convoy}
+										}
+									}
+									{exclude
+										{state
+											{state inhabited}
+										}
+									}
+								}
+							}
+							{count
+								{op "=="}
+								{value 3}
+							}
+						}
+					}
+				}
+				{actions
+					{"task"
+						{name "leave"}
+					}
+				}
+			}
+			{"missions/leave_village/copmlete"
+				{condition
+					{terms
+						{"1.entities"
+							{selector
+								{tag player}
+								{zone "delete"}
+								{state "not dead"}
+							}
+							{count
+								{op "=="}
+								{value 2}
+							}
+						}
+					}
+				}
+				{actions
+					{"task"
+						{name "leave"}
+						{state complete}
+					}
+					{"fade"
+						{on}
+						{time 1}
+						{color 0xff000000}
+					}
+					{"music"
+						{start "/music/sam hulick - victory at the barrikady.mp3"}
+						{stop "/music/village_rus/aaron rutherford - they shall not pass.mp3"}
+						{volume game}
+					}
+					{"delay"
+						{time 1}
+					}
+					{"gameover"
+						{result win}
+						{message "$/win"}
+					}
+				}
+			}
+			{"ussr/radioman/end"
+				{condition
+					{terms
+						{"1.entities"
+							{selector
+								{source advanced}
+								{group
+									{select
+										{tag
+											{tag convoy}
+										}
+									}
+									{exclude
+										{state
+											{state inhabited}
+										}
+									}
+								}
+							}
+							{count
+								{op "=="}
+								{value 3}
+							}
+						}
+						{"2.entities"
+							{selector
+								{tag officer_usa}
+								{zone "village"}
+								{state "not dead"}
+							}
+							{count
+								{op "=="}
+								{value 0}
+							}
+						}
+					}
+				}
+				{actions
+					{"talk"
+						{selector
+							{tag radioman}
+						}
+						{text "$/radioman_leave"}
+					}
+				}
+			}
+			{"usa/car_music/hamww_camera'"
+				{condition
+				}
+				{actions
+					{"delay"
+						{time 300}
+					}
+					{"scenario"
+						{message
+							{text ""}
+						}
+						{camera
+							{name "convoy"}
+						}
+					}
+				}
+			}
+			{"ussr/talks/village_theme"
+				{condition
+				}
+				{actions
+					{"delay"
+						{time 10}
+					}
+					{"talk"
+						{selector
+							{tag gru}
+						}
+						{text "$/village_theme"}
+					}
+					{"delay"
+						{time 7}
+					}
+					{"talk"
+						{selector
+							{tag scout}
+						}
+						{text "$/village_theme_2"}
+					}
+				}
+			}
+			{"ussr/radioman/start"
+				{condition
+					{terms
+						{"1.entities"
+							{selector
+								{tag player}
+								{zone "razvedka"}
+								{state "not dead"}
+							}
+							{count
+								{op "=="}
+								{value 2}
+							}
+						}
+					}
+				}
+				{actions
+					{"talk"
+						{selector
+							{tag radioman}
+						}
+						{text "$/radioman_hide_0"}
+					}
+					{"sound"
+						{name "mission/single/00_красный_восход/01_convoy/radioman_hide_0"}
+						{waypoint "14"}
+					}
+				}
+			}
+			{"missions/convoy/fail"
+				{condition
+				}
+			}
+			{"ussr/actor_state"
+				{condition
+				}
+				{actions
+					{"actor_state"
+						{selector
+							{tag player}
+						}
+						{control user}
+						{fire_mode hold}
+						{move_mode hold}
+						{weapon_prepare on}
+						{human
+							{health 100}
+						}
+					}
+				}
+			}
+		}
+		{waypoints "ranger_pat_1"
+			{"1"
+				{position -1893.87 494.15 0}
+				{transition "2"}
+				{transition "4"}
+			}
+			{"2"
+				{position -1871.38 961.919 0}
+				{transition "3"}
+			}
+			{"3"
+				{position -2359.2 979.955 0}
+				{transition "4"}
+			}
+			{"4"
+				{position -2385.15 525.161 0}
+			}
+		}
+		{waypoints "ranger_pat_2"
+			{"10"
+				{position -1361.49 -448.792 0}
+				{transition "5"}
+			}
+			{"5"
+				{position -1362.26 -397.401 0}
+				{transition "6"}
+			}
+			{"6"
+				{position -765.331 -349.447 0}
+				{transition "7"}
+			}
+			{"7"
+				{position -757.045 -716.803 0}
+				{transition "8"}
+			}
+			{"8"
+				{position -758.35 -889.943 0}
+				{transition "9"}
+			}
+			{"9"
+				{position -1368.76 -916.511 1.97684}
+				{transition "10"}
+			}
+		}
+		{waypoints "player"
+			{"12"
+				{position 1476.36 -39.609 0}
+			}
+			{"13"
+				{position 1883.28 -313.634 0}
+				{transition "14"}
+			}
+			{"14"
+				{position 1656.9 -302.347 0}
+			}
+			{"16"
+				{position 678.59 -256.959 0}
+			}
+		}
+		{waypoints "convoy"
+			{"0"
+				{position -792.014 -112.379 0}
+				{transition "15"}
+				{transition "29"}
+				{transition "30"}
+				{commands
+					{"actor_recon"
+						{selector
+							{source standart}
+							{tag officer_usa}
+						}
+						{waypoint "0"}
+						{radius 30}
+					}
+					{"talk"
+						{selector
+							{source standart}
+							{tag officer_usa}
+						}
+						{text "$/officer_usa_recon"}
+					}
+					{"waypoint"
+						{who
+							{type actor}
+							{use_current 0}
+							{actors
+								{tag officer_usa}
+							}
+						}
+						{action
+							{type start}
+							{waypoint "15"}
+							{approach force}
+						}
+					}
+				}
+			}
+			{"11"
+				{position 1558.17 89.8405 0}
+				{transition "17"}
+			}
+			{"15"
+				{position -927.094 -15.4289 0}
+				{transition "31"}
+			}
+			{"17"
+				{position 1504.72 -53.8237 0}
+				{transition "18"}
+			}
+			{"18"
+				{position 1391.78 -168.56 0}
+				{transition "19"}
+			}
+			{"19"
+				{position 1229.01 -282.777 0}
+				{transition "20"}
+			}
+			{"20"
+				{position 982.444 -350.597 0}
+				{transition "21"}
+			}
+			{"21"
+				{position 737.183 -315.035 0}
+				{transition "22"}
+			}
+			{"22"
+				{position 509.879 -161.979 0}
+				{transition "23"}
+			}
+			{"23"
+				{position 279.907 -123.084 -6.05655}
+				{transition "24"}
+			}
+			{"24"
+				{position 125.682 -25.9756 -17}
+				{transition "25"}
+			}
+			{"25"
+				{position -111.786 49.4116 -10.1061}
+				{transition "26"}
+			}
+			{"26"
+				{position -219.245 59.2243 -18.9717}
+				{transition "27"}
+			}
+			{"27"
+				{position -428.008 11.0893 0}
+				{transition "28"}
+			}
+			{"28"
+				{position -731.028 -89.9402 0}
+				{commands
+					{"emit"
+						{selector
+							{source standart}
+							{tag convoy}
+						}
+						{waypoint "0"}
+						{crew
+							{player "1"}
+							{type human}
+						}
+						{emit
+							{mode passengers}
+							{count 3}
+						}
+					}
+					{"emit"
+						{selector
+							{source standart}
+							{tag convoy}
+						}
+						{waypoint "0"}
+						{crew
+							{tag officer_usa}
+						}
+						{emit
+							{mode passengers}
+							{count 1}
+						}
+					}
+				}
+			}
+			{"29"
+				{position -971.234 -134.971 0}
+			}
+			{"30"
+				{position -919.246 -237.772 0}
+				{transition "33"}
+			}
+			{"31"
+				{position -1241.56 106.55 0}
+				{transition "32"}
+			}
+			{"32"
+				{position -2037.19 501.184 0}
+				{commands
+					{"action"
+						{selector
+							{source standart}
+							{tag officer_usa}
+						}
+						{action repair}
+						{target
+							{tag patrol_ranger_1}
+						}
+						{waypoint "32"}
+					}
+					{"delay"
+						{time 1}
+					}
+					{"talk"
+						{selector
+							{source standart}
+							{tag officer_usa}
+						}
+						{text "$/officer_patrol_0"}
+					}
+				}
+			}
+			{"33"
+				{position -1086.35 -345.844 0}
+				{transition "34"}
+			}
+			{"34"
+				{position -1261.21 -377.036 0}
+			}
+		}
+	}
+	{Players
+		{user 2}
+		{diplomacy
+			1 1 1 1 1 1 1 1
+			1 1 1 1 1 1 1 1
+			1 1 1 2 1 1 1 1
+			1 1 2 1 1 1 1 1
+			1 1 1 1 1 1 1 1
+			1 1 1 1 1 1 1 1
+			1 1 1 1 1 1 1 1
+			1 1 1 1 1 1 1 1
+		}
+	}
+	{Fog 1}
+}

@@ -1,0 +1,110 @@
+;Exported by: Pheonix
+;Date:        Wed Nov 05 16:34:54 2008
+;File:        D:\Documents and Settings\Pheonix\Мои документы\3dsmax\scenes\MyWorks\AK74U\AK74US.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "ak74u"
+			{parameters "CommonMesh;ID=mgun;"}
+			{Matrix34
+				0	0	-1
+				-1	0	0
+				0	1	0
+				2.96871	-1.00047	-0.0963585
+			}
+			{VolumeView "ak74u.ply"}
+			{bone "handle"
+				{Matrix34
+					0	-1	0
+					1	0	0
+					0	0	1
+					0.168777	2.7261	1.00968
+				}
+			}
+			{bone "fxshell"
+				{Matrix34
+					0	0	1
+					0	1	0
+					1	0	0
+					4.0526	2.03242	0.280772
+				}
+			}
+		}
+		{bone "foresight3"
+			{Position 13.204	0.62677	-0.21315}
+		}
+		{bone "fxshell"
+			{Position 5.204	0.62677	-0.21315}
+		}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "ak74u"}
+	{Matrix34
+		0	-1	0
+		0	0	1
+		-1	0	0
+		0.798941	0.00705761	1.86898
+	}
+}
+{Volume "select"
+	{Polyhedron "select.vol"}
+	{Bone "ak74u"}
+	{Matrix34
+		0	-1	0
+		0	0	1
+		-1	0	0
+		2.03205	0.201838	0.59633
+	}
+}
+{Extender "preview"
+	{"Stuff_primary"
+		{camera
+			{origin 5.4378	-4.34552	24.8618}
+			{lookat 4.7462	-1.52459	7.67124}
+			{fov 45}
+			{horizon -177.044}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 12.4342	-1.80411	-0.196262}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0792753	0.197722	-0.452351}
+			}
+			{"2"
+				{type point}
+				{position -5.77948	-1.19787	-1.7656}
+			}
+		}
+	}
+	{"Stuff"
+		{camera
+			{origin 4.95644	-4.21025	22.6295}
+			{lookat 4.29144	-1.49781	6.10011}
+			{fov 45}
+			{horizon -177.044}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 12.7501	-1.71084	-1.78748}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0792754	0.197722	-0.452351}
+			}
+			{"2"
+				{type point}
+				{position -5.46352	-1.10461	-3.35682}
+			}
+		}
+	}
+}
